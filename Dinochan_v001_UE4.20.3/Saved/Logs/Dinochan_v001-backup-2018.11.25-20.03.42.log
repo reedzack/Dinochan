@@ -1,0 +1,1399 @@
+﻿Log file open, 11/21/18 22:34:51
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Dinochan_v001
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.732818
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.268s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz, GPU: NVIDIA GeForce GTX 970
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.004s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.11.22-03.34.52:219][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.22-03.34.52:219][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.11.22-03.34.52:236][  0]LogHAL: Display: Platform has ~ 16 GB [17137627136 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.11.22-03.34.52:236][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.11.22-03.34.52:237][  0]LogInit: Going up to parent DeviceProfile []
+[2018.11.22-03.34.52:240][  0]LogInit: Computer: DESKTOP-QCELHJT
+[2018.11.22-03.34.52:240][  0]LogInit: User: Zack
+[2018.11.22-03.34.52:240][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.11.22-03.34.52:240][  0]LogInit: High frequency timer resolution =3.914067 MHz
+[2018.11.22-03.34.52:241][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.11.22-03.34.52:241][  0]LogMemory: Platform Memory Stats for Windows
+[2018.11.22-03.34.52:241][  0]LogMemory: Process Physical Memory: 99.51 MB used, 99.51 MB peak
+[2018.11.22-03.34.52:241][  0]LogMemory: Process Virtual Memory: 90.88 MB used, 90.88 MB peak
+[2018.11.22-03.34.52:241][  0]LogMemory: Physical Memory: 4240.76 MB used,  12102.95 MB free, 16343.71 MB total
+[2018.11.22-03.34.52:241][  0]LogMemory: Virtual Memory: 4640.08 MB used,  12102.95 MB free, 134217728.00 MB total
+[2018.11.22-03.34.52:397][  0]LogInit: Using OS detected language (en-US).
+[2018.11.22-03.34.52:397][  0]LogInit: Using OS detected locale (en-US).
+[2018.11.22-03.34.52:398][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.11.22-03.34.52:758][  0]LogStreaming: Display: Took  0.357s to InitEngineTextLocalization.
+[2018.11.22-03.34.52:759][  0]LogInit: Setting process to per monitor DPI aware
+[2018.11.22-03.34.52:815][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.11.22-03.34.52:815][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.11.22-03.34.53:733][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2018.11.22-03.34.53:733][  0]LogD3D11RHI: D3D11 adapters:
+[2018.11.22-03.34.53:799][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2018.11.22-03.34.53:799][  0]LogD3D11RHI:       4043/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.11.22-03.34.53:801][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.11.22-03.34.53:801][  0]LogD3D11RHI:       0/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.11.22-03.34.53:801][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.11.22-03.34.53:811][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.11.22-03.34.53:811][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2018.11.22-03.34.53:811][  0]LogWindows: EnumDisplayDevices:
+[2018.11.22-03.34.53:811][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2018.11.22-03.34.53:811][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.11.22-03.34.53:812][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.11.22-03.34.53:812][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.11.22-03.34.53:812][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.11.22-03.34.53:812][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2018.11.22-03.34.53:813][  0]LogD3D11RHI:   Driver Version: 416.94 (internal:25.21.14.1694, unified:416.94)
+[2018.11.22-03.34.53:813][  0]LogD3D11RHI:      Driver Date: 11-12-2018
+[2018.11.22-03.34.53:813][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2018.11.22-03.34.53:853][  0]LogD3D11RHI: Async texture creation enabled
+[2018.11.22-03.34.53:879][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.11.22-03.34.53:887][  0]LogShaderCompilers: Guid format shader working directory is -33 characters bigger than the processId version (../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Intermediate/Shaders/WorkingDirectory/15724/).
+[2018.11.22-03.34.53:887][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Zack/AppData/Local/Temp/UnrealShaderWorkingDir/D5AD55A24C52232152F628B0DA0ED14F/'.
+[2018.11.22-03.34.54:398][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.11.22-03.34.54:419][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.11.22-03.34.54:442][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.11.22-03.34.54:469][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.11.22-03.34.54:500][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.11.22-03.34.54:524][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.11.22-03.34.54:544][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.11.22-03.34.54:566][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.11.22-03.34.54:584][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.11.22-03.34.54:695][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-03.34.54:695][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-03.34.54:695][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-03.34.54:695][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-03.34.54:695][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-03.34.54:695][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-03.34.54:695][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-03.34.54:695][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-03.34.54:695][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-03.34.54:695][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-03.34.54:695][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-03.34.54:695][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-03.34.54:695][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-03.34.54:695][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-03.34.54:695][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-03.34.54:695][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-03.34.54:695][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-03.34.54:695][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.22-03.34.54:705][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.11.22-03.34.54:798][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.22-03.34.54:798][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.22-03.34.54:831][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.22-03.34.54:831][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.22-03.34.54:860][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.11.22-03.34.54:885][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.11.22-03.34.54:909][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.11.22-03.34.54:942][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.11.22-03.34.54:960][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.11.22-03.34.54:960][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.11.22-03.34.55:235][  0]LogXGEController: Cleaning working directory: C:/Users/Zack/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.11.22-03.34.55:235][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.11.22-03.34.55:235][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.11.22-03.34.55:235][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.11.22-03.34.56:424][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.11.22-03.34.56:778][  0]LogDerivedDataCache: Loaded boot cache 0.35s 71MB C:/Users/Zack/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.22-03.34.56:779][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Zack/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.11.22-03.34.56:779][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.11.22-03.34.56:779][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.11.22-03.34.56:779][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.11.22-03.34.56:779][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.11.22-03.34.56:795][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.11.22-03.34.56:808][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Zack/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.11.22-03.34.56:808][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.11.22-03.34.56:808][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.11.22-03.34.56:833][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.11.22-03.34.56:839][  0]LogSlate: Using FreeType 2.6.0
+[2018.11.22-03.34.56:844][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.22-03.34.57:157][  0]LogAssetRegistry: FAssetRegistry took 0.0288 seconds to start up
+[2018.11.22-03.34.57:560][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.22-03.34.57:868][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.11.22-03.34.57:907][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.11.22-03.34.57:907][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.11.22-03.34.57:907][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.11.22-03.34.57:907][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.11.22-03.34.57:942][  0]LogNetVersion: Dinochan_v001 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2574802920)
+[2018.11.22-03.34.58:850][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.166769 seconds
+[2018.11.22-03.34.58:862][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.11.22-03.34.58:862][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.11.22-03.34.58:862][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.11.22-03.35.03:015][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.11.22-03.35.03:044][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.11.22-03.35.03:470][  0]SourceControl: Source control is disabled
+[2018.11.22-03.35.03:470][  0]SourceControl: Source control is disabled
+[2018.11.22-03.35.03:490][  0]SourceControl: Source control is disabled
+[2018.11.22-03.35.03:503][  0]SourceControl: Source control is disabled
+[2018.11.22-03.35.04:132][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.11.22-03.35.04:279][  0]LogOcInput: OculusInput pre-init called
+[2018.11.22-03.35.04:429][  0]LogEngine: Initializing Engine...
+[2018.11.22-03.35.04:472][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2018.11.22-03.35.04:475][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.22-03.35.04:475][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.22-03.35.04:475][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.22-03.35.04:476][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.22-03.35.04:725][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.11.22-03.35.04:765][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.11.22-03.35.04:793][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.22-03.35.04:829][  0]LogInit: FAudioDevice initialized.
+[2018.11.22-03.35.04:829][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.11.22-03.35.04:902][  0]LogDerivedDataCache: Saved boot cache 0.07s 71MB C:/Users/Zack/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.22-03.35.04:909][  0]LogInit: Texture streaming: Enabled
+[2018.11.22-03.35.04:965][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.11.22-03.35.04:990][  0]LogInit: Transaction tracking system initialized
+[2018.11.22-03.35.05:085][  0]BlueprintLog: New page: Editor Load
+[2018.11.22-03.35.05:469][  0]LocalizationService: Localization service is disabled
+[2018.11.22-03.35.06:081][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/' took 0.02s
+[2018.11.22-03.35.06:081][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.11.22-03.35.06:082][  0]LogCook: Display: Mobile HDR setting 1
+[2018.11.22-03.35.06:082][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.11.22-03.35.06:082][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.22-03.35.06:082][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.22-03.35.06:082][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.22-03.35.06:082][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.22-03.35.06:614][  0]SourceControl: Source control is disabled
+[2018.11.22-03.35.06:615][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.22-03.35.06:618][  0]LightingResults: New page: Lighting Build
+[2018.11.22-03.35.06:626][  0]MapCheck: New page: Map Check
+[2018.11.22-03.35.06:626][  0]LightingResults: New page: Lighting Build
+[2018.11.22-03.35.07:511][  0]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_8978' invalid (18233 verts, 0 indices).
+[2018.11.22-03.35.07:511][  0]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_8978.BodySetup_0 when we are unable to.
+[2018.11.22-03.35.07:566][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.11.22-03.35.07:602][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.22-03.35.07:634][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.22-03.35.07:944][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 309.925ms to complete.
+[2018.11.22-03.35.07:944][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.330
+[2018.11.22-03.35.08:080][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-03.35.08:087][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-03.35.08:093][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-03.35.08:098][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-03.35.08:123][  0]LogCollectionManager: Loaded 0 collections in 0.001489 seconds
+[2018.11.22-03.35.08:193][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/Collections/' took 0.01s
+[2018.11.22-03.35.08:193][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/Developers/Zack/Collections/' took 0.01s
+[2018.11.22-03.35.08:193][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/Collections/' took 0.01s
+[2018.11.22-03.35.08:193][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.11.22-03.35.08:205][  0]LogContentBrowser: Native class hierarchy populated in 0.0097 seconds. Added 2572 classes and 603 folders.
+[2018.11.22-03.35.08:217][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.11.22-03.35.08:428][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.11.22-03.35.08:449][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.11.22-03.35.08:499][  0]LogSlate: Took 0.001945 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.11.22-03.35.08:503][  0]LogSlate: Took 0.001981 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.11.22-03.35.08:511][  0]LogSlate: Took 0.002645 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.11.22-03.35.08:615][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.11.22-03.35.08:787][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.11.22-03.35.08:787][  0]LogLoad: (Engine Initialization) Total time: 20.27 seconds
+[2018.11.22-03.35.08:787][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.11.22-03.35.08:801][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.22-03.35.08:821][  0]LogAssetRegistry: Asset discovery search completed in 11.6860 seconds
+[2018.11.22-03.35.08:827][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.11.22-03.35.08:827][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000061 seconds (updated 0 objects)
+[2018.11.22-03.35.08:830][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.11.22-03.35.08:866][  0]LogSlate: Took 0.002105 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.22-03.35.21:582][487]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.22-03.35.23:498][713]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.22-03.35.26:401][ 52]Cmd: MAP LOAD FILE="../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/Maps/GBExterior.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.22-03.35.26:407][ 52]LogSlate: Took 0.000767 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.22-03.35.26:415][ 52]LightingResults: New page: Lighting Build
+[2018.11.22-03.35.26:416][ 52]LoadErrors: New page: Loading map: GBExterior.umap
+[2018.11.22-03.35.26:423][ 52]MapCheck: New page: Map Check
+[2018.11.22-03.35.26:423][ 52]LightingResults: New page: Lighting Build
+[2018.11.22-03.35.26:577][ 52]LogAIModule: Creating AISystem for world GBExterior
+[2018.11.22-03.35.26:593][ 52]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.22-03.35.26:635][ 52]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.22-03.35.26:984][ 52]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 348.971ms to complete.
+[2018.11.22-03.35.26:984][ 52]LogFileHelpers: Loading map 'GBExterior' took 0.583
+[2018.11.22-03.35.26:985][ 52]LogSlate: Window 'Open Level' being destroyed
+[2018.11.22-03.35.31:514][569]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.22-03.35.34:905][965]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2018.11.22-03.35.50:562][804]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane2)
+[2018.11.22-03.35.51:981][961]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere3)
+[2018.11.22-03.35.55:328][354]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.22-03.36.02:461][187]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-03.36.03:801][343]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.22-03.36.09:286][968]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.22-03.36.16:765][819]Cmd: TRANSACTION UNDO
+[2018.11.22-03.36.16:765][819]LogEditorTransaction: Undo Move Actors
+[2018.11.22-03.36.16:780][819]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.Meadow_37.BrushComponent0) Component already registered.
+[2018.11.22-03.36.16:788][819]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.CylinderBrush6_64.BrushComponent0) Component already registered.
+[2018.11.22-03.37.08:085][881]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.22-03.45.26:660][663]LogSavePackage: Moving '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/GBExterior_Auto1D1572A7D4AADBCED164F2799460F7539.tmp' to '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/Autosaves/Game/Maps/GBExterior_Auto1.umap'
+[2018.11.22-03.45.26:669][663]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/GBExterior' took 0.148
+[2018.11.22-03.45.26:669][663]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.148
+[2018.11.22-03.51.43:430][785]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-03.51.49:965][537]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.11.22-03.52.35:724][956]Cmd: EDIT COPY
+[2018.11.22-03.52.36:239][ 17]Cmd: EDIT PASTE
+[2018.11.22-03.52.49:265][547]Cmd: EDIT COPY
+[2018.11.22-03.52.49:692][598]Cmd: EDIT PASTE
+[2018.11.22-03.52.53:867][ 81]Cmd: DELETE
+[2018.11.22-03.52.53:867][ 81]Cmd: ACTOR DELETE
+[2018.11.22-03.52.53:880][ 81]LogEditorActor: Deleted Actor: Brush
+[2018.11.22-03.52.53:928][ 81]LogEditorActor: Deleted 1 Actors (0.061 secs)
+[2018.11.22-03.52.56:890][434]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-03.53.02:228][ 71]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.11.22-03.53.15:255][607]Cmd: EDIT COPY
+[2018.11.22-03.53.15:806][673]Cmd: EDIT PASTE
+[2018.11.22-03.53.39:873][521]Cmd: EDIT COPY
+[2018.11.22-03.53.41:074][665]Cmd: EDIT PASTE
+[2018.11.22-03.53.52:715][ 42]Cmd: EDIT COPY
+[2018.11.22-03.53.53:007][ 77]Cmd: EDIT PASTE
+[2018.11.22-03.54.06:116][609]Cmd: EDIT COPY
+[2018.11.22-03.54.06:400][643]Cmd: EDIT PASTE
+[2018.11.22-03.54.24:858][796]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-03.54.26:430][974]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.11.22-03.54.44:789][122]Cmd: EDIT COPY
+[2018.11.22-03.54.45:090][158]Cmd: EDIT PASTE
+[2018.11.22-03.55.03:778][340]Cmd: EDIT COPY
+[2018.11.22-03.55.04:103][379]Cmd: EDIT PASTE
+[2018.11.22-03.55.09:724][ 33]Cmd: EDIT COPY
+[2018.11.22-03.55.10:133][ 82]Cmd: EDIT PASTE
+[2018.11.22-03.55.39:631][599]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.22-03.55.40:358][685]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.22-03.55.40:856][744]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.22-03.55.41:599][832]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.22-03.55.41:901][832]LogSavePackage: Moving '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/GBExterior_Auto237C9141946F95A912DB6729D8CBBDC22.tmp' to '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/Autosaves/Game/Maps/GBExterior_Auto2.umap'
+[2018.11.22-03.55.41:907][832]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/GBExterior' took 0.287
+[2018.11.22-03.55.41:907][832]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.287
+[2018.11.22-03.56.08:274][963]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-03.56.15:739][852]LogEditorViewport: Clicking Background
+[2018.11.22-03.56.29:016][425]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.22-03.56.48:333][706]Cmd: TRANSACTION UNDO
+[2018.11.22-03.56.48:333][706]LogEditorTransaction: Undo Move Actors
+[2018.11.22-03.56.52:490][185]Cmd: TRANSACTION UNDO
+[2018.11.22-03.56.52:490][185]LogEditorTransaction: Undo Move Actors
+[2018.11.22-03.56.52:507][185]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.Meadow_40.BrushComponent0) Component already registered.
+[2018.11.22-03.56.52:508][185]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.Steps1_52.BrushComponent0) Component already registered.
+[2018.11.22-03.56.52:512][185]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.CylinderBrush11.BrushComponent0) Component already registered.
+[2018.11.22-03.56.52:513][185]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.CylinderBrush3_58.BrushComponent0) Component already registered.
+[2018.11.22-03.56.55:809][568]Cmd: TRANSACTION UNDO
+[2018.11.22-03.56.55:809][568]LogEditorTransaction: Undo Move Actors
+[2018.11.22-03.56.55:825][568]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.Meadow_40.BrushComponent0) Component already registered.
+[2018.11.22-03.56.55:825][568]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.Steps1_52.BrushComponent0) Component already registered.
+[2018.11.22-03.56.55:830][568]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.CylinderBrush11.BrushComponent0) Component already registered.
+[2018.11.22-03.56.55:830][568]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.CylinderBrush3_58.BrushComponent0) Component already registered.
+[2018.11.22-03.56.58:931][927]Cmd: TRANSACTION UNDO
+[2018.11.22-03.56.58:931][927]LogEditorTransaction: Undo Move Actors
+[2018.11.22-03.56.58:949][927]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.Meadow_40.BrushComponent0) Component already registered.
+[2018.11.22-03.56.58:950][927]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.Steps1_52.BrushComponent0) Component already registered.
+[2018.11.22-03.56.58:954][927]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.CylinderBrush11.BrushComponent0) Component already registered.
+[2018.11.22-03.56.58:955][927]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.CylinderBrush3_58.BrushComponent0) Component already registered.
+[2018.11.22-03.57.09:960][234]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.22-03.57.25:236][ 41]Cmd: TRANSACTION UNDO
+[2018.11.22-03.57.25:236][ 41]LogEditorTransaction: Undo Move Actors
+[2018.11.22-03.57.25:254][ 41]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.CylinderBrush7_66.BrushComponent0) Component already registered.
+[2018.11.22-03.57.53:524][376]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-03.58.01:790][364]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-03.59.06:381][ 59]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.22-03.59.06:395][ 59]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.22-03.59.06:414][ 59]PIE: New page: PIE session: GBExterior (Nov 21, 2018, 5:59:06 PM)
+[2018.11.22-03.59.06:414][ 59]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_GBExterior
+[2018.11.22-03.59.06:445][ 59]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031097s)
+[2018.11.22-03.59.06:446][ 59]LogAIModule: Creating AISystem for world GBExterior
+[2018.11.22-03.59.06:446][ 59]LogPlayLevel: PIE: World Init took: (0.000762s)
+[2018.11.22-03.59.06:446][ 59]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GBExterior.GBExterior to /Game/Maps/UEDPIE_0_GBExterior.GBExterior (0.032018s)
+[2018.11.22-03.59.06:484][ 59]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.22-03.59.06:506][ 59]LogInit: FAudioDevice initialized.
+[2018.11.22-03.59.06:555][ 59]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.11.22-03.59.06:563][ 59]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GBExterior.GBExterior up for play (max tick rate 0) at 2018.11.21-22.59.06
+[2018.11.22-03.59.06:563][ 59]LogWorld: Bringing up level for play took: 0.001304
+[2018.11.22-03.59.06:586][ 59]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2018.11.22-03.59.06:588][ 59]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_GBExterior 0.36
+[2018.11.22-03.59.29:915][852]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-03.59.29:951][852]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.22-03.59.29:975][852]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-03.59.30:017][856]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2018.11.22-03.59.34:430][379]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.22-03.59.59:545][343]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere3)
+[2018.11.22-04.00.09:449][527]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-04.00.10:610][655]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.11.22-04.00.13:941][ 47]Cmd: DELETE
+[2018.11.22-04.00.13:941][ 47]Cmd: ACTOR DELETE
+[2018.11.22-04.00.13:948][ 47]LogEditorActor: Deleted Actor: Brush
+[2018.11.22-04.00.14:003][ 47]LogEditorActor: Deleted 1 Actors (0.062 secs)
+[2018.11.22-04.00.15:763][256]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-04.00.17:293][433]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.11.22-04.00.18:240][540]Cmd: DELETE
+[2018.11.22-04.00.18:240][540]Cmd: ACTOR DELETE
+[2018.11.22-04.00.18:247][540]LogEditorActor: Deleted Actor: Brush
+[2018.11.22-04.00.18:301][540]LogEditorActor: Deleted 1 Actors (0.061 secs)
+[2018.11.22-04.00.19:820][720]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-04.00.20:854][841]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.11.22-04.00.22:267][  4]Cmd: DELETE
+[2018.11.22-04.00.22:267][  4]Cmd: ACTOR DELETE
+[2018.11.22-04.00.22:274][  4]LogEditorActor: Deleted Actor: Brush
+[2018.11.22-04.00.22:328][  4]LogEditorActor: Deleted 1 Actors (0.061 secs)
+[2018.11.22-04.00.28:547][748]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-04.00.29:472][857]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.11.22-04.00.30:392][961]Cmd: DELETE
+[2018.11.22-04.00.30:392][961]Cmd: ACTOR DELETE
+[2018.11.22-04.00.30:400][961]LogEditorActor: Deleted Actor: Brush
+[2018.11.22-04.00.30:455][961]LogEditorActor: Deleted 1 Actors (0.063 secs)
+[2018.11.22-04.00.34:039][389]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-04.00.39:658][ 61]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.11.22-04.00.40:246][125]Cmd: DELETE
+[2018.11.22-04.00.40:246][125]Cmd: ACTOR DELETE
+[2018.11.22-04.00.40:255][125]LogEditorActor: Deleted Actor: Brush
+[2018.11.22-04.00.40:308][125]LogEditorActor: Deleted 1 Actors (0.061 secs)
+[2018.11.22-04.00.42:023][328]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-04.00.42:946][437]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.11.22-04.00.43:766][529]Cmd: DELETE
+[2018.11.22-04.00.43:766][529]Cmd: ACTOR DELETE
+[2018.11.22-04.00.43:775][529]LogEditorActor: Deleted Actor: Brush
+[2018.11.22-04.00.43:829][529]LogEditorActor: Deleted 1 Actors (0.062 secs)
+[2018.11.22-04.00.45:906][776]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-04.00.47:135][921]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.11.22-04.00.47:817][996]Cmd: DELETE
+[2018.11.22-04.00.47:817][996]Cmd: ACTOR DELETE
+[2018.11.22-04.00.47:827][996]LogEditorActor: Deleted Actor: Brush
+[2018.11.22-04.00.47:879][996]LogEditorActor: Deleted 1 Actors (0.062 secs)
+[2018.11.22-04.00.49:798][224]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-04.00.50:560][313]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.11.22-04.00.51:102][371]Cmd: DELETE
+[2018.11.22-04.00.51:102][371]Cmd: ACTOR DELETE
+[2018.11.22-04.00.51:112][371]LogEditorActor: Deleted Actor: Brush
+[2018.11.22-04.00.51:165][371]LogEditorActor: Deleted 1 Actors (0.063 secs)
+[2018.11.22-04.01.14:268][141]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-04.01.15:339][267]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.11.22-04.01.28:351][802]Cmd: DELETE
+[2018.11.22-04.01.28:351][802]Cmd: ACTOR DELETE
+[2018.11.22-04.01.28:361][802]LogEditorActor: Deleted Actor: Brush
+[2018.11.22-04.01.28:415][802]LogEditorActor: Deleted 1 Actors (0.064 secs)
+[2018.11.22-04.01.32:651][308]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-04.01.45:287][820]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.11.22-04.01.46:275][932]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.22-04.01.53:594][800]Cmd: DELETE
+[2018.11.22-04.01.53:594][800]Cmd: ACTOR DELETE
+[2018.11.22-04.01.53:605][800]LogEditorActor: Deleted Actor: Brush
+[2018.11.22-04.01.53:658][800]LogEditorActor: Deleted 1 Actors (0.064 secs)
+[2018.11.22-04.01.55:935][ 71]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-04.02.00:315][592]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.11.22-04.02.01:874][772]LogEditorViewport: Clicking on Actor (context menu): Brush (Curved Stair Brush)
+[2018.11.22-04.02.01:896][772]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.22-04.02.10:068][743]Cmd: ACTOR MIRROR X=-1
+[2018.11.22-04.02.11:705][932]Cmd: TRANSACTION UNDO
+[2018.11.22-04.02.11:705][932]LogEditorTransaction: Undo Mirroring Actors
+[2018.11.22-04.02.11:725][932]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.Meadow_42.BrushComponent0) Component already registered.
+[2018.11.22-04.02.12:867][ 63]LogEditorViewport: Clicking on Actor (context menu): Brush (Curved Stair Brush)
+[2018.11.22-04.02.12:889][ 63]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.22-04.02.16:315][468]Cmd: ACTOR MIRROR Y=-1
+[2018.11.22-04.03.12:067][ 42]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-04.03.13:327][175]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.11.22-04.03.13:887][235]Cmd: DELETE
+[2018.11.22-04.03.13:887][235]Cmd: ACTOR DELETE
+[2018.11.22-04.03.13:902][235]LogEditorActor: Deleted Actor: Brush
+[2018.11.22-04.03.13:961][235]LogEditorActor: Deleted 1 Actors (0.073 secs)
+[2018.11.22-04.03.15:998][473]Cmd: EDIT COPY
+[2018.11.22-04.03.16:373][517]Cmd: EDIT PASTE
+[2018.11.22-04.03.19:379][851]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.22-04.03.58:015][391]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-04.04.00:038][617]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.11.22-04.04.07:890][519]Cmd: TRANSACTION UNDO
+[2018.11.22-04.04.07:891][519]LogEditorTransaction: Undo Rotate Actors
+[2018.11.22-04.04.07:922][519]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.Meadow_38.BrushComponent0) Component already registered.
+[2018.11.22-04.04.07:922][519]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.Meadow_40.BrushComponent0) Component already registered.
+[2018.11.22-04.04.07:922][519]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.Meadow_39.BrushComponent0) Component already registered.
+[2018.11.22-04.04.07:923][519]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.LowerPlatform_20.BrushComponent0) Component already registered.
+[2018.11.22-04.04.50:372][461]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane2)
+[2018.11.22-04.04.51:213][556]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane2)
+[2018.11.22-04.05.09:899][760]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.22-04.05.11:063][893]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.22-04.05.12:989][124]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.22-04.05.44:727][868]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane2)
+[2018.11.22-04.05.46:814][112]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.22-04.06.23:313][478]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.22-04.06.23:572][478]LogSavePackage: Moving '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/GBExterior_Auto3E6C2AD9D43912501BB42D8A747E18507.tmp' to '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/Autosaves/Game/Maps/GBExterior_Auto3.umap'
+[2018.11.22-04.06.23:577][478]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/GBExterior' took 0.246
+[2018.11.22-04.06.23:577][478]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.246
+[2018.11.22-04.06.43:966][924]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-04.06.45:187][ 54]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.11.22-04.06.47:299][295]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.22-04.07.06:411][531]Cmd: EDIT COPY
+[2018.11.22-04.07.26:308][861]Cmd: EDIT COPY
+[2018.11.22-04.07.27:105][956]Cmd: EDIT PASTE
+[2018.11.22-04.07.41:984][687]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane2)
+[2018.11.22-04.07.46:950][277]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-04.07.49:734][599]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.11.22-04.08.01:775][  5]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.22-04.08.12:650][272]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane2)
+[2018.11.22-04.08.41:898][719]Cmd: EDIT COPY
+[2018.11.22-04.08.42:194][754]Cmd: EDIT PASTE
+[2018.11.22-04.08.45:195][ 86]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.22-04.08.49:095][553]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.22-04.08.56:058][368]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.22-04.09.10:416][ 46]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane2)
+[2018.11.22-04.09.12:561][294]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-04.09.12:620][301]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.22-04.09.12:630][301]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.22-04.09.12:630][301]PIE: New page: PIE session: GBExterior (Nov 21, 2018, 6:09:12 PM)
+[2018.11.22-04.09.12:630][301]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_GBExterior
+[2018.11.22-04.09.12:659][301]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028558s)
+[2018.11.22-04.09.12:659][301]LogAIModule: Creating AISystem for world GBExterior
+[2018.11.22-04.09.12:660][301]LogPlayLevel: PIE: World Init took: (0.000645s)
+[2018.11.22-04.09.12:660][301]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GBExterior.GBExterior to /Game/Maps/UEDPIE_0_GBExterior.GBExterior (0.029315s)
+[2018.11.22-04.09.12:698][301]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.22-04.09.12:719][301]LogInit: FAudioDevice initialized.
+[2018.11.22-04.09.12:747][301]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.11.22-04.09.12:751][301]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GBExterior.GBExterior up for play (max tick rate 0) at 2018.11.21-23.09.12
+[2018.11.22-04.09.12:751][301]LogWorld: Bringing up level for play took: 0.001575
+[2018.11.22-04.09.12:765][301]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_GBExterior 0.538
+[2018.11.22-04.11.43:880][428]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-04.11.43:910][428]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.22-04.11.43:929][428]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-04.11.43:983][433]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2018.11.22-04.11.46:576][742]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere3)
+[2018.11.22-04.11.47:971][905]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.22-04.11.50:031][145]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-04.11.50:429][191]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.22-04.11.59:491][199]LogSavePackage: Moving '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/GBExteriorB0F2AE4E4ABBB23B6FB4108721A390A7.tmp' to '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/Maps/GBExterior.umap'
+[2018.11.22-04.11.59:520][199]LogFileHelpers: Saving map 'GBExterior' took 0.590
+[2018.11.22-04.24.46:720][857]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.11.22-04.25.05:251][ 16]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.22-04.25.06:638][182]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.22-04.25.38:174][866]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.22-04.25.43:562][489]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.22-04.25.45:967][768]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.22-04.25.51:456][420]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-04.25.52:855][578]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.11.22-04.25.59:301][327]LogEditorViewport: Clicking on Actor (LMB): Brush (Cylinder Brush16)
+[2018.11.22-04.26.03:364][797]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-04.26.05:066][983]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.11.22-04.26.37:754][812]Cmd: EDIT COPY
+[2018.11.22-04.26.38:386][883]Cmd: EDIT PASTE
+[2018.11.22-04.27.02:394][634]Cmd: EDIT COPY
+[2018.11.22-04.27.02:973][703]Cmd: EDIT PASTE
+[2018.11.22-04.27.20:554][739]Cmd: EDIT COPY
+[2018.11.22-04.27.21:377][837]Cmd: EDIT PASTE
+[2018.11.22-04.27.26:507][420]Cmd: EDIT COPY
+[2018.11.22-04.27.26:986][477]Cmd: EDIT PASTE
+[2018.11.22-04.27.38:289][764]LogEditorViewport: Clicking on Actor (LMB): Brush (Cylinder Brush21)
+[2018.11.22-04.27.47:953][861]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane2)
+[2018.11.22-04.27.50:631][174]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.22-04.28.07:812][185]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.22-04.28.13:964][892]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-04.28.32:289][  5]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane2)
+[2018.11.22-04.29.02:753][596]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.22-04.29.03:074][596]LogSavePackage: Moving '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/GBExterior_Auto414EDB741415FCFBD23575580459D3BAC.tmp' to '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/Autosaves/Game/Maps/GBExterior_Auto4.umap'
+[2018.11.22-04.29.03:079][596]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/GBExterior' took 0.304
+[2018.11.22-04.29.03:079][596]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.304
+[2018.11.22-04.31.02:413][742]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere3)
+[2018.11.22-04.31.03:468][863]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.22-04.31.07:454][340]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-04.31.09:941][619]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.11.22-04.31.24:468][336]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-04.31.30:198][  7]Cmd: BRUSH SUBTRACT SELECTNEWBRUSH
+[2018.11.22-04.31.33:146][351]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.22-04.31.35:460][628]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.22-04.32.05:003][ 61]LogEditorViewport: Clicking on Actor (LMB): Brush (Cylinder Brush17)
+[2018.11.22-04.32.28:165][767]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Sky_Sphere_C (Sky Sphere3)
+[2018.11.22-04.32.36:360][706]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere3)
+[2018.11.22-04.32.37:119][793]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere3)
+[2018.11.22-04.32.46:364][865]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere3)
+[2018.11.22-04.33.13:018][ 44]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-04.33.15:362][303]Cmd: BRUSH SUBTRACT SELECTNEWBRUSH
+[2018.11.22-04.33.18:843][706]Cmd: DELETE
+[2018.11.22-04.33.18:843][706]Cmd: ACTOR DELETE
+[2018.11.22-04.33.18:863][706]LogEditorActor: Deleted Actor: Brush
+[2018.11.22-04.33.18:944][706]LogEditorActor: Deleted 1 Actors (0.101 secs)
+[2018.11.22-04.33.21:373][993]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-04.33.24:467][356]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.11.22-04.33.39:739][143]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.22-04.34.25:147][451]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere3)
+[2018.11.22-04.34.29:141][915]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-04.34.29:225][925]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.22-04.34.29:236][925]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.22-04.34.29:237][925]PIE: New page: PIE session: GBExterior (Nov 21, 2018, 6:34:29 PM)
+[2018.11.22-04.34.29:237][925]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_GBExterior
+[2018.11.22-04.34.29:274][925]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036614s)
+[2018.11.22-04.34.29:275][925]LogAIModule: Creating AISystem for world GBExterior
+[2018.11.22-04.34.29:276][925]LogPlayLevel: PIE: World Init took: (0.001852s)
+[2018.11.22-04.34.29:276][925]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GBExterior.GBExterior to /Game/Maps/UEDPIE_0_GBExterior.GBExterior (0.038758s)
+[2018.11.22-04.34.29:328][925]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.22-04.34.29:365][925]LogInit: FAudioDevice initialized.
+[2018.11.22-04.34.29:400][925]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.11.22-04.34.29:405][925]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GBExterior.GBExterior up for play (max tick rate 0) at 2018.11.21-23.34.29
+[2018.11.22-04.34.29:405][925]LogWorld: Bringing up level for play took: 0.003331
+[2018.11.22-04.34.29:422][925]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_GBExterior -0.806
+[2018.11.22-04.34.57:750][317]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-04.34.57:783][317]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.22-04.34.57:805][317]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-04.34.57:850][321]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2018.11.22-04.35.00:692][660]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.22-04.38.22:017][785]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.22-04.38.30:423][786]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.22-04.38.57:986][460]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere3)
+[2018.11.22-04.39.07:582][543]Cmd: EDIT COPY
+[2018.11.22-04.39.10:105][841]Cmd: EDIT PASTE
+[2018.11.22-04.39.24:418][492]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-04.39.28:452][936]Cmd: BRUSH SUBTRACT SELECTNEWBRUSH
+[2018.11.22-04.39.32:298][377]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.22-04.40.15:686][948]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-04.40.18:658][273]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.11.22-04.40.28:581][420]Cmd: TRANSACTION UNDO
+[2018.11.22-04.40.28:581][420]LogEditorTransaction: Undo Move Actors
+[2018.11.22-04.40.28:612][420]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.Meadow_43.BrushComponent0) Component already registered.
+[2018.11.22-04.40.28:612][420]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.CylinderBrush7_66.BrushComponent0) Component already registered.
+[2018.11.22-04.40.28:612][420]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.CylinderBrush5_62.BrushComponent0) Component already registered.
+[2018.11.22-04.40.28:626][420]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.LittleIsland_59.BrushComponent0) Component already registered.
+[2018.11.22-04.40.28:626][420]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.CylinderBrush15.BrushComponent0) Component already registered.
+[2018.11.22-04.40.28:627][420]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.LowerPlatform_18.BrushComponent0) Component already registered.
+[2018.11.22-04.40.28:628][420]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.LowerPlatform_20.BrushComponent0) Component already registered.
+[2018.11.22-04.41.55:437][115]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.22-04.41.55:805][115]LogSavePackage: Moving '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/GBExterior_Auto56039654E47A4E2A04B21EA97B5CDD6AF.tmp' to '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/Autosaves/Game/Maps/GBExterior_Auto5.umap'
+[2018.11.22-04.41.55:811][115]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/GBExterior' took 0.363
+[2018.11.22-04.41.55:811][115]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.363
+[2018.11.22-04.42.14:598][269]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-04.42.14:697][281]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.22-04.42.14:711][281]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.22-04.42.14:711][281]PIE: New page: PIE session: GBExterior (Nov 21, 2018, 6:42:14 PM)
+[2018.11.22-04.42.14:711][281]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_GBExterior
+[2018.11.22-04.42.14:755][281]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044615s)
+[2018.11.22-04.42.14:756][281]LogAIModule: Creating AISystem for world GBExterior
+[2018.11.22-04.42.14:756][281]LogPlayLevel: PIE: World Init took: (0.000759s)
+[2018.11.22-04.42.14:756][281]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GBExterior.GBExterior to /Game/Maps/UEDPIE_0_GBExterior.GBExterior (0.045563s)
+[2018.11.22-04.42.14:807][281]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.22-04.42.14:853][281]LogInit: FAudioDevice initialized.
+[2018.11.22-04.42.14:888][281]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.11.22-04.42.14:891][281]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GBExterior.GBExterior up for play (max tick rate 0) at 2018.11.21-23.42.14
+[2018.11.22-04.42.14:892][281]LogWorld: Bringing up level for play took: 0.002695
+[2018.11.22-04.42.14:906][281]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_GBExterior 0.679
+[2018.11.22-04.42.45:039][784]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-04.42.45:076][784]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.22-04.42.45:098][784]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-04.42.45:143][788]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2018.11.22-04.43.01:686][649]Cmd: EDIT CUT
+[2018.11.22-04.43.01:703][649]LogEditorActor: Deleted Actor: Brush
+[2018.11.22-04.43.01:797][649]LogEditorActor: Deleted 1 Actors (0.105 secs)
+[2018.11.22-04.43.03:069][796]Cmd: TRANSACTION UNDO
+[2018.11.22-04.43.03:069][796]LogEditorTransaction: Undo Cut
+[2018.11.22-04.43.03:100][796]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.CylinderBrush_54.BrushComponent0) Component already registered.
+[2018.11.22-04.43.03:101][796]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.CylinderBrush3_58.BrushComponent0) Component already registered.
+[2018.11.22-04.43.03:101][796]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.CylinderBrush2_56.BrushComponent0) Component already registered.
+[2018.11.22-04.43.03:111][796]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.Meadow_39.BrushComponent0) Component already registered.
+[2018.11.22-04.43.03:112][796]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.Meadow_37.BrushComponent0) Component already registered.
+[2018.11.22-04.43.03:112][796]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.LittleIsland_61.BrushComponent0) Component already registered.
+[2018.11.22-04.43.03:113][796]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.LittleIsland.BrushComponent0) Component already registered.
+[2018.11.22-04.43.03:113][796]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.LowerPlatform_17.BrushComponent0) Component already registered.
+[2018.11.22-04.43.03:113][796]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.CurvedStairBrush2_44.BrushComponent0) Component already registered.
+[2018.11.22-04.43.03:114][796]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.LowerPlatform_21.BrushComponent0) Component already registered.
+[2018.11.22-04.43.03:541][836]Cmd: TRANSACTION UNDO
+[2018.11.22-04.43.03:541][836]LogEditorTransaction: Undo Rotate Actors
+[2018.11.22-04.43.03:573][836]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.Meadow_43.BrushComponent0) Component already registered.
+[2018.11.22-04.43.03:573][836]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.CylinderBrush7_66.BrushComponent0) Component already registered.
+[2018.11.22-04.43.03:573][836]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.CylinderBrush5_62.BrushComponent0) Component already registered.
+[2018.11.22-04.43.03:586][836]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.LittleIsland_59.BrushComponent0) Component already registered.
+[2018.11.22-04.43.03:586][836]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.CylinderBrush15.BrushComponent0) Component already registered.
+[2018.11.22-04.43.03:587][836]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.LowerPlatform_18.BrushComponent0) Component already registered.
+[2018.11.22-04.43.03:588][836]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.LowerPlatform_20.BrushComponent0) Component already registered.
+[2018.11.22-04.43.09:317][468]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.22-04.43.34:098][140]Cmd: EDIT COPY
+[2018.11.22-04.43.34:549][193]Cmd: EDIT PASTE
+[2018.11.22-04.44.15:253][359]Cmd: TRANSACTION UNDO
+[2018.11.22-04.44.15:254][359]LogEditorTransaction: Undo Move Actors
+[2018.11.22-04.44.15:288][359]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.Steps1.BrushComponent0) Component already registered.
+[2018.11.22-04.44.15:288][359]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.CylinderBrush2_56.BrushComponent0) Component already registered.
+[2018.11.22-04.44.15:289][359]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.CylinderBrush4_60.BrushComponent0) Component already registered.
+[2018.11.22-04.44.15:289][359]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.Meadow_33.BrushComponent0) Component already registered.
+[2018.11.22-04.44.15:289][359]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.Meadow.BrushComponent0) Component already registered.
+[2018.11.22-04.44.15:305][359]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.Meadow_35.BrushComponent0) Component already registered.
+[2018.11.22-04.44.15:305][359]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.Meadow_37.BrushComponent0) Component already registered.
+[2018.11.22-04.44.15:305][359]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.Meadow_36.BrushComponent0) Component already registered.
+[2018.11.22-04.44.15:306][359]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.BoxBrush.BrushComponent0) Component already registered.
+[2018.11.22-04.44.15:307][359]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.LowerPlatform.BrushComponent0) Component already registered.
+[2018.11.22-04.44.15:307][359]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.LowerPlatform_18.BrushComponent0) Component already registered.
+[2018.11.22-04.44.15:308][359]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.LowerPlatform_13.BrushComponent0) Component already registered.
+[2018.11.22-04.44.15:309][359]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.LowerPlatform_20.BrushComponent0) Component already registered.
+[2018.11.22-04.44.15:309][359]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.CurvedStairBrush_41.BrushComponent0) Component already registered.
+[2018.11.22-04.44.15:309][359]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.LowerPlatform_21.BrushComponent0) Component already registered.
+[2018.11.22-04.44.24:117][333]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-04.44.37:049][767]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-04.44.37:134][777]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.22-04.44.37:147][777]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.22-04.44.37:147][777]PIE: New page: PIE session: GBExterior (Nov 21, 2018, 6:44:37 PM)
+[2018.11.22-04.44.37:147][777]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_GBExterior
+[2018.11.22-04.44.37:192][777]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044788s)
+[2018.11.22-04.44.37:193][777]LogAIModule: Creating AISystem for world GBExterior
+[2018.11.22-04.44.37:193][777]LogPlayLevel: PIE: World Init took: (0.000937s)
+[2018.11.22-04.44.37:193][777]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GBExterior.GBExterior to /Game/Maps/UEDPIE_0_GBExterior.GBExterior (0.045873s)
+[2018.11.22-04.44.37:250][777]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.22-04.44.37:281][777]LogInit: FAudioDevice initialized.
+[2018.11.22-04.44.37:314][777]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.11.22-04.44.37:318][777]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GBExterior.GBExterior up for play (max tick rate 0) at 2018.11.21-23.44.37
+[2018.11.22-04.44.37:318][777]LogWorld: Bringing up level for play took: 0.002729
+[2018.11.22-04.44.37:332][777]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_GBExterior 1.104
+[2018.11.22-04.44.39:295][  6]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-04.44.39:325][  6]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.22-04.44.39:349][  6]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-04.44.39:394][ 10]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2018.11.22-04.44.45:905][763]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.22-04.44.52:470][476]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture)
+[2018.11.22-04.45.01:303][452]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2018.11.22-04.45.05:725][958]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.22-04.45.08:434][262]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.22-04.45.14:083][895]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.11.22-04.45.14:458][936]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.22-04.45.16:274][138]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.22-04.45.17:483][274]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.22-04.45.21:993][774]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.11.22-04.45.23:870][985]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-04.45.23:960][995]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.22-04.45.23:973][995]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.22-04.45.23:973][995]PIE: New page: PIE session: GBExterior (Nov 21, 2018, 6:45:23 PM)
+[2018.11.22-04.45.23:973][995]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_GBExterior
+[2018.11.22-04.45.24:012][995]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038616s)
+[2018.11.22-04.45.24:013][995]LogAIModule: Creating AISystem for world GBExterior
+[2018.11.22-04.45.24:013][995]LogPlayLevel: PIE: World Init took: (0.000842s)
+[2018.11.22-04.45.24:013][995]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GBExterior.GBExterior to /Game/Maps/UEDPIE_0_GBExterior.GBExterior (0.039613s)
+[2018.11.22-04.45.24:062][995]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.22-04.45.24:101][995]LogInit: FAudioDevice initialized.
+[2018.11.22-04.45.24:134][995]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.11.22-04.45.24:137][995]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GBExterior.GBExterior up for play (max tick rate 0) at 2018.11.21-23.45.24
+[2018.11.22-04.45.24:137][995]LogWorld: Bringing up level for play took: 0.002451
+[2018.11.22-04.45.24:151][995]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_GBExterior -0.076
+[2018.11.22-04.46.13:181][757]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-04.46.13:216][757]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.22-04.46.13:238][757]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-04.46.13:283][761]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2018.11.22-04.46.17:260][224]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.22-04.46.26:818][311]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-04.46.29:804][620]Cmd: BRUSH SUBTRACT SELECTNEWBRUSH
+[2018.11.22-04.47.13:455][864]Cmd: TRANSACTION UNDO
+[2018.11.22-04.47.13:456][864]LogEditorTransaction: Undo Scale Actors
+[2018.11.22-04.47.13:501][864]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.Meadow_33.BrushComponent0) Component already registered.
+[2018.11.22-04.47.13:502][864]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.Meadow.BrushComponent0) Component already registered.
+[2018.11.22-04.47.13:518][864]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.Meadow_39.BrushComponent0) Component already registered.
+[2018.11.22-04.47.13:518][864]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.Meadow_41.BrushComponent0) Component already registered.
+[2018.11.22-04.47.13:518][864]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.Meadow_40.BrushComponent0) Component already registered.
+[2018.11.22-04.47.13:519][864]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.Meadow_35.BrushComponent0) Component already registered.
+[2018.11.22-04.47.13:519][864]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.Meadow_34.BrushComponent0) Component already registered.
+[2018.11.22-04.47.13:519][864]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.Meadow_37.BrushComponent0) Component already registered.
+[2018.11.22-04.47.13:519][864]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.Meadow_36.BrushComponent0) Component already registered.
+[2018.11.22-04.47.13:519][864]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.LittleIsland_61.BrushComponent0) Component already registered.
+[2018.11.22-04.47.13:519][864]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.LittleIsland.BrushComponent0) Component already registered.
+[2018.11.22-04.47.13:519][864]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.CylinderBrush15.BrushComponent0) Component already registered.
+[2018.11.22-04.47.13:520][864]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.CurvedStairBrush3.BrushComponent0) Component already registered.
+[2018.11.22-04.47.13:520][864]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.CylinderBrush17.BrushComponent0) Component already registered.
+[2018.11.22-04.47.22:166][733]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.22-04.47.27:303][312]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-04.47.33:811][ 14]Cmd: BRUSH SUBTRACT SELECTNEWBRUSH
+[2018.11.22-04.47.35:487][186]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.22-04.48.01:501][ 71]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere3)
+[2018.11.22-04.48.06:873][681]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane2)
+[2018.11.22-04.48.11:363][199]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-04.48.11:447][209]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.22-04.48.11:457][209]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.22-04.48.11:457][209]PIE: New page: PIE session: GBExterior (Nov 21, 2018, 6:48:11 PM)
+[2018.11.22-04.48.11:457][209]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_GBExterior
+[2018.11.22-04.48.11:496][209]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038592s)
+[2018.11.22-04.48.11:496][209]LogAIModule: Creating AISystem for world GBExterior
+[2018.11.22-04.48.11:496][209]LogPlayLevel: PIE: World Init took: (0.000618s)
+[2018.11.22-04.48.11:496][209]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GBExterior.GBExterior to /Game/Maps/UEDPIE_0_GBExterior.GBExterior (0.039369s)
+[2018.11.22-04.48.11:549][209]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.22-04.48.11:586][209]LogInit: FAudioDevice initialized.
+[2018.11.22-04.48.11:613][209]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.11.22-04.48.11:616][209]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GBExterior.GBExterior up for play (max tick rate 0) at 2018.11.21-23.48.11
+[2018.11.22-04.48.11:616][209]LogWorld: Bringing up level for play took: 0.001919
+[2018.11.22-04.48.11:630][209]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_GBExterior -0.597
+[2018.11.22-04.48.41:273][732]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-04.48.41:308][732]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.22-04.48.41:328][732]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-04.48.41:377][737]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2018.11.22-04.49.10:149][ 52]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.22-04.49.24:424][662]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-04.49.24:507][672]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.22-04.49.24:518][672]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.22-04.49.24:518][672]PIE: New page: PIE session: GBExterior (Nov 21, 2018, 6:49:24 PM)
+[2018.11.22-04.49.24:518][672]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_GBExterior
+[2018.11.22-04.49.24:558][672]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039371s)
+[2018.11.22-04.49.24:558][672]LogAIModule: Creating AISystem for world GBExterior
+[2018.11.22-04.49.24:559][672]LogPlayLevel: PIE: World Init took: (0.000715s)
+[2018.11.22-04.49.24:559][672]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GBExterior.GBExterior to /Game/Maps/UEDPIE_0_GBExterior.GBExterior (0.040235s)
+[2018.11.22-04.49.24:605][672]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.22-04.49.24:636][672]LogInit: FAudioDevice initialized.
+[2018.11.22-04.49.24:664][672]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.11.22-04.49.24:667][672]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GBExterior.GBExterior up for play (max tick rate 0) at 2018.11.21-23.49.24
+[2018.11.22-04.49.24:667][672]LogWorld: Bringing up level for play took: 0.001712
+[2018.11.22-04.49.24:681][672]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_GBExterior 0.453
+[2018.11.22-04.49.59:507][720]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-04.49.59:536][720]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.22-04.49.59:557][720]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-04.49.59:613][725]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2018.11.22-04.50.19:488][980]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere3)
+[2018.11.22-04.50.23:156][403]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.22-04.50.24:339][537]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.22-04.50.24:936][537]LogSavePackage: Moving '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/GBExterior64F3F13944B52CFCD499ACB1B206F2E5.tmp' to '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/Maps/GBExterior.umap'
+[2018.11.22-04.50.24:960][537]LogFileHelpers: Saving map 'GBExterior' took 0.617
+[2018.11.22-04.52.47:445][130]LogSlate: Took 0.002089 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.11.22-04.54.25:584][318]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.22-04.54.30:387][789]Cmd: EDIT COPY
+[2018.11.22-04.54.30:851][833]Cmd: EDIT PASTE
+[2018.11.22-04.54.42:261][848]Cmd: TRANSACTION UNDO
+[2018.11.22-04.54.42:261][848]LogEditorTransaction: Undo Move Actors
+[2018.11.22-04.54.42:303][848]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.CylinderBrush2_56.BrushComponent0) Component already registered.
+[2018.11.22-04.54.42:303][848]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.CylinderBrush3_58.BrushComponent0) Component already registered.
+[2018.11.22-04.54.42:323][848]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.CylinderBrush12.BrushComponent0) Component already registered.
+[2018.11.22-04.54.42:323][848]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.CylinderBrush13.BrushComponent0) Component already registered.
+[2018.11.22-04.54.45:202][108]Cmd: TRANSACTION UNDO
+[2018.11.22-04.54.45:202][108]LogEditorTransaction: Undo Move Actors
+[2018.11.22-04.54.45:256][108]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.Meadow_40.BrushComponent0) Component already registered.
+[2018.11.22-04.54.45:258][108]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.CylinderBrush20.BrushComponent0) Component already registered.
+[2018.11.22-04.54.45:259][108]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.CylinderBrush12.BrushComponent0) Component already registered.
+[2018.11.22-04.54.45:260][108]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.CurvedStairBrush_41.BrushComponent0) Component already registered.
+[2018.11.22-04.56.05:733][977]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-04.56.13:586][822]LogEditorViewport: Clicking on Actor (LMB): Brush (Curved Stair Brush5)
+[2018.11.22-04.56.22:328][548]Cmd: TRANSACTION UNDO
+[2018.11.22-04.56.22:328][548]LogEditorTransaction: Undo Move Actors
+[2018.11.22-04.56.22:365][548]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.CylinderBrush8_68.BrushComponent0) Component already registered.
+[2018.11.22-04.56.22:365][548]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.CylinderBrush9_70.BrushComponent0) Component already registered.
+[2018.11.22-04.56.22:366][548]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.Meadow.BrushComponent0) Component already registered.
+[2018.11.22-04.56.22:366][548]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.Meadow_33.BrushComponent0) Component already registered.
+[2018.11.22-04.56.22:378][548]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.LittleIsland_60.BrushComponent0) Component already registered.
+[2018.11.22-04.56.22:378][548]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.LittleIsland_61.BrushComponent0) Component already registered.
+[2018.11.22-04.56.22:379][548]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.CylinderBrush15.BrushComponent0) Component already registered.
+[2018.11.22-04.56.22:379][548]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.LittleIsland_62.BrushComponent0) Component already registered.
+[2018.11.22-04.56.22:379][548]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.BoxBrush2.BrushComponent0) Component already registered.
+[2018.11.22-04.56.22:379][548]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.CurvedStairBrush5.BrushComponent0) Component already registered.
+[2018.11.22-04.56.28:520][190]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-04.56.38:799][275]LogEditorActor: Deleted Actor: Brush
+[2018.11.22-04.56.38:909][275]LogEditorActor: Deleted 1 Actors (0.124 secs)
+[2018.11.22-04.56.41:115][527]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.22-04.56.41:125][527]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.22-04.56.41:125][527]PIE: New page: PIE session: GBExterior (Nov 21, 2018, 6:56:41 PM)
+[2018.11.22-04.56.41:125][527]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_GBExterior
+[2018.11.22-04.56.41:169][527]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043814s)
+[2018.11.22-04.56.41:170][527]LogAIModule: Creating AISystem for world GBExterior
+[2018.11.22-04.56.41:170][527]LogPlayLevel: PIE: World Init took: (0.000640s)
+[2018.11.22-04.56.41:170][527]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GBExterior.GBExterior to /Game/Maps/UEDPIE_0_GBExterior.GBExterior (0.044580s)
+[2018.11.22-04.56.41:222][527]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.22-04.56.41:256][527]LogInit: FAudioDevice initialized.
+[2018.11.22-04.56.41:290][527]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.11.22-04.56.41:292][527]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GBExterior.GBExterior up for play (max tick rate 0) at 2018.11.21-23.56.41
+[2018.11.22-04.56.41:292][527]LogWorld: Bringing up level for play took: 0.002391
+[2018.11.22-04.56.41:306][527]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_GBExterior 1.079
+[2018.11.22-04.57.11:909][959]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-04.57.11:941][959]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.22-04.57.11:963][959]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-04.57.12:009][963]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2018.11.22-04.57.19:855][880]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-04.57.23:254][266]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.11.22-04.57.54:526][670]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-04.57.58:220][ 65]Cmd: BRUSH SUBTRACT SELECTNEWBRUSH
+[2018.11.22-04.58.07:473][ 36]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.22-04.58.31:635][658]Cmd: EDIT COPY
+[2018.11.22-04.58.32:014][700]Cmd: EDIT PASTE
+[2018.11.22-04.59.02:626][ 41]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere3)
+[2018.11.22-04.59.13:722][212]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere3)
+[2018.11.22-04.59.16:105][474]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-04.59.16:190][483]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.22-04.59.16:200][483]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.22-04.59.16:200][483]PIE: New page: PIE session: GBExterior (Nov 21, 2018, 6:59:16 PM)
+[2018.11.22-04.59.16:201][483]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_GBExterior
+[2018.11.22-04.59.16:252][483]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050916s)
+[2018.11.22-04.59.16:252][483]LogAIModule: Creating AISystem for world GBExterior
+[2018.11.22-04.59.16:252][483]LogPlayLevel: PIE: World Init took: (0.000570s)
+[2018.11.22-04.59.16:252][483]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GBExterior.GBExterior to /Game/Maps/UEDPIE_0_GBExterior.GBExterior (0.051607s)
+[2018.11.22-04.59.16:307][483]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.22-04.59.16:343][483]LogInit: FAudioDevice initialized.
+[2018.11.22-04.59.16:374][483]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.11.22-04.59.16:378][483]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GBExterior.GBExterior up for play (max tick rate 0) at 2018.11.21-23.59.16
+[2018.11.22-04.59.16:378][483]LogWorld: Bringing up level for play took: 0.002616
+[2018.11.22-04.59.16:391][483]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_GBExterior 0.164
+[2018.11.22-04.59.19:464][841]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-04.59.19:498][841]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.22-04.59.19:520][841]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-04.59.19:567][844]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2018.11.22-04.59.23:904][332]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane2)
+[2018.11.22-04.59.25:584][508]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2018.11.22-04.59.26:838][639]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.11.22-04.59.28:343][810]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.22-04.59.31:885][201]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.11.22-04.59.32:654][282]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.22-04.59.36:782][724]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.11.22-04.59.38:814][941]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-04.59.38:911][952]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.22-04.59.38:922][952]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.22-04.59.38:922][952]PIE: New page: PIE session: GBExterior (Nov 21, 2018, 6:59:38 PM)
+[2018.11.22-04.59.38:922][952]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_GBExterior
+[2018.11.22-04.59.38:972][952]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049674s)
+[2018.11.22-04.59.38:972][952]LogAIModule: Creating AISystem for world GBExterior
+[2018.11.22-04.59.38:972][952]LogPlayLevel: PIE: World Init took: (0.000716s)
+[2018.11.22-04.59.38:973][952]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GBExterior.GBExterior to /Game/Maps/UEDPIE_0_GBExterior.GBExterior (0.050537s)
+[2018.11.22-04.59.39:020][952]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.22-04.59.39:061][952]LogInit: FAudioDevice initialized.
+[2018.11.22-04.59.39:094][952]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.11.22-04.59.39:097][952]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GBExterior.GBExterior up for play (max tick rate 0) at 2018.11.21-23.59.39
+[2018.11.22-04.59.39:097][952]LogWorld: Bringing up level for play took: 0.003103
+[2018.11.22-04.59.39:111][952]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_GBExterior 0.883
+[2018.11.22-04.59.49:760][198]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-04.59.49:795][198]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.22-04.59.49:819][198]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-04.59.49:868][201]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2018.11.22-05.00.04:402][779]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.22-05.00.41:211][812]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-05.00.52:664][ 33]Cmd: TRANSACTION UNDO
+[2018.11.22-05.00.52:664][ 33]LogEditorTransaction: Undo Move Actors
+[2018.11.22-05.00.52:703][ 33]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.CylinderBrush4_60.BrushComponent0) Component already registered.
+[2018.11.22-05.00.52:703][ 33]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.CylinderBrush6_64.BrushComponent0) Component already registered.
+[2018.11.22-05.00.52:703][ 33]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.Meadow.BrushComponent0) Component already registered.
+[2018.11.22-05.00.52:716][ 33]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.CylinderBrush18_68.BrushComponent0) Component already registered.
+[2018.11.22-05.00.52:716][ 33]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.CylinderBrush17.BrushComponent0) Component already registered.
+[2018.11.22-05.00.52:717][ 33]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.CylinderBrush20_79.BrushComponent0) Component already registered.
+[2018.11.22-05.00.52:718][ 33]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.LowerPlatform_19.BrushComponent0) Component already registered.
+[2018.11.22-05.00.52:719][ 33]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GBExterior.GBExterior:PersistentLevel.CylinderBrush14.BrushComponent0) Component already registered.
+[2018.11.22-05.00.54:249][192]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-05.01.11:428][ 48]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.22-05.01.52:239][611]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.22-05.01.52:563][611]LogSavePackage: Moving '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/GBExterior_Auto66199A3894C62CC09575EB0ABCEECCC63.tmp' to '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/Autosaves/Game/Maps/GBExterior_Auto6.umap'
+[2018.11.22-05.01.52:570][611]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/GBExterior' took 0.311
+[2018.11.22-05.01.52:570][611]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.311
+[2018.11.22-05.04.08:521][842]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2018.11.22-05.04.15:007][548]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.11.22-05.04.16:561][708]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.11.22-05.04.17:880][828]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.22-05.04.20:102][ 73]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.11.22-05.04.23:250][443]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.11.22-05.04.23:649][489]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.22-05.04.27:551][932]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.11.22-05.04.29:152][ 90]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-05.04.29:251][100]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.22-05.04.29:264][100]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.22-05.04.29:264][100]PIE: New page: PIE session: GBExterior (Nov 21, 2018, 7:04:29 PM)
+[2018.11.22-05.04.29:264][100]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_GBExterior
+[2018.11.22-05.04.29:319][100]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055229s)
+[2018.11.22-05.04.29:320][100]LogAIModule: Creating AISystem for world GBExterior
+[2018.11.22-05.04.29:320][100]LogPlayLevel: PIE: World Init took: (0.000991s)
+[2018.11.22-05.04.29:320][100]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GBExterior.GBExterior to /Game/Maps/UEDPIE_0_GBExterior.GBExterior (0.056408s)
+[2018.11.22-05.04.29:378][100]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.22-05.04.29:428][100]LogInit: FAudioDevice initialized.
+[2018.11.22-05.04.29:461][100]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.11.22-05.04.29:465][100]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GBExterior.GBExterior up for play (max tick rate 0) at 2018.11.22-00.04.29
+[2018.11.22-05.04.29:465][100]LogWorld: Bringing up level for play took: 0.003350
+[2018.11.22-05.04.29:480][100]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_GBExterior -0.748
+[2018.11.22-05.06.10:109][729]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-05.06.10:141][729]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.22-05.06.10:168][729]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-05.06.10:212][733]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2018.11.22-05.06.15:914][405]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2018.11.22-05.06.16:341][452]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.22-05.06.22:154][146]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.11.22-05.06.23:185][268]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-05.06.23:267][278]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.22-05.06.23:277][278]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.22-05.06.23:277][278]PIE: New page: PIE session: GBExterior (Nov 21, 2018, 7:06:23 PM)
+[2018.11.22-05.06.23:277][278]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_GBExterior
+[2018.11.22-05.06.23:314][278]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037125s)
+[2018.11.22-05.06.23:315][278]LogAIModule: Creating AISystem for world GBExterior
+[2018.11.22-05.06.23:315][278]LogPlayLevel: PIE: World Init took: (0.000629s)
+[2018.11.22-05.06.23:315][278]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GBExterior.GBExterior to /Game/Maps/UEDPIE_0_GBExterior.GBExterior (0.037880s)
+[2018.11.22-05.06.23:356][278]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.22-05.06.23:383][278]LogInit: FAudioDevice initialized.
+[2018.11.22-05.06.23:412][278]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.11.22-05.06.23:414][278]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GBExterior.GBExterior up for play (max tick rate 0) at 2018.11.22-00.06.23
+[2018.11.22-05.06.23:414][278]LogWorld: Bringing up level for play took: 0.002035
+[2018.11.22-05.06.23:428][278]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_GBExterior -0.799
+[2018.11.22-05.06.31:825][271]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-05.06.31:864][271]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.22-05.06.31:888][271]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-05.06.31:930][274]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2018.11.22-05.06.33:288][432]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.22-05.06.33:288][432]Can't find target actor or component.
+[2018.11.22-05.06.36:981][862]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2018.11.22-05.06.37:286][895]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.22-05.06.40:076][222]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.11.22-05.06.42:576][517]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-05.06.42:659][527]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.22-05.06.42:669][527]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.22-05.06.42:669][527]PIE: New page: PIE session: GBExterior (Nov 21, 2018, 7:06:42 PM)
+[2018.11.22-05.06.42:669][527]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_GBExterior
+[2018.11.22-05.06.42:707][527]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037885s)
+[2018.11.22-05.06.42:707][527]LogAIModule: Creating AISystem for world GBExterior
+[2018.11.22-05.06.42:708][527]LogPlayLevel: PIE: World Init took: (0.000617s)
+[2018.11.22-05.06.42:708][527]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GBExterior.GBExterior to /Game/Maps/UEDPIE_0_GBExterior.GBExterior (0.038636s)
+[2018.11.22-05.06.42:747][527]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.22-05.06.42:774][527]LogInit: FAudioDevice initialized.
+[2018.11.22-05.06.42:802][527]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.11.22-05.06.42:806][527]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GBExterior.GBExterior up for play (max tick rate 0) at 2018.11.22-00.06.42
+[2018.11.22-05.06.42:806][527]LogWorld: Bringing up level for play took: 0.003520
+[2018.11.22-05.06.42:820][527]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_GBExterior 0.593
+[2018.11.22-05.06.45:950][900]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-05.06.45:982][900]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.22-05.06.46:001][900]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.22-05.06.46:052][905]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2018.11.22-05.06.48:055][143]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2018.11.22-05.06.52:360][656]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.11.22-05.06.54:959][965]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere3)
+[2018.11.22-05.06.59:463][501]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-05.06.59:806][508]LogSavePackage: Moving '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/GBExteriorA5FEC5EB491D75BC34211B9FE202FB6B.tmp' to '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/Maps/GBExterior.umap'
+[2018.11.22-05.06.59:834][508]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/GBExterior_BuiltData" FILE="../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/Maps/GBExterior_BuiltData.uasset" SILENT=true
+[2018.11.22-05.06.59:863][508]LogSavePackage: Moving '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/GBExterior_BuiltData22947A5B451EACECABB038A5999EC743.tmp' to '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/Maps/GBExterior_BuiltData.uasset'
+[2018.11.22-05.07.42:357][571]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-05.07.52:485][777]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.22-05.08.29:567][954]LogSlate: Window 'Save Content' being destroyed
+[2018.11.22-05.08.30:104][954]LogSavePackage: Moving '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/GBExterior659B1E17459946ED6321ABA454D76CF3.tmp' to '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/Maps/GBExterior.umap'
+[2018.11.22-05.08.30:125][954]LogFileHelpers: Saving map 'GBExterior' took 0.545
+[2018.11.22-05.08.30:174][954]LogSlate: Window 'Dinochan_v001 - Unreal Editor' being destroyed
+[2018.11.22-05.08.30:349][955]Cmd: QUIT_EDITOR
+[2018.11.22-05.08.30:352][955]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2018.11.22-05.08.30:541][955]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.22-05.08.30:554][955]LogExit: Preparing to exit.
+[2018.11.22-05.08.30:970][955]LogDirectoryWatcher: A directory notification failed for 'C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/', and we were unable to create a new request.
+[2018.11.22-05.08.31:011][955]LogExit: Editor shut down
+[2018.11.22-05.08.31:012][955]LogExit: Transaction tracking system shut down
+[2018.11.22-05.08.31:341][955]LogExit: Object subsystem successfully closed.
+[2018.11.22-05.08.31:357][955]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.11.22-05.08.31:361][955]LogD3D11RHI: Shutdown
+[2018.11.22-05.08.31:362][955]LogD3D11RHI: CleanupD3DDevice
+[2018.11.22-05.08.31:366][955]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.11.22-05.08.31:423][955]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (614)
+[2018.11.22-05.08.31:423][955]LogModuleManager: Shutting down and abandoning module Voice (612)
+[2018.11.22-05.08.31:423][955]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (610)
+[2018.11.22-05.08.31:423][955]LogModuleManager: Shutting down and abandoning module SceneOutliner (608)
+[2018.11.22-05.08.31:423][955]LogModuleManager: Shutting down and abandoning module AddContentDialog (606)
+[2018.11.22-05.08.31:426][955]LogModuleManager: Shutting down and abandoning module WidgetCarousel (605)
+[2018.11.22-05.08.31:426][955]LogModuleManager: Shutting down and abandoning module EditorWidgets (602)
+[2018.11.22-05.08.31:426][955]LogModuleManager: Shutting down and abandoning module CollectionManager (600)
+[2018.11.22-05.08.31:426][955]LogModuleManager: Shutting down and abandoning module StatsViewer (598)
+[2018.11.22-05.08.31:426][955]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
+[2018.11.22-05.08.31:426][955]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
+[2018.11.22-05.08.31:426][955]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
+[2018.11.22-05.08.31:426][955]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
+[2018.11.22-05.08.31:426][955]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
+[2018.11.22-05.08.31:426][955]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
+[2018.11.22-05.08.31:426][955]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
+[2018.11.22-05.08.31:426][955]LogModuleManager: Shutting down and abandoning module BspMode (582)
+[2018.11.22-05.08.31:426][955]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
+[2018.11.22-05.08.31:426][955]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
+[2018.11.22-05.08.31:426][955]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
+[2018.11.22-05.08.31:426][955]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
+[2018.11.22-05.08.31:426][955]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
+[2018.11.22-05.08.31:426][955]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
+[2018.11.22-05.08.31:426][955]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
+[2018.11.22-05.08.31:427][955]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
+[2018.11.22-05.08.31:427][955]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
+[2018.11.22-05.08.31:427][955]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
+[2018.11.22-05.08.31:427][955]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
+[2018.11.22-05.08.31:427][955]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
+[2018.11.22-05.08.31:427][955]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
+[2018.11.22-05.08.31:427][955]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
+[2018.11.22-05.08.31:427][955]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
+[2018.11.22-05.08.31:427][955]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
+[2018.11.22-05.08.31:427][955]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
+[2018.11.22-05.08.31:427][955]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
+[2018.11.22-05.08.31:427][955]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
+[2018.11.22-05.08.31:427][955]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
+[2018.11.22-05.08.31:427][955]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
+[2018.11.22-05.08.31:427][955]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
+[2018.11.22-05.08.31:427][955]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
+[2018.11.22-05.08.31:427][955]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
+[2018.11.22-05.08.31:427][955]LogModuleManager: Shutting down and abandoning module SessionServices (532)
+[2018.11.22-05.08.31:427][955]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
+[2018.11.22-05.08.31:427][955]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
+[2018.11.22-05.08.31:427][955]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
+[2018.11.22-05.08.31:427][955]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
+[2018.11.22-05.08.31:427][955]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
+[2018.11.22-05.08.31:427][955]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
+[2018.11.22-05.08.31:427][955]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
+[2018.11.22-05.08.31:427][955]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
+[2018.11.22-05.08.31:427][955]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
+[2018.11.22-05.08.31:427][955]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
+[2018.11.22-05.08.31:427][955]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
+[2018.11.22-05.08.31:428][955]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
+[2018.11.22-05.08.31:616][955]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
+[2018.11.22-05.08.31:616][955]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
+[2018.11.22-05.08.31:616][955]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
+[2018.11.22-05.08.31:616][955]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
+[2018.11.22-05.08.31:616][955]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
+[2018.11.22-05.08.31:616][955]LogModuleManager: Shutting down and abandoning module MergeActors (496)
+[2018.11.22-05.08.31:616][955]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
+[2018.11.22-05.08.31:616][955]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
+[2018.11.22-05.08.31:616][955]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
+[2018.11.22-05.08.31:616][955]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
+[2018.11.22-05.08.31:617][955]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
+[2018.11.22-05.08.31:617][955]LogModuleManager: Shutting down and abandoning module XmlParser (484)
+[2018.11.22-05.08.31:617][955]LogModuleManager: Shutting down and abandoning module Blutility (482)
+[2018.11.22-05.08.31:617][955]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
+[2018.11.22-05.08.31:617][955]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
+[2018.11.22-05.08.31:617][955]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
+[2018.11.22-05.08.31:617][955]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
+[2018.11.22-05.08.31:617][955]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
+[2018.11.22-05.08.31:617][955]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
+[2018.11.22-05.08.31:617][955]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
+[2018.11.22-05.08.31:617][955]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
+[2018.11.22-05.08.31:617][955]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
+[2018.11.22-05.08.31:683][955]LogModuleManager: Shutting down and abandoning module AutomationController (462)
+[2018.11.22-05.08.31:683][955]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
+[2018.11.22-05.08.31:683][955]LogModuleManager: Shutting down and abandoning module Layers (458)
+[2018.11.22-05.08.31:683][955]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
+[2018.11.22-05.08.31:683][955]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
+[2018.11.22-05.08.31:683][955]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
+[2018.11.22-05.08.31:683][955]LogModuleManager: Shutting down and abandoning module Persona (450)
+[2018.11.22-05.08.31:684][955]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
+[2018.11.22-05.08.31:684][955]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
+[2018.11.22-05.08.31:684][955]LogModuleManager: Shutting down and abandoning module Kismet (444)
+[2018.11.22-05.08.31:684][955]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
+[2018.11.22-05.08.31:684][955]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
+[2018.11.22-05.08.31:684][955]LogModuleManager: Shutting down and abandoning module Toolbox (438)
+[2018.11.22-05.08.31:684][955]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2018.11.22-05.08.31:684][955]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2018.11.22-05.08.31:684][955]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2018.11.22-05.08.31:684][955]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2018.11.22-05.08.31:684][955]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2018.11.22-05.08.31:684][955]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2018.11.22-05.08.31:684][955]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2018.11.22-05.08.31:684][955]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2018.11.22-05.08.31:684][955]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2018.11.22-05.08.31:684][955]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2018.11.22-05.08.31:684][955]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2018.11.22-05.08.31:684][955]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2018.11.22-05.08.31:684][955]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2018.11.22-05.08.31:684][955]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2018.11.22-05.08.31:685][955]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2018.11.22-05.08.31:685][955]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2018.11.22-05.08.31:685][955]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2018.11.22-05.08.31:685][955]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
+[2018.11.22-05.08.31:685][955]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
+[2018.11.22-05.08.31:826][955]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
+[2018.11.22-05.08.31:826][955]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
+[2018.11.22-05.08.31:826][955]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
+[2018.11.22-05.08.31:826][955]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
+[2018.11.22-05.08.31:826][955]LogModuleManager: Shutting down and abandoning module OculusInput (390)
+[2018.11.22-05.08.31:826][955]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
+[2018.11.22-05.08.31:826][955]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
+[2018.11.22-05.08.31:826][955]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
+[2018.11.22-05.08.31:826][955]LogModuleManager: Shutting down and abandoning module CableComponent (382)
+[2018.11.22-05.08.31:826][955]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
+[2018.11.22-05.08.31:826][955]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
+[2018.11.22-05.08.31:826][955]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
+[2018.11.22-05.08.31:826][955]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
+[2018.11.22-05.08.31:826][955]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
+[2018.11.22-05.08.31:826][955]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
+[2018.11.22-05.08.31:826][955]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
+[2018.11.22-05.08.31:826][955]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
+[2018.11.22-05.08.31:826][955]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
+[2018.11.22-05.08.31:829][955]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
+[2018.11.22-05.08.31:829][955]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
+[2018.11.22-05.08.31:829][955]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
+[2018.11.22-05.08.31:829][955]LogModuleManager: Shutting down and abandoning module BackChannel (356)
+[2018.11.22-05.08.31:829][955]LogModuleManager: Shutting down and abandoning module AppleVision (354)
+[2018.11.22-05.08.31:829][955]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2018.11.22-05.08.31:829][955]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2018.11.22-05.08.31:829][955]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2018.11.22-05.08.31:829][955]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2018.11.22-05.08.31:829][955]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2018.11.22-05.08.31:829][955]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2018.11.22-05.08.31:829][955]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
+[2018.11.22-05.08.31:830][955]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2018.11.22-05.08.31:830][955]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2018.11.22-05.08.31:830][955]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2018.11.22-05.08.31:830][955]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2018.11.22-05.08.31:830][955]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2018.11.22-05.08.31:830][955]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2018.11.22-05.08.31:830][955]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2018.11.22-05.08.31:830][955]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2018.11.22-05.08.31:830][955]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2018.11.22-05.08.31:830][955]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2018.11.22-05.08.31:830][955]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2018.11.22-05.08.31:830][955]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2018.11.22-05.08.31:830][955]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2018.11.22-05.08.31:831][955]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2018.11.22-05.08.31:831][955]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2018.11.22-05.08.31:831][955]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
+[2018.11.22-05.08.31:831][955]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
+[2018.11.22-05.08.31:831][955]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
+[2018.11.22-05.08.31:831][955]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
+[2018.11.22-05.08.31:831][955]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
+[2018.11.22-05.08.31:831][955]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2018.11.22-05.08.31:831][955]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2018.11.22-05.08.31:831][955]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2018.11.22-05.08.31:831][955]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2018.11.22-05.08.31:831][955]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2018.11.22-05.08.31:831][955]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2018.11.22-05.08.31:831][955]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2018.11.22-05.08.31:831][955]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2018.11.22-05.08.31:831][955]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2018.11.22-05.08.31:931][955]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2018.11.22-05.08.32:032][955]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2018.11.22-05.08.32:032][955]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2018.11.22-05.08.32:032][955]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2018.11.22-05.08.32:032][955]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2018.11.22-05.08.32:032][955]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2018.11.22-05.08.32:032][955]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2018.11.22-05.08.32:032][955]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2018.11.22-05.08.32:033][955]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2018.11.22-05.08.32:033][955]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2018.11.22-05.08.32:034][955]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2018.11.22-05.08.32:034][955]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2018.11.22-05.08.32:034][955]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2018.11.22-05.08.32:036][955]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2018.11.22-05.08.32:036][955]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2018.11.22-05.08.32:036][955]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2018.11.22-05.08.32:036][955]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2018.11.22-05.08.32:036][955]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2018.11.22-05.08.32:037][955]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2018.11.22-05.08.32:038][955]LogModuleManager: Shutting down and abandoning module Media (243)
+[2018.11.22-05.08.32:045][955]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2018.11.22-05.08.32:045][955]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2018.11.22-05.08.32:045][955]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2018.11.22-05.08.32:045][955]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2018.11.22-05.08.32:045][955]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2018.11.22-05.08.32:045][955]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2018.11.22-05.08.32:045][955]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2018.11.22-05.08.32:045][955]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2018.11.22-05.08.32:045][955]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2018.11.22-05.08.32:046][955]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2018.11.22-05.08.32:046][955]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2018.11.22-05.08.32:046][955]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2018.11.22-05.08.32:046][955]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2018.11.22-05.08.32:046][955]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2018.11.22-05.08.32:046][955]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2018.11.22-05.08.32:046][955]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2018.11.22-05.08.32:046][955]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2018.11.22-05.08.32:046][955]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2018.11.22-05.08.32:046][955]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2018.11.22-05.08.32:046][955]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2018.11.22-05.08.32:049][955]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2018.11.22-05.08.32:049][955]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2018.11.22-05.08.32:049][955]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2018.11.22-05.08.32:049][955]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2018.11.22-05.08.32:049][955]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2018.11.22-05.08.32:049][955]LogModuleManager: Shutting down and abandoning module Core (188)
+[2018.11.22-05.08.32:049][955]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2018.11.22-05.08.32:049][955]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2018.11.22-05.08.32:049][955]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2018.11.22-05.08.32:049][955]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2018.11.22-05.08.32:049][955]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2018.11.22-05.08.32:049][955]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2018.11.22-05.08.32:049][955]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2018.11.22-05.08.32:049][955]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2018.11.22-05.08.32:049][955]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2018.11.22-05.08.32:049][955]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2018.11.22-05.08.32:049][955]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2018.11.22-05.08.32:050][955]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2018.11.22-05.08.32:119][955]LogDerivedDataCache: Shutdown
+[2018.11.22-05.08.32:119][955]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2018.11.22-05.08.32:119][955]LogXGEController: Cleaning working directory: C:/Users/Zack/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.11.22-05.08.32:120][955]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2018.11.22-05.08.32:120][955]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2018.11.22-05.08.32:120][955]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2018.11.22-05.08.32:120][955]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2018.11.22-05.08.32:120][955]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2018.11.22-05.08.32:120][955]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2018.11.22-05.08.32:120][955]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2018.11.22-05.08.32:120][955]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2018.11.22-05.08.32:120][955]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2018.11.22-05.08.32:120][955]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2018.11.22-05.08.32:120][955]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2018.11.22-05.08.32:120][955]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2018.11.22-05.08.32:120][955]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2018.11.22-05.08.32:120][955]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2018.11.22-05.08.32:120][955]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2018.11.22-05.08.32:120][955]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2018.11.22-05.08.32:120][955]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2018.11.22-05.08.32:120][955]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2018.11.22-05.08.32:121][955]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2018.11.22-05.08.32:121][955]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2018.11.22-05.08.32:121][955]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2018.11.22-05.08.32:121][955]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2018.11.22-05.08.32:129][955]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2018.11.22-05.08.32:129][955]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2018.11.22-05.08.32:134][955]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2018.11.22-05.08.32:134][955]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2018.11.22-05.08.32:169][955]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2018.11.22-05.08.32:169][955]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2018.11.22-05.08.32:169][955]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2018.11.22-05.08.32:169][955]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2018.11.22-05.08.32:169][955]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2018.11.22-05.08.32:169][955]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2018.11.22-05.08.32:169][955]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2018.11.22-05.08.32:169][955]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2018.11.22-05.08.32:169][955]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2018.11.22-05.08.32:169][955]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2018.11.22-05.08.32:169][955]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2018.11.22-05.08.32:169][955]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2018.11.22-05.08.32:169][955]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2018.11.22-05.08.32:169][955]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2018.11.22-05.08.32:169][955]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2018.11.22-05.08.32:169][955]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2018.11.22-05.08.32:169][955]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2018.11.22-05.08.32:169][955]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2018.11.22-05.08.32:170][955]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2018.11.22-05.08.32:170][955]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2018.11.22-05.08.32:182][955]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2018.11.22-05.08.32:182][955]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.11.22-05.08.32:182][955]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BDA5CC412-4ADC-F67A-A487-688C2A051565%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=f7245a714475df0da56640a24cdfe704%7Ccc3c07623d2f4874abe0ae53f80dc37e%7Cf07df836-d0d7-4e14-b834-7ee2da16fd21&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.11.22-05.08.32:211][955]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2018.11.22-05.08.32:212][955]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2018.11.22-05.08.32:212][955]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2018.11.22-05.08.32:212][955]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2018.11.22-05.08.32:212][955]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2018.11.22-05.08.32:213][955]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2018.11.22-05.08.32:213][955]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2018.11.22-05.08.32:213][955]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2018.11.22-05.08.32:213][955]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2018.11.22-05.08.32:213][955]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2018.11.22-05.08.32:213][955]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.11.22-05.08.32:213][955]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2018.11.22-05.08.32:213][955]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.11.22-05.08.32:213][955]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.11.22-05.08.32:213][955]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.11.22-05.08.32:214][955]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.11.22-05.08.32:214][955]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.11.22-05.08.32:214][955]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.11.22-05.08.32:214][955]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.11.22-05.08.32:215][955]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.11.22-05.08.32:215][955]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.11.22-05.08.32:215][955]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.11.22-05.08.32:215][955]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.11.22-05.08.32:215][955]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.11.22-05.08.32:215][955]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.11.22-05.08.32:215][955]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.11.22-05.08.32:215][955]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.11.22-05.08.32:215][955]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.11.22-05.08.32:215][955]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.11.22-05.08.32:215][955]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.11.22-05.08.32:221][955]LogExit: Exiting.
+[2018.11.22-05.08.32:238][955]Log file closed, 11/22/18 00:08:32
