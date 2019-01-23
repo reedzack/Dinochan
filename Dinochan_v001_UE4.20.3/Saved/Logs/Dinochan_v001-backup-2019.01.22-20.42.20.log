@@ -1,0 +1,1588 @@
+﻿Log file open, 01/22/19 19:46:15
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Dinochan_v001
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.737484
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.220s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz, GPU: NVIDIA GeForce GTX 970
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.008s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.01.23-00.46.16:836][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.23-00.46.16:837][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.23-00.46.16:852][  0]LogHAL: Display: Platform has ~ 16 GB [17137627136 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.01.23-00.46.16:852][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.01.23-00.46.16:852][  0]LogInit: Going up to parent DeviceProfile []
+[2019.01.23-00.46.16:856][  0]LogInit: Computer: DESKTOP-QCELHJT
+[2019.01.23-00.46.16:856][  0]LogInit: User: Zack
+[2019.01.23-00.46.16:856][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.01.23-00.46.16:856][  0]LogInit: High frequency timer resolution =3.914055 MHz
+[2019.01.23-00.46.16:856][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2019.01.23-00.46.16:856][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.23-00.46.16:856][  0]LogMemory: Process Physical Memory: 99.99 MB used, 99.99 MB peak
+[2019.01.23-00.46.16:856][  0]LogMemory: Process Virtual Memory: 90.85 MB used, 90.85 MB peak
+[2019.01.23-00.46.16:856][  0]LogMemory: Physical Memory: 4715.02 MB used,  11628.70 MB free, 16343.71 MB total
+[2019.01.23-00.46.16:856][  0]LogMemory: Virtual Memory: 4640.40 MB used,  11628.70 MB free, 134217728.00 MB total
+[2019.01.23-00.46.17:013][  0]LogInit: Using OS detected language (en-US).
+[2019.01.23-00.46.17:013][  0]LogInit: Using OS detected locale (en-US).
+[2019.01.23-00.46.17:015][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.01.23-00.46.17:368][  0]LogStreaming: Display: Took  0.350s to InitEngineTextLocalization.
+[2019.01.23-00.46.17:368][  0]LogInit: Setting process to per monitor DPI aware
+[2019.01.23-00.46.17:422][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.01.23-00.46.17:422][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.01.23-00.46.18:443][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2019.01.23-00.46.18:443][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.23-00.46.18:497][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2019.01.23-00.46.18:497][  0]LogD3D11RHI:       4043/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.01.23-00.46.18:499][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.01.23-00.46.18:499][  0]LogD3D11RHI:       0/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.01.23-00.46.18:499][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.23-00.46.18:505][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.23-00.46.18:505][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2019.01.23-00.46.18:505][  0]LogWindows: EnumDisplayDevices:
+[2019.01.23-00.46.18:505][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2019.01.23-00.46.18:506][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.01.23-00.46.18:506][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.01.23-00.46.18:506][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.01.23-00.46.18:507][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.01.23-00.46.18:507][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2019.01.23-00.46.18:507][  0]LogD3D11RHI:   Driver Version: 417.71 (internal:25.21.14.1771, unified:417.71)
+[2019.01.23-00.46.18:507][  0]LogD3D11RHI:      Driver Date: 1-11-2019
+[2019.01.23-00.46.18:507][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2019.01.23-00.46.18:546][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.23-00.46.18:571][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.01.23-00.46.18:579][  0]LogShaderCompilers: Guid format shader working directory is -33 characters bigger than the processId version (../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Intermediate/Shaders/WorkingDirectory/18640/).
+[2019.01.23-00.46.18:579][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Zack/AppData/Local/Temp/UnrealShaderWorkingDir/BD4B50424EFFECCF6C1547B9E963E675/'.
+[2019.01.23-00.46.18:999][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.23-00.46.19:019][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.01.23-00.46.19:044][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.01.23-00.46.19:067][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.01.23-00.46.19:096][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.01.23-00.46.19:120][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.23-00.46.19:139][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.23-00.46.19:161][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.23-00.46.19:178][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.01.23-00.46.19:281][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.23-00.46.19:281][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.23-00.46.19:281][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.23-00.46.19:281][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.23-00.46.19:281][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.23-00.46.19:281][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.23-00.46.19:281][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.23-00.46.19:281][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.23-00.46.19:281][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.23-00.46.19:281][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.23-00.46.19:281][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.23-00.46.19:281][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.23-00.46.19:281][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.23-00.46.19:281][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.23-00.46.19:282][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.23-00.46.19:282][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.23-00.46.19:282][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.23-00.46.19:282][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.23-00.46.19:291][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.01.23-00.46.19:391][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.23-00.46.19:391][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.23-00.46.19:421][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.23-00.46.19:421][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.23-00.46.19:440][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.01.23-00.46.19:463][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.23-00.46.19:487][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.23-00.46.19:519][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.01.23-00.46.19:536][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.23-00.46.19:536][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.01.23-00.46.19:795][  0]LogXGEController: Cleaning working directory: C:/Users/Zack/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.01.23-00.46.19:796][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.01.23-00.46.19:796][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.01.23-00.46.19:796][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.01.23-00.46.20:877][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.01.23-00.46.21:239][  0]LogDerivedDataCache: Loaded boot cache 0.36s 71MB C:/Users/Zack/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.23-00.46.21:240][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Zack/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.01.23-00.46.21:240][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.23-00.46.21:240][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.23-00.46.21:240][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.23-00.46.21:240][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.23-00.46.21:256][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.23-00.46.21:268][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Zack/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.23-00.46.21:268][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.01.23-00.46.21:268][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.01.23-00.46.21:293][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.01.23-00.46.21:298][  0]LogSlate: Using FreeType 2.6.0
+[2019.01.23-00.46.21:304][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.23-00.46.21:597][  0]LogAssetRegistry: FAssetRegistry took 0.0295 seconds to start up
+[2019.01.23-00.46.21:957][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.23-00.46.22:143][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.01.23-00.46.22:176][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.01.23-00.46.22:177][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.01.23-00.46.22:177][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.01.23-00.46.22:177][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.01.23-00.46.22:283][  0]LogNetVersion: Dinochan_v001 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2574802920)
+[2019.01.23-00.46.23:026][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.150029 seconds
+[2019.01.23-00.46.23:033][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.01.23-00.46.23:033][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.01.23-00.46.23:033][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.23-00.46.26:627][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.01.23-00.46.26:656][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.23-00.46.27:045][  0]SourceControl: Source control is disabled
+[2019.01.23-00.46.27:046][  0]SourceControl: Source control is disabled
+[2019.01.23-00.46.27:065][  0]SourceControl: Source control is disabled
+[2019.01.23-00.46.27:077][  0]SourceControl: Source control is disabled
+[2019.01.23-00.46.27:692][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.01.23-00.46.27:833][  0]LogOcInput: OculusInput pre-init called
+[2019.01.23-00.46.27:978][  0]LogEngine: Initializing Engine...
+[2019.01.23-00.46.28:018][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2019.01.23-00.46.28:025][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.23-00.46.28:025][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.23-00.46.28:025][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.23-00.46.28:025][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.23-00.46.28:256][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.01.23-00.46.28:296][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.01.23-00.46.28:325][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.23-00.46.28:390][  0]LogInit: FAudioDevice initialized.
+[2019.01.23-00.46.28:390][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.01.23-00.46.28:487][  0]LogDerivedDataCache: Saved boot cache 0.10s 71MB C:/Users/Zack/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.23-00.46.28:495][  0]LogInit: Texture streaming: Enabled
+[2019.01.23-00.46.28:547][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.01.23-00.46.28:571][  0]LogInit: Transaction tracking system initialized
+[2019.01.23-00.46.28:658][  0]BlueprintLog: New page: Editor Load
+[2019.01.23-00.46.29:023][  0]LocalizationService: Localization service is disabled
+[2019.01.23-00.46.29:664][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.01.23-00.46.29:664][  0]LogCook: Display: Mobile HDR setting 1
+[2019.01.23-00.46.29:664][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.01.23-00.46.29:664][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.23-00.46.29:664][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.23-00.46.29:664][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.23-00.46.29:664][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.23-00.46.30:037][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/' took 0.02s
+[2019.01.23-00.46.30:257][  0]SourceControl: Source control is disabled
+[2019.01.23-00.46.30:258][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/_Maps/Modelled_Greybox.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.23-00.46.30:259][  0]LightingResults: New page: Lighting Build
+[2019.01.23-00.46.30:267][  0]MapCheck: New page: Map Check
+[2019.01.23-00.46.30:267][  0]LightingResults: New page: Lighting Build
+[2019.01.23-00.46.30:669][  0]LogMaterial: Display: Missing cached shader map for material default, compiling. 
+[2019.01.23-00.46.30:801][  0]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.01.23-00.46.30:801][  0]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.01.23-00.46.30:801][  0]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.01.23-00.46.30:801][  0]LogStaticMesh: Building static mesh PlaceholderTree_LP...
+[2019.01.23-00.46.30:906][  0]LogStaticMesh: Built static mesh [0.10s] /Game/_Greybox/Greybox_Tree/PlaceholderTree_LP.PlaceholderTree_LP
+[2019.01.23-00.46.31:002][  0]LogStaticMesh: Building static mesh Statue_Tusks...
+[2019.01.23-00.46.31:029][  0]LogStaticMesh: Built static mesh [0.03s] /Game/_Greybox/Greybox_Statues/Statue_Tusks.Statue_Tusks
+[2019.01.23-00.46.31:037][  0]LogMaterial: Display: Missing cached shader map for material wire_154154229, compiling. 
+[2019.01.23-00.46.31:053][  0]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.01.23-00.46.31:053][  0]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.01.23-00.46.31:053][  0]LogStaticMesh: Building static mesh Statue_Base...
+[2019.01.23-00.46.31:066][  0]LogStaticMesh: Built static mesh [0.01s] /Game/_Greybox/Greybox_Statues/Statue_Base.Statue_Base
+[2019.01.23-00.46.31:116][  0]LogStaticMesh: Building static mesh Placeholder_Airship...
+[2019.01.23-00.46.31:141][  0]LogStaticMesh: Built static mesh [0.02s] /Game/_Greybox/Greybox_Airship/Placeholder_Airship.Placeholder_Airship
+[2019.01.23-00.46.31:208][  0]LogStaticMesh: Building static mesh tallRock...
+[2019.01.23-00.46.31:212][  0]LogStaticMesh: Built static mesh [0.00s] /Game/1_Models/Rocks/tallRock.tallRock
+[2019.01.23-00.46.31:215][  0]LogStaticMesh: Building static mesh smallRock...
+[2019.01.23-00.46.31:219][  0]LogStaticMesh: Built static mesh [0.00s] /Game/1_Models/Rocks/smallRock.smallRock
+[2019.01.23-00.46.31:227][  0]LogStaticMesh: Building static mesh hugeRock...
+[2019.01.23-00.46.31:247][  0]LogStaticMesh: Built static mesh [0.02s] /Game/1_Models/Rocks/hugeRock.hugeRock
+[2019.01.23-00.46.31:252][  0]LogStaticMesh: Building static mesh GreatDoor_Missing_Gem...
+[2019.01.23-00.46.31:264][  0]LogStaticMesh: Built static mesh [0.01s] /Game/1_Models/Doors/GreatDoor_Missing_Gem.GreatDoor_Missing_Gem
+[2019.01.23-00.46.31:269][  0]LogStaticMesh: Building static mesh GreatDoor_Door_entry_Door_R...
+[2019.01.23-00.46.31:285][  0]LogStaticMesh: Built static mesh [0.02s] /Game/1_Models/Doors/GreatDoor_Door_entry_Door_R.GreatDoor_Door_entry_Door_R
+[2019.01.23-00.46.31:293][  0]LogStaticMesh: Building static mesh GreatDoor_Door_entry_Door_L...
+[2019.01.23-00.46.31:314][  0]LogStaticMesh: Built static mesh [0.02s] /Game/1_Models/Doors/GreatDoor_Door_entry_Door_L.GreatDoor_Door_entry_Door_L
+[2019.01.23-00.46.31:319][  0]LogStaticMesh: Building static mesh GreatDoor_Door_entry_Door_hinge...
+[2019.01.23-00.46.31:328][  0]LogStaticMesh: Built static mesh [0.01s] /Game/1_Models/Doors/GreatDoor_Door_entry_Door_hinge.GreatDoor_Door_entry_Door_hinge
+[2019.01.23-00.46.31:341][  0]LogStaticMesh: Building static mesh GreatDoor_Door_entry...
+[2019.01.23-00.46.31:350][  0]LogStaticMesh: Built static mesh [0.01s] /Game/1_Models/Doors/GreatDoor_Door_entry.GreatDoor_Door_entry
+[2019.01.23-00.46.31:474][  0]LogAIModule: Creating AISystem for world Modelled_Greybox
+[2019.01.23-00.46.31:496][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.23-00.46.31:530][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.23-00.46.31:975][  0]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.01.23-00.46.31:975][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 444.33ms to complete.
+[2019.01.23-00.46.31:975][  0]LogFileHelpers: Loading map 'Modelled_Greybox' took 1.717
+[2019.01.23-00.46.32:132][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.23-00.46.32:143][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.23-00.46.32:152][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.23-00.46.32:163][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.23-00.46.32:192][  0]LogCollectionManager: Loaded 0 collections in 0.001940 seconds
+[2019.01.23-00.46.32:258][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/Collections/' took 0.01s
+[2019.01.23-00.46.32:258][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/Developers/Zack/Collections/' took 0.01s
+[2019.01.23-00.46.32:258][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/Collections/' took 0.01s
+[2019.01.23-00.46.32:258][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.01.23-00.46.32:273][  0]LogContentBrowser: Native class hierarchy populated in 0.0136 seconds. Added 2572 classes and 603 folders.
+[2019.01.23-00.46.32:289][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.01.23-00.46.32:554][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.01.23-00.46.32:581][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.01.23-00.46.32:631][  0]LogSlate: Took 0.004884 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.23-00.46.32:635][  0]LogSlate: Took 0.002023 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.23-00.46.32:645][  0]LogSlate: Took 0.001611 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.23-00.46.32:763][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2019.01.23-00.46.33:109][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.01.23-00.46.33:109][  0]LogLoad: (Engine Initialization) Total time: 19.71 seconds
+[2019.01.23-00.46.33:109][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.01.23-00.46.33:123][  0]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.23-00.46.33:124][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.23-00.46.33:163][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.01.23-00.46.33:202][  0]LogSlate: Took 0.002715 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.23-00.46.33:210][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/' took 0.07s
+[2019.01.23-00.46.33:231][  1]LogAssetRegistry: Asset discovery search completed in 11.6574 seconds
+[2019.01.23-00.46.33:235][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.01.23-00.46.33:235][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000113 seconds (updated 0 objects)
+[2019.01.23-00.46.36:399][168]LogSlate: Took 0.000584 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.23-00.47.08:548][970]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.23-00.47.08:566][970]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.23-00.47.08:586][970]PIE: New page: PIE session: Modelled_Greybox (Jan 22, 2019, 2:47:08 PM)
+[2019.01.23-00.47.08:586][970]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Modelled_Greybox
+[2019.01.23-00.47.08:592][970]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006328s)
+[2019.01.23-00.47.08:592][970]LogAIModule: Creating AISystem for world Modelled_Greybox
+[2019.01.23-00.47.08:593][970]LogPlayLevel: PIE: World Init took: (0.000567s)
+[2019.01.23-00.47.08:593][970]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Modelled_Greybox.Modelled_Greybox to /Game/_Maps/UEDPIE_0_Modelled_Greybox.Modelled_Greybox (0.007021s)
+[2019.01.23-00.47.08:624][970]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.23-00.47.08:647][970]LogInit: FAudioDevice initialized.
+[2019.01.23-00.47.08:969][970]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.23-00.47.08:977][970]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Modelled_Greybox.Modelled_Greybox up for play (max tick rate 0) at 2019.01.22-19.47.08
+[2019.01.23-00.47.08:977][970]LogWorld: Bringing up level for play took: 0.001391
+[2019.01.23-00.47.09:001][970]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2019.01.23-00.47.09:015][970]PIE: Play in editor start time for /Game/_Maps/UEDPIE_0_Modelled_Greybox 0.879
+[2019.01.23-00.47.35:916][178]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.23-00.47.35:946][178]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.23-00.47.35:966][178]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.23-00.47.36:010][182]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2019.01.23-00.47.36:753][270]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.23-00.47.36:827][279]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.23-00.47.36:840][279]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.23-00.47.36:841][279]PIE: New page: PIE session: Modelled_Greybox (Jan 22, 2019, 2:47:36 PM)
+[2019.01.23-00.47.36:841][279]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Modelled_Greybox
+[2019.01.23-00.47.36:846][279]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005160s)
+[2019.01.23-00.47.36:846][279]LogAIModule: Creating AISystem for world Modelled_Greybox
+[2019.01.23-00.47.36:847][279]LogPlayLevel: PIE: World Init took: (0.000619s)
+[2019.01.23-00.47.36:847][279]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Modelled_Greybox.Modelled_Greybox to /Game/_Maps/UEDPIE_0_Modelled_Greybox.Modelled_Greybox (0.005892s)
+[2019.01.23-00.47.36:878][279]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.23-00.47.36:899][279]LogInit: FAudioDevice initialized.
+[2019.01.23-00.47.36:936][279]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.23-00.47.36:938][279]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Modelled_Greybox.Modelled_Greybox up for play (max tick rate 0) at 2019.01.22-19.47.36
+[2019.01.23-00.47.36:938][279]LogWorld: Bringing up level for play took: 0.001289
+[2019.01.23-00.47.36:952][279]PIE: Play in editor start time for /Game/_Maps/UEDPIE_0_Modelled_Greybox 0.816
+[2019.01.23-00.47.48:603][671]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.23-00.47.48:634][671]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.23-00.47.48:653][671]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.23-00.47.48:704][676]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2019.01.23-00.47.49:775][804]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.23-00.47.49:858][814]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.23-00.47.49:872][814]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.23-00.47.49:872][814]PIE: New page: PIE session: Modelled_Greybox (Jan 22, 2019, 2:47:49 PM)
+[2019.01.23-00.47.49:872][814]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Modelled_Greybox
+[2019.01.23-00.47.49:876][814]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004554s)
+[2019.01.23-00.47.49:877][814]LogAIModule: Creating AISystem for world Modelled_Greybox
+[2019.01.23-00.47.49:877][814]LogPlayLevel: PIE: World Init took: (0.000543s)
+[2019.01.23-00.47.49:877][814]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Modelled_Greybox.Modelled_Greybox to /Game/_Maps/UEDPIE_0_Modelled_Greybox.Modelled_Greybox (0.005199s)
+[2019.01.23-00.47.49:907][814]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.23-00.47.49:929][814]LogInit: FAudioDevice initialized.
+[2019.01.23-00.47.49:961][814]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.23-00.47.49:963][814]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Modelled_Greybox.Modelled_Greybox up for play (max tick rate 0) at 2019.01.22-19.47.49
+[2019.01.23-00.47.49:964][814]LogWorld: Bringing up level for play took: 0.001402
+[2019.01.23-00.47.49:976][814]PIE: Play in editor start time for /Game/_Maps/UEDPIE_0_Modelled_Greybox -0.16
+[2019.01.23-00.49.23:854][ 39]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.23-00.49.23:886][ 39]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.23-00.49.23:906][ 39]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.23-00.49.23:954][ 44]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2019.01.23-00.49.28:154][546]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.23-00.50.44:412][575]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.23-00.50.44:504][586]MapCheck: New page: Map Check
+[2019.01.23-00.50.44:523][586]Cmd: MAP REBUILD ALLVISIBLE
+[2019.01.23-00.50.44:523][586]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2019.01.23-00.50.44:581][586]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_0, compiling. 
+[2019.01.23-00.50.44:592][586]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy lambert1, compiling. 
+[2019.01.23-00.50.44:597][586]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.01.23-00.50.44:597][586]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy 02_-_Default, compiling. 
+[2019.01.23-00.50.44:602][586]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.01.23-00.50.44:602][586]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.01.23-00.50.44:602][586]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy 09_-_Default, compiling. 
+[2019.01.23-00.50.44:608][586]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy 15_-_Default, compiling. 
+[2019.01.23-00.50.44:614][586]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.01.23-00.50.44:614][586]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy 07_-_Default, compiling. 
+[2019.01.23-00.50.44:621][586]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy initialShadingGroup, compiling. 
+[2019.01.23-00.50.44:628][586]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2019.01.23-00.50.44:636][586]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy default, compiling. 
+[2019.01.23-00.50.44:644][586]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy wire_154154229, compiling. 
+[2019.01.23-00.50.45:429][586]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.01.23-00.50.45:429][586]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.01.23-00.50.45:429][586]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.01.23-00.50.45:429][586]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.01.23-00.50.45:429][586]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.01.23-00.50.45:429][586]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.01.23-00.50.45:429][586]TextureStreamingBuild: Display: Compiling optional shaders took 0.853 seconds.
+[2019.01.23-00.50.45:447][586]LogLevel: Display: Export Material TexCoord Scales took 0.017 seconds.
+[2019.01.23-00.50.45:471][586]TextureStreamingBuild: Display: Build Texture Streaming took 0.024 seconds.
+[2019.01.23-00.50.45:494][586]LightingResults: New page: Lighting Build - Jan 22, 2019, 2:50:45 PM
+[2019.01.23-00.50.45:571][586]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2019.01.23-00.50.45:674][586]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2019.01.23-00.50.45:759][586]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2019.01.23-00.50.46:281][586]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2019.01.23-00.50.46:281][586]LogSwarmInterface: [TryOpenConnection] Local Process ID is 18640
+[2019.01.23-00.50.51:138][586]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2019.01.23-00.50.51:139][586]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2019.01.23-00.50.51:139][586]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2019.01.23-00.50.51:139][586]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2019.01.23-00.50.51:139][586]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2019.01.23-00.50.51:139][586]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2019.01.23-00.50.51:395][586]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2019.01.23-00.50.51:395][586]MapCheck: New page: Modelled_Greybox - Jan 22, 2019, 2:50:51 PM
+[2019.01.23-00.50.51:396][586]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2019.01.23-00.50.51:396][586]MapCheck: Warning: CollectibleFlower_Red_new_Petal07_3 Static mesh actor has NULL StaticMesh property 
+[2019.01.23-00.50.51:397][586]MapCheck: Warning: CollectibleFlower_Red_new_Petal07_3 Static mesh actor CollectibleFlower_Red_new_Petal07_3 has NULL StaticMesh property 
+[2019.01.23-00.50.51:728][586]MapCheck: Map check complete: 1 Error(s), 2 Warning(s), took 333.198ms to complete.
+[2019.01.23-00.50.51:751][586]LogEditorBuildUtils: Build time 0:07
+[2019.01.23-00.50.51:831][587]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer 02_-_Default, compiling. 
+[2019.01.23-00.50.51:837][587]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer 02_-_Default, compiling. 
+[2019.01.23-00.50.51:846][587]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.01.23-00.50.51:846][587]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.01.23-00.50.51:861][588]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer 09_-_Default, compiling. 
+[2019.01.23-00.50.51:867][588]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.01.23-00.50.51:867][588]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer 09_-_Default, compiling. 
+[2019.01.23-00.50.51:874][588]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.01.23-00.50.51:888][589]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer 15_-_Default, compiling. 
+[2019.01.23-00.50.51:896][589]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer 15_-_Default, compiling. 
+[2019.01.23-00.50.51:914][590]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer 07_-_Default, compiling. 
+[2019.01.23-00.50.51:921][590]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer 07_-_Default, compiling. 
+[2019.01.23-00.50.51:938][591]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer initialShadingGroup, compiling. 
+[2019.01.23-00.50.51:945][591]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer initialShadingGroup, compiling. 
+[2019.01.23-00.50.51:965][592]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer default, compiling. 
+[2019.01.23-00.50.51:973][592]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer default, compiling. 
+[2019.01.23-00.50.51:991][593]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer wire_154154229, compiling. 
+[2019.01.23-00.50.51:998][593]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer wire_154154229, compiling. 
+[2019.01.23-00.50.54:062][595]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.01.23-00.50.54:062][595]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.01.23-00.50.55:979][702]LightingResults: Warning: Statue_Base Object has overlapping UVs.
+[2019.01.23-00.50.55:979][702]LightingResults: Statue_Base Lightmap UV are overlapping by 56.0%. Please adjust content - Enable Error Coloring to visualize.
+[2019.01.23-00.50.56:154][711]LightingResults: Warning: Statue_Tusks Object has overlapping UVs.
+[2019.01.23-00.50.56:154][711]LightingResults: Statue_Tusks Lightmap UV are overlapping by 54.5%. Please adjust content - Enable Error Coloring to visualize.
+[2019.01.23-00.50.56:264][717]LightingResults: Warning: GreatDoor_Door_entry_Door_hinge Object has overlapping UVs.
+[2019.01.23-00.50.56:264][717]LightingResults: GreatDoor_Door_entry_Door_hinge Lightmap UV are overlapping by 18.8%. Please adjust content - Enable Error Coloring to visualize.
+[2019.01.23-00.50.56:275][718]LightingResults: Warning: Statue_Tusks Object has overlapping UVs.
+[2019.01.23-00.50.56:275][718]LightingResults: Statue_Tusks Lightmap UV are overlapping by 54.5%. Please adjust content - Enable Error Coloring to visualize.
+[2019.01.23-00.50.56:570][735]LightingResults: Warning: Greybox1_beetleTowerFloor1_1 Object has overlapping UVs.
+[2019.01.23-00.50.56:570][735]LightingResults: Greybox1_beetleTowerFloor1_1 Lightmap UV are overlapping by 1.4%. Please adjust content - Enable Error Coloring to visualize.
+[2019.01.23-00.50.56:636][739]LightingResults: Warning: Greybox1_beetleTower Object has overlapping UVs.
+[2019.01.23-00.50.56:636][739]LightingResults: Greybox1_beetleTower Lightmap UV are overlapping by 3.6%. Please adjust content - Enable Error Coloring to visualize.
+[2019.01.23-00.50.56:735][745]LightingResults: Warning: Greybox1_beetleTower1 Object has overlapping UVs.
+[2019.01.23-00.50.56:735][745]LightingResults: Greybox1_beetleTower1 Lightmap UV are overlapping by 3.6%. Please adjust content - Enable Error Coloring to visualize.
+[2019.01.23-00.50.56:779][747]LightingResults: Warning: Statue_Tusks Object has overlapping UVs.
+[2019.01.23-00.50.56:779][747]LightingResults: Statue_Tusks Lightmap UV are overlapping by 54.5%. Please adjust content - Enable Error Coloring to visualize.
+[2019.01.23-00.50.56:856][753]LightingResults: Warning: Statue_Tusks Object has overlapping UVs.
+[2019.01.23-00.50.56:856][753]LightingResults: Statue_Tusks Lightmap UV are overlapping by 54.5%. Please adjust content - Enable Error Coloring to visualize.
+[2019.01.23-00.50.57:020][767]LightingResults: Warning: Greybox1_beetleTower3 Object has overlapping UVs.
+[2019.01.23-00.50.57:020][767]LightingResults: Greybox1_beetleTower3 Lightmap UV are overlapping by 3.6%. Please adjust content - Enable Error Coloring to visualize.
+[2019.01.23-00.50.57:064][771]LightingResults: Warning: Greybox1_beetleTower2 Object has overlapping UVs.
+[2019.01.23-00.50.57:064][771]LightingResults: Greybox1_beetleTower2 Lightmap UV are overlapping by 3.6%. Please adjust content - Enable Error Coloring to visualize.
+[2019.01.23-00.50.57:370][790]LightingResults: Warning: Greybox1_beetleTowerFloor1_3 Object has overlapping UVs.
+[2019.01.23-00.50.57:370][790]LightingResults: Greybox1_beetleTowerFloor1_3 Lightmap UV are overlapping by 1.4%. Please adjust content - Enable Error Coloring to visualize.
+[2019.01.23-00.50.57:414][792]LightingResults: Warning: Greybox1_beetleTower4 Object has overlapping UVs.
+[2019.01.23-00.50.57:414][792]LightingResults: Greybox1_beetleTower4 Lightmap UV are overlapping by 3.6%. Please adjust content - Enable Error Coloring to visualize.
+[2019.01.23-00.50.57:557][802]LightingResults: Warning: Statue_Tusks Object has overlapping UVs.
+[2019.01.23-00.50.57:557][802]LightingResults: Statue_Tusks Lightmap UV are overlapping by 54.5%. Please adjust content - Enable Error Coloring to visualize.
+[2019.01.23-00.50.57:557][802]LightingResults: Warning: Greybox1_beetleTowerFloor1_4 Object has overlapping UVs.
+[2019.01.23-00.50.57:557][802]LightingResults: Greybox1_beetleTowerFloor1_4 Lightmap UV are overlapping by 1.4%. Please adjust content - Enable Error Coloring to visualize.
+[2019.01.23-00.50.58:226][855]LightingResults: Warning: Statue_Tusks Object has overlapping UVs.
+[2019.01.23-00.50.58:226][855]LightingResults: Statue_Tusks Lightmap UV are overlapping by 54.5%. Please adjust content - Enable Error Coloring to visualize.
+[2019.01.23-00.50.58:326][865]Job is a success!
+[2019.01.23-00.50.58:439][866]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.065s
+[2019.01.23-00.50.58:439][866]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2019.01.23-00.50.58:439][866]LogVolumetricLightmapImport:      BrickData 1280x10x5 = 2.3Mb (trimmed 0.7Mb due to 0.010000 MinBrickError)
+[2019.01.23-00.50.58:439][866]LogVolumetricLightmapImport:      Bricks at Level
+[2019.01.23-00.50.58:439][866]LogVolumetricLightmapImport:          0: 0.3% covering 100.0% of volume
+[2019.01.23-00.50.58:439][866]LogVolumetricLightmapImport:          1: 7.5% covering 40.6% of volume
+[2019.01.23-00.50.58:439][866]LogVolumetricLightmapImport:          2: 92.2% covering 7.8% of volume
+[2019.01.23-00.50.58:493][866]LogMaterial: Warning: Material /Game/_Greybox/Greybox_Tree/default.default needed to have new flag set bUsedWithStaticLighting !
+[2019.01.23-00.50.58:495][866]LogMaterial: Display: Missing cached shader map for material default, compiling. 
+[2019.01.23-00.50.58:525][866]LogMaterial: Warning: Material /Game/_Greybox/Greybox_Statues/wire_154154229.wire_154154229 needed to have new flag set bUsedWithStaticLighting !
+[2019.01.23-00.50.58:527][866]LogMaterial: Display: Missing cached shader map for material wire_154154229, compiling. 
+[2019.01.23-00.50.58:544][866]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.01.23-00.50.58:544][866]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.01.23-00.50.58:544][866]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.01.23-00.50.58:544][866]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.01.23-00.50.58:923][866]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2019.01.23-00.50.58:923][866]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2019.01.23-00.50.58:923][866]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2019.01.23-00.50.58:923][866]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 32X32)
+[2019.01.23-00.50.58:923][866]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2019.01.23-00.50.58:923][866]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 32X32)
+[2019.01.23-00.50.58:923][866]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.01.23-00.50.58:967][866]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 16X16)
+[2019.01.23-00.50.58:967][866]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2019.01.23-00.50.58:967][866]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X128)
+[2019.01.23-00.50.59:025][866]Lightmass on DESKTOP-QCELHJT: 4.14 sec total, 218 ms importing, 30 ms setup, 711 ms photons, 3.16 sec processing, 0 ms extra exporting [62/62 mappings]. Threads: 21.9 sec total, 6.58 sec processing.
+[2019.01.23-00.50.59:063][866]LogStaticLightingSystem: Illumination: 13.5 sec (377 ms encoding lightmaps, 35 ms encoding shadowmaps)
+[2019.01.23-00.50.59:063][866]LogStaticLightingSystem: Lightmap texture memory:  2.0 MB (2.0 MB streaming, 0.0 MB non-streaming), 6 textures
+[2019.01.23-00.50.59:063][866]LogStaticLightingSystem: Shadowmap texture memory: 0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 3 textures
+[2019.01.23-00.50.59:150][866]DumpUnbuiltLightIteractions
+[2019.01.23-00.50.59:150][866]Lights with unbuilt interactions: 0
+[2019.01.23-00.50.59:151][866]
+[2019.01.23-00.50.59:151][866]Primitives with unbuilt interactions: 0
+[2019.01.23-00.51.02:463][866]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.01.23-00.51.02:463][866]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.01.23-00.51.02:463][866]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.01.23-00.51.02:504][867]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.01.23-00.51.02:504][867]MapCheck: New page: Modelled_Greybox - Jan 22, 2019, 2:51:02 PM
+[2019.01.23-00.51.02:506][867]MapCheck: Warning: CollectibleFlower_Red_new_Petal07_3 Static mesh actor has NULL StaticMesh property 
+[2019.01.23-00.51.02:506][867]MapCheck: Warning: CollectibleFlower_Red_new_Petal07_3 Static mesh actor CollectibleFlower_Red_new_Petal07_3 has NULL StaticMesh property 
+[2019.01.23-00.51.02:867][867]MapCheck: Map check complete: 0 Error(s), 2 Warning(s), took 362.202ms to complete.
+[2019.01.23-00.51.18:831][734]LogSlate: Window 'Message Log' being destroyed
+[2019.01.23-00.51.18:834][734]LogSlate: Window 'Message Log' being destroyed
+[2019.01.23-00.51.20:195][896]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.23-00.51.20:209][896]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.23-00.51.20:209][896]PIE: New page: PIE session: Modelled_Greybox (Jan 22, 2019, 2:51:20 PM)
+[2019.01.23-00.51.20:209][896]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Modelled_Greybox
+[2019.01.23-00.51.20:214][896]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005141s)
+[2019.01.23-00.51.20:215][896]LogAIModule: Creating AISystem for world Modelled_Greybox
+[2019.01.23-00.51.20:215][896]LogPlayLevel: PIE: World Init took: (0.000730s)
+[2019.01.23-00.51.20:215][896]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Modelled_Greybox.Modelled_Greybox to /Game/_Maps/UEDPIE_0_Modelled_Greybox.Modelled_Greybox (0.006006s)
+[2019.01.23-00.51.20:246][896]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.23-00.51.20:267][896]LogInit: FAudioDevice initialized.
+[2019.01.23-00.51.20:296][896]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.23-00.51.20:298][896]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Modelled_Greybox.Modelled_Greybox up for play (max tick rate 0) at 2019.01.22-19.51.20
+[2019.01.23-00.51.20:298][896]LogWorld: Bringing up level for play took: 0.001315
+[2019.01.23-00.51.20:312][896]PIE: Play in editor start time for /Game/_Maps/UEDPIE_0_Modelled_Greybox 0.175
+[2019.01.23-00.51.28:036][818]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.23-00.51.28:065][818]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.23-00.51.28:085][818]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.23-00.51.28:136][823]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2019.01.23-00.51.29:012][928]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.23-00.51.29:102][939]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.23-00.51.29:117][939]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.23-00.51.29:117][939]PIE: New page: PIE session: Modelled_Greybox (Jan 22, 2019, 2:51:29 PM)
+[2019.01.23-00.51.29:117][939]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Modelled_Greybox
+[2019.01.23-00.51.29:122][939]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004914s)
+[2019.01.23-00.51.29:122][939]LogAIModule: Creating AISystem for world Modelled_Greybox
+[2019.01.23-00.51.29:122][939]LogPlayLevel: PIE: World Init took: (0.000553s)
+[2019.01.23-00.51.29:122][939]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Modelled_Greybox.Modelled_Greybox to /Game/_Maps/UEDPIE_0_Modelled_Greybox.Modelled_Greybox (0.005585s)
+[2019.01.23-00.51.29:153][939]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.23-00.51.29:173][939]LogInit: FAudioDevice initialized.
+[2019.01.23-00.51.29:201][939]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.23-00.51.29:203][939]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Modelled_Greybox.Modelled_Greybox up for play (max tick rate 0) at 2019.01.22-19.51.29
+[2019.01.23-00.51.29:203][939]LogWorld: Bringing up level for play took: 0.001339
+[2019.01.23-00.51.29:215][939]PIE: Play in editor start time for /Game/_Maps/UEDPIE_0_Modelled_Greybox 1.079
+[2019.01.23-00.51.38:755][ 80]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.23-00.51.38:785][ 80]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.23-00.51.38:806][ 80]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.23-00.51.38:853][ 85]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2019.01.23-00.51.39:736][190]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.23-00.51.39:819][200]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.23-00.51.39:832][200]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.23-00.51.39:832][200]PIE: New page: PIE session: Modelled_Greybox (Jan 22, 2019, 2:51:39 PM)
+[2019.01.23-00.51.39:833][200]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Modelled_Greybox
+[2019.01.23-00.51.39:837][200]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004781s)
+[2019.01.23-00.51.39:838][200]LogAIModule: Creating AISystem for world Modelled_Greybox
+[2019.01.23-00.51.39:838][200]LogPlayLevel: PIE: World Init took: (0.000538s)
+[2019.01.23-00.51.39:838][200]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Modelled_Greybox.Modelled_Greybox to /Game/_Maps/UEDPIE_0_Modelled_Greybox.Modelled_Greybox (0.005438s)
+[2019.01.23-00.51.39:869][200]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.23-00.51.39:889][200]LogInit: FAudioDevice initialized.
+[2019.01.23-00.51.39:918][200]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.23-00.51.39:921][200]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Modelled_Greybox.Modelled_Greybox up for play (max tick rate 0) at 2019.01.22-19.51.39
+[2019.01.23-00.51.39:921][200]LogWorld: Bringing up level for play took: 0.001313
+[2019.01.23-00.51.39:934][200]PIE: Play in editor start time for /Game/_Maps/UEDPIE_0_Modelled_Greybox -0.202
+[2019.01.23-00.51.46:875][ 29]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.23-00.51.46:908][ 29]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.23-00.51.46:926][ 29]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.23-00.51.46:974][ 34]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.01.23-00.51.47:703][121]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.23-00.51.47:786][131]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.23-00.51.47:799][131]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.23-00.51.47:800][131]PIE: New page: PIE session: Modelled_Greybox (Jan 22, 2019, 2:51:47 PM)
+[2019.01.23-00.51.47:800][131]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Modelled_Greybox
+[2019.01.23-00.51.47:804][131]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004706s)
+[2019.01.23-00.51.47:805][131]LogAIModule: Creating AISystem for world Modelled_Greybox
+[2019.01.23-00.51.47:805][131]LogPlayLevel: PIE: World Init took: (0.000533s)
+[2019.01.23-00.51.47:805][131]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Modelled_Greybox.Modelled_Greybox to /Game/_Maps/UEDPIE_0_Modelled_Greybox.Modelled_Greybox (0.005356s)
+[2019.01.23-00.51.47:838][131]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.23-00.51.47:858][131]LogInit: FAudioDevice initialized.
+[2019.01.23-00.51.47:889][131]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.23-00.51.47:891][131]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Modelled_Greybox.Modelled_Greybox up for play (max tick rate 0) at 2019.01.22-19.51.47
+[2019.01.23-00.51.47:892][131]LogWorld: Bringing up level for play took: 0.001346
+[2019.01.23-00.51.47:904][131]PIE: Play in editor start time for /Game/_Maps/UEDPIE_0_Modelled_Greybox -0.232
+[2019.01.23-00.53.34:585][908]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.23-00.53.34:618][908]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.23-00.53.34:638][908]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.23-00.53.34:687][913]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.01.23-00.53.37:020][192]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.23-00.53.37:110][203]AssetReimport: New page: Detailed File System Changes from 7:53:37 PM
+[2019.01.23-00.53.37:117][203]AssetReimport: 'C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/GreatDoor.obj' has been modified.
+[2019.01.23-00.53.37:117][203]AssetReimport: 'C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Lever.obj' has been modified.
+[2019.01.23-00.53.37:117][203]AssetReimport: 'C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/normalDoor.obj' has been modified.
+[2019.01.23-00.53.37:117][203]AssetReimport: 'C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Rocks/bigRock.obj' has been modified.
+[2019.01.23-00.53.37:117][203]AssetReimport: 'C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Rocks/flatRock.obj' has been modified.
+[2019.01.23-00.53.37:117][203]AssetReimport: 'C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Rocks/hugeRock.obj' has been modified.
+[2019.01.23-00.53.37:117][203]AssetReimport: 'C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Rocks/smallRock.obj' has been modified.
+[2019.01.23-00.53.37:118][203]AssetReimport: 'C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Rocks/tallRock.obj' has been modified.
+[2019.01.23-00.53.41:664][745]LogSlate: Window 'Message Log' being destroyed
+[2019.01.23-00.53.41:667][745]LogSlate: Window 'Message Log' being destroyed
+[2019.01.23-00.53.42:624][858]AssetReimport: New page: Outstanding source content changes 2:53:42 PM
+[2019.01.23-00.53.42:643][858]LogEditorFactories: Performing atomic reimport of [C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/GreatDoor.obj]
+[2019.01.23-00.53.42:659][858]LogFbx: Loading FBX Scene from C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/GreatDoor.obj
+[2019.01.23-00.53.42:691][858]LogFbx: FBX Scene Loaded Succesfully
+[2019.01.23-00.53.42:733][858]LogStaticMesh: Building static mesh GreatDoor_Door_entry...
+[2019.01.23-00.53.42:738][858]LogStaticMesh: Built static mesh [0.00s] /Game/1_Models/Doors/GreatDoor_Door_entry.GreatDoor_Door_entry
+[2019.01.23-00.53.42:743][858]LogEditorFactories: -- imported successfully
+[2019.01.23-00.53.42:760][858]LogEditorFactories: Performing atomic reimport of [C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/GreatDoor.obj]
+[2019.01.23-00.53.42:769][858]LogFbx: Loading FBX Scene from C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/GreatDoor.obj
+[2019.01.23-00.53.42:792][858]LogFbx: FBX Scene Loaded Succesfully
+[2019.01.23-00.53.42:803][858]LogStaticMesh: Building static mesh GreatDoor_Door_entry_Door_hinge...
+[2019.01.23-00.53.42:809][858]LogStaticMesh: Built static mesh [0.01s] /Game/1_Models/Doors/GreatDoor_Door_entry_Door_hinge.GreatDoor_Door_entry_Door_hinge
+[2019.01.23-00.53.42:813][858]LogEditorFactories: -- imported successfully
+[2019.01.23-00.53.42:821][858]LogEditorFactories: Performing atomic reimport of [C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/GreatDoor.obj]
+[2019.01.23-00.53.42:829][858]LogFbx: Loading FBX Scene from C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/GreatDoor.obj
+[2019.01.23-00.53.42:853][858]LogFbx: FBX Scene Loaded Succesfully
+[2019.01.23-00.53.42:893][858]LogStaticMesh: Building static mesh GreatDoor_Door_entry_Door_L...
+[2019.01.23-00.53.42:905][858]LogStaticMesh: Built static mesh [0.01s] /Game/1_Models/Doors/GreatDoor_Door_entry_Door_L.GreatDoor_Door_entry_Door_L
+[2019.01.23-00.53.42:912][858]LogEditorFactories: -- imported successfully
+[2019.01.23-00.53.42:922][858]LogEditorFactories: Performing atomic reimport of [C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/GreatDoor.obj]
+[2019.01.23-00.53.42:931][858]LogFbx: Loading FBX Scene from C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/GreatDoor.obj
+[2019.01.23-00.53.42:953][858]LogFbx: FBX Scene Loaded Succesfully
+[2019.01.23-00.53.42:984][858]LogStaticMesh: Building static mesh GreatDoor_Door_entry_Door_R...
+[2019.01.23-00.53.42:993][858]LogStaticMesh: Built static mesh [0.01s] /Game/1_Models/Doors/GreatDoor_Door_entry_Door_R.GreatDoor_Door_entry_Door_R
+[2019.01.23-00.53.42:999][858]LogEditorFactories: -- imported successfully
+[2019.01.23-00.53.43:008][858]LogEditorFactories: Performing atomic reimport of [C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/GreatDoor.obj]
+[2019.01.23-00.53.43:016][858]LogFbx: Loading FBX Scene from C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/GreatDoor.obj
+[2019.01.23-00.53.43:041][858]LogFbx: FBX Scene Loaded Succesfully
+[2019.01.23-00.53.43:051][858]LogStaticMesh: Building static mesh GreatDoor_Missing_Gem...
+[2019.01.23-00.53.43:059][858]LogStaticMesh: Built static mesh [0.01s] /Game/1_Models/Doors/GreatDoor_Missing_Gem.GreatDoor_Missing_Gem
+[2019.01.23-00.53.43:063][858]LogEditorFactories: -- imported successfully
+[2019.01.23-00.53.43:089][859]LogStaticMesh: Building static mesh Lever_Base...
+[2019.01.23-00.53.43:098][859]LogStaticMesh: Built static mesh [0.01s] /Game/1_Models/Lever_Base.Lever_Base
+[2019.01.23-00.53.43:100][859]LogEditorFactories: Performing atomic reimport of [C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Lever.obj]
+[2019.01.23-00.53.43:107][859]LogFbx: Loading FBX Scene from C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Lever.obj
+[2019.01.23-00.53.43:123][859]LogFbx: FBX Scene Loaded Succesfully
+[2019.01.23-00.53.43:145][859]LogStaticMesh: Building static mesh Lever_Base...
+[2019.01.23-00.53.43:153][859]LogStaticMesh: Built static mesh [0.01s] /Game/1_Models/Lever_Base.Lever_Base
+[2019.01.23-00.53.43:158][859]LogEditorFactories: -- imported successfully
+[2019.01.23-00.53.43:171][859]LogStaticMesh: Building static mesh Lever_Handle...
+[2019.01.23-00.53.43:182][859]LogStaticMesh: Built static mesh [0.01s] /Game/1_Models/Lever_Handle.Lever_Handle
+[2019.01.23-00.53.43:184][859]LogEditorFactories: Performing atomic reimport of [C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Lever.obj]
+[2019.01.23-00.53.43:191][859]LogFbx: Loading FBX Scene from C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Lever.obj
+[2019.01.23-00.53.43:203][859]LogFbx: FBX Scene Loaded Succesfully
+[2019.01.23-00.53.43:230][859]LogStaticMesh: Building static mesh Lever_Handle...
+[2019.01.23-00.53.43:240][859]LogStaticMesh: Built static mesh [0.01s] /Game/1_Models/Lever_Handle.Lever_Handle
+[2019.01.23-00.53.43:244][859]LogEditorFactories: -- imported successfully
+[2019.01.23-00.53.43:255][859]LogStaticMesh: Building static mesh Lever_pPyramid1...
+[2019.01.23-00.53.43:256][859]LogStaticMesh: Built static mesh [0.00s] /Game/1_Models/Lever_pPyramid1.Lever_pPyramid1
+[2019.01.23-00.53.43:257][859]LogEditorFactories: Performing atomic reimport of [C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Lever.obj]
+[2019.01.23-00.53.43:263][859]LogFbx: Loading FBX Scene from C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Lever.obj
+[2019.01.23-00.53.43:275][859]LogFbx: FBX Scene Loaded Succesfully
+[2019.01.23-00.53.43:280][859]LogStaticMesh: Building static mesh Lever_pPyramid1...
+[2019.01.23-00.53.43:281][859]LogStaticMesh: Built static mesh [0.00s] /Game/1_Models/Lever_pPyramid1.Lever_pPyramid1
+[2019.01.23-00.53.43:285][859]LogEditorFactories: -- imported successfully
+[2019.01.23-00.53.43:296][859]LogStaticMesh: Building static mesh Lever_pPyramid2...
+[2019.01.23-00.53.43:297][859]LogStaticMesh: Built static mesh [0.00s] /Game/1_Models/Lever_pPyramid2.Lever_pPyramid2
+[2019.01.23-00.53.43:299][859]LogEditorFactories: Performing atomic reimport of [C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Lever.obj]
+[2019.01.23-00.53.43:305][859]LogFbx: Loading FBX Scene from C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Lever.obj
+[2019.01.23-00.53.43:317][859]LogFbx: FBX Scene Loaded Succesfully
+[2019.01.23-00.53.43:322][859]LogStaticMesh: Building static mesh Lever_pPyramid2...
+[2019.01.23-00.53.43:322][859]LogStaticMesh: Built static mesh [0.00s] /Game/1_Models/Lever_pPyramid2.Lever_pPyramid2
+[2019.01.23-00.53.43:326][859]LogEditorFactories: -- imported successfully
+[2019.01.23-00.53.43:336][859]LogStaticMesh: Building static mesh Lever_pPyramid3...
+[2019.01.23-00.53.43:337][859]LogStaticMesh: Built static mesh [0.00s] /Game/1_Models/Lever_pPyramid3.Lever_pPyramid3
+[2019.01.23-00.53.43:339][859]LogEditorFactories: Performing atomic reimport of [C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Lever.obj]
+[2019.01.23-00.53.43:345][859]LogFbx: Loading FBX Scene from C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Lever.obj
+[2019.01.23-00.53.43:358][859]LogFbx: FBX Scene Loaded Succesfully
+[2019.01.23-00.53.43:362][859]LogStaticMesh: Building static mesh Lever_pPyramid3...
+[2019.01.23-00.53.43:363][859]LogStaticMesh: Built static mesh [0.00s] /Game/1_Models/Lever_pPyramid3.Lever_pPyramid3
+[2019.01.23-00.53.43:367][859]LogEditorFactories: -- imported successfully
+[2019.01.23-00.53.43:377][859]LogStaticMesh: Building static mesh Lever_pPyramid4...
+[2019.01.23-00.53.43:378][859]LogStaticMesh: Built static mesh [0.00s] /Game/1_Models/Lever_pPyramid4.Lever_pPyramid4
+[2019.01.23-00.53.43:379][859]LogEditorFactories: Performing atomic reimport of [C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Lever.obj]
+[2019.01.23-00.53.43:386][859]LogFbx: Loading FBX Scene from C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Lever.obj
+[2019.01.23-00.53.43:398][859]LogFbx: FBX Scene Loaded Succesfully
+[2019.01.23-00.53.43:403][859]LogStaticMesh: Building static mesh Lever_pPyramid4...
+[2019.01.23-00.53.43:404][859]LogStaticMesh: Built static mesh [0.00s] /Game/1_Models/Lever_pPyramid4.Lever_pPyramid4
+[2019.01.23-00.53.43:407][859]LogEditorFactories: -- imported successfully
+[2019.01.23-00.53.43:417][859]LogStaticMesh: Building static mesh Lever_pPyramid5...
+[2019.01.23-00.53.43:418][859]LogStaticMesh: Built static mesh [0.00s] /Game/1_Models/Lever_pPyramid5.Lever_pPyramid5
+[2019.01.23-00.53.43:420][859]LogEditorFactories: Performing atomic reimport of [C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Lever.obj]
+[2019.01.23-00.53.43:427][859]LogFbx: Loading FBX Scene from C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Lever.obj
+[2019.01.23-00.53.43:438][859]LogFbx: FBX Scene Loaded Succesfully
+[2019.01.23-00.53.43:443][859]LogStaticMesh: Building static mesh Lever_pPyramid5...
+[2019.01.23-00.53.43:443][859]LogStaticMesh: Built static mesh [0.00s] /Game/1_Models/Lever_pPyramid5.Lever_pPyramid5
+[2019.01.23-00.53.43:447][859]LogEditorFactories: -- imported successfully
+[2019.01.23-00.53.43:457][859]LogStaticMesh: Building static mesh Lever_pPyramid6...
+[2019.01.23-00.53.43:458][859]LogStaticMesh: Built static mesh [0.00s] /Game/1_Models/Lever_pPyramid6.Lever_pPyramid6
+[2019.01.23-00.53.43:459][859]LogEditorFactories: Performing atomic reimport of [C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Lever.obj]
+[2019.01.23-00.53.43:467][859]LogFbx: Loading FBX Scene from C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Lever.obj
+[2019.01.23-00.53.43:480][859]LogFbx: FBX Scene Loaded Succesfully
+[2019.01.23-00.53.43:485][859]LogStaticMesh: Building static mesh Lever_pPyramid6...
+[2019.01.23-00.53.43:486][859]LogStaticMesh: Built static mesh [0.00s] /Game/1_Models/Lever_pPyramid6.Lever_pPyramid6
+[2019.01.23-00.53.43:491][859]LogEditorFactories: -- imported successfully
+[2019.01.23-00.53.43:512][860]LogStaticMesh: Building static mesh normalDoor_Door_entry...
+[2019.01.23-00.53.43:518][860]LogStaticMesh: Built static mesh [0.01s] /Game/1_Models/Doors/normalDoor_Door_entry.normalDoor_Door_entry
+[2019.01.23-00.53.43:521][860]LogEditorFactories: Performing atomic reimport of [C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/normalDoor.obj]
+[2019.01.23-00.53.43:528][860]LogFbx: Loading FBX Scene from C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/normalDoor.obj
+[2019.01.23-00.53.43:544][860]LogFbx: FBX Scene Loaded Succesfully
+[2019.01.23-00.53.43:572][860]LogStaticMesh: Building static mesh normalDoor_Door_entry...
+[2019.01.23-00.53.43:577][860]LogStaticMesh: Built static mesh [0.01s] /Game/1_Models/Doors/normalDoor_Door_entry.normalDoor_Door_entry
+[2019.01.23-00.53.43:582][860]LogEditorFactories: -- imported successfully
+[2019.01.23-00.53.43:593][860]LogStaticMesh: Building static mesh normalDoor_Door_entry_Door_hinge...
+[2019.01.23-00.53.43:599][860]LogStaticMesh: Built static mesh [0.01s] /Game/1_Models/Doors/normalDoor_Door_entry_Door_hinge.normalDoor_Door_entry_Door_hinge
+[2019.01.23-00.53.43:601][860]LogEditorFactories: Performing atomic reimport of [C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/normalDoor.obj]
+[2019.01.23-00.53.43:608][860]LogFbx: Loading FBX Scene from C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/normalDoor.obj
+[2019.01.23-00.53.43:621][860]LogFbx: FBX Scene Loaded Succesfully
+[2019.01.23-00.53.43:632][860]LogStaticMesh: Building static mesh normalDoor_Door_entry_Door_hinge...
+[2019.01.23-00.53.43:637][860]LogStaticMesh: Built static mesh [0.01s] /Game/1_Models/Doors/normalDoor_Door_entry_Door_hinge.normalDoor_Door_entry_Door_hinge
+[2019.01.23-00.53.43:641][860]LogEditorFactories: -- imported successfully
+[2019.01.23-00.53.43:655][860]LogStaticMesh: Building static mesh normalDoor_Door_L...
+[2019.01.23-00.53.43:662][860]LogStaticMesh: Built static mesh [0.01s] /Game/1_Models/Doors/normalDoor_Door_L.normalDoor_Door_L
+[2019.01.23-00.53.43:664][860]LogEditorFactories: Performing atomic reimport of [C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/normalDoor.obj]
+[2019.01.23-00.53.43:671][860]LogFbx: Loading FBX Scene from C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/normalDoor.obj
+[2019.01.23-00.53.43:685][860]LogFbx: FBX Scene Loaded Succesfully
+[2019.01.23-00.53.43:709][860]LogStaticMesh: Building static mesh normalDoor_Door_L...
+[2019.01.23-00.53.43:716][860]LogStaticMesh: Built static mesh [0.01s] /Game/1_Models/Doors/normalDoor_Door_L.normalDoor_Door_L
+[2019.01.23-00.53.43:720][860]LogEditorFactories: -- imported successfully
+[2019.01.23-00.53.43:734][860]LogStaticMesh: Building static mesh normalDoor_Door_R...
+[2019.01.23-00.53.43:741][860]LogStaticMesh: Built static mesh [0.01s] /Game/1_Models/Doors/normalDoor_Door_R.normalDoor_Door_R
+[2019.01.23-00.53.43:743][860]LogEditorFactories: Performing atomic reimport of [C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/normalDoor.obj]
+[2019.01.23-00.53.43:749][860]LogFbx: Loading FBX Scene from C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/normalDoor.obj
+[2019.01.23-00.53.43:764][860]LogFbx: FBX Scene Loaded Succesfully
+[2019.01.23-00.53.43:786][860]LogStaticMesh: Building static mesh normalDoor_Door_R...
+[2019.01.23-00.53.43:792][860]LogStaticMesh: Built static mesh [0.01s] /Game/1_Models/Doors/normalDoor_Door_R.normalDoor_Door_R
+[2019.01.23-00.53.43:797][860]LogEditorFactories: -- imported successfully
+[2019.01.23-00.53.43:820][861]LogStaticMesh: Building static mesh bigRock...
+[2019.01.23-00.53.43:826][861]LogStaticMesh: Built static mesh [0.01s] /Game/1_Models/Rocks/bigRock.bigRock
+[2019.01.23-00.53.43:828][861]LogEditorFactories: Performing atomic reimport of [C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Rocks/bigRock.obj]
+[2019.01.23-00.53.43:835][861]LogFbx: Loading FBX Scene from C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Rocks/bigRock.obj
+[2019.01.23-00.53.43:838][861]LogFbx: FBX Scene Loaded Succesfully
+[2019.01.23-00.53.43:858][861]LogStaticMesh: Building static mesh bigRock...
+[2019.01.23-00.53.43:863][861]LogStaticMesh: Built static mesh [0.01s] /Game/1_Models/Rocks/bigRock.bigRock
+[2019.01.23-00.53.43:868][861]LogEditorFactories: -- imported successfully
+[2019.01.23-00.53.43:887][862]LogStaticMesh: Building static mesh flatRock...
+[2019.01.23-00.53.43:890][862]LogStaticMesh: Built static mesh [0.00s] /Game/1_Models/Rocks/flatRock.flatRock
+[2019.01.23-00.53.43:892][862]LogEditorFactories: Performing atomic reimport of [C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Rocks/flatRock.obj]
+[2019.01.23-00.53.43:899][862]LogFbx: Loading FBX Scene from C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Rocks/flatRock.obj
+[2019.01.23-00.53.43:902][862]LogFbx: FBX Scene Loaded Succesfully
+[2019.01.23-00.53.43:914][862]LogStaticMesh: Building static mesh flatRock...
+[2019.01.23-00.53.43:917][862]LogStaticMesh: Built static mesh [0.00s] /Game/1_Models/Rocks/flatRock.flatRock
+[2019.01.23-00.53.43:922][862]LogEditorFactories: -- imported successfully
+[2019.01.23-00.53.43:935][863]LogEditorFactories: Performing atomic reimport of [C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Rocks/hugeRock.obj]
+[2019.01.23-00.53.43:943][863]LogFbx: Loading FBX Scene from C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Rocks/hugeRock.obj
+[2019.01.23-00.53.43:954][863]LogFbx: FBX Scene Loaded Succesfully
+[2019.01.23-00.53.44:000][863]LogStaticMesh: Building static mesh hugeRock...
+[2019.01.23-00.53.44:013][863]LogStaticMesh: Built static mesh [0.01s] /Game/1_Models/Rocks/hugeRock.hugeRock
+[2019.01.23-00.53.44:020][863]LogEditorFactories: -- imported successfully
+[2019.01.23-00.53.44:035][864]LogEditorFactories: Performing atomic reimport of [C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Rocks/smallRock.obj]
+[2019.01.23-00.53.44:043][864]LogFbx: Loading FBX Scene from C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Rocks/smallRock.obj
+[2019.01.23-00.53.44:045][864]LogFbx: FBX Scene Loaded Succesfully
+[2019.01.23-00.53.44:056][864]LogStaticMesh: Building static mesh smallRock...
+[2019.01.23-00.53.44:059][864]LogStaticMesh: Built static mesh [0.00s] /Game/1_Models/Rocks/smallRock.smallRock
+[2019.01.23-00.53.44:063][864]LogEditorFactories: -- imported successfully
+[2019.01.23-00.53.44:078][865]LogEditorFactories: Performing atomic reimport of [C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Rocks/tallRock.obj]
+[2019.01.23-00.53.44:086][865]LogFbx: Loading FBX Scene from C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Rocks/tallRock.obj
+[2019.01.23-00.53.44:089][865]LogFbx: FBX Scene Loaded Succesfully
+[2019.01.23-00.53.44:106][865]LogStaticMesh: Building static mesh tallRock...
+[2019.01.23-00.53.44:109][865]LogStaticMesh: Built static mesh [0.00s] /Game/1_Models/Rocks/tallRock.tallRock
+[2019.01.23-00.53.44:113][865]LogEditorFactories: -- imported successfully
+[2019.01.23-00.53.44:246][866]LogSavePackage: Moving '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/GreatDoor_Door_entryE842CE604AF4338A6935EAA202ABA949.tmp' to '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Doors/GreatDoor_Door_entry.uasset'
+[2019.01.23-00.53.44:323][866]LogSavePackage: Moving '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/GreatDoor_Door_entry_Door_hinge058C987E4472F34C4169D083C094CD65.tmp' to '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Doors/GreatDoor_Door_entry_Door_hinge.uasset'
+[2019.01.23-00.53.44:397][866]LogSavePackage: Moving '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/GreatDoor_Door_entry_Door_L5A6E7BDC4095B0DB6254EDA003AA1BF9.tmp' to '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Doors/GreatDoor_Door_entry_Door_L.uasset'
+[2019.01.23-00.53.44:469][866]LogSavePackage: Moving '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/GreatDoor_Door_entry_Door_R5BA149A44F2D52332B7DC4BA607B7E75.tmp' to '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Doors/GreatDoor_Door_entry_Door_R.uasset'
+[2019.01.23-00.53.44:543][866]LogSavePackage: Moving '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/GreatDoor_Missing_GemDFE607FF437717BBFC3BA1923A97B758.tmp' to '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Doors/GreatDoor_Missing_Gem.uasset'
+[2019.01.23-00.53.44:565][866]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1_Models/Lever_Base" FILE="../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Lever_Base.uasset" SILENT=true
+[2019.01.23-00.53.44:618][866]LogSavePackage: Moving '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/Lever_Base86E1CF984F455859F8805499DB529041.tmp' to '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Lever_Base.uasset'
+[2019.01.23-00.53.44:638][866]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1_Models/Lever_Handle" FILE="../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Lever_Handle.uasset" SILENT=true
+[2019.01.23-00.53.44:691][866]LogSavePackage: Moving '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/Lever_Handle5ADC90A247BF487FD626578A39B27CB7.tmp' to '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Lever_Handle.uasset'
+[2019.01.23-00.53.44:712][866]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1_Models/Lever_pPyramid1" FILE="../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Lever_pPyramid1.uasset" SILENT=true
+[2019.01.23-00.53.44:771][866]LogSavePackage: Moving '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/Lever_pPyramid19C5EE8844CAA48483AA4F4A4F9BE6CC9.tmp' to '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Lever_pPyramid1.uasset'
+[2019.01.23-00.53.44:788][866]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1_Models/Lever_pPyramid2" FILE="../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Lever_pPyramid2.uasset" SILENT=true
+[2019.01.23-00.53.44:847][866]LogSavePackage: Moving '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/Lever_pPyramid2C8D7174D4F036804ABB1AB80BF500B47.tmp' to '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Lever_pPyramid2.uasset'
+[2019.01.23-00.53.44:865][866]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1_Models/Lever_pPyramid3" FILE="../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Lever_pPyramid3.uasset" SILENT=true
+[2019.01.23-00.53.44:921][866]LogSavePackage: Moving '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/Lever_pPyramid376C1B5F14EB91D06049C6EA9B9BCBBDF.tmp' to '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Lever_pPyramid3.uasset'
+[2019.01.23-00.53.44:940][866]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1_Models/Lever_pPyramid4" FILE="../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Lever_pPyramid4.uasset" SILENT=true
+[2019.01.23-00.53.44:994][866]LogSavePackage: Moving '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/Lever_pPyramid436407F5847E8D5F131F42EA685F9D9CD.tmp' to '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Lever_pPyramid4.uasset'
+[2019.01.23-00.53.45:012][866]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1_Models/Lever_pPyramid5" FILE="../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Lever_pPyramid5.uasset" SILENT=true
+[2019.01.23-00.53.45:066][866]LogSavePackage: Moving '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/Lever_pPyramid5E511ADEA4BC48CE51689CC8CFF6DCF16.tmp' to '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Lever_pPyramid5.uasset'
+[2019.01.23-00.53.45:084][866]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1_Models/Lever_pPyramid6" FILE="../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Lever_pPyramid6.uasset" SILENT=true
+[2019.01.23-00.53.45:140][866]LogSavePackage: Moving '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/Lever_pPyramid6CE86CBED4DF21D8FC9908BB32FBCE8A7.tmp' to '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Lever_pPyramid6.uasset'
+[2019.01.23-00.53.45:216][866]LogSavePackage: Moving '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/normalDoor_Door_entry07AD914A4D1112ACFECAFD8DE2DD9977.tmp' to '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Doors/normalDoor_Door_entry.uasset'
+[2019.01.23-00.53.45:291][866]LogSavePackage: Moving '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/normalDoor_Door_entry_Door_hingeE79ACB0948B462BA89B3239AD73ED9C4.tmp' to '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Doors/normalDoor_Door_entry_Door_hinge.uasset'
+[2019.01.23-00.53.45:366][866]LogSavePackage: Moving '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/normalDoor_Door_L299CACCE4E12C315DBBA0D95E43FCCDC.tmp' to '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Doors/normalDoor_Door_L.uasset'
+[2019.01.23-00.53.45:439][866]LogSavePackage: Moving '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/normalDoor_Door_R2DC353384FAFB446D006D49CEDC5B6FB.tmp' to '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Doors/normalDoor_Door_R.uasset'
+[2019.01.23-00.53.45:458][866]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1_Models/Rocks/bigRock" FILE="../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Rocks/bigRock.uasset" SILENT=true
+[2019.01.23-00.53.45:514][866]LogSavePackage: Moving '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/bigRock782E1C4942D0968F0B675C8201443402.tmp' to '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Rocks/bigRock.uasset'
+[2019.01.23-00.53.45:534][866]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1_Models/Rocks/flatRock" FILE="../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Rocks/flatRock.uasset" SILENT=true
+[2019.01.23-00.53.45:591][866]LogSavePackage: Moving '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/flatRock3D92FFC54B73563C3E34028E35B7F0BE.tmp' to '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Rocks/flatRock.uasset'
+[2019.01.23-00.53.45:610][866]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1_Models/Rocks/hugeRock" FILE="../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Rocks/hugeRock.uasset" SILENT=true
+[2019.01.23-00.53.45:668][866]LogSavePackage: Moving '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/hugeRock19F9164147B944BDAF36D180C91F06C9.tmp' to '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Rocks/hugeRock.uasset'
+[2019.01.23-00.53.45:689][866]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1_Models/Rocks/smallRock" FILE="../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Rocks/smallRock.uasset" SILENT=true
+[2019.01.23-00.53.45:747][866]LogSavePackage: Moving '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/smallRock37CE09AD4507D729B897DF91FCECC13A.tmp' to '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Rocks/smallRock.uasset'
+[2019.01.23-00.53.45:766][866]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1_Models/Rocks/tallRock" FILE="../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Rocks/tallRock.uasset" SILENT=true
+[2019.01.23-00.53.45:823][866]LogSavePackage: Moving '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/tallRockD08B359740FB106814B14E8FF2B5AABA.tmp' to '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Rocks/tallRock.uasset'
+[2019.01.23-00.53.48:832][222]AssetReimport: Reimported asset GreatDoor_Door_entry from C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/GreatDoor.obj.
+[2019.01.23-00.53.48:832][222]AssetReimport: Reimported asset GreatDoor_Door_entry_Door_hinge from C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/GreatDoor.obj.
+[2019.01.23-00.53.48:832][222]AssetReimport: Reimported asset GreatDoor_Door_entry_Door_L from C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/GreatDoor.obj.
+[2019.01.23-00.53.48:832][222]AssetReimport: Reimported asset GreatDoor_Door_entry_Door_R from C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/GreatDoor.obj.
+[2019.01.23-00.53.48:832][222]AssetReimport: Reimported asset GreatDoor_Missing_Gem from C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/GreatDoor.obj.
+[2019.01.23-00.53.48:832][222]AssetReimport: Reimported asset Lever_Base from C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Lever.obj.
+[2019.01.23-00.53.48:832][222]AssetReimport: Reimported asset Lever_Handle from C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Lever.obj.
+[2019.01.23-00.53.48:832][222]AssetReimport: Reimported asset Lever_pPyramid1 from C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Lever.obj.
+[2019.01.23-00.53.48:832][222]AssetReimport: Reimported asset Lever_pPyramid2 from C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Lever.obj.
+[2019.01.23-00.53.48:832][222]AssetReimport: Reimported asset Lever_pPyramid3 from C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Lever.obj.
+[2019.01.23-00.53.48:832][222]AssetReimport: Reimported asset Lever_pPyramid4 from C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Lever.obj.
+[2019.01.23-00.53.48:832][222]AssetReimport: Reimported asset Lever_pPyramid5 from C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Lever.obj.
+[2019.01.23-00.53.48:832][222]AssetReimport: Reimported asset Lever_pPyramid6 from C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Lever.obj.
+[2019.01.23-00.53.48:832][222]AssetReimport: Reimported asset normalDoor_Door_entry from C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/normalDoor.obj.
+[2019.01.23-00.53.48:832][222]AssetReimport: Reimported asset normalDoor_Door_entry_Door_hinge from C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/normalDoor.obj.
+[2019.01.23-00.53.48:832][222]AssetReimport: Reimported asset normalDoor_Door_L from C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/normalDoor.obj.
+[2019.01.23-00.53.48:832][222]AssetReimport: Reimported asset normalDoor_Door_R from C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/normalDoor.obj.
+[2019.01.23-00.53.48:832][222]AssetReimport: Reimported asset bigRock from C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Rocks/bigRock.obj.
+[2019.01.23-00.53.48:832][222]AssetReimport: Reimported asset flatRock from C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Rocks/flatRock.obj.
+[2019.01.23-00.53.48:832][222]AssetReimport: Reimported asset hugeRock from C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Rocks/hugeRock.obj.
+[2019.01.23-00.53.48:832][222]AssetReimport: Reimported asset smallRock from C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Rocks/smallRock.obj.
+[2019.01.23-00.53.48:832][222]AssetReimport: Reimported asset tallRock from C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Rocks/tallRock.obj.
+[2019.01.23-00.53.58:405][368]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (PlaceholderTree_LP)
+[2019.01.23-00.53.59:101][437]LogSlate: Took 0.006366 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.01.23-00.54.09:415][673]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.23-00.55.33:778][770]MapCheck: New page: Map Check
+[2019.01.23-00.55.33:789][770]Cmd: MAP REBUILD ALLVISIBLE
+[2019.01.23-00.55.33:789][770]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2019.01.23-00.55.33:844][770]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_0, compiling. 
+[2019.01.23-00.55.33:849][770]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.01.23-00.55.33:849][770]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy lambert1, compiling. 
+[2019.01.23-00.55.33:854][770]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy 02_-_Default, compiling. 
+[2019.01.23-00.55.33:861][770]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.01.23-00.55.33:861][770]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy 09_-_Default, compiling. 
+[2019.01.23-00.55.33:868][770]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.01.23-00.55.33:868][770]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy 15_-_Default, compiling. 
+[2019.01.23-00.55.33:876][770]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.01.23-00.55.33:876][770]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy 07_-_Default, compiling. 
+[2019.01.23-00.55.33:884][770]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy initialShadingGroup, compiling. 
+[2019.01.23-00.55.33:892][770]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2019.01.23-00.55.33:899][770]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy wire_154154229, compiling. 
+[2019.01.23-00.55.34:661][770]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.01.23-00.55.34:661][770]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.01.23-00.55.34:661][770]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.01.23-00.55.34:661][770]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.01.23-00.55.34:661][770]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.01.23-00.55.34:661][770]TextureStreamingBuild: Display: Compiling optional shaders took 0.820 seconds.
+[2019.01.23-00.55.34:668][770]LogLevel: Display: Export Material TexCoord Scales took 0.007 seconds.
+[2019.01.23-00.55.34:692][770]TextureStreamingBuild: Display: Build Texture Streaming took 0.023 seconds.
+[2019.01.23-00.55.34:710][770]LightingResults: New page: Lighting Build - Jan 22, 2019, 2:55:34 PM
+[2019.01.23-00.55.34:719][770]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2019.01.23-00.55.34:721][770]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2019.01.23-00.55.34:721][770]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2019.01.23-00.55.34:722][770]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2019.01.23-00.55.34:722][770]LogSwarmInterface: [TryOpenConnection] Local Process ID is 18640
+[2019.01.23-00.55.39:257][770]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2019.01.23-00.55.39:258][770]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2019.01.23-00.55.39:258][770]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2019.01.23-00.55.39:258][770]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2019.01.23-00.55.39:258][770]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2019.01.23-00.55.39:258][770]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2019.01.23-00.55.39:402][770]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2019.01.23-00.55.39:402][770]MapCheck: New page: Modelled_Greybox - Jan 22, 2019, 2:55:39 PM
+[2019.01.23-00.55.39:403][770]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2019.01.23-00.55.39:404][770]MapCheck: Warning: CollectibleFlower_Red_new_Petal07_3 Static mesh actor has NULL StaticMesh property 
+[2019.01.23-00.55.39:404][770]MapCheck: Warning: CollectibleFlower_Red_new_Petal07_3 Static mesh actor CollectibleFlower_Red_new_Petal07_3 has NULL StaticMesh property 
+[2019.01.23-00.55.39:745][770]MapCheck: Map check complete: 1 Error(s), 2 Warning(s), took 342.664ms to complete.
+[2019.01.23-00.55.39:767][770]LogEditorBuildUtils: Build time 0:05
+[2019.01.23-00.55.39:820][771]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer wire_154154229, compiling. 
+[2019.01.23-00.55.39:825][771]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer wire_154154229, compiling. 
+[2019.01.23-00.55.39:834][771]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.01.23-00.55.39:834][771]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.01.23-00.55.41:766][885]LightingResults: Warning: Greybox1_beetleTowerFloor1_1 Object has overlapping UVs.
+[2019.01.23-00.55.41:766][885]LightingResults: Greybox1_beetleTowerFloor1_1 Lightmap UV are overlapping by 1.4%. Please adjust content - Enable Error Coloring to visualize.
+[2019.01.23-00.55.41:953][902]LightingResults: Warning: Greybox1_beetleTowerFloor1_3 Object has overlapping UVs.
+[2019.01.23-00.55.41:953][902]LightingResults: Greybox1_beetleTowerFloor1_3 Lightmap UV are overlapping by 1.4%. Please adjust content - Enable Error Coloring to visualize.
+[2019.01.23-00.55.41:986][905]LightingResults: Warning: GreatDoor_Door_entry_Door_hinge Object has overlapping UVs.
+[2019.01.23-00.55.41:986][905]LightingResults: GreatDoor_Door_entry_Door_hinge Lightmap UV are overlapping by 18.8%. Please adjust content - Enable Error Coloring to visualize.
+[2019.01.23-00.55.42:063][912]LightingResults: Warning: Greybox1_beetleTowerFloor1_4 Object has overlapping UVs.
+[2019.01.23-00.55.42:063][912]LightingResults: Greybox1_beetleTowerFloor1_4 Lightmap UV are overlapping by 1.4%. Please adjust content - Enable Error Coloring to visualize.
+[2019.01.23-00.55.42:433][946]LightingResults: Warning: Greybox1_beetleTower1 Object has overlapping UVs.
+[2019.01.23-00.55.42:433][946]LightingResults: Greybox1_beetleTower1 Lightmap UV are overlapping by 3.6%. Please adjust content - Enable Error Coloring to visualize.
+[2019.01.23-00.55.42:718][972]LightingResults: Warning: Statue_Tusks Object has overlapping UVs.
+[2019.01.23-00.55.42:718][972]LightingResults: Statue_Tusks Lightmap UV are overlapping by 54.5%. Please adjust content - Enable Error Coloring to visualize.
+[2019.01.23-00.55.42:817][981]LightingResults: Warning: Statue_Tusks Object has overlapping UVs.
+[2019.01.23-00.55.42:817][981]LightingResults: Statue_Tusks Lightmap UV are overlapping by 54.5%. Please adjust content - Enable Error Coloring to visualize.
+[2019.01.23-00.55.42:937][992]LightingResults: Warning: Statue_Tusks Object has overlapping UVs.
+[2019.01.23-00.55.42:937][992]LightingResults: Statue_Tusks Lightmap UV are overlapping by 54.5%. Please adjust content - Enable Error Coloring to visualize.
+[2019.01.23-00.55.43:222][ 18]LightingResults: Warning: Statue_Base Object has overlapping UVs.
+[2019.01.23-00.55.43:222][ 18]LightingResults: Statue_Base Lightmap UV are overlapping by 56.0%. Please adjust content - Enable Error Coloring to visualize.
+[2019.01.23-00.55.43:365][ 31]LightingResults: Warning: Statue_Tusks Object has overlapping UVs.
+[2019.01.23-00.55.43:365][ 31]LightingResults: Statue_Tusks Lightmap UV are overlapping by 54.5%. Please adjust content - Enable Error Coloring to visualize.
+[2019.01.23-00.55.43:650][ 57]LightingResults: Warning: Greybox1_beetleTower Object has overlapping UVs.
+[2019.01.23-00.55.43:650][ 57]LightingResults: Greybox1_beetleTower Lightmap UV are overlapping by 3.6%. Please adjust content - Enable Error Coloring to visualize.
+[2019.01.23-00.55.43:726][ 64]LightingResults: Warning: Statue_Tusks Object has overlapping UVs.
+[2019.01.23-00.55.43:726][ 64]LightingResults: Statue_Tusks Lightmap UV are overlapping by 54.5%. Please adjust content - Enable Error Coloring to visualize.
+[2019.01.23-00.55.43:759][ 67]LightingResults: Warning: Statue_Tusks Object has overlapping UVs.
+[2019.01.23-00.55.43:759][ 67]LightingResults: Statue_Tusks Lightmap UV are overlapping by 54.5%. Please adjust content - Enable Error Coloring to visualize.
+[2019.01.23-00.55.44:001][ 89]LightingResults: Warning: Greybox1_beetleTower3 Object has overlapping UVs.
+[2019.01.23-00.55.44:001][ 89]LightingResults: Greybox1_beetleTower3 Lightmap UV are overlapping by 3.6%. Please adjust content - Enable Error Coloring to visualize.
+[2019.01.23-00.55.44:034][ 92]LightingResults: Warning: Greybox1_beetleTower2 Object has overlapping UVs.
+[2019.01.23-00.55.44:034][ 92]LightingResults: Greybox1_beetleTower2 Lightmap UV are overlapping by 3.6%. Please adjust content - Enable Error Coloring to visualize.
+[2019.01.23-00.55.44:055][ 94]LightingResults: Warning: Greybox1_beetleTower4 Object has overlapping UVs.
+[2019.01.23-00.55.44:055][ 94]LightingResults: Greybox1_beetleTower4 Lightmap UV are overlapping by 3.6%. Please adjust content - Enable Error Coloring to visualize.
+[2019.01.23-00.55.44:070][ 96]Job is a success!
+[2019.01.23-00.55.44:172][ 97]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.064s
+[2019.01.23-00.55.44:172][ 97]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2019.01.23-00.55.44:172][ 97]LogVolumetricLightmapImport:      BrickData 1280x10x5 = 2.3Mb (trimmed 0.6Mb due to 0.010000 MinBrickError)
+[2019.01.23-00.55.44:172][ 97]LogVolumetricLightmapImport:      Bricks at Level
+[2019.01.23-00.55.44:172][ 97]LogVolumetricLightmapImport:          0: 0.3% covering 100.0% of volume
+[2019.01.23-00.55.44:172][ 97]LogVolumetricLightmapImport:          1: 7.3% covering 40.6% of volume
+[2019.01.23-00.55.44:172][ 97]LogVolumetricLightmapImport:          2: 92.5% covering 8.1% of volume
+[2019.01.23-00.55.44:503][ 97]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2019.01.23-00.55.44:503][ 97]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2019.01.23-00.55.44:503][ 97]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2019.01.23-00.55.44:503][ 97]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 32X32)
+[2019.01.23-00.55.44:503][ 97]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2019.01.23-00.55.44:503][ 97]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 32X32)
+[2019.01.23-00.55.44:530][ 97]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (G8, 16X16)
+[2019.01.23-00.55.44:530][ 97]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (G8, 32X32)
+[2019.01.23-00.55.44:530][ 97]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 1024X128)
+[2019.01.23-00.55.44:562][ 97]Lightmass on DESKTOP-QCELHJT: 3.86 sec total, 179 ms importing, 24 ms setup, 677 ms photons, 2.94 sec processing, 0 ms extra exporting [61/61 mappings]. Threads: 20.4 sec total, 6.33 sec processing.
+[2019.01.23-00.55.44:567][ 97]LogStaticLightingSystem: Illumination: 9.84 sec (287 ms encoding lightmaps, 24 ms encoding shadowmaps)
+[2019.01.23-00.55.44:567][ 97]LogStaticLightingSystem: Lightmap texture memory:  2.0 MB (2.0 MB streaming, 0.0 MB non-streaming), 6 textures
+[2019.01.23-00.55.44:568][ 97]LogStaticLightingSystem: Shadowmap texture memory: 0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 3 textures
+[2019.01.23-00.55.45:264][ 97]DumpUnbuiltLightIteractions
+[2019.01.23-00.55.45:264][ 97]Lights with unbuilt interactions: 0
+[2019.01.23-00.55.45:264][ 97]
+[2019.01.23-00.55.45:264][ 97]Primitives with unbuilt interactions: 0
+[2019.01.23-00.55.45:324][ 98]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.01.23-00.55.45:324][ 98]MapCheck: New page: Modelled_Greybox - Jan 22, 2019, 2:55:45 PM
+[2019.01.23-00.55.45:325][ 98]MapCheck: Warning: CollectibleFlower_Red_new_Petal07_3 Static mesh actor has NULL StaticMesh property 
+[2019.01.23-00.55.45:325][ 98]MapCheck: Warning: CollectibleFlower_Red_new_Petal07_3 Static mesh actor CollectibleFlower_Red_new_Petal07_3 has NULL StaticMesh property 
+[2019.01.23-00.55.45:700][ 98]MapCheck: Map check complete: 0 Error(s), 2 Warning(s), took 375.573ms to complete.
+[2019.01.23-00.55.48:872][474]LogSlate: Window 'Message Log' being destroyed
+[2019.01.23-00.55.48:875][474]LogSlate: Window 'Message Log' being destroyed
+[2019.01.23-00.56.09:740][971]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.23-00.56.09:823][981]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.23-00.56.09:837][981]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.23-00.56.09:838][981]PIE: New page: PIE session: Modelled_Greybox (Jan 22, 2019, 2:56:09 PM)
+[2019.01.23-00.56.09:838][981]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Modelled_Greybox
+[2019.01.23-00.56.09:843][981]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004990s)
+[2019.01.23-00.56.09:843][981]LogAIModule: Creating AISystem for world Modelled_Greybox
+[2019.01.23-00.56.09:843][981]LogPlayLevel: PIE: World Init took: (0.000560s)
+[2019.01.23-00.56.09:843][981]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Modelled_Greybox.Modelled_Greybox to /Game/_Maps/UEDPIE_0_Modelled_Greybox.Modelled_Greybox (0.005671s)
+[2019.01.23-00.56.09:878][981]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.23-00.56.09:898][981]LogInit: FAudioDevice initialized.
+[2019.01.23-00.56.09:927][981]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.23-00.56.09:930][981]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Modelled_Greybox.Modelled_Greybox up for play (max tick rate 0) at 2019.01.22-19.56.09
+[2019.01.23-00.56.09:930][981]LogWorld: Bringing up level for play took: 0.001391
+[2019.01.23-00.56.09:944][981]PIE: Play in editor start time for /Game/_Maps/UEDPIE_0_Modelled_Greybox -0.193
+[2019.01.23-00.56.21:261][337]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.23-00.56.21:290][337]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.23-00.56.21:310][337]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.23-00.56.21:364][342]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.01.23-00.57.06:855][574]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.23-00.57.18:168][190]LogFactory: FactoryCreateFile: FileMediaSource with WmfFileMediaSourceFactory (0 0 C:\Users\Zack\Downloads\Industrious Ferret.mp3)
+[2019.01.23-00.57.39:746][111]LogAssetEditorManager: Opening Asset editor for FileMediaSource /Game/Audio/Music/Industrious_Ferret.Industrious_Ferret
+[2019.01.23-00.57.43:991][614]LogSlate: Window 'Industrious_Ferret* - Generic Asset Editor' being destroyed
+[2019.01.23-00.57.43:994][614]LogSlate: Window 'Industrious_Ferret* - Generic Asset Editor' being destroyed
+[2019.01.23-00.57.45:857][837]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Greybox1_stairs3)
+[2019.01.23-00.57.52:804][648]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.23-00.57.56:389][ 71]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.23-00.58.07:009][340]LogAssetEditorManager: Opening Asset editor for FileMediaSource /Game/Audio/Music/Industrious_Ferret.Industrious_Ferret
+[2019.01.23-00.58.15:743][382]LogSlate: Window 'Industrious_Ferret* - Generic Asset Editor' being destroyed
+[2019.01.23-00.58.15:746][382]LogSlate: Window 'Industrious_Ferret* - Generic Asset Editor' being destroyed
+[2019.01.23-00.58.17:570][601]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.23-00.58.18:211][676]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.23-00.58.18:815][747]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.23-00.58.26:252][638]LogAssetEditorManager: Opening Asset editor for FileMediaSource /Game/Audio/Music/Industrious_Ferret.Industrious_Ferret
+[2019.01.23-00.58.38:537][103]LogSlate: Window 'Industrious_Ferret* - Generic Asset Editor' being destroyed
+[2019.01.23-00.58.38:540][103]LogSlate: Window 'Industrious_Ferret* - Generic Asset Editor' being destroyed
+[2019.01.23-00.59.55:779][995]LogSlate: Window 'Delete Assets' being destroyed
+[2019.01.23-01.00.41:418][329]LogSlate: Window 'Tutorials' being destroyed
+[2019.01.23-01.00.51:581][546]LogUObjectGlobals: Warning: Failed to find object 'Object None.ActorDetails'
+[2019.01.23-01.01.01:170][694]LogSlate: Window 'Tutorials' being destroyed
+[2019.01.23-01.01.01:175][694]LogSlate: Window 'Tutorials' being destroyed
+[2019.01.23-01.01.39:142][187]LogFactory: FactoryCreateFile: FileMediaSource with WmfFileMediaSourceFactory (0 0 ../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/Audio/Music/Industrious Ferret.mp3)
+[2019.01.23-01.01.42:298][547]LogSavePackage: Moving '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/Modelled_Greybox_Auto10FF1FF324ECFC07E905DE7B437750ACE.tmp' to '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/Autosaves/Game/_Maps/Modelled_Greybox_Auto1.umap'
+[2019.01.23-01.01.42:303][547]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Maps/Modelled_Greybox' took 0.134
+[2019.01.23-01.01.42:304][547]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.134
+[2019.01.23-01.01.42:306][547]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Maps/Modelled_Greybox_BuiltData] ([1] browsable assets)...
+[2019.01.23-01.01.42:306][547]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Maps/Modelled_Greybox_BuiltData]
+[2019.01.23-01.01.42:382][547]LogSavePackage: Moving '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/Modelled_Greybox_BuiltData_Auto158BA18A048B93637FDF7DDA924B3EA05.tmp' to '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/Autosaves/Game/_Maps/Modelled_Greybox_BuiltData_Auto1.uasset'
+[2019.01.23-01.01.42:386][547]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_Greybox/Greybox_Statues/wire_154154229] ([1] browsable assets)...
+[2019.01.23-01.01.42:397][547]OBJ SavePackage:     Rendered thumbnail for [Material /Game/_Greybox/Greybox_Statues/wire_154154229.wire_154154229]
+[2019.01.23-01.01.42:397][547]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Greybox/Greybox_Statues/wire_154154229]
+[2019.01.23-01.01.42:458][547]LogSavePackage: Moving '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/wire_154154229_Auto1ADDA26C04CAC2E34AD0C75ADC538DD55.tmp' to '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/Autosaves/Game/_Greybox/Greybox_Statues/wire_154154229_Auto1.uasset'
+[2019.01.23-01.01.42:462][547]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_Greybox/Greybox_Tree/default] ([1] browsable assets)...
+[2019.01.23-01.01.42:472][547]OBJ SavePackage:     Rendered thumbnail for [Material /Game/_Greybox/Greybox_Tree/default.default]
+[2019.01.23-01.01.42:472][547]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Greybox/Greybox_Tree/default]
+[2019.01.23-01.01.42:531][547]LogSavePackage: Moving '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/default_Auto1BBC40E414E51306D998674BC3EEBC36A.tmp' to '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/Autosaves/Game/_Greybox/Greybox_Tree/default_Auto1.uasset'
+[2019.01.23-01.01.42:535][547]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Audio/Music/Industrious_Ferret] ([1] browsable assets)...
+[2019.01.23-01.01.42:535][547]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/Music/Industrious_Ferret]
+[2019.01.23-01.01.42:540][547]LogSavePackage: Moving '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/Industrious_Ferret_Auto1C8DDF9EA4E3D7F5C7EF6E88F712D9343.tmp' to '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/Autosaves/Game/Audio/Music/Industrious_Ferret_Auto1.uasset'
+[2019.01.23-01.01.42:542][547]LogFileHelpers: Auto-saving content packages took 0.238
+[2019.01.23-01.04.31:842][ 74]AssetReimport: New page: Outstanding source content changes 3:04:31 PM
+[2019.01.23-01.04.31:930][ 74]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/Audio/Music/Industrious Ferret TEMP.wav)
+[2019.01.23-01.04.32:196][ 75]LogSavePackage: Moving '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/Industrious_Ferret_TEMP7E2072234E3EA637008DBF944BA017DA.tmp' to '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/Audio/Music/Industrious_Ferret_TEMP.uasset'
+[2019.01.23-01.04.35:209][426]AssetReimport: Importing new asset /Game/Audio/Music/Industrious_Ferret_TEMP.
+[2019.01.23-01.04.40:060][  0]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.23-01.04.40:152][ 11]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.23-01.04.40:162][ 11]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.23-01.04.40:163][ 11]PIE: New page: PIE session: Modelled_Greybox (Jan 22, 2019, 3:04:40 PM)
+[2019.01.23-01.04.40:163][ 11]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Modelled_Greybox
+[2019.01.23-01.04.40:168][ 11]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005091s)
+[2019.01.23-01.04.40:168][ 11]LogAIModule: Creating AISystem for world Modelled_Greybox
+[2019.01.23-01.04.40:168][ 11]LogPlayLevel: PIE: World Init took: (0.000611s)
+[2019.01.23-01.04.40:168][ 11]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Modelled_Greybox.Modelled_Greybox to /Game/_Maps/UEDPIE_0_Modelled_Greybox.Modelled_Greybox (0.005824s)
+[2019.01.23-01.04.40:206][ 11]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.23-01.04.40:227][ 11]LogInit: FAudioDevice initialized.
+[2019.01.23-01.04.40:260][ 11]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.23-01.04.40:262][ 11]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Modelled_Greybox.Modelled_Greybox up for play (max tick rate 0) at 2019.01.22-20.04.40
+[2019.01.23-01.04.40:263][ 11]LogWorld: Bringing up level for play took: 0.001417
+[2019.01.23-01.04.40:276][ 11]PIE: Play in editor start time for /Game/_Maps/UEDPIE_0_Modelled_Greybox 0.139
+[2019.01.23-01.04.40:293][ 11]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Industrious_Ferret_TEMP...
+[2019.01.23-01.04.40:302][ 11]LogTemp: Couldn't find amount to resample to.
+[2019.01.23-01.04.43:503][ 11]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 38338560 while cooking SoundWave /Game/Audio/Music/Industrious_Ferret_TEMP.Industrious_Ferret_TEMP.
+[2019.01.23-01.05.06:306][746]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.23-01.05.06:336][746]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.23-01.05.06:358][746]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.23-01.05.06:406][751]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.01.23-01.05.07:682][904]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.23-01.05.07:749][912]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.23-01.05.07:759][912]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.23-01.05.07:759][912]PIE: New page: PIE session: Modelled_Greybox (Jan 22, 2019, 3:05:07 PM)
+[2019.01.23-01.05.07:759][912]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Modelled_Greybox
+[2019.01.23-01.05.07:765][912]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005027s)
+[2019.01.23-01.05.07:765][912]LogAIModule: Creating AISystem for world Modelled_Greybox
+[2019.01.23-01.05.07:765][912]LogPlayLevel: PIE: World Init took: (0.000558s)
+[2019.01.23-01.05.07:765][912]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Modelled_Greybox.Modelled_Greybox to /Game/_Maps/UEDPIE_0_Modelled_Greybox.Modelled_Greybox (0.005708s)
+[2019.01.23-01.05.07:798][912]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.23-01.05.07:818][912]LogInit: FAudioDevice initialized.
+[2019.01.23-01.05.07:849][912]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.23-01.05.07:851][912]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Modelled_Greybox.Modelled_Greybox up for play (max tick rate 0) at 2019.01.22-20.05.07
+[2019.01.23-01.05.07:851][912]LogWorld: Bringing up level for play took: 0.001558
+[2019.01.23-01.05.07:864][912]PIE: Play in editor start time for /Game/_Maps/UEDPIE_0_Modelled_Greybox -0.272
+[2019.01.23-01.05.14:885][751]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.23-01.05.14:918][751]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.23-01.05.14:937][751]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.23-01.05.14:985][756]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.01.23-01.05.20:384][403]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2019.01.23-01.05.40:474][809]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.23-01.05.42:312][ 29]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2019.01.23-01.05.42:890][ 97]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2019.01.23-01.05.45:444][402]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Greybox1_baseIsland_Landing)
+[2019.01.23-01.05.46:314][501]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2019.01.23-01.05.53:138][316]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.23-01.07.35:496][589]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.23-01.07.35:507][589]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.23-01.07.35:507][589]PIE: New page: PIE session: Modelled_Greybox (Jan 22, 2019, 3:07:35 PM)
+[2019.01.23-01.07.35:508][589]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Modelled_Greybox
+[2019.01.23-01.07.35:512][589]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005187s)
+[2019.01.23-01.07.35:512][589]LogAIModule: Creating AISystem for world Modelled_Greybox
+[2019.01.23-01.07.35:512][589]LogPlayLevel: PIE: World Init took: (0.000585s)
+[2019.01.23-01.07.35:512][589]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Modelled_Greybox.Modelled_Greybox to /Game/_Maps/UEDPIE_0_Modelled_Greybox.Modelled_Greybox (0.005893s)
+[2019.01.23-01.07.35:544][589]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.23-01.07.35:565][589]LogInit: FAudioDevice initialized.
+[2019.01.23-01.07.35:593][589]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.23-01.07.35:595][589]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Modelled_Greybox.Modelled_Greybox up for play (max tick rate 0) at 2019.01.22-20.07.35
+[2019.01.23-01.07.35:595][589]LogWorld: Bringing up level for play took: 0.001414
+[2019.01.23-01.07.35:610][589]PIE: Play in editor start time for /Game/_Maps/UEDPIE_0_Modelled_Greybox -0.527
+[2019.01.23-01.07.49:453][248]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.23-01.07.49:486][248]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.23-01.07.49:507][248]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.23-01.07.49:558][253]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.01.23-01.07.50:925][417]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.23-01.07.51:049][432]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.23-01.07.51:059][432]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.23-01.07.51:059][432]PIE: New page: PIE session: Modelled_Greybox (Jan 22, 2019, 3:07:51 PM)
+[2019.01.23-01.07.51:060][432]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Modelled_Greybox
+[2019.01.23-01.07.51:065][432]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004959s)
+[2019.01.23-01.07.51:065][432]LogAIModule: Creating AISystem for world Modelled_Greybox
+[2019.01.23-01.07.51:065][432]LogPlayLevel: PIE: World Init took: (0.000557s)
+[2019.01.23-01.07.51:065][432]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Modelled_Greybox.Modelled_Greybox to /Game/_Maps/UEDPIE_0_Modelled_Greybox.Modelled_Greybox (0.005639s)
+[2019.01.23-01.07.51:096][432]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.23-01.07.51:117][432]LogInit: FAudioDevice initialized.
+[2019.01.23-01.07.51:149][432]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.23-01.07.51:151][432]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Modelled_Greybox.Modelled_Greybox up for play (max tick rate 0) at 2019.01.22-20.07.51
+[2019.01.23-01.07.51:151][432]LogWorld: Bringing up level for play took: 0.001391
+[2019.01.23-01.07.51:165][432]PIE: Play in editor start time for /Game/_Maps/UEDPIE_0_Modelled_Greybox 1.028
+[2019.01.23-01.11.39:510][823]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.23-01.11.39:539][823]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.23-01.11.39:559][823]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.23-01.11.39:616][829]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.01.23-01.11.44:718][441]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.23-01.12.33:389][271]LogAssetEditorManager: Opening Asset editor for SoundWave /Game/Audio/Music/Industrious_Ferret_TEMP.Industrious_Ferret_TEMP
+[2019.01.23-01.13.00:202][456]LogSavePackage: Moving '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/Industrious_Ferret_TEMPE13CCCE540505B99DA6D8EB023A433E5.tmp' to '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/Audio/Music/Industrious_Ferret_TEMP.uasset'
+[2019.01.23-01.13.02:104][677]LogSlate: Window 'Industrious_Ferret_TEMP - Generic Asset Editor' being destroyed
+[2019.01.23-01.13.02:107][677]LogSlate: Window 'Industrious_Ferret_TEMP - Generic Asset Editor' being destroyed
+[2019.01.23-01.13.03:948][897]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.23-01.13.03:959][897]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.23-01.13.03:959][897]PIE: New page: PIE session: Modelled_Greybox (Jan 22, 2019, 3:13:03 PM)
+[2019.01.23-01.13.03:959][897]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Modelled_Greybox
+[2019.01.23-01.13.03:964][897]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005010s)
+[2019.01.23-01.13.03:965][897]LogAIModule: Creating AISystem for world Modelled_Greybox
+[2019.01.23-01.13.03:965][897]LogPlayLevel: PIE: World Init took: (0.000631s)
+[2019.01.23-01.13.03:965][897]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Modelled_Greybox.Modelled_Greybox to /Game/_Maps/UEDPIE_0_Modelled_Greybox.Modelled_Greybox (0.005759s)
+[2019.01.23-01.13.04:000][897]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.23-01.13.04:021][897]LogInit: FAudioDevice initialized.
+[2019.01.23-01.13.04:048][897]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.23-01.13.04:050][897]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Modelled_Greybox.Modelled_Greybox up for play (max tick rate 0) at 2019.01.22-20.13.04
+[2019.01.23-01.13.04:051][897]LogWorld: Bringing up level for play took: 0.001449
+[2019.01.23-01.13.04:063][897]PIE: Play in editor start time for /Game/_Maps/UEDPIE_0_Modelled_Greybox -0.073
+[2019.01.23-01.16.54:616][358]Cmd: SELECT NONE
+[2019.01.23-01.16.55:995][523]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.23-01.16.56:027][523]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.23-01.16.56:047][523]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.23-01.16.56:096][528]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.01.23-01.20.10:887][319]LogSavePackage: Moving '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/Modelled_Greybox_Auto292A7823E43FFE7685D4558A263F510BE.tmp' to '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/Autosaves/Game/_Maps/Modelled_Greybox_Auto2.umap'
+[2019.01.23-01.20.10:893][319]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Maps/Modelled_Greybox' took 0.149
+[2019.01.23-01.20.10:893][319]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.149
+[2019.01.23-01.25.23:789][256]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.23-01.25.29:378][863]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Greybox1_baseIsland)
+[2019.01.23-01.25.29:488][864]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.23-01.25.31:938][154]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.23-01.25.40:019][122]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.23-01.25.45:622][789]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.23-01.25.59:001][386]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.23-01.26.21:420][ 75]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.23-01.26.21:435][ 75]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.23-01.26.21:435][ 75]PIE: New page: PIE session: Modelled_Greybox (Jan 22, 2019, 3:26:21 PM)
+[2019.01.23-01.26.21:435][ 75]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Modelled_Greybox
+[2019.01.23-01.26.21:444][ 75]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008707s)
+[2019.01.23-01.26.21:446][ 75]LogAIModule: Creating AISystem for world Modelled_Greybox
+[2019.01.23-01.26.21:446][ 75]LogPlayLevel: PIE: World Init took: (0.001523s)
+[2019.01.23-01.26.21:446][ 75]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Modelled_Greybox.Modelled_Greybox to /Game/_Maps/UEDPIE_0_Modelled_Greybox.Modelled_Greybox (0.010522s)
+[2019.01.23-01.26.21:487][ 75]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.23-01.26.21:509][ 75]LogInit: FAudioDevice initialized.
+[2019.01.23-01.26.21:537][ 75]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.23-01.26.21:540][ 75]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Modelled_Greybox.Modelled_Greybox up for play (max tick rate 0) at 2019.01.22-20.26.21
+[2019.01.23-01.26.21:541][ 75]LogWorld: Bringing up level for play took: 0.002314
+[2019.01.23-01.26.21:556][ 75]PIE: Play in editor start time for /Game/_Maps/UEDPIE_0_Modelled_Greybox -0.58
+[2019.01.23-01.26.34:435][616]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.23-01.26.34:468][616]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.23-01.26.34:489][616]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.23-01.26.34:542][622]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2019.01.23-01.26.38:542][102]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.23-01.26.39:692][238]Cmd: TRANSACTION UNDO
+[2019.01.23-01.26.39:692][238]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.23-01.26.41:155][413]Cmd: TRANSACTION UNDO
+[2019.01.23-01.26.41:155][413]LogEditorTransaction: Undo Edit Sun Height
+[2019.01.23-01.26.42:210][539]Cmd: TRANSACTION UNDO
+[2019.01.23-01.26.42:210][539]LogEditorTransaction: Undo Reset to Default
+[2019.01.23-01.26.43:327][673]Cmd: TRANSACTION UNDO
+[2019.01.23-01.26.43:327][673]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.23-01.27.03:778][117]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.23-01.27.23:119][433]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.23-01.27.35:214][883]Cmd: TRANSACTION UNDO
+[2019.01.23-01.27.35:214][883]LogEditorTransaction: Undo Edit Cloud Speed
+[2019.01.23-01.27.45:092][ 66]Cmd: TRANSACTION UNDO
+[2019.01.23-01.27.45:092][ 66]LogEditorTransaction: Undo Edit Cloud Speed
+[2019.01.23-01.27.46:446][227]Cmd: TRANSACTION UNDO
+[2019.01.23-01.27.46:446][227]LogEditorTransaction: Undo Edit Cloud Speed
+[2019.01.23-01.27.50:502][713]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.23-01.27.57:450][546]Cmd: TRANSACTION UNDO
+[2019.01.23-01.27.57:450][546]LogEditorTransaction: Undo Edit Sun Brightness
+[2019.01.23-01.28.07:718][776]Cmd: TRANSACTION UNDO
+[2019.01.23-01.28.07:718][776]LogEditorTransaction: Undo Edit Cloud Opacity
+[2019.01.23-01.28.29:451][381]Cmd: TRANSACTION UNDO
+[2019.01.23-01.28.29:451][381]LogEditorTransaction: Undo Edit Stars Brightness
+[2019.01.23-01.28.29:815][423]Cmd: TRANSACTION UNDO
+[2019.01.23-01.28.29:815][423]LogEditorTransaction: Undo Edit Sun Height
+[2019.01.23-01.28.30:242][473]Cmd: TRANSACTION UNDO
+[2019.01.23-01.28.30:242][473]LogEditorTransaction: Undo Edit Cloud Speed
+[2019.01.23-01.28.31:268][595]Cmd: TRANSACTION UNDO
+[2019.01.23-01.28.31:268][595]LogEditorTransaction: Undo Reset to Default
+[2019.01.23-01.28.44:805][218]Cmd: TRANSACTION UNDO
+[2019.01.23-01.28.44:805][218]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.23-01.29.01:747][236]LogSlate: Window 'Color Picker' being destroyed
+[2019.01.23-01.29.02:715][351]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.23-01.29.11:328][384]LogSlate: Window 'Color Picker' being destroyed
+[2019.01.23-01.29.12:402][512]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.23-01.29.22:965][779]LogSlate: Window 'Color Picker' being destroyed
+[2019.01.23-01.29.23:989][901]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.23-01.29.27:836][362]LogSlate: Window 'Color Picker' being destroyed
+[2019.01.23-01.29.34:032][ 25]Cmd: TRANSACTION UNDO
+[2019.01.23-01.29.34:032][ 25]LogEditorTransaction: Undo Edit Overall Color
+[2019.01.23-01.29.34:561][ 87]Cmd: TRANSACTION UNDO
+[2019.01.23-01.29.34:561][ 87]LogEditorTransaction: Undo Edit Cloud Color
+[2019.01.23-01.29.34:876][124]Cmd: TRANSACTION UNDO
+[2019.01.23-01.29.34:876][124]LogEditorTransaction: Undo Edit Cloud Color
+[2019.01.23-01.29.35:155][157]Cmd: TRANSACTION UNDO
+[2019.01.23-01.29.35:155][157]LogEditorTransaction: Undo Edit Horizon Color
+[2019.01.23-01.29.35:458][192]Cmd: TRANSACTION UNDO
+[2019.01.23-01.29.35:458][192]LogEditorTransaction: Undo Edit Horizon Color
+[2019.01.23-01.29.35:780][230]Cmd: TRANSACTION UNDO
+[2019.01.23-01.29.35:780][230]LogEditorTransaction: Undo Edit Horizon Color
+[2019.01.23-01.29.36:191][279]Cmd: TRANSACTION UNDO
+[2019.01.23-01.29.36:191][279]LogEditorTransaction: Undo Edit Zenith Color
+[2019.01.23-01.29.36:615][329]Cmd: TRANSACTION UNDO
+[2019.01.23-01.29.36:615][329]LogEditorTransaction: Undo Edit Zenith Color
+[2019.01.23-01.29.37:035][379]Cmd: TRANSACTION UNDO
+[2019.01.23-01.29.37:035][379]LogEditorTransaction: Undo Edit Zenith Color
+[2019.01.23-01.29.38:131][510]Cmd: TRANSACTION UNDO
+[2019.01.23-01.29.38:131][510]LogEditorTransaction: Undo Edit Colors Determined By Sun Position
+[2019.01.23-01.29.38:547][559]Cmd: TRANSACTION UNDO
+[2019.01.23-01.29.38:547][559]LogEditorTransaction: Undo Reset to Default
+[2019.01.23-01.30.24:402][982]LogSavePackage: Moving '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/Modelled_Greybox_Auto3615CC7674CA0F3EDC38BC4BEF7D0F1E2.tmp' to '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/Autosaves/Game/_Maps/Modelled_Greybox_Auto3.umap'
+[2019.01.23-01.30.24:408][982]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Maps/Modelled_Greybox' took 0.173
+[2019.01.23-01.30.24:408][982]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.173
+[2019.01.23-01.41.31:366][974]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.23-01.41.35:406][119]LogSlate: Window 'Delete Assets' being destroyed
+[2019.01.23-01.41.35:414][119]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.23-01.41.35:425][119]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.23-01.41.36:704][268]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.23-01.41.38:155][439]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.23-01.41.38:700][439]LogSavePackage: Moving '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/Modelled_Greybox77248A8C4110DA7A56AEE7BD5B2A66F9.tmp' to '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/_Maps/Modelled_Greybox.umap'
+[2019.01.23-01.41.38:728][439]LogFileHelpers: Saving map 'Modelled_Greybox' took 0.569
+[2019.01.23-01.41.38:856][439]LogSavePackage: Moving '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/Modelled_Greybox_BuiltData5E28B4B843DE3E5B801C04AE1C2184E4.tmp' to '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/_Maps/Modelled_Greybox_BuiltData.uasset'
+[2019.01.23-01.41.38:978][439]LogSavePackage: Moving '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/Modelled_Greybox_BuiltData970D13DD4CA807113D796ABD4D1EC8DB.tmp' to '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/_Maps/Modelled_Greybox_BuiltData.uasset'
+[2019.01.23-01.41.39:034][439]LogSavePackage: Moving '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/wire_154154229A2DF08AB45722FF0161C7ABEEDDE0E47.tmp' to '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/_Greybox/Greybox_Statues/wire_154154229.uasset'
+[2019.01.23-01.41.39:095][439]LogSavePackage: Moving '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Saved/default46603EAF424D737E1F5375A3F2A39308.tmp' to '../../../../../../Users/Zack/Documents/GitHub/Dinochan/Dinochan_v001_UE4.20.3/Content/_Greybox/Greybox_Tree/default.uasset'
+[2019.01.23-01.41.42:760][877]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.23-01.41.42:909][887]LogSlate: Window 'Dinochan_v001 - Unreal Editor' being destroyed
+[2019.01.23-01.41.43:098][888]Cmd: QUIT_EDITOR
+[2019.01.23-01.41.43:371][888]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.23-01.41.43:388][888]LogExit: Preparing to exit.
+[2019.01.23-01.41.44:488][888]LogExit: Editor shut down
+[2019.01.23-01.41.44:489][888]LogExit: Transaction tracking system shut down
+[2019.01.23-01.41.45:043][888]LogExit: Object subsystem successfully closed.
+[2019.01.23-01.41.45:071][888]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.01.23-01.41.45:076][888]LogD3D11RHI: Shutdown
+[2019.01.23-01.41.45:076][888]LogD3D11RHI: CleanupD3DDevice
+[2019.01.23-01.41.45:085][888]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.01.23-01.41.45:150][888]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (618)
+[2019.01.23-01.41.45:150][888]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (616)
+[2019.01.23-01.41.45:150][888]LogModuleManager: Shutting down and abandoning module Voice (614)
+[2019.01.23-01.41.45:150][888]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (612)
+[2019.01.23-01.41.45:150][888]LogModuleManager: Shutting down and abandoning module SceneOutliner (610)
+[2019.01.23-01.41.45:150][888]LogModuleManager: Shutting down and abandoning module AddContentDialog (608)
+[2019.01.23-01.41.45:152][888]LogModuleManager: Shutting down and abandoning module WidgetCarousel (607)
+[2019.01.23-01.41.45:152][888]LogModuleManager: Shutting down and abandoning module EditorWidgets (604)
+[2019.01.23-01.41.45:152][888]LogModuleManager: Shutting down and abandoning module CollectionManager (602)
+[2019.01.23-01.41.45:152][888]LogModuleManager: Shutting down and abandoning module MeshBuilder (600)
+[2019.01.23-01.41.45:152][888]LogModuleManager: Shutting down and abandoning module StatsViewer (598)
+[2019.01.23-01.41.45:152][888]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
+[2019.01.23-01.41.45:152][888]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
+[2019.01.23-01.41.45:153][888]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
+[2019.01.23-01.41.45:153][888]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
+[2019.01.23-01.41.45:154][888]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
+[2019.01.23-01.41.45:154][888]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
+[2019.01.23-01.41.45:154][888]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
+[2019.01.23-01.41.45:154][888]LogModuleManager: Shutting down and abandoning module BspMode (582)
+[2019.01.23-01.41.45:154][888]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
+[2019.01.23-01.41.45:154][888]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
+[2019.01.23-01.41.45:154][888]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
+[2019.01.23-01.41.45:154][888]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
+[2019.01.23-01.41.45:154][888]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
+[2019.01.23-01.41.45:154][888]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
+[2019.01.23-01.41.45:154][888]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
+[2019.01.23-01.41.45:154][888]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
+[2019.01.23-01.41.45:154][888]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
+[2019.01.23-01.41.45:155][888]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
+[2019.01.23-01.41.45:155][888]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
+[2019.01.23-01.41.45:155][888]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
+[2019.01.23-01.41.45:155][888]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
+[2019.01.23-01.41.45:155][888]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
+[2019.01.23-01.41.45:155][888]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
+[2019.01.23-01.41.45:155][888]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
+[2019.01.23-01.41.45:155][888]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
+[2019.01.23-01.41.45:155][888]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
+[2019.01.23-01.41.45:155][888]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
+[2019.01.23-01.41.45:155][888]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
+[2019.01.23-01.41.45:155][888]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
+[2019.01.23-01.41.45:155][888]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
+[2019.01.23-01.41.45:155][888]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
+[2019.01.23-01.41.45:155][888]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
+[2019.01.23-01.41.45:155][888]LogModuleManager: Shutting down and abandoning module SessionServices (532)
+[2019.01.23-01.41.45:155][888]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
+[2019.01.23-01.41.45:155][888]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
+[2019.01.23-01.41.45:155][888]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
+[2019.01.23-01.41.45:156][888]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
+[2019.01.23-01.41.45:157][888]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
+[2019.01.23-01.41.45:157][888]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
+[2019.01.23-01.41.45:157][888]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
+[2019.01.23-01.41.45:157][888]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
+[2019.01.23-01.41.45:157][888]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
+[2019.01.23-01.41.45:158][888]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
+[2019.01.23-01.41.45:158][888]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
+[2019.01.23-01.41.45:158][888]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
+[2019.01.23-01.41.45:997][888]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
+[2019.01.23-01.41.45:997][888]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
+[2019.01.23-01.41.45:997][888]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
+[2019.01.23-01.41.45:997][888]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
+[2019.01.23-01.41.45:997][888]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
+[2019.01.23-01.41.45:998][888]LogModuleManager: Shutting down and abandoning module MergeActors (496)
+[2019.01.23-01.41.45:998][888]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
+[2019.01.23-01.41.46:002][888]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
+[2019.01.23-01.41.46:002][888]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
+[2019.01.23-01.41.46:002][888]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
+[2019.01.23-01.41.46:002][888]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
+[2019.01.23-01.41.46:002][888]LogModuleManager: Shutting down and abandoning module XmlParser (484)
+[2019.01.23-01.41.46:002][888]LogModuleManager: Shutting down and abandoning module Blutility (482)
+[2019.01.23-01.41.46:002][888]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
+[2019.01.23-01.41.46:002][888]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
+[2019.01.23-01.41.46:002][888]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
+[2019.01.23-01.41.46:002][888]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
+[2019.01.23-01.41.46:002][888]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
+[2019.01.23-01.41.46:003][888]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
+[2019.01.23-01.41.46:003][888]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
+[2019.01.23-01.41.46:003][888]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
+[2019.01.23-01.41.46:003][888]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
+[2019.01.23-01.41.46:070][888]LogModuleManager: Shutting down and abandoning module AutomationController (462)
+[2019.01.23-01.41.46:070][888]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
+[2019.01.23-01.41.46:074][888]LogModuleManager: Shutting down and abandoning module Layers (458)
+[2019.01.23-01.41.46:076][888]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
+[2019.01.23-01.41.46:076][888]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
+[2019.01.23-01.41.46:076][888]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
+[2019.01.23-01.41.46:076][888]LogModuleManager: Shutting down and abandoning module Persona (450)
+[2019.01.23-01.41.46:077][888]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
+[2019.01.23-01.41.46:077][888]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
+[2019.01.23-01.41.46:077][888]LogModuleManager: Shutting down and abandoning module Kismet (444)
+[2019.01.23-01.41.46:077][888]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
+[2019.01.23-01.41.46:079][888]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
+[2019.01.23-01.41.46:079][888]LogModuleManager: Shutting down and abandoning module Toolbox (438)
+[2019.01.23-01.41.46:079][888]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2019.01.23-01.41.46:079][888]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2019.01.23-01.41.46:079][888]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2019.01.23-01.41.46:079][888]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2019.01.23-01.41.46:079][888]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2019.01.23-01.41.46:079][888]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2019.01.23-01.41.46:080][888]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2019.01.23-01.41.46:080][888]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2019.01.23-01.41.46:080][888]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2019.01.23-01.41.46:080][888]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2019.01.23-01.41.46:080][888]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2019.01.23-01.41.46:080][888]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2019.01.23-01.41.46:080][888]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2019.01.23-01.41.46:080][888]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2019.01.23-01.41.46:080][888]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2019.01.23-01.41.46:080][888]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2019.01.23-01.41.46:080][888]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2019.01.23-01.41.46:080][888]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
+[2019.01.23-01.41.46:080][888]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
+[2019.01.23-01.41.46:204][888]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
+[2019.01.23-01.41.46:204][888]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
+[2019.01.23-01.41.46:204][888]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
+[2019.01.23-01.41.46:204][888]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
+[2019.01.23-01.41.46:205][888]LogModuleManager: Shutting down and abandoning module OculusInput (390)
+[2019.01.23-01.41.46:205][888]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
+[2019.01.23-01.41.46:205][888]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
+[2019.01.23-01.41.46:209][888]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
+[2019.01.23-01.41.46:209][888]LogModuleManager: Shutting down and abandoning module CableComponent (382)
+[2019.01.23-01.41.46:209][888]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
+[2019.01.23-01.41.46:209][888]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
+[2019.01.23-01.41.46:209][888]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
+[2019.01.23-01.41.46:209][888]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
+[2019.01.23-01.41.46:209][888]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
+[2019.01.23-01.41.46:210][888]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
+[2019.01.23-01.41.46:210][888]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
+[2019.01.23-01.41.46:210][888]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
+[2019.01.23-01.41.46:210][888]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
+[2019.01.23-01.41.46:214][888]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
+[2019.01.23-01.41.46:214][888]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
+[2019.01.23-01.41.46:214][888]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
+[2019.01.23-01.41.46:214][888]LogModuleManager: Shutting down and abandoning module BackChannel (356)
+[2019.01.23-01.41.46:214][888]LogModuleManager: Shutting down and abandoning module AppleVision (354)
+[2019.01.23-01.41.46:214][888]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2019.01.23-01.41.46:214][888]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2019.01.23-01.41.46:214][888]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2019.01.23-01.41.46:214][888]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2019.01.23-01.41.46:214][888]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2019.01.23-01.41.46:214][888]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2019.01.23-01.41.46:215][888]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
+[2019.01.23-01.41.46:215][888]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2019.01.23-01.41.46:215][888]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2019.01.23-01.41.46:216][888]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2019.01.23-01.41.46:216][888]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2019.01.23-01.41.46:216][888]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2019.01.23-01.41.46:216][888]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2019.01.23-01.41.46:216][888]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2019.01.23-01.41.46:216][888]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2019.01.23-01.41.46:216][888]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2019.01.23-01.41.46:216][888]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2019.01.23-01.41.46:216][888]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2019.01.23-01.41.46:216][888]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2019.01.23-01.41.46:217][888]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2019.01.23-01.41.46:217][888]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2019.01.23-01.41.46:217][888]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2019.01.23-01.41.46:217][888]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
+[2019.01.23-01.41.46:217][888]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
+[2019.01.23-01.41.46:217][888]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
+[2019.01.23-01.41.46:217][888]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
+[2019.01.23-01.41.46:218][888]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
+[2019.01.23-01.41.46:218][888]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2019.01.23-01.41.46:218][888]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2019.01.23-01.41.46:218][888]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2019.01.23-01.41.46:218][888]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2019.01.23-01.41.46:218][888]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2019.01.23-01.41.46:218][888]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2019.01.23-01.41.46:218][888]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2019.01.23-01.41.46:218][888]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.01.23-01.41.46:218][888]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.01.23-01.41.46:319][888]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.01.23-01.41.46:419][888]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.01.23-01.41.46:419][888]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.01.23-01.41.46:423][888]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.01.23-01.41.46:423][888]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.01.23-01.41.46:423][888]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.01.23-01.41.46:423][888]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.01.23-01.41.46:424][888]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.01.23-01.41.46:425][888]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.01.23-01.41.46:425][888]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.01.23-01.41.46:425][888]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.01.23-01.41.46:425][888]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.01.23-01.41.46:425][888]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.01.23-01.41.46:427][888]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.01.23-01.41.46:427][888]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.01.23-01.41.46:427][888]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.01.23-01.41.46:427][888]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.01.23-01.41.46:427][888]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.01.23-01.41.46:427][888]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2019.01.23-01.41.46:429][888]LogModuleManager: Shutting down and abandoning module Media (243)
+[2019.01.23-01.41.46:435][888]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2019.01.23-01.41.46:435][888]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2019.01.23-01.41.46:435][888]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2019.01.23-01.41.46:436][888]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2019.01.23-01.41.46:436][888]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2019.01.23-01.41.46:436][888]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2019.01.23-01.41.46:436][888]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2019.01.23-01.41.46:436][888]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2019.01.23-01.41.46:437][888]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2019.01.23-01.41.46:437][888]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2019.01.23-01.41.46:437][888]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2019.01.23-01.41.46:437][888]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2019.01.23-01.41.46:437][888]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2019.01.23-01.41.46:437][888]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2019.01.23-01.41.46:438][888]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2019.01.23-01.41.46:438][888]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2019.01.23-01.41.46:439][888]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2019.01.23-01.41.46:439][888]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2019.01.23-01.41.46:440][888]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2019.01.23-01.41.46:441][888]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2019.01.23-01.41.46:443][888]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2019.01.23-01.41.46:443][888]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2019.01.23-01.41.46:443][888]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2019.01.23-01.41.46:443][888]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2019.01.23-01.41.46:443][888]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2019.01.23-01.41.46:443][888]LogModuleManager: Shutting down and abandoning module Core (188)
+[2019.01.23-01.41.46:443][888]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2019.01.23-01.41.46:443][888]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2019.01.23-01.41.46:443][888]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2019.01.23-01.41.46:443][888]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2019.01.23-01.41.46:443][888]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2019.01.23-01.41.46:443][888]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2019.01.23-01.41.46:443][888]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2019.01.23-01.41.46:444][888]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2019.01.23-01.41.46:444][888]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2019.01.23-01.41.46:444][888]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2019.01.23-01.41.46:444][888]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2019.01.23-01.41.46:444][888]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2019.01.23-01.41.46:507][888]LogDerivedDataCache: Shutdown
+[2019.01.23-01.41.46:507][888]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2019.01.23-01.41.46:507][888]LogXGEController: Cleaning working directory: C:/Users/Zack/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.01.23-01.41.46:508][888]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2019.01.23-01.41.46:508][888]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2019.01.23-01.41.46:508][888]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2019.01.23-01.41.46:508][888]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2019.01.23-01.41.46:512][888]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2019.01.23-01.41.46:512][888]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2019.01.23-01.41.46:513][888]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2019.01.23-01.41.46:513][888]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2019.01.23-01.41.46:513][888]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2019.01.23-01.41.46:513][888]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2019.01.23-01.41.46:513][888]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2019.01.23-01.41.46:513][888]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2019.01.23-01.41.46:513][888]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2019.01.23-01.41.46:513][888]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2019.01.23-01.41.46:513][888]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2019.01.23-01.41.46:513][888]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2019.01.23-01.41.46:513][888]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2019.01.23-01.41.46:513][888]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2019.01.23-01.41.46:513][888]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2019.01.23-01.41.46:513][888]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2019.01.23-01.41.46:513][888]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2019.01.23-01.41.46:513][888]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2019.01.23-01.41.46:519][888]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2019.01.23-01.41.46:519][888]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2019.01.23-01.41.46:523][888]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2019.01.23-01.41.46:523][888]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2019.01.23-01.41.46:551][888]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2019.01.23-01.41.46:551][888]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2019.01.23-01.41.46:551][888]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2019.01.23-01.41.46:551][888]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2019.01.23-01.41.46:551][888]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2019.01.23-01.41.46:551][888]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2019.01.23-01.41.46:551][888]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2019.01.23-01.41.46:551][888]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2019.01.23-01.41.46:551][888]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2019.01.23-01.41.46:551][888]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2019.01.23-01.41.46:551][888]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2019.01.23-01.41.46:551][888]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.01.23-01.41.46:551][888]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2019.01.23-01.41.46:551][888]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2019.01.23-01.41.46:551][888]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2019.01.23-01.41.46:551][888]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2019.01.23-01.41.46:551][888]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2019.01.23-01.41.46:551][888]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2019.01.23-01.41.46:552][888]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2019.01.23-01.41.46:556][888]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2019.01.23-01.41.46:575][888]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2019.01.23-01.41.46:575][888]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.01.23-01.41.46:575][888]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7725871B-4CDB-B644-465B-3BBC34E41E64%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=f7245a714475df0da56640a24cdfe704%7Ccc3c07623d2f4874abe0ae53f80dc37e%7Cf07df836-d0d7-4e14-b834-7ee2da16fd21&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.01.23-01.41.46:582][888]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2019.01.23-01.41.46:583][888]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2019.01.23-01.41.46:583][888]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2019.01.23-01.41.46:583][888]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2019.01.23-01.41.46:583][888]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2019.01.23-01.41.46:583][888]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2019.01.23-01.41.46:583][888]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2019.01.23-01.41.46:583][888]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2019.01.23-01.41.46:583][888]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2019.01.23-01.41.46:583][888]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2019.01.23-01.41.46:583][888]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.01.23-01.41.46:584][888]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2019.01.23-01.41.46:584][888]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.01.23-01.41.46:588][888]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.01.23-01.41.46:588][888]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.01.23-01.41.46:588][888]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.01.23-01.41.46:588][888]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.01.23-01.41.46:588][888]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.01.23-01.41.46:588][888]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.01.23-01.41.46:590][888]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.01.23-01.41.46:590][888]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.01.23-01.41.46:590][888]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.01.23-01.41.46:590][888]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.01.23-01.41.46:590][888]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.01.23-01.41.46:590][888]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.01.23-01.41.46:590][888]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.01.23-01.41.46:590][888]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.01.23-01.41.46:590][888]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.01.23-01.41.46:590][888]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.01.23-01.41.46:590][888]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.01.23-01.41.46:596][888]LogExit: Exiting.
+[2019.01.23-01.41.46:611][888]Log file closed, 01/22/19 20:41:46
