@@ -1,0 +1,995 @@
+﻿Log file open, 02/08/19 13:43:45
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Dinochan_v001
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 59 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.731105
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.447s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4233996
+LogInit: Engine Version: 4.20.1-4233996+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz, GPU: NVIDIA Quadro P5000
+LogInit: Compiled (64-bit): Jul 26 2018 10:07:30
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: "C:\Users\brownr55\Desktop\Dinochan\Dinochan\Dinochan_v001_UE4.20.3\Content\_Maps\Rueben_Dev.umap"
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.009s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.02.08-18.43.46:244][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.08-18.43.46:244][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.02.08-18.43.46:280][  0]LogHAL: Display: Platform has ~ 32 GB [34277933056 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.02.08-18.43.46:280][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.02.08-18.43.46:280][  0]LogInit: Going up to parent DeviceProfile []
+[2019.02.08-18.43.46:281][  0]LogInit: Computer: ATC-174-11
+[2019.02.08-18.43.46:281][  0]LogInit: User: brownr55
+[2019.02.08-18.43.46:281][  0]LogInit: CPU Page size=4096, Cores=10
+[2019.02.08-18.43.46:281][  0]LogInit: High frequency timer resolution =2.143474 MHz
+[2019.02.08-18.43.46:281][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2019.02.08-18.43.46:281][  0]LogMemory: Platform Memory Stats for Windows
+[2019.02.08-18.43.46:281][  0]LogMemory: Process Physical Memory: 104.06 MB used, 104.06 MB peak
+[2019.02.08-18.43.46:281][  0]LogMemory: Process Virtual Memory: 104.47 MB used, 104.47 MB peak
+[2019.02.08-18.43.46:281][  0]LogMemory: Physical Memory: 6655.20 MB used,  26034.79 MB free, 32689.98 MB total
+[2019.02.08-18.43.46:281][  0]LogMemory: Virtual Memory: 607.70 MB used,  26034.79 MB free, 134217728.00 MB total
+[2019.02.08-18.43.46:336][  0]LogInit: Using OS detected language (en-US).
+[2019.02.08-18.43.46:336][  0]LogInit: Using OS detected locale (en-US).
+[2019.02.08-18.43.46:349][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.02.08-18.43.46:860][  0]LogStreaming: Display: Took  0.524s to InitEngineTextLocalization.
+[2019.02.08-18.43.46:860][  0]LogInit: Setting process to per monitor DPI aware
+[2019.02.08-18.43.46:944][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.02.08-18.43.46:944][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.02.08-18.43.47:848][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.08-18.43.47:848][  0]LogD3D11RHI: D3D11 adapters:
+[2019.02.08-18.43.47:936][  0]LogD3D11RHI:    0. 'NVIDIA Quadro P5000' (Feature Level 11_0)
+[2019.02.08-18.43.47:936][  0]LogD3D11RHI:       16255/0/16344 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.02.08-18.43.47:940][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.02.08-18.43.47:940][  0]LogD3D11RHI:       0/0/16344 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.02.08-18.43.47:940][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.02.08-18.43.47:949][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.02.08-18.43.47:949][  0]LogD3D11RHI:     GPU DeviceId: 0x1bb0 (for the marketing name, search the web for "GPU Device Id")
+[2019.02.08-18.43.47:949][  0]LogWindows: EnumDisplayDevices:
+[2019.02.08-18.43.47:949][  0]LogWindows:    0. 'NVIDIA Quadro P5000' (P:0 D:1)
+[2019.02.08-18.43.47:950][  0]LogWindows:    1. 'NVIDIA Quadro P5000' (P:1 D:1)
+[2019.02.08-18.43.47:950][  0]LogWindows:    2. 'NVIDIA Quadro P5000' (P:0 D:0)
+[2019.02.08-18.43.47:950][  0]LogWindows:    3. 'NVIDIA Quadro P5000' (P:0 D:0)
+[2019.02.08-18.43.47:950][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.02.08-18.43.47:950][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro P5000
+[2019.02.08-18.43.47:950][  0]LogD3D11RHI:   Driver Version: 397.93 (internal:24.21.13.9793, unified:397.93)
+[2019.02.08-18.43.47:950][  0]LogD3D11RHI:      Driver Date: 5-22-2018
+[2019.02.08-18.43.47:950][  0]LogRHI: Texture pool is 11378 MB (70% of 16255 MB)
+[2019.02.08-18.43.48:009][  0]LogD3D11RHI: Async texture creation enabled
+[2019.02.08-18.43.48:031][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.02.08-18.43.48:036][  0]LogShaderCompilers: Guid format shader working directory is -32 characters bigger than the processId version (../../../../../../Users/brownr55/Desktop/Dinochan/Dinochan/Dinochan_v001_UE4.20.3/Intermediate/Shaders/WorkingDirectory/1444/).
+[2019.02.08-18.43.48:040][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/brownr55/AppData/Local/Temp/UnrealShaderWorkingDir/7C36E50D4E271A6C03E67C955AB90529/'.
+[2019.02.08-18.43.48:430][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.02.08-18.43.48:452][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.02.08-18.43.48:473][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.02.08-18.43.48:495][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.02.08-18.43.48:519][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.02.08-18.43.48:541][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.02.08-18.43.48:566][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.02.08-18.43.48:594][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.02.08-18.43.48:603][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.02.08-18.43.48:734][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.08-18.43.48:734][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.08-18.43.48:734][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.08-18.43.48:734][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.08-18.43.48:734][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.08-18.43.48:734][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.08-18.43.48:734][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.08-18.43.48:734][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.08-18.43.48:734][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.08-18.43.48:734][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.08-18.43.48:734][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.08-18.43.48:734][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.08-18.43.48:734][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.08-18.43.48:734][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.08-18.43.48:734][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.08-18.43.48:734][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.08-18.43.48:734][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.08-18.43.48:734][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.08-18.43.48:739][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.02.08-18.43.48:820][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.08-18.43.48:820][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.08-18.43.48:850][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.08-18.43.48:850][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.08-18.43.48:877][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.02.08-18.43.48:900][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.02.08-18.43.48:920][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.02.08-18.43.48:944][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.02.08-18.43.48:961][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.02.08-18.43.48:961][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.02.08-18.43.49:073][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.02.08-18.43.49:073][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.02.08-18.43.49:073][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.02.08-18.43.50:298][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.02.08-18.43.50:376][  0]LogDerivedDataCache: Loaded boot cache 0.08s 87MB C:/Users/brownr55/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.02.08-18.43.50:376][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/brownr55/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.02.08-18.43.50:376][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/brownr55/Desktop/Dinochan/Dinochan/Dinochan_v001_UE4.20.3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.02.08-18.43.50:377][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.02.08-18.43.50:377][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/brownr55/Desktop/Dinochan/Dinochan/Dinochan_v001_UE4.20.3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.02.08-18.43.50:377][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.02.08-18.43.50:394][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.02.08-18.43.50:413][  0]LogDerivedDataCache: Using Local data cache path C:/Users/brownr55/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.02.08-18.43.50:413][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.02.08-18.43.50:413][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.02.08-18.43.50:453][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.02.08-18.43.50:457][  0]LogSlate: Using FreeType 2.6.0
+[2019.02.08-18.43.50:466][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.02.08-18.43.50:604][  0]LogAssetRegistry: FAssetRegistry took 0.0280 seconds to start up
+[2019.02.08-18.43.51:102][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.08-18.43.51:323][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.02.08-18.43.51:343][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.02.08-18.43.51:343][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.02.08-18.43.51:343][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.02.08-18.43.51:343][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.02.08-18.43.51:381][  0]LogNetVersion: Dinochan_v001 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2574802920)
+[2019.02.08-18.43.52:467][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.390799 seconds
+[2019.02.08-18.43.52:478][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.02.08-18.43.52:479][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.02.08-18.43.52:479][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.02.08-18.43.54:419][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.02.08-18.43.54:437][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.02.08-18.43.54:688][  0]SourceControl: Source control is disabled
+[2019.02.08-18.43.54:688][  0]SourceControl: Source control is disabled
+[2019.02.08-18.43.54:695][  0]SourceControl: Source control is disabled
+[2019.02.08-18.43.54:700][  0]SourceControl: Source control is disabled
+[2019.02.08-18.43.55:002][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.02.08-18.43.55:084][  0]LogOcInput: OculusInput pre-init called
+[2019.02.08-18.43.55:177][  0]LogEngine: Initializing Engine...
+[2019.02.08-18.43.55:182][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.08-18.43.55:185][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.08-18.43.55:185][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.08-18.43.55:185][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.08-18.43.55:185][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.08-18.43.55:553][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.02.08-18.43.55:574][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.02.08-18.43.55:584][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.08-18.43.55:602][  0]LogInit: FAudioDevice initialized.
+[2019.02.08-18.43.55:603][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.02.08-18.43.55:729][  0]LogDerivedDataCache: Saved boot cache 0.13s 87MB C:/Users/brownr55/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.02.08-18.43.55:733][  0]LogInit: Texture streaming: Enabled
+[2019.02.08-18.43.55:758][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.02.08-18.43.55:784][  0]LogInit: Transaction tracking system initialized
+[2019.02.08-18.43.55:819][  0]BlueprintLog: New page: Editor Load
+[2019.02.08-18.43.55:967][  0]LocalizationService: Localization service is disabled
+[2019.02.08-18.43.56:398][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.02.08-18.43.56:398][  0]LogCook: Display: Mobile HDR setting 1
+[2019.02.08-18.43.56:398][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.02.08-18.43.56:398][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.08-18.43.56:398][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.08-18.43.56:399][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.08-18.43.56:399][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.08-18.43.56:655][  0]LogFileCache: Scanning file cache for directory 'C:/Users/brownr55/Desktop/Dinochan/Dinochan/Dinochan_v001_UE4.20.3/Content/' took 0.07s
+[2019.02.08-18.43.56:655][  0]SourceControl: Source control is disabled
+[2019.02.08-18.43.58:029][  0]LogPackageName: SearchForPackageOnDisk took   1.374s, but failed to resolve C:\Users\brownr55\Desktop\Dinochan\Dinochan\Dinochan_v001_UE4.20.3\Content\_Maps\Rueben_Dev.umap.
+[2019.02.08-18.43.58:030][  0]Cmd: MAP LOAD FILE="../../../../../../Users/brownr55/Desktop/Dinochan/Dinochan/Dinochan_v001_UE4.20.3/Content/_Maps/Modelled_Greybox.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.08-18.43.58:034][  0]LightingResults: New page: Lighting Build
+[2019.02.08-18.43.58:049][  0]MapCheck: New page: Map Check
+[2019.02.08-18.43.58:049][  0]LightingResults: New page: Lighting Build
+[2019.02.08-18.43.58:806][  0]LogTexture: Display: Building textures: Stem2 (BGRA8, 56X1185)
+[2019.02.08-18.43.58:806][  0]LogTexture: Display: Building textures: StemLeaf_Diffuse (AutoDXT, 312X308)
+[2019.02.08-18.43.58:807][  0]LogTexture: Display: Building textures: LeafDiffuse2 (AutoDXT, 60X1200)
+[2019.02.08-18.43.58:807][  0]LogTexture: Display: Building textures: LeafAlpha (AutoDXT, 60X1200)
+[2019.02.08-18.43.58:807][  0]LogTexture: Display: Building textures: 4band_Lut (BGRA8, 1003X100)
+[2019.02.08-18.43.58:807][  0]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 32X32)
+[2019.02.08-18.43.58:807][  0]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2019.02.08-18.43.58:807][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2019.02.08-18.43.58:807][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 32X32)
+[2019.02.08-18.43.58:807][  0]LogTexture: Display: Building textures: Petal_Alpha (BGRA8, 317X419)
+[2019.02.08-18.43.58:807][  0]LogTexture: Display: Building textures: StemLeaf_Alpha (AutoDXT, 312X308)
+[2019.02.08-18.43.58:807][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_8 (G8, 16X16)
+[2019.02.08-18.43.58:807][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (G8, 32X32)
+[2019.02.08-18.43.58:807][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (G8, 1024X256)
+[2019.02.08-18.43.58:807][  0]LogTexture: Display: Building textures: Petal_Diffuse3 (BGRA8, 317X419)
+[2019.02.08-18.43.58:807][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2019.02.08-18.43.58:807][  0]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2019.02.08-18.43.58:807][  0]LogTexture: Display: Building textures: T_Sparkle_001 (BGRA8, 1012X1409)
+[2019.02.08-18.43.58:815][  0]LogMaterial: Display: Missing cached shader map for material M_Sparkle_01, compiling. 
+[2019.02.08-18.43.58:896][  0]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.02.08-18.43.58:896][  0]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.02.08-18.43.58:896][  0]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.02.08-18.43.58:896][  0]LogStaticMesh: Building static mesh CF_Red_01...
+[2019.02.08-18.43.58:924][  0]LogStaticMesh: Built static mesh [0.03s] /Game/1_Models/Collectible-Flower/CF_Red_01.CF_Red_01
+[2019.02.08-18.43.58:933][  0]LogStaticMesh: Building static mesh GreatDoor_Door_entry...
+[2019.02.08-18.43.58:946][  0]LogStaticMesh: Built static mesh [0.01s] /Game/1_Models/Doors/Great_Door/GreatDoor_Door_entry.GreatDoor_Door_entry
+[2019.02.08-18.43.58:950][  0]LogStaticMesh: Building static mesh GreatDoor_Door_hinge...
+[2019.02.08-18.43.58:960][  0]LogStaticMesh: Built static mesh [0.01s] /Game/1_Models/Doors/Great_Door/GreatDoor_Door_hinge.GreatDoor_Door_hinge
+[2019.02.08-18.43.58:968][  0]LogStaticMesh: Building static mesh GreatDoor_Door_L...
+[2019.02.08-18.43.58:992][  0]LogStaticMesh: Built static mesh [0.02s] /Game/1_Models/Doors/Great_Door/GreatDoor_Door_L.GreatDoor_Door_L
+[2019.02.08-18.43.59:000][  0]LogStaticMesh: Building static mesh GreatDoor_Door_R...
+[2019.02.08-18.43.59:018][  0]LogStaticMesh: Built static mesh [0.02s] /Game/1_Models/Doors/Great_Door/GreatDoor_Door_R.GreatDoor_Door_R
+[2019.02.08-18.43.59:022][  0]LogStaticMesh: Building static mesh GreatDoor_Missing_Gem...
+[2019.02.08-18.43.59:038][  0]LogStaticMesh: Built static mesh [0.02s] /Game/1_Models/Doors/Great_Door/GreatDoor_Missing_Gem.GreatDoor_Missing_Gem
+[2019.02.08-18.43.59:043][  0]LogStaticMesh: Building static mesh Greybox1_baseIsland...
+[2019.02.08-18.43.59:052][  0]LogStaticMesh: Built static mesh [0.01s] /Game/_Greybox/Greybox1_baseIsland.Greybox1_baseIsland
+[2019.02.08-18.43.59:058][  0]LogStaticMesh: Building static mesh Greybox1_baseIsland_Landing...
+[2019.02.08-18.43.59:070][  0]LogStaticMesh: Built static mesh [0.01s] /Game/_Greybox/Greybox1_baseIsland_Landing.Greybox1_baseIsland_Landing
+[2019.02.08-18.43.59:076][  0]LogStaticMesh: Building static mesh Greybox1_beetleTower1...
+[2019.02.08-18.43.59:089][  0]LogStaticMesh: Built static mesh [0.01s] /Game/_Greybox/Greybox_Towers/Greybox1_beetleTower1.Greybox1_beetleTower1
+[2019.02.08-18.43.59:096][  0]LogStaticMesh: Building static mesh Greybox1_beetleTower2...
+[2019.02.08-18.43.59:107][  0]LogStaticMesh: Built static mesh [0.01s] /Game/_Greybox/Greybox_Towers/Greybox1_beetleTower2.Greybox1_beetleTower2
+[2019.02.08-18.43.59:114][  0]LogStaticMesh: Building static mesh Greybox1_beetleTower3...
+[2019.02.08-18.43.59:128][  0]LogStaticMesh: Built static mesh [0.01s] /Game/_Greybox/Greybox_Towers/Greybox1_beetleTower3.Greybox1_beetleTower3
+[2019.02.08-18.43.59:135][  0]LogStaticMesh: Building static mesh Greybox1_beetleTower4...
+[2019.02.08-18.43.59:150][  0]LogStaticMesh: Built static mesh [0.02s] /Game/_Greybox/Greybox_Towers/Greybox1_beetleTower4.Greybox1_beetleTower4
+[2019.02.08-18.43.59:157][  0]LogStaticMesh: Building static mesh Greybox1_beetleTower...
+[2019.02.08-18.43.59:168][  0]LogStaticMesh: Built static mesh [0.01s] /Game/_Greybox/Greybox_Towers/Greybox1_beetleTower.Greybox1_beetleTower
+[2019.02.08-18.43.59:171][  0]LogStaticMesh: Building static mesh Greybox1_beetleTowerFloor1_1...
+[2019.02.08-18.43.59:178][  0]LogStaticMesh: Built static mesh [0.01s] /Game/_Greybox/Greybox_Towers/Greybox1_beetleTowerFloor1_1.Greybox1_beetleTowerFloor1_1
+[2019.02.08-18.43.59:179][  0]LogStaticMesh: Building static mesh Greybox1_beetleTowerFloor1_3...
+[2019.02.08-18.43.59:186][  0]LogStaticMesh: Built static mesh [0.01s] /Game/_Greybox/Greybox_Towers/Greybox1_beetleTowerFloor1_3.Greybox1_beetleTowerFloor1_3
+[2019.02.08-18.43.59:188][  0]LogStaticMesh: Building static mesh Greybox1_beetleTowerFloor1_4...
+[2019.02.08-18.43.59:197][  0]LogStaticMesh: Built static mesh [0.01s] /Game/_Greybox/Greybox_Towers/Greybox1_beetleTowerFloor1_4.Greybox1_beetleTowerFloor1_4
+[2019.02.08-18.43.59:201][  0]LogStaticMesh: Building static mesh Greybox1_beetleTowerGround_1...
+[2019.02.08-18.43.59:207][  0]LogStaticMesh: Built static mesh [0.01s] /Game/_Greybox/Greybox_Towers/Greybox1_beetleTowerGround_1.Greybox1_beetleTowerGround_1
+[2019.02.08-18.43.59:210][  0]LogStaticMesh: Building static mesh Greybox1_beetleTowerGround_3...
+[2019.02.08-18.43.59:219][  0]LogStaticMesh: Built static mesh [0.01s] /Game/_Greybox/Greybox_Towers/Greybox1_beetleTowerGround_3.Greybox1_beetleTowerGround_3
+[2019.02.08-18.43.59:222][  0]LogStaticMesh: Building static mesh Greybox1_beetleTowerGround_4...
+[2019.02.08-18.43.59:230][  0]LogStaticMesh: Built static mesh [0.01s] /Game/_Greybox/Greybox_Towers/Greybox1_beetleTowerGround_4.Greybox1_beetleTowerGround_4
+[2019.02.08-18.43.59:233][  0]LogStaticMesh: Building static mesh Greybox1_beetleTowerInterior_1...
+[2019.02.08-18.43.59:240][  0]LogStaticMesh: Built static mesh [0.01s] /Game/_Greybox/Greybox_Towers/Greybox1_beetleTowerInterior_1.Greybox1_beetleTowerInterior_1
+[2019.02.08-18.43.59:242][  0]LogStaticMesh: Building static mesh Greybox1_beetleTowerInterior_3...
+[2019.02.08-18.43.59:248][  0]LogStaticMesh: Built static mesh [0.01s] /Game/_Greybox/Greybox_Towers/Greybox1_beetleTowerInterior_3.Greybox1_beetleTowerInterior_3
+[2019.02.08-18.43.59:250][  0]LogStaticMesh: Building static mesh Greybox1_boulder10...
+[2019.02.08-18.43.59:253][  0]LogStaticMesh: Built static mesh [0.00s] /Game/_Greybox/Greybox_Boulders/Greybox1_boulder10.Greybox1_boulder10
+[2019.02.08-18.43.59:254][  0]LogStaticMesh: Building static mesh Greybox1_boulder11...
+[2019.02.08-18.43.59:257][  0]LogStaticMesh: Built static mesh [0.00s] /Game/_Greybox/Greybox_Boulders/Greybox1_boulder11.Greybox1_boulder11
+[2019.02.08-18.43.59:259][  0]LogStaticMesh: Building static mesh Greybox1_boulder12...
+[2019.02.08-18.43.59:261][  0]LogStaticMesh: Built static mesh [0.00s] /Game/_Greybox/Greybox_Boulders/Greybox1_boulder12.Greybox1_boulder12
+[2019.02.08-18.43.59:263][  0]LogStaticMesh: Building static mesh Greybox1_boulder13...
+[2019.02.08-18.43.59:265][  0]LogStaticMesh: Built static mesh [0.00s] /Game/_Greybox/Greybox_Boulders/Greybox1_boulder13.Greybox1_boulder13
+[2019.02.08-18.43.59:267][  0]LogStaticMesh: Building static mesh Greybox1_boulder7...
+[2019.02.08-18.43.59:270][  0]LogStaticMesh: Built static mesh [0.00s] /Game/_Greybox/Greybox_Boulders/Greybox1_boulder7.Greybox1_boulder7
+[2019.02.08-18.43.59:272][  0]LogStaticMesh: Building static mesh Greybox1_boulder8...
+[2019.02.08-18.43.59:275][  0]LogStaticMesh: Built static mesh [0.00s] /Game/_Greybox/Greybox_Boulders/Greybox1_boulder8.Greybox1_boulder8
+[2019.02.08-18.43.59:277][  0]LogStaticMesh: Building static mesh Greybox1_boulder9...
+[2019.02.08-18.43.59:279][  0]LogStaticMesh: Built static mesh [0.00s] /Game/_Greybox/Greybox_Boulders/Greybox1_boulder9.Greybox1_boulder9
+[2019.02.08-18.43.59:282][  0]LogStaticMesh: Building static mesh Greybox1_meteorite...
+[2019.02.08-18.43.59:286][  0]LogStaticMesh: Built static mesh [0.00s] /Game/_Greybox/Greybox1_meteorite.Greybox1_meteorite
+[2019.02.08-18.43.59:288][  0]LogStaticMesh: Building static mesh Greybox1_stairs1...
+[2019.02.08-18.43.59:291][  0]LogStaticMesh: Built static mesh [0.00s] /Game/_Greybox/Greybox_Stairs/Greybox1_stairs1.Greybox1_stairs1
+[2019.02.08-18.43.59:293][  0]LogStaticMesh: Building static mesh Greybox1_stairs2...
+[2019.02.08-18.43.59:295][  0]LogStaticMesh: Built static mesh [0.00s] /Game/_Greybox/Greybox_Stairs/Greybox1_stairs2.Greybox1_stairs2
+[2019.02.08-18.43.59:297][  0]LogStaticMesh: Building static mesh Greybox1_stairs3...
+[2019.02.08-18.43.59:300][  0]LogStaticMesh: Built static mesh [0.00s] /Game/_Greybox/Greybox_Stairs/Greybox1_stairs3.Greybox1_stairs3
+[2019.02.08-18.43.59:302][  0]LogStaticMesh: Building static mesh Greybox1_stairs4...
+[2019.02.08-18.43.59:305][  0]LogStaticMesh: Built static mesh [0.00s] /Game/_Greybox/Greybox_Stairs/Greybox1_stairs4.Greybox1_stairs4
+[2019.02.08-18.43.59:307][  0]LogStaticMesh: Building static mesh Greybox1_stairs5...
+[2019.02.08-18.43.59:309][  0]LogStaticMesh: Built static mesh [0.00s] /Game/_Greybox/Greybox_Stairs/Greybox1_stairs5.Greybox1_stairs5
+[2019.02.08-18.43.59:311][  0]LogStaticMesh: Building static mesh Greybox1_stairs6...
+[2019.02.08-18.43.59:315][  0]LogStaticMesh: Built static mesh [0.00s] /Game/_Greybox/Greybox_Stairs/Greybox1_stairs6.Greybox1_stairs6
+[2019.02.08-18.43.59:316][  0]LogStaticMesh: Building static mesh Greybox1_statue1...
+[2019.02.08-18.43.59:319][  0]LogStaticMesh: Built static mesh [0.00s] /Game/_Greybox/Greybox1_statue1.Greybox1_statue1
+[2019.02.08-18.43.59:321][  0]LogStaticMesh: Building static mesh Greybox1_statue2...
+[2019.02.08-18.43.59:326][  0]LogStaticMesh: Built static mesh [0.00s] /Game/_Greybox/Greybox1_statue2.Greybox1_statue2
+[2019.02.08-18.43.59:327][  0]LogStaticMesh: Building static mesh Greybox1_statue3...
+[2019.02.08-18.43.59:332][  0]LogStaticMesh: Built static mesh [0.00s] /Game/_Greybox/Greybox1_statue3.Greybox1_statue3
+[2019.02.08-18.43.59:333][  0]LogStaticMesh: Building static mesh Greybox1_step1...
+[2019.02.08-18.43.59:334][  0]LogStaticMesh: Built static mesh [0.00s] /Game/_Greybox/Greybox1_step1.Greybox1_step1
+[2019.02.08-18.43.59:335][  0]LogStaticMesh: Building static mesh Greybox1_step2...
+[2019.02.08-18.43.59:337][  0]LogStaticMesh: Built static mesh [0.00s] /Game/_Greybox/Greybox1_step2.Greybox1_step2
+[2019.02.08-18.43.59:337][  0]LogStaticMesh: Building static mesh Greybox1_step3...
+[2019.02.08-18.43.59:339][  0]LogStaticMesh: Built static mesh [0.00s] /Game/_Greybox/Greybox1_step3.Greybox1_step3
+[2019.02.08-18.43.59:341][  0]LogStaticMesh: Building static mesh Greybox1_towerIsland...
+[2019.02.08-18.43.59:346][  0]LogStaticMesh: Built static mesh [0.00s] /Game/_Greybox/Greybox1_towerIsland.Greybox1_towerIsland
+[2019.02.08-18.43.59:352][  0]LogStaticMesh: Building static mesh Greybox1_treeIsland...
+[2019.02.08-18.43.59:362][  0]LogStaticMesh: Built static mesh [0.01s] /Game/_Greybox/Greybox1_treeIsland.Greybox1_treeIsland
+[2019.02.08-18.43.59:376][  0]LogStaticMesh: Building static mesh r_hugeRock...
+[2019.02.08-18.43.59:414][  0]LogStaticMesh: Built static mesh [0.04s] /Game/1_Models/Rocks/r_hugeRock.r_hugeRock
+[2019.02.08-18.43.59:427][  0]LogStaticMesh: Building static mesh Placeholder_Airship...
+[2019.02.08-18.43.59:462][  0]LogStaticMesh: Built static mesh [0.03s] /Game/_Greybox/Greybox_Airship/Placeholder_Airship.Placeholder_Airship
+[2019.02.08-18.43.59:572][  0]LogStaticMesh: Building static mesh Placeholder_Dinochan_backpack_02...
+[2019.02.08-18.43.59:854][  0]LogStaticMesh: Built static mesh [0.28s] /Game/_Greybox/Greybox_Dinochan/Placeholder_Dinochan_backpack_02.Placeholder_Dinochan_backpack_02
+[2019.02.08-18.43.59:979][  0]LogStaticMesh: Building static mesh PlaceholderTree_LP...
+[2019.02.08-18.44.00:140][  0]LogStaticMesh: Built static mesh [0.16s] /Game/_Greybox/Greybox_Tree/PlaceholderTree_LP.PlaceholderTree_LP
+[2019.02.08-18.44.00:178][  0]LogStaticMesh: Building static mesh r_smallRock...
+[2019.02.08-18.44.00:183][  0]LogStaticMesh: Built static mesh [0.00s] /Game/1_Models/Rocks/r_smallRock.r_smallRock
+[2019.02.08-18.44.00:189][  0]LogStaticMesh: Building static mesh Statue_Base...
+[2019.02.08-18.44.00:205][  0]LogStaticMesh: Built static mesh [0.02s] /Game/_Greybox/Greybox_Statues/Statue_Base.Statue_Base
+[2019.02.08-18.44.00:227][  0]LogStaticMesh: Building static mesh Statue_Tusks...
+[2019.02.08-18.44.00:273][  0]LogStaticMesh: Built static mesh [0.05s] /Game/_Greybox/Greybox_Statues/Statue_Tusks.Statue_Tusks
+[2019.02.08-18.44.00:281][  0]LogStaticMesh: Building static mesh r_tallRock...
+[2019.02.08-18.44.00:288][  0]LogStaticMesh: Built static mesh [0.01s] /Game/1_Models/Rocks/r_tallRock.r_tallRock
+[2019.02.08-18.44.00:292][  0]LogMaterial: Display: Missing cached shader map for material initialShadingGroup, compiling. 
+[2019.02.08-18.44.00:375][  0]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.02.08-18.44.00:375][  0]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.02.08-18.44.00:375][  0]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.02.08-18.44.00:375][  0]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.02.08-18.44.00:378][  0]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2019.02.08-18.44.00:412][  0]LogMaterial: Display: Missing cached shader map for material 15_-_Default, compiling. 
+[2019.02.08-18.44.00:445][  0]LogMaterial: Display: Missing cached shader map for material 09_-_Default, compiling. 
+[2019.02.08-18.44.00:510][  0]LogShaderCompilers: Display: Shaders left to compile 67
+[2019.02.08-18.44.00:510][  0]LogShaderCompilers: Display: Shaders left to compile 57
+[2019.02.08-18.44.00:510][  0]LogShaderCompilers: Display: Shaders left to compile 47
+[2019.02.08-18.44.00:510][  0]LogShaderCompilers: Display: Shaders left to compile 37
+[2019.02.08-18.44.00:510][  0]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.02.08-18.44.00:510][  0]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.02.08-18.44.00:510][  0]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.02.08-18.44.00:510][  0]LogMaterial: Display: Missing cached shader map for material 07_-_Default, compiling. 
+[2019.02.08-18.44.00:553][  0]LogMaterial: Display: Missing cached shader map for material 02_-_Default, compiling. 
+[2019.02.08-18.44.00:592][  0]LogMaterial: Display: Missing cached shader map for material default, compiling. 
+[2019.02.08-18.44.00:622][  0]LogMaterial: Display: Missing cached shader map for material PP_CelShader, compiling. 
+[2019.02.08-18.44.00:632][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Industrious_Ferret_TEMP...
+[2019.02.08-18.44.00:690][  0]LogTemp: Couldn't find amount to resample to.
+[2019.02.08-18.44.08:107][  0]LogShaderCompilers: Display: Shaders left to compile 213
+[2019.02.08-18.44.08:107][  0]LogShaderCompilers: Display: Shaders left to compile 203
+[2019.02.08-18.44.08:107][  0]LogShaderCompilers: Display: Shaders left to compile 193
+[2019.02.08-18.44.08:107][  0]LogShaderCompilers: Display: Shaders left to compile 183
+[2019.02.08-18.44.08:107][  0]LogShaderCompilers: Display: Shaders left to compile 173
+[2019.02.08-18.44.08:107][  0]LogShaderCompilers: Display: Shaders left to compile 163
+[2019.02.08-18.44.08:107][  0]LogShaderCompilers: Display: Shaders left to compile 153
+[2019.02.08-18.44.08:108][  0]LogShaderCompilers: Display: Shaders left to compile 143
+[2019.02.08-18.44.08:108][  0]LogShaderCompilers: Display: Shaders left to compile 133
+[2019.02.08-18.44.08:108][  0]LogShaderCompilers: Display: Shaders left to compile 123
+[2019.02.08-18.44.08:108][  0]LogShaderCompilers: Display: Shaders left to compile 113
+[2019.02.08-18.44.08:108][  0]LogShaderCompilers: Display: Shaders left to compile 103
+[2019.02.08-18.44.08:108][  0]LogShaderCompilers: Display: Shaders left to compile 93
+[2019.02.08-18.44.08:108][  0]LogShaderCompilers: Display: Shaders left to compile 83
+[2019.02.08-18.44.08:108][  0]LogShaderCompilers: Display: Shaders left to compile 73
+[2019.02.08-18.44.08:108][  0]LogShaderCompilers: Display: Shaders left to compile 63
+[2019.02.08-18.44.08:108][  0]LogShaderCompilers: Display: Shaders left to compile 53
+[2019.02.08-18.44.08:108][  0]LogShaderCompilers: Display: Shaders left to compile 43
+[2019.02.08-18.44.08:108][  0]LogShaderCompilers: Display: Shaders left to compile 33
+[2019.02.08-18.44.08:108][  0]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.02.08-18.44.08:108][  0]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.02.08-18.44.08:108][  0]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.02.08-18.44.08:113][  0]LogMaterial: Display: Missing cached shader map for material wire_154154229, compiling. 
+[2019.02.08-18.44.08:141][  0]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.02.08-18.44.08:141][  0]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.02.08-18.44.08:141][  0]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.02.08-18.44.08:141][  0]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.02.08-18.44.08:141][  0]LogMaterial: Display: Missing cached shader map for material FlatPinkTest, compiling. 
+[2019.02.08-18.44.08:223][  0]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.02.08-18.44.08:223][  0]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.02.08-18.44.08:223][  0]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.02.08-18.44.08:223][  0]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.02.08-18.44.08:223][  0]LogAIModule: Creating AISystem for world Modelled_Greybox
+[2019.02.08-18.44.08:329][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.08-18.44.08:407][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.08-18.44.08:860][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 453.52ms to complete.
+[2019.02.08-18.44.08:860][  0]LogFileHelpers: Loading map 'Modelled_Greybox' took 10.831
+[2019.02.08-18.44.09:087][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.08-18.44.09:101][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.08-18.44.09:114][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.08-18.44.09:124][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.08-18.44.09:159][  0]LogCollectionManager: Loaded 0 collections in 0.009094 seconds
+[2019.02.08-18.44.09:256][  0]LogFileCache: Scanning file cache for directory 'C:/Users/brownr55/Desktop/Dinochan/Dinochan/Dinochan_v001_UE4.20.3/Saved/Collections/' took 0.01s
+[2019.02.08-18.44.09:256][  0]LogFileCache: Scanning file cache for directory 'C:/Users/brownr55/Desktop/Dinochan/Dinochan/Dinochan_v001_UE4.20.3/Content/Developers/brownr55/Collections/' took 0.01s
+[2019.02.08-18.44.09:256][  0]LogFileCache: Scanning file cache for directory 'C:/Users/brownr55/Desktop/Dinochan/Dinochan/Dinochan_v001_UE4.20.3/Content/Collections/' took 0.01s
+[2019.02.08-18.44.09:256][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.02.08-18.44.09:272][  0]LogContentBrowser: Native class hierarchy populated in 0.0143 seconds. Added 2572 classes and 603 folders.
+[2019.02.08-18.44.09:289][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.02.08-18.44.09:963][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0025 seconds. Added 0 classes and 0 folders.
+[2019.02.08-18.44.09:981][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.02.08-18.44.10:036][  0]LogSlate: Took 0.002852 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.02.08-18.44.10:039][  0]LogSlate: Took 0.000410 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.02.08-18.44.10:050][  0]LogSlate: Took 0.003445 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.02.08-18.44.10:210][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2019.02.08-18.44.10:394][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.08-18.44.10:432][  0]LogSlate: Window 'Tutorials' being destroyed
+[2019.02.08-18.44.10:470][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.02.08-18.44.10:470][  0]LogLoad: (Engine Initialization) Total time: 39.65 seconds
+[2019.02.08-18.44.10:470][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.02.08-18.44.10:481][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.02.08-18.44.10:520][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2019.02.08-18.44.10:586][  0]LogSlate: Took 0.001414 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.08-18.44.10:655][  2]LogAssetRegistry: Asset discovery search completed in 20.0735 seconds
+[2019.02.08-18.44.10:657][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.02.08-18.44.10:657][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000072 seconds (updated 0 objects)
+[2019.02.08-18.44.11:538][ 88]LogSlate: Took 0.000462 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.08-18.44.15:596][530]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/brownr55/Desktop/Dinochan/Dinochan/Dinochan_v001_UE4.20.3/Content/' took 5.10s
+[2019.02.08-18.44.18:456][825]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.08-18.44.23:397][310]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2019.02.08-18.44.23:397][310]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 32X32)
+[2019.02.08-18.44.23:398][310]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 32X32)
+[2019.02.08-18.44.23:398][310]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2019.02.08-18.44.23:398][310]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 16X16)
+[2019.02.08-18.44.23:398][310]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2019.02.08-18.44.23:398][310]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X256)
+[2019.02.08-18.44.23:415][310]LogStaticMesh: Building static mesh Greybox1_doorR...
+[2019.02.08-18.44.23:419][310]LogStaticMesh: Built static mesh [0.00s] /Game/_Greybox/Greybox1_doorR.Greybox1_doorR
+[2019.02.08-18.44.23:420][310]LogStaticMesh: Building static mesh PlaceHolder_Key...
+[2019.02.08-18.44.23:425][310]LogStaticMesh: Built static mesh [0.00s] /Game/1_Models/PlaceholderModels/PlaceHolder_Key.PlaceHolder_Key
+[2019.02.08-18.44.23:426][310]LogStaticMesh: Building static mesh PlaceHolder_Item...
+[2019.02.08-18.44.23:430][310]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2019.02.08-18.44.23:430][310]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2019.02.08-18.44.23:430][310]LogStaticMesh: Built static mesh [0.00s] /Game/1_Models/PlaceholderModels/PlaceHolder_Item.PlaceHolder_Item
+[2019.02.08-18.44.23:432][310]LogStaticMesh: Building static mesh PlaceHolder_Map...
+[2019.02.08-18.44.23:433][310]LogStaticMesh: Built static mesh [0.00s] /Game/1_Models/PlaceholderModels/PlaceHolder_Map.PlaceHolder_Map
+[2019.02.08-18.44.23:670][310]LogAIModule: Creating AISystem for world Rueben_Dev
+[2019.02.08-18.44.23:688][310]LogAssetEditorManager: Opening Asset editor for World /Game/_Maps/Rueben_Dev.Rueben_Dev
+[2019.02.08-18.44.23:744][310]Cmd: MAP LOAD FILE="../../../../../../Users/brownr55/Desktop/Dinochan/Dinochan/Dinochan_v001_UE4.20.3/Content/_Maps/Rueben_Dev.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.08-18.44.23:744][310]LightingResults: New page: Lighting Build
+[2019.02.08-18.44.23:745][310]LoadErrors: New page: Loading map: Rueben_Dev.umap
+[2019.02.08-18.44.23:747][310]MapCheck: New page: Map Check
+[2019.02.08-18.44.23:747][310]LightingResults: New page: Lighting Build
+[2019.02.08-18.44.23:807][310]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.08-18.44.23:898][310]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.08-18.44.24:529][310]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 631.023ms to complete.
+[2019.02.08-18.44.24:532][310]LogFileHelpers: Loading map 'Rueben_Dev' took 0.788
+[2019.02.08-18.46.28:493][ 39]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.08-18.52.30:311][906]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.08-19.16.58:368][620]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.08-19.17.12:711][126]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.08-19.17.16:894][370]LogTexture: Display: Building textures: Areas2 (AutoDXT, 4160X3120)
+[2019.02.08-19.17.16:911][370]LogMaterial: Display: Missing cached shader map for material Map, compiling. 
+[2019.02.08-19.17.16:979][370]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.02.08-19.17.16:979][370]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.02.08-19.17.16:979][370]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.02.08-19.17.16:981][370]LogAIModule: Creating AISystem for world GBExterior
+[2019.02.08-19.17.16:998][370]LogAssetEditorManager: Opening Asset editor for World /Game/_Maps/GBExterior.GBExterior
+[2019.02.08-19.17.17:045][370]Cmd: MAP LOAD FILE="../../../../../../Users/brownr55/Desktop/Dinochan/Dinochan/Dinochan_v001_UE4.20.3/Content/_Maps/GBExterior.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.08-19.17.17:045][370]LightingResults: New page: Lighting Build
+[2019.02.08-19.17.17:046][370]LoadErrors: New page: Loading map: GBExterior.umap
+[2019.02.08-19.17.17:048][370]MapCheck: New page: Map Check
+[2019.02.08-19.17.17:048][370]LightingResults: New page: Lighting Build
+[2019.02.08-19.17.17:109][370]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.08-19.17.17:274][370]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.08-19.17.17:776][370]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 502.641ms to complete.
+[2019.02.08-19.17.17:779][370]LogFileHelpers: Loading map 'GBExterior' took 0.735
+[2019.02.08-19.17.20:952][686]LogAIModule: Creating AISystem for world Rueben_Dev
+[2019.02.08-19.17.29:852][596]LogAIModule: Creating AISystem for world StartMenuBG
+[2019.02.08-19.17.31:299][740]LogAssetEditorManager: Opening Asset editor for World /Game/_Maps/StartMenuBG.StartMenuBG
+[2019.02.08-19.17.33:310][740]LogSlate: Window 'Save Content' being destroyed
+[2019.02.08-19.17.34:110][740]LogSavePackage: Moving '../../../../../../Users/brownr55/Desktop/Dinochan/Dinochan/Dinochan_v001_UE4.20.3/Saved/StartMenuBG0267FC28441790D90B28C69FD2982D27.tmp' to '../../../../../../Users/brownr55/Desktop/Dinochan/Dinochan/Dinochan_v001_UE4.20.3/Content/_Maps/StartMenuBG.umap'
+[2019.02.08-19.17.34:115][740]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/brownr55/Desktop/Dinochan/Dinochan/Dinochan_v001_UE4.20.3/Saved/StartMenuBG0267FC28441790D90B28C69FD2982D27.tmp' to '../../../../../../Users/brownr55/Desktop/Dinochan/Dinochan/Dinochan_v001_UE4.20.3/Content/_Maps/StartMenuBG.umap', retrying in .5s...
+[2019.02.08-19.17.34:623][740]LogFileManager: Warning: MoveFile recovered during retry!
+[2019.02.08-19.17.34:656][740]LogFileHelpers: Saving map 'StartMenuBG' took 1.332
+[2019.02.08-19.17.34:743][740]LogSavePackage: Moving '../../../../../../Users/brownr55/Desktop/Dinochan/Dinochan/Dinochan_v001_UE4.20.3/Saved/StartMenuBG_BuiltDataDCDD10E240BB5E102EC581B94FB7DA98.tmp' to '../../../../../../Users/brownr55/Desktop/Dinochan/Dinochan/Dinochan_v001_UE4.20.3/Content/_Maps/StartMenuBG_BuiltData.uasset'
+[2019.02.08-19.17.34:760][740]Cmd: MAP LOAD FILE="../../../../../../Users/brownr55/Desktop/Dinochan/Dinochan/Dinochan_v001_UE4.20.3/Content/_Maps/StartMenuBG.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.08-19.17.34:760][740]LightingResults: New page: Lighting Build
+[2019.02.08-19.17.34:761][740]LoadErrors: New page: Loading map: StartMenuBG.umap
+[2019.02.08-19.17.34:763][740]MapCheck: New page: Map Check
+[2019.02.08-19.17.34:763][740]LightingResults: New page: Lighting Build
+[2019.02.08-19.17.34:924][740]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.08-19.17.35:012][740]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.08-19.17.35:288][740]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 275.917ms to complete.
+[2019.02.08-19.17.35:289][740]LogFileHelpers: Loading map 'StartMenuBG' took 0.531
+[2019.02.08-19.17.37:157][928]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Placeholder_Dinochan_backpack_02)
+[2019.02.08-19.17.38:368][ 34]Cmd: DELETE
+[2019.02.08-19.17.38:368][ 34]Cmd: ACTOR DELETE
+[2019.02.08-19.17.38:375][ 34]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.02.08-19.17.38:424][ 34]LogEditorActor: Deleted 1 Actors (0.055 secs)
+[2019.02.08-19.17.39:682][164]LogEditorViewport: Clicking on Actor (LMB): BeetleDoorBP_C (BeetleDoorBP)
+[2019.02.08-19.17.41:053][296]Cmd: DELETE
+[2019.02.08-19.17.41:053][296]Cmd: ACTOR DELETE
+[2019.02.08-19.17.41:057][296]LogEditorActor: Actor BeetleDoorBP is referenced by CollectiblesBP2.
+[2019.02.08-19.17.41:057][296]LogEditorActor: Actor BeetleDoorBP is referenced by CollectiblesBP3.
+[2019.02.08-19.17.41:057][296]LogEditorActor: Actor BeetleDoorBP is referenced by CollectiblesBP.
+[2019.02.08-19.17.41:082][296]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.08-19.17.43:062][296]LogSlate: Window 'Message' being destroyed
+[2019.02.08-19.17.43:074][296]LogEditorActor: Deleted Actor: BeetleDoorBP_C
+[2019.02.08-19.17.43:128][296]LogEditorActor: Deleted 1 Actors (2.075 secs)
+[2019.02.08-19.17.43:812][373]LogEditorViewport: Clicking on Actor (LMB): CollectiblesBP_C (CollectiblesBP)
+[2019.02.08-19.17.44:310][423]Cmd: DELETE
+[2019.02.08-19.17.44:310][423]Cmd: ACTOR DELETE
+[2019.02.08-19.17.44:315][423]LogEditorActor: Deleted Actor: CollectiblesBP_C
+[2019.02.08-19.17.44:363][423]LogEditorActor: Deleted 1 Actors (0.053 secs)
+[2019.02.08-19.17.44:767][456]LogEditorViewport: Clicking on Actor (LMB): CollectiblesBP_C (CollectiblesBP2)
+[2019.02.08-19.17.44:934][470]Cmd: DELETE
+[2019.02.08-19.17.44:934][470]Cmd: ACTOR DELETE
+[2019.02.08-19.17.44:938][470]LogEditorActor: Deleted Actor: CollectiblesBP_C
+[2019.02.08-19.17.44:987][470]LogEditorActor: Deleted 1 Actors (0.053 secs)
+[2019.02.08-19.17.45:445][521]LogEditorViewport: Clicking on Actor (LMB): CollectiblesBP_C (CollectiblesBP3)
+[2019.02.08-19.17.45:524][525]Cmd: DELETE
+[2019.02.08-19.17.45:524][525]Cmd: ACTOR DELETE
+[2019.02.08-19.17.45:528][525]LogEditorActor: Deleted Actor: CollectiblesBP_C
+[2019.02.08-19.17.45:581][525]LogEditorActor: Deleted 1 Actors (0.057 secs)
+[2019.02.08-19.17.46:293][604]LogEditorViewport: Clicking on Actor (LMB): Flower_C (Flower)
+[2019.02.08-19.17.46:373][609]Cmd: DELETE
+[2019.02.08-19.17.46:373][609]Cmd: ACTOR DELETE
+[2019.02.08-19.17.46:377][609]LogEditorActor: Deleted Actor: Flower_C
+[2019.02.08-19.17.46:427][609]LogEditorActor: Deleted 1 Actors (0.054 secs)
+[2019.02.08-19.17.48:959][871]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GreatDoor_Door_entry)
+[2019.02.08-19.17.49:528][928]Cmd: DELETE
+[2019.02.08-19.17.49:528][928]Cmd: ACTOR DELETE
+[2019.02.08-19.17.49:536][928]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.02.08-19.17.49:590][928]LogEditorActor: Deleted 1 Actors (0.061 secs)
+[2019.02.08-19.17.51:168][ 93]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GreatDoor_Missing_Gem)
+[2019.02.08-19.17.51:684][140]Cmd: DELETE
+[2019.02.08-19.17.51:684][140]Cmd: ACTOR DELETE
+[2019.02.08-19.17.51:688][140]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.02.08-19.17.51:737][140]LogEditorActor: Deleted 1 Actors (0.053 secs)
+[2019.02.08-19.17.53:410][319]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Statue_Tusks2)
+[2019.02.08-19.17.53:876][362]Cmd: DELETE
+[2019.02.08-19.17.53:876][362]Cmd: ACTOR DELETE
+[2019.02.08-19.17.53:880][362]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.02.08-19.17.53:928][362]LogEditorActor: Deleted 1 Actors (0.052 secs)
+[2019.02.08-19.17.54:619][429]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Statue_Tusks)
+[2019.02.08-19.17.54:819][441]Cmd: DELETE
+[2019.02.08-19.17.54:819][441]Cmd: ACTOR DELETE
+[2019.02.08-19.17.54:822][441]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.02.08-19.17.54:876][441]LogEditorActor: Deleted 1 Actors (0.057 secs)
+[2019.02.08-19.17.57:428][722]Cmd: TRANSACTION UNDO
+[2019.02.08-19.17.57:429][722]LogEditorTransaction: Undo Delete Actors
+[2019.02.08-19.17.57:814][746]Cmd: TRANSACTION UNDO
+[2019.02.08-19.17.57:814][746]LogEditorTransaction: Undo Clicking on Actors
+[2019.02.08-19.17.58:307][799]Cmd: TRANSACTION UNDO
+[2019.02.08-19.17.58:308][799]LogEditorTransaction: Undo Delete Actors
+[2019.02.08-19.18.00:018][963]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cone)
+[2019.02.08-19.18.00:926][ 37]Cmd: DELETE
+[2019.02.08-19.18.00:926][ 37]Cmd: ACTOR DELETE
+[2019.02.08-19.18.00:930][ 37]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.02.08-19.18.00:979][ 37]LogEditorActor: Deleted 1 Actors (0.053 secs)
+[2019.02.08-19.18.10:289][ 30]LogEditorViewport: Clicking on Actor (LMB): KillPlane_C (KillPlane)
+[2019.02.08-19.18.11:410][127]Cmd: DELETE
+[2019.02.08-19.18.11:410][127]Cmd: ACTOR DELETE
+[2019.02.08-19.18.11:414][127]LogEditorActor: Deleted Actor: KillPlane_C
+[2019.02.08-19.18.11:465][127]LogEditorActor: Deleted 1 Actors (0.055 secs)
+[2019.02.08-19.18.15:711][565]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture)
+[2019.02.08-19.18.16:644][637]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2019.02.08-19.18.39:256][916]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.08-19.18.53:338][366]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.08-19.18.57:214][752]LogEditor: Attempting to add actor of class 'SplineMeshActor' to level at -3270.00,4680.00,2050.00
+[2019.02.08-19.18.57:634][794]LogEditor: Attempting to add actor of class 'SplineMeshActor' to level at -3160.00,3450.00,880.00
+[2019.02.08-19.20.01:142][416]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.08-19.20.48:315][270]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/4_UI_Widgets/StartMenu.StartMenu
+[2019.02.08-19.20.49:192][270]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 116 classes and 0 folders.
+[2019.02.08-19.20.50:696][270]LogSlate: Took 0.003678 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.02.08-19.21.42:535][854]LogSlate: Window 'StartMenu*' being destroyed
+[2019.02.08-19.23.21:241][507]BlueprintLog: New page: Compile StartMenu
+[2019.02.08-19.23.34:867][864]LogSavePackage: Moving '../../../../../../Users/brownr55/Desktop/Dinochan/Dinochan/Dinochan_v001_UE4.20.3/Saved/StartMenuBGDEABFF1C4353306A14026DB404F7B757.tmp' to '../../../../../../Users/brownr55/Desktop/Dinochan/Dinochan/Dinochan_v001_UE4.20.3/Content/_Maps/StartMenuBG.umap'
+[2019.02.08-19.23.34:934][864]LogFileHelpers: Saving map 'StartMenuBG' took 0.943
+[2019.02.08-19.23.34:939][864]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/4_UI_Widgets/StartMenu" FILE="../../../../../../Users/brownr55/Desktop/Dinochan/Dinochan/Dinochan_v001_UE4.20.3/Content/4_UI_Widgets/StartMenu.uasset" SILENT=true
+[2019.02.08-19.23.34:960][864]LogSavePackage: Moving '../../../../../../Users/brownr55/Desktop/Dinochan/Dinochan/Dinochan_v001_UE4.20.3/Saved/StartMenu2444803E490084B30BB09596236F1659.tmp' to '../../../../../../Users/brownr55/Desktop/Dinochan/Dinochan/Dinochan_v001_UE4.20.3/Content/4_UI_Widgets/StartMenu.uasset'
+[2019.02.08-19.52.12:317][  4]Cmd: DELETE
+[2019.02.08-19.52.12:317][  4]Cmd: ACTOR DELETE
+[2019.02.08-19.52.12:322][  4]LogEditorActor: Deleted Actor: SplineMeshActor
+[2019.02.08-19.52.12:376][  4]LogEditorActor: Deleted 1 Actors (0.059 secs)
+[2019.02.08-19.52.13:654][137]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.08-19.52.47:260][264]LogSavePackage: Moving '../../../../../../Users/brownr55/Desktop/Dinochan/Dinochan/Dinochan_v001_UE4.20.3/Saved/StartMenuBG_Auto145521A794D7C27D930781E82E7C4858D.tmp' to '../../../../../../Users/brownr55/Desktop/Dinochan/Dinochan/Dinochan_v001_UE4.20.3/Saved/Autosaves/Game/_Maps/StartMenuBG_Auto1.umap'
+[2019.02.08-19.52.47:283][264]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Maps/StartMenuBG' took 0.444
+[2019.02.08-19.52.47:283][264]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.444
+[2019.02.08-19.53.54:570][115]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.08-19.55.42:425][233]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.08-19.55.46:301][492]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.02.08-19.55.54:098][371]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Blueprints/Ruben_Blueprint/StartMenuCamera.StartMenuCamera
+[2019.02.08-19.55.54:730][372]LogRenderer: Reallocating scene render targets to support 1208x900 Format 10 NumSamples 1 (Frame:1).
+[2019.02.08-19.55.55:597][470]LogSlate: Took 0.008803 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.02.08-19.56.11:027][222]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.08-19.56.26:143][960]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.08-19.56.46:377][307]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.08-19.56.53:567][148]LogEditorTransaction: Undo Modify Component(s)
+[2019.02.08-19.56.53:742][159]LogEditorTransaction: Undo Modify Component(s)
+[2019.02.08-19.56.58:829][735]LogEditorTransaction: Undo Modify Component(s)
+[2019.02.08-19.57.04:596][391]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.08-19.58.05:124][440]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.08-19.58.12:491][292]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.08-19.58.25:537][802]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.08-19.58.29:694][272]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.08-19.58.34:563][825]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.08-19.58.37:349][141]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.08-19.58.44:429][955]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.08-19.58.54:113][ 64]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.08-19.58.58:923][605]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.08-19.59.02:934][ 52]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.08-19.59.10:648][941]LogHttp: Warning: 00000276BAF7B600: request has been successfully processed. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BAD32898D-44C8-CE75-CDE9-35B8206BB6E2%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.1-4233996%2B%2B%2BUE4%2BRelease-4.20&UserID=01185b944c595d6821fa329242b81102%7C51b1b8fc1c884f6f85ca575ff629b78a%7Ce7cf9a3a-c84a-4d82-a195-8a32fdf865bc&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 502, content length: 138, actual payload size: 138
+[2019.02.08-19.59.10:648][941]LogHttp: Warning: 00000276BAF7B600 Response Header Server: awselb/2.0
+[2019.02.08-19.59.10:648][941]LogHttp: Warning: 00000276BAF7B600 Response Header Date: Fri, 08 Feb 2019 19:59:10 GMT
+[2019.02.08-19.59.10:648][941]LogHttp: Warning: 00000276BAF7B600 Response Header Content-Type: text/html
+[2019.02.08-19.59.10:648][941]LogHttp: Warning: 00000276BAF7B600 Response Header Content-Length: 138
+[2019.02.08-19.59.10:648][941]LogHttp: Warning: 00000276BAF7B600 Response Header Connection: keep-alive
+[2019.02.08-19.59.40:127][451]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.08-19.59.46:195][155]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.08-20.02.47:913][823]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Maps/StartMenuBG' took 0.062
+[2019.02.08-20.02.47:946][823]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Blueprints/Ruben_Blueprint/StartMenuCamera] ([1] browsable assets)...
+[2019.02.08-20.02.47:946][823]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Blueprints/Ruben_Blueprint/StartMenuCamera]
+[2019.02.08-20.02.47:975][823]LogSavePackage: Moving '../../../../../../Users/brownr55/Desktop/Dinochan/Dinochan/Dinochan_v001_UE4.20.3/Saved/StartMenuCamera_Auto2BA6B30A1465CFDE008CAF69B146451A1.tmp' to '../../../../../../Users/brownr55/Desktop/Dinochan/Dinochan/Dinochan_v001_UE4.20.3/Saved/Autosaves/Game/_Blueprints/Ruben_Blueprint/StartMenuCamera_Auto2.uasset'
+[2019.02.08-20.02.47:984][823]LogFileHelpers: Auto-saving content packages took 0.069
+[2019.02.08-20.04.00:178][123]LogSlate: Took 0.003665 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.02.08-20.04.09:489][155]BlueprintLog: New page: Compile StartMenuCamera
+[2019.02.08-20.09.09:644][276]BlueprintLog: New page: Compile StartMenuCamera
+[2019.02.08-20.09.09:660][276]LogBlueprint: Error: [Compiler StartMenuCamera] This blueprint (self) is not a SplineComponent, therefore ' Target ' must have a connection.
+[2019.02.08-20.09.09:912][276]LogBlueprint: Warning: [Compiler StartMenuCamera] [5139.14] Compile of StartMenuCamera failed. 1 Fatal Issue(s) 0 Warning(s) [in 268 ms] (/Game/_Blueprints/Ruben_Blueprint/StartMenuCamera.StartMenuCamera)
+[2019.02.08-20.09.10:482][329]LogSavePackage: Moving '../../../../../../Users/brownr55/Desktop/Dinochan/Dinochan/Dinochan_v001_UE4.20.3/Saved/StartMenuCameraB14CC2224520A0594B14A698C0622524.tmp' to '../../../../../../Users/brownr55/Desktop/Dinochan/Dinochan/Dinochan_v001_UE4.20.3/Content/_Blueprints/Ruben_Blueprint/StartMenuCamera.uasset'
+[2019.02.08-20.09.26:112][ 41]BlueprintLog: New page: Compile StartMenuCamera
+[2019.02.08-20.09.26:893][ 86]LogSavePackage: Moving '../../../../../../Users/brownr55/Desktop/Dinochan/Dinochan/Dinochan_v001_UE4.20.3/Saved/StartMenuCameraF8E1A2C8424E74FF5AB11A8617C91325.tmp' to '../../../../../../Users/brownr55/Desktop/Dinochan/Dinochan/Dinochan_v001_UE4.20.3/Content/_Blueprints/Ruben_Blueprint/StartMenuCamera.uasset'
+[2019.02.08-20.09.32:525][688]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.08-20.09.53:244][456]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.08-20.09.57:179][875]BlueprintLog: New page: Compile StartMenuCamera
+[2019.02.08-20.09.58:329][953]LogSavePackage: Moving '../../../../../../Users/brownr55/Desktop/Dinochan/Dinochan/Dinochan_v001_UE4.20.3/Saved/StartMenuCameraE6735076449309440685388DC4943ED3.tmp' to '../../../../../../Users/brownr55/Desktop/Dinochan/Dinochan/Dinochan_v001_UE4.20.3/Content/_Blueprints/Ruben_Blueprint/StartMenuCamera.uasset'
+[2019.02.08-20.10.22:074][541]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.08-20.12.53:281][769]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Maps/StartMenuBG' took 0.055
+[2019.02.08-20.12.53:293][769]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Blueprints/Ruben_Blueprint/StartMenuCamera] ([1] browsable assets)...
+[2019.02.08-20.12.53:293][769]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Blueprints/Ruben_Blueprint/StartMenuCamera]
+[2019.02.08-20.12.53:394][769]LogSavePackage: Moving '../../../../../../Users/brownr55/Desktop/Dinochan/Dinochan/Dinochan_v001_UE4.20.3/Saved/StartMenuCamera_Auto3DEC54FD54FE963DD03447ABD3779C83A.tmp' to '../../../../../../Users/brownr55/Desktop/Dinochan/Dinochan/Dinochan_v001_UE4.20.3/Saved/Autosaves/Game/_Blueprints/Ruben_Blueprint/StartMenuCamera_Auto3.uasset'
+[2019.02.08-20.12.53:409][769]LogFileHelpers: Auto-saving content packages took 0.127
+[2019.02.08-20.15.13:288][732]LogTokenParser: Error: FErrorState::Throw: FBasicTokenParser Error (RequireError): Missing ')' in group closing
+[2019.02.08-20.15.13:288][732]LogBlueprint: Error: [Compiler ] PARSE ERROR in ' (4 *((sqrt(2) - 1)) / 3 ': Missing ')' in group closing
+[2019.02.08-20.15.13:325][732]LogTokenParser: Error: FErrorState::Throw: FBasicTokenParser Error (RequireError): Missing ')' in group closing
+[2019.02.08-20.15.15:772][989]BlueprintLog: New page: Compile StartMenuCamera
+[2019.02.08-20.15.16:020][989]LogBlueprint: Warning: [Compiler StartMenuCamera] [5505.25] Compile of StartMenuCamera failed. 1 Fatal Issue(s) 0 Warning(s) [in 247 ms] (/Game/_Blueprints/Ruben_Blueprint/StartMenuCamera.StartMenuCamera)
+[2019.02.08-20.16.27:506][801]LogTokenParser: Error: FErrorState::Throw: FBasicTokenParser Error (RequireError): Missing ')' in group closing
+[2019.02.08-20.16.27:506][801]LogBlueprint: Error: [Compiler ] PARSE ERROR in ' (4 *((sqrt(2) - 1)) / 3 ': Missing ')' in group closing
+[2019.02.08-20.16.27:644][801]LogTokenParser: Error: FErrorState::Throw: FBasicTokenParser Error (RequireError): Missing ')' in group closing
+[2019.02.08-20.16.52:553][573]BlueprintLog: New page: Compile StartMenuCamera
+[2019.02.08-20.16.52:818][573]LogBlueprint: Warning: [Compiler StartMenuCamera] [5602.05] Compile of StartMenuCamera failed. 1 Fatal Issue(s) 0 Warning(s) [in 264 ms] (/Game/_Blueprints/Ruben_Blueprint/StartMenuCamera.StartMenuCamera)
+[2019.02.08-20.17.32:488][928]LogTokenParser: Error: FErrorState::Throw: FBasicTokenParser Error (RequireError): Missing ')' in group closing
+[2019.02.08-20.17.32:488][928]LogBlueprint: Error: [Compiler ] PARSE ERROR in ' (4 *((sqrt(2) - 1)) / 3 ': Missing ')' in group closing
+[2019.02.08-20.17.32:533][928]LogTokenParser: Error: FErrorState::Throw: FBasicTokenParser Error (RequireError): Missing ')' in group closing
+[2019.02.08-20.17.50:207][786]BlueprintLog: New page: Compile StartMenuCamera
+[2019.02.08-20.19.13:470][787]LogTokenParser: Error: FErrorState::Throw: FBasicTokenParser Error (RequireError): Missing ')' in group closing
+[2019.02.08-20.19.13:470][787]LogBlueprint: Error: [Compiler ] PARSE ERROR in ' (4 *((sqrt(2) - 1)) / 3. ': Missing ')' in group closing
+[2019.02.08-20.19.13:510][787]LogTokenParser: Error: FErrorState::Throw: FBasicTokenParser Error (RequireError): Missing ')' in group closing
+[2019.02.08-20.19.32:982][818]LogTokenParser: Error: FErrorState::Throw: FBasicTokenParser Error (RequireError): Missing ')' in group closing
+[2019.02.08-20.19.32:982][818]LogBlueprint: Error: [Compiler ] PARSE ERROR in ' (4 *((sqrt(2) - 1)) / 3 ': Missing ')' in group closing
+[2019.02.08-20.19.33:023][818]LogTokenParser: Error: FErrorState::Throw: FBasicTokenParser Error (RequireError): Missing ')' in group closing
+[2019.02.08-20.19.46:603][312]LogTokenParser: Error: FErrorState::Throw: FBasicTokenParser Error (RequireError): Missing ')' in group closing
+[2019.02.08-20.19.46:603][312]LogBlueprint: Error: [Compiler ] PARSE ERROR in ' (4 * ((sqrt(2) - 1)) / 3 ': Missing ')' in group closing
+[2019.02.08-20.19.46:661][312]LogTokenParser: Error: FErrorState::Throw: FBasicTokenParser Error (RequireError): Missing ')' in group closing
+[2019.02.08-20.20.12:751][223]BlueprintLog: New page: Compile StartMenuCamera
+[2019.02.08-20.23.02:557][711]LogEditorTransaction: Undo Move Node
+[2019.02.08-20.23.03:050][754]LogEditorTransaction: Undo Delete current selection
+[2019.02.08-20.27.51:562][ 88]BlueprintLog: New page: Compile StartMenuCamera
+[2019.02.08-20.27.52:801][165]LogSavePackage: Moving '../../../../../../Users/brownr55/Desktop/Dinochan/Dinochan/Dinochan_v001_UE4.20.3/Saved/StartMenuCamera94BB28004F02927D2DA7D0831BB2B1A2.tmp' to '../../../../../../Users/brownr55/Desktop/Dinochan/Dinochan/Dinochan_v001_UE4.20.3/Content/_Blueprints/Ruben_Blueprint/StartMenuCamera.uasset'
+[2019.02.08-20.28.05:708][468]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.08-20.28.14:023][386]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.08-20.28.23:448][423]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.08-20.28.23:616][432]BlueprintLog: New page: Compile StartMenuCamera
+[2019.02.08-20.28.31:918][272]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.08-20.28.36:090][631]LogSavePackage: Moving '../../../../../../Users/brownr55/Desktop/Dinochan/Dinochan/Dinochan_v001_UE4.20.3/Saved/StartMenuBG99A0AF5F412F790E625F4F92E4262DE1.tmp' to '../../../../../../Users/brownr55/Desktop/Dinochan/Dinochan/Dinochan_v001_UE4.20.3/Content/_Maps/StartMenuBG.umap'
+[2019.02.08-20.28.36:171][631]LogFileHelpers: Saving map 'StartMenuBG' took 0.962
+[2019.02.08-20.28.36:284][631]LogSavePackage: Moving '../../../../../../Users/brownr55/Desktop/Dinochan/Dinochan/Dinochan_v001_UE4.20.3/Saved/StartMenuCamera973C103743B09D896AF1439C3F39A69A.tmp' to '../../../../../../Users/brownr55/Desktop/Dinochan/Dinochan/Dinochan_v001_UE4.20.3/Content/_Blueprints/Ruben_Blueprint/StartMenuCamera.uasset'
+[2019.02.08-20.28.43:492][357]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.08-20.28.46:642][695]BlueprintLog: New page: Compile StartMenuCamera
+[2019.02.08-20.29.16:360][628]Cmd: TRANSACTION UNDO
+[2019.02.08-20.29.16:360][628]LogEditorTransaction: Undo Move Actors
+[2019.02.08-20.29.34:877][527]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.08-20.31.06:911][167]BlueprintLog: New page: Compile StartMenuCamera
+[2019.02.08-20.31.07:919][211]LogSavePackage: Moving '../../../../../../Users/brownr55/Desktop/Dinochan/Dinochan/Dinochan_v001_UE4.20.3/Saved/StartMenuCameraEF47A91642A8CA195B949D8C66E2DF64.tmp' to '../../../../../../Users/brownr55/Desktop/Dinochan/Dinochan/Dinochan_v001_UE4.20.3/Content/_Blueprints/Ruben_Blueprint/StartMenuCamera.uasset'
+[2019.02.08-20.31.25:482][ 55]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.08-20.32.06:037][272]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.08-20.32.51:363][227]LogSavePackage: Moving '../../../../../../Users/brownr55/Desktop/Dinochan/Dinochan/Dinochan_v001_UE4.20.3/Saved/StartMenuCamera3B29800747490160E1BF619B254DA962.tmp' to '../../../../../../Users/brownr55/Desktop/Dinochan/Dinochan/Dinochan_v001_UE4.20.3/Content/_Blueprints/Ruben_Blueprint/StartMenuCamera.uasset'
+[2019.02.08-20.32.51:886][264]BlueprintLog: New page: Compile StartMenuCamera
+[2019.02.08-20.32.56:810][264]LogStats: FPlatformStackWalk::StackWalkAndDump -  4.884 s
+[2019.02.08-20.32.56:810][264]LogOutputDevice: Error: === Handled ensure: ===
+[2019.02.08-20.32.56:810][264]LogOutputDevice: Error: 
+[2019.02.08-20.32.56:810][264]LogOutputDevice: Error: Ensure condition failed: !Primitive->Bounds.BoxExtent.ContainsNaN() && !Primitive->Bounds.Origin.ContainsNaN() && !FMath::IsNaN(Primitive->Bounds.SphereRadius) && FMath::IsFinite(Primitive->Bounds.SphereRadius) [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Renderer\Private\RendererScene.cpp] [Line: 849]
+[2019.02.08-20.32.56:810][264]LogOutputDevice: Error: Nans found on Bounds for Primitive Spline: Origin X=0.000 Y=0.000 Z=0.000, BoxExtent X=100000002004087734272.000 Y=100000002004087734272.000 Z=0.000, SphereRadius inf
+[2019.02.08-20.32.56:810][264]LogOutputDevice: Error: Stack: 
+[2019.02.08-20.32.56:810][264]LogOutputDevice: Error: [Callstack] 0x00007ffe2d1b7136 UE4Editor-Core.dll!UnknownFunction []
+[2019.02.08-20.32.56:810][264]LogOutputDevice: Error: [Callstack] 0x00007ffe2cef0c82 UE4Editor-Core.dll!UnknownFunction []
+[2019.02.08-20.32.56:810][264]LogOutputDevice: Error: [Callstack] 0x00007ffe2cf0b346 UE4Editor-Core.dll!UnknownFunction []
+[2019.02.08-20.32.56:810][264]LogOutputDevice: Error: [Callstack] 0x00007ffe2212ab57 UE4Editor-Renderer.dll!UnknownFunction []
+[2019.02.08-20.32.56:810][264]LogOutputDevice: Error: [Callstack] 0x00007ffe2a016e75 UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.08-20.32.56:810][264]LogOutputDevice: Error: [Callstack] 0x00007ffe29f5905f UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.08-20.32.56:810][264]LogOutputDevice: Error: [Callstack] 0x00007ffe29e08d1d UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.08-20.32.56:810][264]LogOutputDevice: Error: [Callstack] 0x00007ffe29f89225 UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.08-20.32.56:810][264]LogOutputDevice: Error: [Callstack] 0x00007ffe29f4163c UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.08-20.32.56:810][264]LogOutputDevice: Error: [Callstack] 0x00007ffe2a070c48 UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.08-20.32.56:810][264]LogOutputDevice: Error: [Callstack] 0x00007ffe2a0d48d6 UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.08-20.32.56:810][264]LogOutputDevice: Error: [Callstack] 0x00007ffe29f40c37 UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.08-20.32.56:810][264]LogOutputDevice: Error: [Callstack] 0x00007ffe29bc4aeb UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.08-20.32.56:810][264]LogOutputDevice: Error: [Callstack] 0x00007ffe27e4ec9a UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.08-20.32.56:810][264]LogOutputDevice: Error: [Callstack] 0x00007ffe27e7bddf UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.08-20.32.56:810][264]LogOutputDevice: Error: [Callstack] 0x00007ffe27e35302 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.08-20.32.56:811][264]LogOutputDevice: Error: [Callstack] 0x00007ffe25d0dace UE4Editor-Kismet.dll!UnknownFunction []
+[2019.02.08-20.32.56:811][264]LogOutputDevice: Error: [Callstack] 0x00007ffe25c9fee9 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.02.08-20.32.56:811][264]LogOutputDevice: Error: [Callstack] 0x00007ffe27e3d9dc UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.08-20.32.56:811][264]LogOutputDevice: Error: [Callstack] 0x00007ffe25c9f8ff UE4Editor-Kismet.dll!UnknownFunction []
+[2019.02.08-20.32.56:811][264]LogOutputDevice: Error: [Callstack] 0x00007ffe25d005b8 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.02.08-20.32.56:811][264]LogOutputDevice: Error: [Callstack] 0x00007ffe291029fe UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.08-20.32.56:811][264]LogOutputDevice: Error: [Callstack] 0x00007ffe29205872 UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.08-20.32.56:811][264]LogOutputDevice: Error: [Callstack] 0x00007ffe291e24bf UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.08-20.32.56:811][264]LogOutputDevice: Error: [Callstack] 0x00007ffe292c9c3b UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.08-20.32.56:811][264]LogOutputDevice: Error: [Callstack] 0x00007ffe290b94c5 UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.08-20.32.56:811][264]LogOutputDevice: Error: [Callstack] 0x00007ffe29151db2 UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.08-20.32.56:811][264]LogOutputDevice: Error: [Callstack] 0x00007ffe29137c7a UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.08-20.32.56:811][264]LogOutputDevice: Error: [Callstack] 0x00007ffe2912b25c UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.08-20.32.56:811][264]LogOutputDevice: Error: [Callstack] 0x00007ffe295dd1c7 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.02.08-20.32.56:811][264]LogOutputDevice: Error: [Callstack] 0x00007ffe295d0270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.02.08-20.32.56:811][264]LogOutputDevice: Error: [Callstack] 0x00007ffe295df4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.02.08-20.32.56:811][264]LogOutputDevice: Error: [Callstack] 0x00007ffe295cc209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.02.08-20.32.56:811][264]LogOutputDevice: Error: [Callstack] 0x000002767fc9b85d USER32.dll!UnknownFunction []
+[2019.02.08-20.32.56:811][264]LogOutputDevice: Error: [Callstack] 0x000002767fc9b1ef USER32.dll!UnknownFunction []
+[2019.02.08-20.32.56:811][264]LogOutputDevice: Error: [Callstack] 0x00007ffe295e0646 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.02.08-20.32.56:811][264]LogOutputDevice: Error: [Callstack] 0x00007ff7a44154e5 UE4Editor.exe!UnknownFunction []
+[2019.02.08-20.32.56:811][264]LogOutputDevice: Error: [Callstack] 0x00007ff7a4425b3c UE4Editor.exe!UnknownFunction []
+[2019.02.08-20.32.56:811][264]LogOutputDevice: Error: [Callstack] 0x00007ff7a4425bba UE4Editor.exe!UnknownFunction []
+[2019.02.08-20.32.56:811][264]LogOutputDevice: Error: [Callstack] 0x00007ff7a4433dac UE4Editor.exe!UnknownFunction []
+[2019.02.08-20.32.56:811][264]LogOutputDevice: Error: [Callstack] 0x00007ff7a4435aaa UE4Editor.exe!UnknownFunction []
+[2019.02.08-20.32.56:811][264]LogOutputDevice: Error: [Callstack] 0x00007ffe868b1fe4 KERNEL32.DLL!UnknownFunction []
+[2019.02.08-20.32.56:811][264]LogOutputDevice: Error: [Callstack] 0x00007ffe87c0cb81 ntdll.dll!UnknownFunction []
+[2019.02.08-20.32.56:812][264]LogOutputDevice: Error: 
+[2019.02.08-20.32.56:813][264]LogStats:                SubmitErrorReport -  0.000 s
+[2019.02.08-20.32.58:322][264]LogStats:                    SendNewReport -  1.509 s
+[2019.02.08-20.32.58:322][264]LogStats:             FDebug::EnsureFailed -  6.396 s
+[2019.02.08-20.34.45:288][344]BlueprintLog: New page: Compile StartMenuCamera
+[2019.02.08-20.36.58:301][524]BlueprintLog: New page: Compile StartMenuCamera
+[2019.02.08-20.36.59:297][574]LogSavePackage: Moving '../../../../../../Users/brownr55/Desktop/Dinochan/Dinochan/Dinochan_v001_UE4.20.3/Saved/StartMenuCamera4D71EC6B4FC8EF563302A9BA8815FD12.tmp' to '../../../../../../Users/brownr55/Desktop/Dinochan/Dinochan/Dinochan_v001_UE4.20.3/Content/_Blueprints/Ruben_Blueprint/StartMenuCamera.uasset'
+[2019.02.08-20.37.19:976][759]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2019.02.08-20.37.21:210][885]Cmd: DELETE
+[2019.02.08-20.37.21:210][885]Cmd: ACTOR DELETE
+[2019.02.08-20.37.21:214][885]LogEditorActor: Deleted Actor: PlayerStart
+[2019.02.08-20.37.21:269][885]LogEditorActor: Deleted 1 Actors (0.059 secs)
+[2019.02.08-20.37.22:341][  6]LogEditorViewport: Clicking on Actor (LMB): Emitter (FuckThis)
+[2019.02.08-20.37.22:502][ 16]Cmd: DELETE
+[2019.02.08-20.37.22:502][ 16]Cmd: ACTOR DELETE
+[2019.02.08-20.37.22:506][ 16]LogEditorActor: Deleted Actor: Emitter
+[2019.02.08-20.37.22:562][ 16]LogEditorActor: Deleted 1 Actors (0.060 secs)
+[2019.02.08-20.37.29:975][862]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.08-20.37.31:964][ 68]Cmd: DELETE
+[2019.02.08-20.37.31:964][ 68]Cmd: ACTOR DELETE
+[2019.02.08-20.37.31:968][ 68]LogEditorActor: Deleted Actor: Flower_C
+[2019.02.08-20.37.32:027][ 68]LogEditorActor: Deleted 1 Actors (0.063 secs)
+[2019.02.08-20.37.34:093][298]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.08-20.37.40:676][ 16]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.08-20.37.44:620][444]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.08-20.37.48:139][836]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.08-20.38.32:750][587]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.08-20.38.34:317][755]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/StartMenuBG.StartMenuBG:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG' with GeneratedClass '/Game/_Maps/StartMenuBG.StartMenuBG_C' with ClassGeneratedBy '/Game/_Maps/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG'
+[2019.02.08-20.38.34:317][755]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.08-20.38.34:331][755]PIE: New page: PIE session: StartMenuBG (Feb 8, 2019, 10:38:34 AM)
+[2019.02.08-20.38.34:331][755]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_StartMenuBG
+[2019.02.08-20.38.34:347][755]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015287s)
+[2019.02.08-20.38.34:348][755]LogAIModule: Creating AISystem for world StartMenuBG
+[2019.02.08-20.38.34:348][755]LogPlayLevel: PIE: World Init took: (0.001070s)
+[2019.02.08-20.38.34:348][755]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/StartMenuBG.StartMenuBG to /Game/_Maps/UEDPIE_0_StartMenuBG.StartMenuBG (0.016795s)
+[2019.02.08-20.38.34:431][755]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.08-20.38.34:441][755]LogInit: FAudioDevice initialized.
+[2019.02.08-20.38.34:444][755]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.08-20.38.34:518][755]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.02.08-20.38.34:521][755]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_StartMenuBG.StartMenuBG up for play (max tick rate 0) at 2019.02.08-15.38.34
+[2019.02.08-20.38.34:522][755]LogWorld: Bringing up level for play took: 0.002529
+[2019.02.08-20.38.34:552][755]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 10 classes and 0 folders.
+[2019.02.08-20.38.34:562][755]PIE: Play in editor start time for /Game/_Maps/UEDPIE_0_StartMenuBG 0.309
+[2019.02.08-20.38.34:562][755]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/StartMenuBG.StartMenuBG:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG' with GeneratedClass '/Game/_Maps/StartMenuBG.StartMenuBG_C' with ClassGeneratedBy '/Game/_Maps/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG'
+[2019.02.08-20.38.39:251][279]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/StartMenuBG.StartMenuBG:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG' with GeneratedClass '/Game/_Maps/StartMenuBG.StartMenuBG_C' with ClassGeneratedBy '/Game/_Maps/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG'
+[2019.02.08-20.38.39:251][279]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.08-20.38.39:294][279]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.08-20.38.39:295][279]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/StartMenuBG.StartMenuBG:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG' with GeneratedClass '/Game/_Maps/StartMenuBG.StartMenuBG_C' with ClassGeneratedBy '/Game/_Maps/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG'
+[2019.02.08-20.38.39:354][279]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.08-20.38.39:384][280]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.02.08-20.38.59:852][606]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.08-20.39.25:213][546]LogEditorViewport: Clicking on Actor (LMB): StartMenuCamera_C (StartMenuCamera)
+[2019.02.08-20.39.25:987][623]LogEditorViewport: Clicking on Actor (LMB): StartMenuCamera_C (StartMenuCamera)
+[2019.02.08-20.39.26:673][694]LogEditorViewport: Clicking on Actor (context menu): StartMenuCamera_C (StartMenuCamera)
+[2019.02.08-20.39.26:724][694]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.08-20.39.35:052][428]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.202 s
+[2019.02.08-20.39.35:052][428]LogOutputDevice: Error: === Handled ensure: ===
+[2019.02.08-20.39.35:052][428]LogOutputDevice: Error: 
+[2019.02.08-20.39.35:052][428]LogOutputDevice: Error: Ensure condition failed: !Primitive->Bounds.BoxExtent.ContainsNaN() && !Primitive->Bounds.Origin.ContainsNaN() && !FMath::IsNaN(Primitive->Bounds.SphereRadius) && FMath::IsFinite(Primitive->Bounds.SphereRadius) [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Renderer\Private\RendererScene.cpp] [Line: 985]
+[2019.02.08-20.39.35:052][428]LogOutputDevice: Error: Nans found on Bounds for Primitive Spline: Origin X=-nan(ind) Y=-nan(ind) Z=-nan(ind), BoxExtent X=-nan(ind) Y=-nan(ind) Z=-nan(ind), SphereRadius -nan(ind)
+[2019.02.08-20.39.35:052][428]LogOutputDevice: Error: Stack: 
+[2019.02.08-20.39.35:052][428]LogOutputDevice: Error: [Callstack] 0x00007ffe2d1b7136 UE4Editor-Core.dll!UnknownFunction []
+[2019.02.08-20.39.35:052][428]LogOutputDevice: Error: [Callstack] 0x00007ffe2cef0c82 UE4Editor-Core.dll!UnknownFunction []
+[2019.02.08-20.39.35:052][428]LogOutputDevice: Error: [Callstack] 0x00007ffe2cf0b346 UE4Editor-Core.dll!UnknownFunction []
+[2019.02.08-20.39.35:052][428]LogOutputDevice: Error: [Callstack] 0x00007ffe221b478f UE4Editor-Renderer.dll!UnknownFunction []
+[2019.02.08-20.39.35:052][428]LogOutputDevice: Error: [Callstack] 0x00007ffe2a0489b0 UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.08-20.39.35:052][428]LogOutputDevice: Error: [Callstack] 0x00007ffe29f54a49 UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.08-20.39.35:052][428]LogOutputDevice: Error: [Callstack] 0x00007ffe2a4e30e4 UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.08-20.39.35:052][428]LogOutputDevice: Error: [Callstack] 0x00007ffe2a5173f8 UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.08-20.39.35:052][428]LogOutputDevice: Error: [Callstack] 0x00007ffe2a5293ea UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.08-20.39.35:052][428]LogOutputDevice: Error: [Callstack] 0x00007ffe221388fe UE4Editor-Renderer.dll!UnknownFunction []
+[2019.02.08-20.39.35:052][428]LogOutputDevice: Error: [Callstack] 0x00007ffe27aa2279 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.08-20.39.35:052][428]LogOutputDevice: Error: [Callstack] 0x00007ffe2ada8aba UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.08-20.39.35:052][428]LogOutputDevice: Error: [Callstack] 0x00007ffe279ea7ea UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.08-20.39.35:053][428]LogOutputDevice: Error: [Callstack] 0x00007ffe279e784a UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.08-20.39.35:053][428]LogOutputDevice: Error: [Callstack] 0x00007ffe282df0d6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.08-20.39.35:053][428]LogOutputDevice: Error: [Callstack] 0x00007ff7a4415cbd UE4Editor.exe!UnknownFunction []
+[2019.02.08-20.39.35:053][428]LogOutputDevice: Error: [Callstack] 0x00007ff7a4425b3c UE4Editor.exe!UnknownFunction []
+[2019.02.08-20.39.35:053][428]LogOutputDevice: Error: [Callstack] 0x00007ff7a4425bba UE4Editor.exe!UnknownFunction []
+[2019.02.08-20.39.35:053][428]LogOutputDevice: Error: [Callstack] 0x00007ff7a4433dac UE4Editor.exe!UnknownFunction []
+[2019.02.08-20.39.35:053][428]LogOutputDevice: Error: [Callstack] 0x00007ff7a4435aaa UE4Editor.exe!UnknownFunction []
+[2019.02.08-20.39.35:053][428]LogOutputDevice: Error: [Callstack] 0x00007ffe868b1fe4 KERNEL32.DLL!UnknownFunction []
+[2019.02.08-20.39.35:053][428]LogOutputDevice: Error: [Callstack] 0x00007ffe87c0cb81 ntdll.dll!UnknownFunction []
+[2019.02.08-20.39.35:053][428]LogOutputDevice: Error: 
+[2019.02.08-20.39.35:062][428]LogStats:                SubmitErrorReport -  0.000 s
+[2019.02.08-20.39.36:275][428]LogStats:                    SendNewReport -  1.214 s
+[2019.02.08-20.39.36:275][428]LogStats:             FDebug::EnsureFailed -  1.425 s
+[2019.02.08-20.39.36:295][429]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2019.02.08-20.39.36:365][429]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.08-20.39.38:266][584]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.08-20.39.38:296][584]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/StartMenuBG.StartMenuBG:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG' with GeneratedClass '/Game/_Maps/StartMenuBG.StartMenuBG_C' with ClassGeneratedBy '/Game/_Maps/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG'
+[2019.02.08-20.39.38:296][584]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.08-20.39.38:297][584]PIE: New page: PIE session: StartMenuBG (Feb 8, 2019, 10:39:38 AM)
+[2019.02.08-20.39.38:297][584]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_StartMenuBG
+[2019.02.08-20.39.38:314][584]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017411s)
+[2019.02.08-20.39.38:315][584]LogAIModule: Creating AISystem for world StartMenuBG
+[2019.02.08-20.39.38:315][584]LogPlayLevel: PIE: World Init took: (0.000869s)
+[2019.02.08-20.39.38:315][584]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/StartMenuBG.StartMenuBG to /Game/_Maps/UEDPIE_0_StartMenuBG.StartMenuBG (0.018446s)
+[2019.02.08-20.39.38:371][584]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.08-20.39.38:381][584]LogInit: FAudioDevice initialized.
+[2019.02.08-20.39.38:418][584]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.02.08-20.39.38:421][584]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_StartMenuBG.StartMenuBG up for play (max tick rate 0) at 2019.02.08-15.39.38
+[2019.02.08-20.39.38:421][584]LogWorld: Bringing up level for play took: 0.002678
+[2019.02.08-20.39.38:436][584]LogOutputDevice: Warning: 
+
+Script Stack:
+StartMenuCamera_C.ExecuteUbergraph_StartMenuCamera
+StartMenuCamera_C.Timeline_0__UpdateFunc
+StartMenuCamera_C.ExecuteUbergraph_StartMenuCamera
+StartMenuCamera_C.ReceiveBeginPlay
+
+[2019.02.08-20.39.38:443][584]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.007 s
+[2019.02.08-20.39.38:443][584]LogOutputDevice: Error: === Handled ensure: ===
+[2019.02.08-20.39.38:443][584]LogOutputDevice: Error: 
+[2019.02.08-20.39.38:443][584]LogOutputDevice: Error: Ensure condition failed: NewTransform.IsValid() [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\Components\SceneComponent.cpp] [Line: 611]
+[2019.02.08-20.39.38:443][584]LogOutputDevice: Error: 
+[2019.02.08-20.39.38:443][584]LogOutputDevice: Error: Stack: 
+[2019.02.08-20.39.38:443][584]LogOutputDevice: Error: [Callstack] 0x00007ffe2d1b7136 UE4Editor-Core.dll!UnknownFunction []
+[2019.02.08-20.39.38:443][584]LogOutputDevice: Error: [Callstack] 0x00007ffe2cef0c82 UE4Editor-Core.dll!UnknownFunction []
+[2019.02.08-20.39.38:443][584]LogOutputDevice: Error: [Callstack] 0x00007ffe2cf0b346 UE4Editor-Core.dll!UnknownFunction []
+[2019.02.08-20.39.38:443][584]LogOutputDevice: Error: [Callstack] 0x00007ffe2a0baa6a UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.08-20.39.38:443][584]LogOutputDevice: Error: [Callstack] 0x00007ffe2a097cb0 UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.08-20.39.38:443][584]LogOutputDevice: Error: [Callstack] 0x00007ffe2a09a64e UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.08-20.39.38:443][584]LogOutputDevice: Error: [Callstack] 0x00007ffe2a0ad2b0 UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.08-20.39.38:443][584]LogOutputDevice: Error: [Callstack] 0x00007ffe2a0adb18 UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.08-20.39.38:443][584]LogOutputDevice: Error: [Callstack] 0x00007ffe2a0b06c5 UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.08-20.39.38:443][584]LogOutputDevice: Error: [Callstack] 0x00007ffe29b41cc5 UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.08-20.39.38:443][584]LogOutputDevice: Error: [Callstack] 0x00007ffe2c795f27 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.02.08-20.39.38:443][584]LogOutputDevice: Error: [Callstack] 0x00007ffe2c9a115e UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.02.08-20.39.38:443][584]LogOutputDevice: Error: [Callstack] 0x00007ffe2c9bef49 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.02.08-20.39.38:443][584]LogOutputDevice: Error: [Callstack] 0x00007ffe2c9c1646 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.02.08-20.39.38:443][584]LogOutputDevice: Error: [Callstack] 0x00007ffe2c9a1b0d UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.02.08-20.39.38:443][584]LogOutputDevice: Error: [Callstack] 0x00007ffe2c9c1646 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.02.08-20.39.38:443][584]LogOutputDevice: Error: [Callstack] 0x00007ffe2c795f27 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.02.08-20.39.38:443][584]LogOutputDevice: Error: [Callstack] 0x00007ffe2c9c0be3 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.02.08-20.39.38:443][584]LogOutputDevice: Error: [Callstack] 0x00007ffe29be7fe3 UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.08-20.39.38:443][584]LogOutputDevice: Error: [Callstack] 0x00007ffe2adb7ebf UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.08-20.39.38:443][584]LogOutputDevice: Error: [Callstack] 0x00007ffe2ae28566 UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.08-20.39.38:443][584]LogOutputDevice: Error: [Callstack] 0x00007ffe2ae08ee9 UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.08-20.39.38:443][584]LogOutputDevice: Error: [Callstack] 0x00007ffe2c795f27 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.02.08-20.39.38:443][584]LogOutputDevice: Error: [Callstack] 0x00007ffe2c9a115e UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.02.08-20.39.38:443][584]LogOutputDevice: Error: [Callstack] 0x00007ffe2c9bef49 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.02.08-20.39.38:443][584]LogOutputDevice: Error: [Callstack] 0x00007ffe2c9c1646 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.02.08-20.39.38:443][584]LogOutputDevice: Error: [Callstack] 0x00007ffe2c9a1b0d UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.02.08-20.39.38:443][584]LogOutputDevice: Error: [Callstack] 0x00007ffe2c9c1646 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.02.08-20.39.38:443][584]LogOutputDevice: Error: [Callstack] 0x00007ffe2c795f27 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.02.08-20.39.38:444][584]LogOutputDevice: Error: [Callstack] 0x00007ffe2c9c0be3 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.02.08-20.39.38:444][584]LogOutputDevice: Error: [Callstack] 0x00007ffe29be7fe3 UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.08-20.39.38:444][584]LogOutputDevice: Error: [Callstack] 0x00007ffe29bae82c UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.08-20.39.38:444][584]LogOutputDevice: Error: [Callstack] 0x00007ffe29bba702 UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.08-20.39.38:444][584]LogOutputDevice: Error: [Callstack] 0x00007ffe2af13759 UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.08-20.39.38:444][584]LogOutputDevice: Error: [Callstack] 0x00007ffe2a2d3bf1 UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.08-20.39.38:444][584]LogOutputDevice: Error: [Callstack] 0x00007ffe2aef7aae UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.08-20.39.38:444][584]LogOutputDevice: Error: [Callstack] 0x00007ffe2a2f1e8d UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.08-20.39.38:444][584]LogOutputDevice: Error: [Callstack] 0x00007ffe27f8f419 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.08-20.39.38:444][584]LogOutputDevice: Error: [Callstack] 0x00007ffe27fafc3c UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.08-20.39.38:444][584]LogOutputDevice: Error: [Callstack] 0x00007ffe27fcdfc6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.08-20.39.38:444][584]LogOutputDevice: Error: [Callstack] 0x00007ffe279e6aa1 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.08-20.39.38:444][584]LogOutputDevice: Error: [Callstack] 0x00007ffe282df0d6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.08-20.39.38:444][584]LogOutputDevice: Error: [Callstack] 0x00007ff7a4415cbd UE4Editor.exe!UnknownFunction []
+[2019.02.08-20.39.38:444][584]LogOutputDevice: Error: [Callstack] 0x00007ff7a4425b3c UE4Editor.exe!UnknownFunction []
+[2019.02.08-20.39.38:444][584]LogOutputDevice: Error: [Callstack] 0x00007ff7a4425bba UE4Editor.exe!UnknownFunction []
+[2019.02.08-20.39.38:444][584]LogOutputDevice: Error: [Callstack] 0x00007ff7a4433dac UE4Editor.exe!UnknownFunction []
+[2019.02.08-20.39.38:444][584]LogOutputDevice: Error: [Callstack] 0x00007ff7a4435aaa UE4Editor.exe!UnknownFunction []
+[2019.02.08-20.39.38:444][584]LogOutputDevice: Error: [Callstack] 0x00007ffe868b1fe4 KERNEL32.DLL!UnknownFunction []
+[2019.02.08-20.39.38:444][584]LogOutputDevice: Error: [Callstack] 0x00007ffe87c0cb81 ntdll.dll!UnknownFunction []
+[2019.02.08-20.39.38:444][584]LogOutputDevice: Error: 
+[2019.02.08-20.39.38:449][584]LogStats:                SubmitErrorReport -  0.000 s
