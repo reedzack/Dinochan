@@ -1,0 +1,625 @@
+﻿Log file open, 02/18/19 01:33:54
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Dinochan_v001
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.558829
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.239s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6800K CPU @ 3.40GHz, GPU: NVIDIA GeForce GTX 1080
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: D:/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.017s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.02.18-06.33.55:859][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.18-06.33.55:859][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.02.18-06.33.55:887][  0]LogHAL: Display: Platform has ~ 32 GB [34266337280 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.02.18-06.33.55:887][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.02.18-06.33.55:887][  0]LogInit: Going up to parent DeviceProfile []
+[2019.02.18-06.33.55:892][  0]LogInit: Computer: DESKTOP-2KDI07U
+[2019.02.18-06.33.55:892][  0]LogInit: User: Dominic
+[2019.02.18-06.33.55:892][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.02.18-06.33.55:892][  0]LogInit: High frequency timer resolution =3.386955 MHz
+[2019.02.18-06.33.55:892][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2019.02.18-06.33.55:892][  0]LogMemory: Platform Memory Stats for Windows
+[2019.02.18-06.33.55:892][  0]LogMemory: Process Physical Memory: 102.13 MB used, 102.13 MB peak
+[2019.02.18-06.33.55:892][  0]LogMemory: Process Virtual Memory: 94.39 MB used, 94.39 MB peak
+[2019.02.18-06.33.55:892][  0]LogMemory: Physical Memory: 12766.57 MB used,  19912.36 MB free, 32678.93 MB total
+[2019.02.18-06.33.55:892][  0]LogMemory: Virtual Memory: 4665.48 MB used,  19912.36 MB free, 134217728.00 MB total
+[2019.02.18-06.33.56:246][  0]LogInit: Using OS detected language (en-US).
+[2019.02.18-06.33.56:246][  0]LogInit: Using OS detected locale (en-US).
+[2019.02.18-06.33.56:249][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.02.18-06.33.56:652][  0]LogStreaming: Display: Took  0.405s to InitEngineTextLocalization.
+[2019.02.18-06.33.56:652][  0]LogInit: Setting process to per monitor DPI aware
+[2019.02.18-06.33.56:787][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.02.18-06.33.56:787][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.02.18-06.33.58:891][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2019.02.18-06.33.58:891][  0]LogD3D11RHI: D3D11 adapters:
+[2019.02.18-06.33.59:092][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2019.02.18-06.33.59:092][  0]LogD3D11RHI:       8086/0/16339 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.02.18-06.33.59:096][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.02.18-06.33.59:096][  0]LogD3D11RHI:       0/0/16339 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.02.18-06.33.59:096][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.02.18-06.33.59:108][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.02.18-06.33.59:108][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2019.02.18-06.33.59:108][  0]LogWindows: EnumDisplayDevices:
+[2019.02.18-06.33.59:109][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2019.02.18-06.33.59:109][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2019.02.18-06.33.59:110][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2019.02.18-06.33.59:111][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2019.02.18-06.33.59:112][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.02.18-06.33.59:112][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2019.02.18-06.33.59:112][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2019.02.18-06.33.59:112][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2019.02.18-06.33.59:112][  0]LogRHI: Texture pool is 5660 MB (70% of 8086 MB)
+[2019.02.18-06.33.59:184][  0]LogD3D11RHI: Async texture creation enabled
+[2019.02.18-06.33.59:195][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.02.18-06.33.59:201][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Intermediate/Shaders/WorkingDirectory/37300/).
+[2019.02.18-06.33.59:201][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Dominic/AppData/Local/Temp/UnrealShaderWorkingDir/B694B11E46DD15122680F88C59516582/'.
+[2019.02.18-06.33.59:874][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.02.18-06.33.59:912][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.02.18-06.33.59:952][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.02.18-06.33.59:995][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.02.18-06.34.00:049][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.02.18-06.34.00:091][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.02.18-06.34.00:132][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.02.18-06.34.00:178][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.02.18-06.34.00:213][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.02.18-06.34.00:346][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-06.34.00:346][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-06.34.00:346][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-06.34.00:346][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-06.34.00:346][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-06.34.00:346][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-06.34.00:346][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-06.34.00:346][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-06.34.00:346][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-06.34.00:346][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-06.34.00:346][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-06.34.00:346][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-06.34.00:346][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-06.34.00:346][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-06.34.00:346][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-06.34.00:346][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-06.34.00:346][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-06.34.00:346][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-06.34.00:377][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.02.18-06.34.00:535][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.18-06.34.00:535][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.18-06.34.00:586][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.18-06.34.00:586][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.18-06.34.00:629][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.02.18-06.34.00:669][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.02.18-06.34.00:720][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.02.18-06.34.00:770][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.02.18-06.34.00:806][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.02.18-06.34.00:806][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.02.18-06.34.01:684][  0]LogXGEController: Cleaning working directory: C:/Users/Dominic/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.02.18-06.34.01:684][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.02.18-06.34.01:684][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.02.18-06.34.01:684][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.02.18-06.34.03:488][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.02.18-06.34.03:598][  0]LogDerivedDataCache: Loaded boot cache 0.11s 87MB C:/Users/Dominic/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.02.18-06.34.03:598][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Dominic/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.02.18-06.34.03:598][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.02.18-06.34.03:598][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.02.18-06.34.03:598][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.02.18-06.34.03:598][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.02.18-06.34.03:614][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.02.18-06.34.03:628][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Dominic/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.02.18-06.34.03:628][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.02.18-06.34.03:628][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.02.18-06.34.03:648][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.02.18-06.34.03:650][  0]LogSlate: Using FreeType 2.6.0
+[2019.02.18-06.34.03:664][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.02.18-06.34.03:872][  0]LogAssetRegistry: FAssetRegistry took 0.0265 seconds to start up
+[2019.02.18-06.34.04:211][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.18-06.34.04:769][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.02.18-06.34.04:850][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.02.18-06.34.04:850][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.02.18-06.34.04:850][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.02.18-06.34.04:850][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.02.18-06.34.04:886][  0]LogNetVersion: Dinochan_v001 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2574802920)
+[2019.02.18-06.34.05:981][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.244049 seconds
+[2019.02.18-06.34.05:986][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.02.18-06.34.05:986][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.02.18-06.34.05:986][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.02.18-06.34.09:799][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.02.18-06.34.09:839][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.02.18-06.34.10:494][  0]SourceControl: Source control is disabled
+[2019.02.18-06.34.10:495][  0]SourceControl: Source control is disabled
+[2019.02.18-06.34.10:545][  0]SourceControl: Source control is disabled
+[2019.02.18-06.34.10:574][  0]SourceControl: Source control is disabled
+[2019.02.18-06.34.11:823][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.02.18-06.34.12:152][  0]LogOcInput: OculusInput pre-init called
+[2019.02.18-06.34.12:372][  0]LogEngine: Initializing Engine...
+[2019.02.18-06.34.12:407][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2019.02.18-06.34.12:409][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.18-06.34.12:409][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.18-06.34.12:409][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.18-06.34.12:409][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.18-06.34.12:748][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.02.18-06.34.12:801][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.02.18-06.34.12:915][  0]LogInit: XAudio2 using 'Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.18-06.34.12:973][  0]LogInit: FAudioDevice initialized.
+[2019.02.18-06.34.12:973][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.02.18-06.34.13:062][  0]LogDerivedDataCache: Saved boot cache 0.09s 71MB C:/Users/Dominic/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.02.18-06.34.13:092][  0]LogInit: Texture streaming: Enabled
+[2019.02.18-06.34.13:218][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.02.18-06.34.13:271][  0]LogInit: Transaction tracking system initialized
+[2019.02.18-06.34.13:462][  0]BlueprintLog: New page: Editor Load
+[2019.02.18-06.34.14:241][  0]LocalizationService: Localization service is disabled
+[2019.02.18-06.34.15:153][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.02.18-06.34.15:153][  0]LogCook: Display: Mobile HDR setting 1
+[2019.02.18-06.34.15:153][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.02.18-06.34.15:153][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.18-06.34.15:153][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.18-06.34.15:153][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.18-06.34.15:153][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.18-06.34.15:275][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/' took 0.03s
+[2019.02.18-06.34.15:702][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/Cube'
+[2019.02.18-06.34.15:703][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/Cube'
+[2019.02.18-06.34.15:703][  0]LogUObjectGlobals: Warning: Failed to find object 'StaticMesh /Engine/BasicShapes/Cube.Cube'
+[2019.02.18-06.34.16:160][  0]SourceControl: Source control is disabled
+[2019.02.18-06.34.16:160][  0]Cmd: MAP LOAD FILE="C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/_Maps/RubenLevel/Rueben_Dev.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.18-06.34.16:161][  0]LightingResults: New page: Lighting Build
+[2019.02.18-06.34.16:165][  0]MapCheck: New page: Map Check
+[2019.02.18-06.34.16:165][  0]LightingResults: New page: Lighting Build
+[2019.02.18-06.34.16:796][  0]LogStaticMesh: Building static mesh GreatDoor_Door_L...
+[2019.02.18-06.34.16:844][  0]LogStaticMesh: Built static mesh [0.05s] /Game/1_Models/Doors/Great_Door/GreatDoor_Door_L.GreatDoor_Door_L
+[2019.02.18-06.34.16:863][  0]LogStaticMesh: Building static mesh GreatDoor_Door_hinge...
+[2019.02.18-06.34.16:908][  0]LogStaticMesh: Built static mesh [0.04s] /Game/1_Models/Doors/Great_Door/GreatDoor_Door_hinge.GreatDoor_Door_hinge
+[2019.02.18-06.34.16:934][  0]LogStaticMesh: Building static mesh GreatDoor_Door_entry...
+[2019.02.18-06.34.16:977][  0]LogStaticMesh: Built static mesh [0.04s] /Game/1_Models/Doors/Great_Door/GreatDoor_Door_entry.GreatDoor_Door_entry
+[2019.02.18-06.34.17:361][  0]LogStaticMesh: Building static mesh GreatDoor_Door_R...
+[2019.02.18-06.34.17:404][  0]LogStaticMesh: Built static mesh [0.04s] /Game/1_Models/Doors/Great_Door/GreatDoor_Door_R.GreatDoor_Door_R
+[2019.02.18-06.34.17:421][  0]LogStaticMesh: Building static mesh GreatDoor_Missing_Gem...
+[2019.02.18-06.34.17:464][  0]LogStaticMesh: Built static mesh [0.04s] /Game/1_Models/Doors/Great_Door/GreatDoor_Missing_Gem.GreatDoor_Missing_Gem
+[2019.02.18-06.34.18:050][  0]LogAIModule: Creating AISystem for world Rueben_Dev
+[2019.02.18-06.34.18:101][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.18-06.34.18:135][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.18-06.34.18:252][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 117.026ms to complete.
+[2019.02.18-06.34.18:252][  0]LogFileHelpers: Loading map 'Rueben_Dev' took 2.092
+[2019.02.18-06.34.18:384][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.18-06.34.18:390][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.18-06.34.18:395][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.18-06.34.18:401][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.18-06.34.18:443][  0]LogCollectionManager: Loaded 0 collections in 0.003381 seconds
+[2019.02.18-06.34.18:488][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Saved/Collections/' took 0.01s
+[2019.02.18-06.34.18:488][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/Developers/Dominic/Collections/' took 0.01s
+[2019.02.18-06.34.18:488][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/Collections/' took 0.01s
+[2019.02.18-06.34.18:488][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.02.18-06.34.18:497][  0]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 2572 classes and 603 folders.
+[2019.02.18-06.34.18:505][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.02.18-06.34.18:850][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.02.18-06.34.18:889][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.02.18-06.34.18:910][  0]LogSlate: Took 0.005312 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.02.18-06.34.18:914][  0]LogSlate: Took 0.004090 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.02.18-06.34.18:923][  0]LogSlate: Took 0.004157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.02.18-06.34.19:039][  0]LogRenderer: Reallocating scene render targets to support 1156x576 Format 10 NumSamples 1 (Frame:1).
+[2019.02.18-06.34.19:248][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.02.18-06.34.19:248][  0]LogLoad: (Engine Initialization) Total time: 29.23 seconds
+[2019.02.18-06.34.19:248][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.02.18-06.34.19:257][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.02.18-06.34.19:294][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.02.18-06.34.19:329][  0]LogSlate: Took 0.004568 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.18-06.34.19:386][  1]LogAssetRegistry: Asset discovery search completed in 15.5361 seconds
+[2019.02.18-06.34.19:387][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.02.18-06.34.19:388][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000056 seconds (updated 0 objects)
+[2019.02.18-06.34.20:291][ 97]LogSlate: Took 0.000238 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.18-06.34.24:349][568]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/' took 5.08s
+[2019.02.18-06.34.30:650][295]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GreatDoor_Door_entry)
+[2019.02.18-06.34.36:450][935]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GreatDoor_Missing_Gem)
+[2019.02.18-06.34.52:409][786]LogEditorViewport: Clicking on Actor (LMB): KillPlane_C (KillPlane)
+[2019.02.18-06.35.01:151][772]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GreatDoor_Missing_Gem)
+[2019.02.18-06.35.05:198][239]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GreatDoor_Door_entry)
+[2019.02.18-06.35.13:067][150]Cmd: TRANSACTION UNDO
+[2019.02.18-06.35.13:067][150]LogEditorTransaction: Undo Rotate Actors
+[2019.02.18-06.35.13:726][210]Cmd: TRANSACTION UNDO
+[2019.02.18-06.35.13:726][210]LogEditorTransaction: Undo Rotate Actors
+[2019.02.18-06.35.14:880][344]Cmd: TRANSACTION UNDO
+[2019.02.18-06.35.14:880][344]LogEditorTransaction: Undo Clicking on Actors
+[2019.02.18-06.35.15:269][383]Cmd: TRANSACTION UNDO
+[2019.02.18-06.35.15:269][383]LogEditorTransaction: Undo Rotate Actors
+[2019.02.18-06.35.15:623][423]Cmd: TRANSACTION UNDO
+[2019.02.18-06.35.15:623][423]LogEditorTransaction: Undo Clicking on Actors
+[2019.02.18-06.35.15:992][463]Cmd: TRANSACTION UNDO
+[2019.02.18-06.35.15:992][463]LogEditorTransaction: Undo Clicking on Actors
+[2019.02.18-06.35.16:346][499]Cmd: TRANSACTION UNDO
+[2019.02.18-06.35.16:346][499]LogEditorTransaction: Undo Rotate Actors
+[2019.02.18-06.35.16:650][533]Cmd: TRANSACTION UNDO
+[2019.02.18-06.35.16:650][533]LogEditorTransaction: Undo Clicking on Actors
+[2019.02.18-06.35.17:070][577]Cmd: TRANSACTION UNDO
+[2019.02.18-06.35.17:070][577]LogEditorTransaction: Undo Rotate Actors
+[2019.02.18-06.35.21:314][ 47]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.18-06.35.32:095][164]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.02.18-06.35.32:246][166]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Dinochanv001
+[2019.02.18-06.35.32:247][166]LogTemp: CWD: D:\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.02.18-06.35.32:247][166]LogTemp: Initial Dir: D:\UE_4.20
+[2019.02.18-06.35.32:247][166]LogTemp: Env CWD: D:\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.02.18-06.35.32:247][166]LogTemp: BranchPath = DESKTOP-2KDI07U/D/UE_4.20/Engine/Binaries --- GameBranchPath = DESKTOP-2KDI07U/D/UE_4.20/Engine/Binaries
+[2019.02.18-06.35.32:247][166]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Dominic\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.02.18-06.36.06:120][403]LogSlate: Window 'Project Settings' being destroyed
+[2019.02.18-06.36.06:125][403]LogSlate: Window 'Project Settings' being destroyed
+[2019.02.18-06.36.12:740][119]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/1_Models/DinoRun_test.DinoRun_test
+[2019.02.18-06.36.12:748][119]LogAnimationCompression: Recompressing (AnimSequence /Game/1_Models/DinoRun_test.DinoRun_test) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.02.18-06.36.12:758][119]LogSkeletalMesh: Building Skeletal Mesh Dinoskeleton...
+[2019.02.18-06.36.13:414][119]LogSkeletalMesh: Built Skeletal Mesh [0.65s] /Game/1_Models/Dinoskeleton.Dinoskeleton
+[2019.02.18-06.36.13:417][119]LogAIModule: Creating AISystem for world Modelled_Greybox
+[2019.02.18-06.36.13:446][119]LogAssetEditorManager: Opening Asset editor for World /Game/_Maps/Modelled_Greybox.Modelled_Greybox
+[2019.02.18-06.36.13:472][119]Cmd: MAP LOAD FILE="C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/_Maps/Modelled_Greybox.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.18-06.36.13:472][119]LightingResults: New page: Lighting Build
+[2019.02.18-06.36.13:473][119]LoadErrors: New page: Loading map: Modelled_Greybox.umap
+[2019.02.18-06.36.13:474][119]MapCheck: New page: Map Check
+[2019.02.18-06.36.13:474][119]LightingResults: New page: Lighting Build
+[2019.02.18-06.36.13:506][119]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.18-06.36.13:565][119]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.18-06.36.13:689][119]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 123.638ms to complete.
+[2019.02.18-06.36.13:690][119]LogFileHelpers: Loading map 'Modelled_Greybox' took 0.219
+[2019.02.18-06.36.30:033][ 46]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.18-06.36.30:185][ 56]LogTexture: Display: Building textures: Dinochan_Logo2 (BGRA8, 692X298)
+[2019.02.18-06.36.30:191][ 56]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/4_UI_Widgets/StartMenu.StartMenu
+[2019.02.18-06.36.30:746][ 56]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
+[2019.02.18-06.36.31:588][ 56]LogTexture: Display: Building textures: SelectionMark (BGRA8, 499X414)
+[2019.02.18-06.36.31:588][ 56]LogTexture: Display: Building textures: QuitMenu (BGRA8, 1198X1500)
+[2019.02.18-06.36.31:606][ 56]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/4_UI_Widgets/QuitMenu.QuitMenu
+[2019.02.18-06.36.32:018][ 56]LogTexture: Display: Building textures: Checkmark (AutoDXT, 216X280)
+[2019.02.18-06.36.32:018][ 56]LogTexture: Display: Building textures: StartMenu (BGRA8, 1198X1500)
+[2019.02.18-06.36.32:024][ 56]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/4_UI_Widgets/MainMenu.MainMenu
+[2019.02.18-06.36.32:337][ 56]LogLinker: Warning: Can't resolve asset name
+[2019.02.18-06.36.32:350][ 56]LogSlate: Took 0.003768 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.02.18-06.36.36:011][263]LogSlate: Window 'MainMenu' being destroyed
+[2019.02.18-06.36.36:016][263]LogSlate: Window 'MainMenu' being destroyed
+[2019.02.18-06.36.42:653][ 33]AssetReimport: New page: Outstanding source content changes 8:36:42 PM
+[2019.02.18-06.36.42:670][ 34]LogStaticMesh: Building static mesh Lever_pPyramid1...
+[2019.02.18-06.36.42:671][ 34]LogStaticMesh: Built static mesh [0.00s] /Game/1_Models/Lever_pPyramid1.Lever_pPyramid1
+[2019.02.18-06.36.42:675][ 34]LogEditorFactories: Performing atomic reimport of [C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Lever.obj]
+[2019.02.18-06.36.42:682][ 34]LogFbx: Loading FBX Scene from C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Lever.obj
+[2019.02.18-06.36.42:697][ 34]LogFbx: FBX Scene Loaded Succesfully
+[2019.02.18-06.36.42:706][ 34]LogStaticMesh: Building static mesh Lever_pPyramid1...
+[2019.02.18-06.36.42:707][ 34]LogStaticMesh: Built static mesh [0.00s] /Game/1_Models/Lever_pPyramid1.Lever_pPyramid1
+[2019.02.18-06.36.42:713][ 34]LogEditorFactories: -- imported successfully
+[2019.02.18-06.36.42:734][ 35]LogEditorFactories: Performing atomic reimport of [C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Doors/GreatDoor.fbx]
+[2019.02.18-06.36.42:744][ 35]LogFbx: Loading FBX Scene from C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Doors/GreatDoor.fbx
+[2019.02.18-06.36.42:753][ 35]LogFbx: FBX Scene Loaded Succesfully
+[2019.02.18-06.36.43:050][ 35]LogStaticMesh: Building static mesh GreatDoor_Door_entry...
+[2019.02.18-06.36.43:087][ 35]LogStaticMesh: Built static mesh [0.04s] /Game/1_Models/Doors/Great_Door/GreatDoor_Door_entry.GreatDoor_Door_entry
+[2019.02.18-06.36.43:107][ 35]LogEditorFactories: -- imported successfully
+[2019.02.18-06.36.43:125][ 35]LogEditorFactories: Performing atomic reimport of [C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Doors/GreatDoor.fbx]
+[2019.02.18-06.36.43:137][ 35]LogFbx: Loading FBX Scene from C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Doors/GreatDoor.fbx
+[2019.02.18-06.36.43:146][ 35]LogFbx: FBX Scene Loaded Succesfully
+[2019.02.18-06.36.43:442][ 35]LogStaticMesh: Building static mesh GreatDoor_Door_hinge...
+[2019.02.18-06.36.43:481][ 35]LogStaticMesh: Built static mesh [0.04s] /Game/1_Models/Doors/Great_Door/GreatDoor_Door_hinge.GreatDoor_Door_hinge
+[2019.02.18-06.36.43:496][ 35]LogEditorFactories: -- imported successfully
+[2019.02.18-06.36.43:513][ 35]LogEditorFactories: Performing atomic reimport of [C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Doors/GreatDoor.fbx]
+[2019.02.18-06.36.43:523][ 35]LogFbx: Loading FBX Scene from C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Doors/GreatDoor.fbx
+[2019.02.18-06.36.43:531][ 35]LogFbx: FBX Scene Loaded Succesfully
+[2019.02.18-06.36.43:838][ 35]LogStaticMesh: Building static mesh GreatDoor_Door_L...
+[2019.02.18-06.36.43:894][ 35]LogStaticMesh: Built static mesh [0.06s] /Game/1_Models/Doors/Great_Door/GreatDoor_Door_L.GreatDoor_Door_L
+[2019.02.18-06.36.43:925][ 35]LogEditorFactories: -- imported successfully
+[2019.02.18-06.36.43:948][ 35]LogEditorFactories: Performing atomic reimport of [C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Doors/GreatDoor.fbx]
+[2019.02.18-06.36.43:966][ 35]LogFbx: Loading FBX Scene from C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Doors/GreatDoor.fbx
+[2019.02.18-06.36.43:980][ 35]LogFbx: FBX Scene Loaded Succesfully
+[2019.02.18-06.36.44:298][ 35]LogStaticMesh: Building static mesh GreatDoor_Door_R...
+[2019.02.18-06.36.44:336][ 35]LogStaticMesh: Built static mesh [0.04s] /Game/1_Models/Doors/Great_Door/GreatDoor_Door_R.GreatDoor_Door_R
+[2019.02.18-06.36.44:350][ 35]LogEditorFactories: -- imported successfully
+[2019.02.18-06.36.44:367][ 35]LogEditorFactories: Performing atomic reimport of [C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Doors/GreatDoor.fbx]
+[2019.02.18-06.36.44:378][ 35]LogFbx: Loading FBX Scene from C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Doors/GreatDoor.fbx
+[2019.02.18-06.36.44:386][ 35]LogFbx: FBX Scene Loaded Succesfully
+[2019.02.18-06.36.44:696][ 35]LogStaticMesh: Building static mesh GreatDoor_Missing_Gem...
+[2019.02.18-06.36.44:742][ 35]LogStaticMesh: Built static mesh [0.05s] /Game/1_Models/Doors/Great_Door/GreatDoor_Missing_Gem.GreatDoor_Missing_Gem
+[2019.02.18-06.36.44:762][ 35]LogEditorFactories: -- imported successfully
+[2019.02.18-06.36.44:796][ 36]LogStaticMesh: Building static mesh GreatDoor_Entry...
+[2019.02.18-06.36.44:812][ 36]LogStaticMesh: Built static mesh [0.02s] /Game/1_Models/Doors/GreatDoor_Entry.GreatDoor_Entry
+[2019.02.18-06.36.44:815][ 36]LogEditorFactories: Performing atomic reimport of [C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Doors/GreatDoor_Entry.fbx]
+[2019.02.18-06.36.44:824][ 36]LogFbx: Loading FBX Scene from C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Doors/GreatDoor_Entry.fbx
+[2019.02.18-06.36.44:831][ 36]LogFbx: FBX Scene Loaded Succesfully
+[2019.02.18-06.36.44:919][ 36]LogStaticMesh: Building static mesh GreatDoor_Entry...
+[2019.02.18-06.36.44:929][ 36]LogStaticMesh: Built static mesh [0.01s] /Game/1_Models/Doors/GreatDoor_Entry.GreatDoor_Entry
+[2019.02.18-06.36.44:936][ 36]LogEditorFactories: -- imported successfully
+[2019.02.18-06.36.44:964][ 37]LogStaticMesh: Building static mesh GreatDoor_L_NoGem...
+[2019.02.18-06.36.44:978][ 37]LogStaticMesh: Built static mesh [0.01s] /Game/1_Models/Doors/GreatDoor_L_NoGem.GreatDoor_L_NoGem
+[2019.02.18-06.36.44:981][ 37]LogEditorFactories: Performing atomic reimport of [C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Doors/GreatDoor_L_NoGem.fbx]
+[2019.02.18-06.36.44:990][ 37]LogFbx: Loading FBX Scene from C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Doors/GreatDoor_L_NoGem.fbx
+[2019.02.18-06.36.44:997][ 37]LogFbx: FBX Scene Loaded Succesfully
+[2019.02.18-06.36.45:101][ 37]LogStaticMesh: Building static mesh GreatDoor_L_NoGem...
+[2019.02.18-06.36.45:113][ 37]LogStaticMesh: Built static mesh [0.01s] /Game/1_Models/Doors/GreatDoor_L_NoGem.GreatDoor_L_NoGem
+[2019.02.18-06.36.45:122][ 37]LogEditorFactories: -- imported successfully
+[2019.02.18-06.36.45:146][ 38]LogStaticMesh: Building static mesh GreatDoor_R...
+[2019.02.18-06.36.45:160][ 38]LogStaticMesh: Built static mesh [0.01s] /Game/1_Models/Doors/GreatDoor_R.GreatDoor_R
+[2019.02.18-06.36.45:163][ 38]LogEditorFactories: Performing atomic reimport of [C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Doors/GreatDoor_R.fbx]
+[2019.02.18-06.36.45:172][ 38]LogFbx: Loading FBX Scene from C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Doors/GreatDoor_R.fbx
+[2019.02.18-06.36.45:178][ 38]LogFbx: FBX Scene Loaded Succesfully
+[2019.02.18-06.36.45:286][ 38]LogStaticMesh: Building static mesh GreatDoor_R...
+[2019.02.18-06.36.45:299][ 38]LogStaticMesh: Built static mesh [0.01s] /Game/1_Models/Doors/GreatDoor_R.GreatDoor_R
+[2019.02.18-06.36.45:306][ 38]LogEditorFactories: -- imported successfully
+[2019.02.18-06.36.45:337][ 39]LogStaticMesh: Building static mesh Great_Door_L...
+[2019.02.18-06.36.45:352][ 39]LogStaticMesh: Built static mesh [0.02s] /Game/1_Models/Doors/Great_Door_L.Great_Door_L
+[2019.02.18-06.36.45:355][ 39]LogEditorFactories: Performing atomic reimport of [C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Doors/Great_Door_L.fbx]
+[2019.02.18-06.36.45:366][ 39]LogFbx: Loading FBX Scene from C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Doors/Great_Door_L.fbx
+[2019.02.18-06.36.45:372][ 39]LogFbx: FBX Scene Loaded Succesfully
+[2019.02.18-06.36.45:482][ 39]LogStaticMesh: Building static mesh Great_Door_L...
+[2019.02.18-06.36.45:494][ 39]LogStaticMesh: Built static mesh [0.01s] /Game/1_Models/Doors/Great_Door_L.Great_Door_L
+[2019.02.18-06.36.45:503][ 39]LogEditorFactories: -- imported successfully
+[2019.02.18-06.36.45:571][ 40]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1_Models/Lever_pPyramid1" FILE="C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Lever_pPyramid1.uasset" SILENT=true
+[2019.02.18-06.36.45:689][ 40]LogSavePackage: Moving 'C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Saved/Lever_pPyramid104133556440B399E9DF390A7222FC95E.tmp' to 'C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Lever_pPyramid1.uasset'
+[2019.02.18-06.36.45:793][ 40]LogSavePackage: Moving 'C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Saved/GreatDoor_Door_entry81475A4B4E62A246FEE7B594BD62C479.tmp' to 'C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Doors/Great_Door/GreatDoor_Door_entry.uasset'
+[2019.02.18-06.36.45:897][ 40]LogSavePackage: Moving 'C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Saved/GreatDoor_Door_hingeA33A45994AD6565272792882B65FD0D8.tmp' to 'C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Doors/Great_Door/GreatDoor_Door_hinge.uasset'
+[2019.02.18-06.36.45:999][ 40]LogSavePackage: Moving 'C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Saved/GreatDoor_Door_L8827EF34476C8958776D4D9608310818.tmp' to 'C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Doors/Great_Door/GreatDoor_Door_L.uasset'
+[2019.02.18-06.36.46:106][ 40]LogSavePackage: Moving 'C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Saved/GreatDoor_Door_RC9CA68A1499290990B8DAEAB92DFA14E.tmp' to 'C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Doors/Great_Door/GreatDoor_Door_R.uasset'
+[2019.02.18-06.36.46:205][ 40]LogSavePackage: Moving 'C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Saved/GreatDoor_Missing_Gem95B5107948DC5B8B35AFBBA3B77111BA.tmp' to 'C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Doors/Great_Door/GreatDoor_Missing_Gem.uasset'
+[2019.02.18-06.36.46:231][ 40]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1_Models/Doors/GreatDoor_Entry" FILE="C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Doors/GreatDoor_Entry.uasset" SILENT=true
+[2019.02.18-06.36.46:306][ 40]LogSavePackage: Moving 'C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Saved/GreatDoor_EntryF64A9E8946629E1ED94E629580DEE338.tmp' to 'C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Doors/GreatDoor_Entry.uasset'
+[2019.02.18-06.36.46:333][ 40]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1_Models/Doors/GreatDoor_L_NoGem" FILE="C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Doors/GreatDoor_L_NoGem.uasset" SILENT=true
+[2019.02.18-06.36.46:407][ 40]LogSavePackage: Moving 'C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Saved/GreatDoor_L_NoGemE895A5A64F897155C1F75E9FB9A2C051.tmp' to 'C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Doors/GreatDoor_L_NoGem.uasset'
+[2019.02.18-06.36.46:432][ 40]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1_Models/Doors/GreatDoor_R" FILE="C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Doors/GreatDoor_R.uasset" SILENT=true
+[2019.02.18-06.36.46:509][ 40]LogSavePackage: Moving 'C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Saved/GreatDoor_R0081BE05408D0F1E0719E5815EDA7025.tmp' to 'C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Doors/GreatDoor_R.uasset'
+[2019.02.18-06.36.46:536][ 40]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1_Models/Doors/Great_Door_L" FILE="C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Doors/Great_Door_L.uasset" SILENT=true
+[2019.02.18-06.36.46:613][ 40]LogSavePackage: Moving 'C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Saved/Great_Door_L7464F1EB4C764EFFF5B70B97A1D1D412.tmp' to 'C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Doors/Great_Door_L.uasset'
+[2019.02.18-06.36.49:631][398]AssetReimport: Reimported asset Lever_pPyramid1 from C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Lever.obj.
+[2019.02.18-06.36.49:631][398]AssetReimport: Reimported asset GreatDoor_Door_entry from C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Doors/GreatDoor.fbx.
+[2019.02.18-06.36.49:631][398]AssetReimport: Reimported asset GreatDoor_Door_hinge from C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Doors/GreatDoor.fbx.
+[2019.02.18-06.36.49:631][398]AssetReimport: Reimported asset GreatDoor_Door_L from C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Doors/GreatDoor.fbx.
+[2019.02.18-06.36.49:631][398]AssetReimport: Reimported asset GreatDoor_Door_R from C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Doors/GreatDoor.fbx.
+[2019.02.18-06.36.49:631][398]AssetReimport: Reimported asset GreatDoor_Missing_Gem from C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Doors/GreatDoor.fbx.
+[2019.02.18-06.36.49:631][398]AssetReimport: Reimported asset GreatDoor_Entry from C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Doors/GreatDoor_Entry.fbx.
+[2019.02.18-06.36.49:631][398]AssetReimport: Reimported asset GreatDoor_L_NoGem from C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Doors/GreatDoor_L_NoGem.fbx.
+[2019.02.18-06.36.49:631][398]AssetReimport: Reimported asset GreatDoor_R from C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Doors/GreatDoor_R.fbx.
+[2019.02.18-06.36.49:631][398]AssetReimport: Reimported asset Great_Door_L from C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/1_Models/Doors/Great_Door_L.fbx.
+[2019.02.18-06.37.16:169][581]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (DinoRun_test)
+[2019.02.18-06.37.24:126][507]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.18-06.37.24:225][519]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.02.18-06.37.24:244][519]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.18-06.37.24:256][519]PIE: New page: PIE session: Modelled_Greybox (Feb 17, 2019, 8:37:24 PM)
+[2019.02.18-06.37.24:256][519]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Modelled_Greybox
+[2019.02.18-06.37.24:263][519]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006750s)
+[2019.02.18-06.37.24:264][519]LogAIModule: Creating AISystem for world Modelled_Greybox
+[2019.02.18-06.37.24:264][519]LogPlayLevel: PIE: World Init took: (0.000822s)
+[2019.02.18-06.37.24:264][519]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Modelled_Greybox.Modelled_Greybox to /Game/_Maps/UEDPIE_0_Modelled_Greybox.Modelled_Greybox (0.007752s)
+[2019.02.18-06.37.24:347][519]LogInit: XAudio2 using 'Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.18-06.37.24:370][519]LogInit: FAudioDevice initialized.
+[2019.02.18-06.37.24:382][519]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.18-06.37.24:442][519]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.02.18-06.37.24:444][519]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Modelled_Greybox.Modelled_Greybox up for play (max tick rate 0) at 2019.02.18-01.37.24
+[2019.02.18-06.37.24:444][519]LogWorld: Bringing up level for play took: 0.002170
+[2019.02.18-06.37.24:465][519]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2019.02.18-06.37.24:495][519]PIE: Play in editor start time for /Game/_Maps/UEDPIE_0_Modelled_Greybox 1.249
+[2019.02.18-06.37.24:520][519]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2019.02.18-06.38.04:806][343]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.18-06.38.04:827][343]LogSlate: Window 'Dinochan_v001 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.02.18-06.38.04:864][343]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.18-06.38.04:912][344]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.02.18-06.38.16:415][714]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.18-06.38.18:890][994]LogAIModule: Creating AISystem for world Dom_Modelled_Greybox1
+[2019.02.18-06.38.18:899][994]LogAssetEditorManager: Opening Asset editor for World /Game/_Maps/DomLevel/Dom_Modelled_Greybox1.Dom_Modelled_Greybox1
+[2019.02.18-06.38.24:202][994]LogSlate: Window 'Save Content' being destroyed
+[2019.02.18-06.38.24:348][994]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Maps/Modelled_Greybox" FILE="C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/_Maps/Modelled_Greybox.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.02.18-06.38.24:521][994]LogSavePackage: Moving 'C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Saved/Modelled_Greybox8AE5BD5C45BCBF6B5CF5FEB44B5DBDE6.tmp' to 'C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/_Maps/Modelled_Greybox.umap'
+[2019.02.18-06.38.24:573][994]LogFileHelpers: Saving map 'Modelled_Greybox' took 0.366
+[2019.02.18-06.38.24:574][994]Cmd: MAP LOAD FILE="C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/_Maps/DomLevel/Dom_Modelled_Greybox1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.18-06.38.24:574][994]LightingResults: New page: Lighting Build
+[2019.02.18-06.38.24:575][994]LoadErrors: New page: Loading map: Dom_Modelled_Greybox1.umap
+[2019.02.18-06.38.24:576][994]MapCheck: New page: Map Check
+[2019.02.18-06.38.24:576][994]LightingResults: New page: Lighting Build
+[2019.02.18-06.38.24:611][994]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.18-06.38.24:678][994]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.18-06.38.24:822][994]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 144.366ms to complete.
+[2019.02.18-06.38.24:822][994]LogFileHelpers: Loading map 'Dom_Modelled_Greybox1' took 0.249
+[2019.02.18-06.38.48:521][825]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.18-06.38.51:166][129]LogAIModule: Creating AISystem for world Modelled_Greybox
+[2019.02.18-06.38.51:174][129]LogAssetEditorManager: Opening Asset editor for World /Game/_Maps/Modelled_Greybox.Modelled_Greybox
+[2019.02.18-06.38.51:202][129]Cmd: MAP LOAD FILE="C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/_Maps/Modelled_Greybox.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.18-06.38.51:202][129]LightingResults: New page: Lighting Build
+[2019.02.18-06.38.51:202][129]LoadErrors: New page: Loading map: Modelled_Greybox.umap
+[2019.02.18-06.38.51:204][129]MapCheck: New page: Map Check
+[2019.02.18-06.38.51:204][129]LightingResults: New page: Lighting Build
+[2019.02.18-06.38.51:236][129]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.18-06.38.51:297][129]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.18-06.38.51:431][129]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 133.344ms to complete.
+[2019.02.18-06.38.51:432][129]LogFileHelpers: Loading map 'Modelled_Greybox' took 0.231
+[2019.02.18-06.39.29:035][604]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.18-06.39.53:505][534]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Greybox1_beetleTowerInterior_1)
+[2019.02.18-06.39.56:414][871]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.18-06.40.01:244][449]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Greybox1_beetleTowerFloor1_1)
+[2019.02.18-06.40.02:848][636]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.18-06.40.13:019][847]EditorErrors: New page: Actor attachment
+[2019.02.18-06.40.15:507][141]EditorErrors: New page: Actor attachment
+[2019.02.18-06.40.18:062][443]EditorErrors: New page: Actor attachment
+[2019.02.18-06.40.33:540][288]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.18-06.40.35:418][509]EditorErrors: New page: Actor attachment
+[2019.02.18-06.40.38:593][885]EditorErrors: New page: Actor attachment
+[2019.02.18-06.40.54:724][798]EditorErrors: New page: Actor attachment
+[2019.02.18-06.40.58:426][238]EditorErrors: New page: Actor attachment
+[2019.02.18-06.41.01:798][637]EditorErrors: New page: Actor attachment
+[2019.02.18-06.41.16:953][436]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.18-06.41.31:557][180]EditorErrors: New page: Actor attachment
+[2019.02.18-06.41.35:207][613]EditorErrors: New page: Actor attachment
+[2019.02.18-06.41.37:790][918]EditorErrors: New page: Actor attachment
+[2019.02.18-06.42.01:867][795]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Greybox1_beetleTower1)
+[2019.02.18-06.42.03:936][ 37]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.18-06.42.12:380][ 34]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.18-06.42.38:906][205]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.18-06.42.58:489][524]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.18-06.43.32:869][623]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.18-06.43.39:627][413]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.18-06.43.43:949][914]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.18-06.44.25:544][855]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.18-06.44.26:271][932]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Greybox1_baseIsland)
+[2019.02.18-06.44.29:615][326]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.18-06.44.32:276][638]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.18-06.44.53:939][217]Cmd: TRANSACTION UNDO
+[2019.02.18-06.44.53:939][217]LogEditorTransaction: Undo Rotate Actors
+[2019.02.18-06.45.06:194][677]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.18-06.45.22:471][611]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.18-06.45.23:260][705]LogEditorViewport: Clicking Background
+[2019.02.18-06.45.23:823][771]LogEditorViewport: Clicking Background
+[2019.02.18-06.45.28:635][341]LogEditorViewport: Clicking Background
+[2019.02.18-06.45.41:294][852]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.18-06.45.51:247][ 43]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/_Maps/Modelled_Greybox.Modelled_Greybox:PersistentLevel.ModelComponent_0, Buffer: 5332d760, Buffer Size: 0, Element: 0
+[2019.02.18-06.45.51:247][ 43]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/_Maps/Modelled_Greybox.Modelled_Greybox:PersistentLevel.ModelComponent_0' invalid (24 verts, 0 indices).
+[2019.02.18-06.45.51:269][ 43]LogPhysics: Warning: Attempt to build physics data for /Game/_Maps/Modelled_Greybox.Modelled_Greybox:PersistentLevel.ModelComponent_0.BodySetup_0 when we are unable to.
+[2019.02.18-06.45.51:269][ 43]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/_Maps/Modelled_Greybox.Modelled_Greybox:PersistentLevel.ModelComponent_1, Buffer: 5332d760, Buffer Size: 0, Element: 0
+[2019.02.18-06.45.51:269][ 43]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/_Maps/Modelled_Greybox.Modelled_Greybox:PersistentLevel.ModelComponent_1' invalid (24 verts, 0 indices).
+[2019.02.18-06.45.51:269][ 43]LogPhysics: Warning: Attempt to build physics data for /Game/_Maps/Modelled_Greybox.Modelled_Greybox:PersistentLevel.ModelComponent_1.BodySetup_0 when we are unable to.
+[2019.02.18-06.45.52:642][204]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.18-06.45.52:978][244]LogEditorViewport: Clicking Background
+[2019.02.18-06.45.55:131][501]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.18-06.46.09:749][245]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.18-06.46.55:909][759]LogSlate: Took 0.003875 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.02.18-06.46.58:593][ 79]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.18-06.47.01:301][402]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.02.18-06.47.01:330][402]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2019.02.18-06.48.56:340][155]Cmd: TRANSACTION UNDO
+[2019.02.18-06.48.56:341][155]LogEditorTransaction: Undo Move World Outliner Items
+[2019.02.18-06.48.56:343][155]LogActorComponent: ~FComponentReregisterContext: (/Game/_Maps/Modelled_Greybox.Modelled_Greybox:PersistentLevel.Greybox1_beetleTowerFloor1_70.StaticMeshComponent0) Component already registered.
+[2019.02.18-06.49.14:723][357]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.18-06.49.14:808][365]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Maps/Modelled_Greybox" FILE="C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/_Maps/Modelled_Greybox.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.02.18-06.49.14:988][365]LogSavePackage: Moving 'C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Saved/Modelled_GreyboxCB019A7247046F6F07EAF3810CAE4703.tmp' to 'C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/_Maps/Modelled_Greybox.umap'
+[2019.02.18-06.49.15:048][365]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Maps/Modelled_Greybox_BuiltData" FILE="C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/_Maps/Modelled_Greybox_BuiltData.uasset" SILENT=true
+[2019.02.18-06.49.15:215][365]LogSavePackage: Moving 'C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Saved/Modelled_Greybox_BuiltDataF21A17E94A52EC5815D588997E1A6700.tmp' to 'C:/Users/Dominic/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/_Maps/Modelled_Greybox_BuiltData.uasset'
+[2019.02.18-06.49.49:228][682]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.02.18-06.49.49:330][684]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Dinochanv001
+[2019.02.18-06.49.49:330][684]LogTemp: CWD: D:\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.02.18-06.49.49:330][684]LogTemp: Initial Dir: D:\UE_4.20
+[2019.02.18-06.49.49:330][684]LogTemp: Env CWD: D:\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.02.18-06.49.49:338][684]LogTemp: BranchPath = DESKTOP-2KDI07U/D/UE_4.20/Engine/Binaries --- GameBranchPath = DESKTOP-2KDI07U/D/UE_4.20/Engine/Binaries
+[2019.02.18-06.49.49:356][684]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Dominic\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
