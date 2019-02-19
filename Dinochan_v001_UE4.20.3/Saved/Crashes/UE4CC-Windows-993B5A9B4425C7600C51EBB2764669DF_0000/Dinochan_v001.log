@@ -1,0 +1,826 @@
+﻿Log file open, 02/18/19 14:28:39
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Dinochan_v001
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.427665
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.126s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: AMD Ryzen 5 1600 Six-Core Processor            , GPU: NVIDIA GeForce GTX 1070
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.006s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.02.18-19.28.40:169][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.18-19.28.40:169][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.02.18-19.28.40:182][  0]LogHAL: Display: Platform has ~ 16 GB [17130070016 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.02.18-19.28.40:182][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.02.18-19.28.40:182][  0]LogInit: Going up to parent DeviceProfile []
+[2019.02.18-19.28.40:182][  0]LogInit: Computer: DESKTOP-ORUU3QM
+[2019.02.18-19.28.40:182][  0]LogInit: User: Rueben
+[2019.02.18-19.28.40:182][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.02.18-19.28.40:182][  0]LogInit: High frequency timer resolution =3.124994 MHz
+[2019.02.18-19.28.40:182][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2019.02.18-19.28.40:182][  0]LogMemory: Platform Memory Stats for Windows
+[2019.02.18-19.28.40:182][  0]LogMemory: Process Physical Memory: 102.57 MB used, 102.57 MB peak
+[2019.02.18-19.28.40:182][  0]LogMemory: Process Virtual Memory: 98.00 MB used, 98.00 MB peak
+[2019.02.18-19.28.40:183][  0]LogMemory: Physical Memory: 11692.21 MB used,  4644.30 MB free, 16336.51 MB total
+[2019.02.18-19.28.40:183][  0]LogMemory: Virtual Memory: 4669.61 MB used,  4644.30 MB free, 134217728.00 MB total
+[2019.02.18-19.28.40:205][  0]LogInit: Using OS detected language (en-US).
+[2019.02.18-19.28.40:206][  0]LogInit: Using OS detected locale (en-US).
+[2019.02.18-19.28.40:207][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.02.18-19.28.40:641][  0]LogStreaming: Display: Took  0.436s to InitEngineTextLocalization.
+[2019.02.18-19.28.40:641][  0]LogInit: Setting process to per monitor DPI aware
+[2019.02.18-19.28.40:680][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.02.18-19.28.40:680][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.02.18-19.28.40:877][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.18-19.28.40:877][  0]LogD3D11RHI: D3D11 adapters:
+[2019.02.18-19.28.40:965][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2019.02.18-19.28.40:965][  0]LogD3D11RHI:       8096/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.02.18-19.28.40:967][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.02.18-19.28.40:967][  0]LogD3D11RHI:       0/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.02.18-19.28.40:967][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.02.18-19.28.40:980][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.02.18-19.28.40:980][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2019.02.18-19.28.40:980][  0]LogWindows: EnumDisplayDevices:
+[2019.02.18-19.28.40:980][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2019.02.18-19.28.40:981][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.02.18-19.28.40:981][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.02.18-19.28.40:981][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.02.18-19.28.40:981][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.02.18-19.28.40:981][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2019.02.18-19.28.40:981][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2019.02.18-19.28.40:981][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2019.02.18-19.28.40:981][  0]LogRHI: Texture pool is 5667 MB (70% of 8096 MB)
+[2019.02.18-19.28.41:021][  0]LogD3D11RHI: Async texture creation enabled
+[2019.02.18-19.28.41:032][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.02.18-19.28.41:080][  0]LogShaderCompilers: Guid format shader working directory is -51 characters bigger than the processId version (../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Intermediate/Shaders/WorkingDirectory/22904/).
+[2019.02.18-19.28.41:080][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Rueben/AppData/Local/Temp/UnrealShaderWorkingDir/0CC3A2334A3CAC7B9FCC8EB331D4421B/'.
+[2019.02.18-19.28.41:355][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.02.18-19.28.41:373][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.02.18-19.28.41:390][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.02.18-19.28.41:407][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.02.18-19.28.41:427][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.02.18-19.28.41:445][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.02.18-19.28.41:462][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.02.18-19.28.41:481][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.02.18-19.28.41:489][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.02.18-19.28.41:593][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-19.28.41:593][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-19.28.41:593][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-19.28.41:593][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-19.28.41:593][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-19.28.41:593][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-19.28.41:593][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-19.28.41:593][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-19.28.41:593][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-19.28.41:593][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-19.28.41:593][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-19.28.41:593][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-19.28.41:593][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-19.28.41:593][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-19.28.41:593][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-19.28.41:593][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-19.28.41:593][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-19.28.41:593][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-19.28.41:594][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.02.18-19.28.41:662][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.18-19.28.41:662][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.18-19.28.41:691][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.18-19.28.41:691][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.18-19.28.41:708][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.02.18-19.28.41:725][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.02.18-19.28.41:740][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.02.18-19.28.41:758][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.02.18-19.28.41:772][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.02.18-19.28.41:772][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.02.18-19.28.41:855][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.02.18-19.28.41:855][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.02.18-19.28.41:855][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.02.18-19.28.42:692][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.02.18-19.28.42:746][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/Rueben/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.02.18-19.28.42:747][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Rueben/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.02.18-19.28.42:747][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.02.18-19.28.42:747][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.02.18-19.28.42:747][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.02.18-19.28.42:747][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.02.18-19.28.42:761][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.02.18-19.28.42:774][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Rueben/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.02.18-19.28.42:774][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.02.18-19.28.42:774][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.02.18-19.28.42:793][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.02.18-19.28.42:795][  0]LogSlate: Using FreeType 2.6.0
+[2019.02.18-19.28.42:796][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.02.18-19.28.42:872][  0]LogAssetRegistry: FAssetRegistry took 0.0270 seconds to start up
+[2019.02.18-19.28.43:321][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.18-19.28.43:461][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.02.18-19.28.43:466][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.02.18-19.28.43:466][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.02.18-19.28.43:466][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.02.18-19.28.43:466][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.02.18-19.28.43:484][  0]LogNetVersion: Dinochan_v001 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2574802920)
+[2019.02.18-19.28.44:227][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.172946 seconds
+[2019.02.18-19.28.44:237][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.02.18-19.28.44:237][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.02.18-19.28.44:237][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.02.18-19.28.45:244][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.02.18-19.28.45:257][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.02.18-19.28.45:410][  0]SourceControl: Source control is disabled
+[2019.02.18-19.28.45:410][  0]SourceControl: Source control is disabled
+[2019.02.18-19.28.45:412][  0]SourceControl: Source control is disabled
+[2019.02.18-19.28.45:413][  0]SourceControl: Source control is disabled
+[2019.02.18-19.28.45:598][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.02.18-19.28.45:652][  0]LogOcInput: OculusInput pre-init called
+[2019.02.18-19.28.45:718][  0]LogEngine: Initializing Engine...
+[2019.02.18-19.28.45:719][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.18-19.28.45:720][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.18-19.28.45:720][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.18-19.28.45:720][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.18-19.28.45:720][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.18-19.28.45:943][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.02.18-19.28.45:961][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.02.18-19.28.46:028][  0]LogInit: XAudio2 using 'TOSHIBA-TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.18-19.28.46:041][  0]LogInit: FAudioDevice initialized.
+[2019.02.18-19.28.46:041][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.02.18-19.28.46:147][  0]LogDerivedDataCache: Saved boot cache 0.11s 71MB C:/Users/Rueben/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.02.18-19.28.46:147][  0]LogInit: Texture streaming: Enabled
+[2019.02.18-19.28.46:174][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.02.18-19.28.46:199][  0]LogInit: Transaction tracking system initialized
+[2019.02.18-19.28.46:231][  0]BlueprintLog: New page: Editor Load
+[2019.02.18-19.28.46:338][  0]LocalizationService: Localization service is disabled
+[2019.02.18-19.28.46:646][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.02.18-19.28.46:646][  0]LogCook: Display: Mobile HDR setting 1
+[2019.02.18-19.28.46:646][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.02.18-19.28.46:646][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.18-19.28.46:646][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.18-19.28.46:646][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.18-19.28.46:646][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.18-19.28.46:804][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Content/' took 0.02s
+[2019.02.18-19.28.46:804][  0]SourceControl: Source control is disabled
+[2019.02.18-19.28.46:805][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Content/_Maps/Modelled_Greybox.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.18-19.28.46:805][  0]LightingResults: New page: Lighting Build
+[2019.02.18-19.28.46:808][  0]MapCheck: New page: Map Check
+[2019.02.18-19.28.46:808][  0]LightingResults: New page: Lighting Build
+[2019.02.18-19.28.47:383][  0]LogTexture: Display: Building textures: 4band_Lut (BGRA8, 1003X100)
+[2019.02.18-19.28.47:383][  0]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 32X32)
+[2019.02.18-19.28.47:383][  0]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2019.02.18-19.28.47:383][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2019.02.18-19.28.47:383][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 32X32)
+[2019.02.18-19.28.47:383][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (G8, 32X32)
+[2019.02.18-19.28.47:383][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_8 (G8, 16X16)
+[2019.02.18-19.28.47:383][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (G8, 1024X256)
+[2019.02.18-19.28.47:383][  0]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2019.02.18-19.28.47:383][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2019.02.18-19.28.47:383][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/1_Models/DinoRun_test.DinoRun_test
+[2019.02.18-19.28.47:384][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/1_Models/DinoRun_test.DinoRun_test) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.02.18-19.28.47:470][  0]LogStaticMesh: Building static mesh GreatDoor_Door_entry...
+[2019.02.18-19.28.47:527][  0]LogStaticMesh: Built static mesh [0.06s] /Game/1_Models/Doors/Great_Door/GreatDoor_Door_entry.GreatDoor_Door_entry
+[2019.02.18-19.28.47:549][  0]LogStaticMesh: Building static mesh GreatDoor_Door_hinge...
+[2019.02.18-19.28.47:596][  0]LogStaticMesh: Built static mesh [0.05s] /Game/1_Models/Doors/Great_Door/GreatDoor_Door_hinge.GreatDoor_Door_hinge
+[2019.02.18-19.28.47:617][  0]LogStaticMesh: Building static mesh GreatDoor_Door_L...
+[2019.02.18-19.28.47:671][  0]LogStaticMesh: Built static mesh [0.05s] /Game/1_Models/Doors/Great_Door/GreatDoor_Door_L.GreatDoor_Door_L
+[2019.02.18-19.28.47:693][  0]LogStaticMesh: Building static mesh GreatDoor_Door_R...
+[2019.02.18-19.28.47:744][  0]LogStaticMesh: Built static mesh [0.05s] /Game/1_Models/Doors/Great_Door/GreatDoor_Door_R.GreatDoor_Door_R
+[2019.02.18-19.28.47:767][  0]LogStaticMesh: Building static mesh GreatDoor_Missing_Gem...
+[2019.02.18-19.28.47:819][  0]LogStaticMesh: Built static mesh [0.05s] /Game/1_Models/Doors/Great_Door/GreatDoor_Missing_Gem.GreatDoor_Missing_Gem
+[2019.02.18-19.28.47:927][  0]LogMaterial: Display: Missing cached shader map for material PP_CelShader, compiling. 
+[2019.02.18-19.28.48:013][  0]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.02.18-19.28.48:013][  0]LogSkeletalMesh: Building Skeletal Mesh Dinoskeleton...
+[2019.02.18-19.28.48:572][  0]LogSkeletalMesh: Built Skeletal Mesh [0.56s] /Game/1_Models/Dinoskeleton.Dinoskeleton
+[2019.02.18-19.28.48:620][  0]LogAIModule: Creating AISystem for world Modelled_Greybox
+[2019.02.18-19.28.48:645][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.18-19.28.48:683][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.18-19.28.48:792][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 108.636ms to complete.
+[2019.02.18-19.28.48:792][  0]LogFileHelpers: Loading map 'Modelled_Greybox' took 1.987
+[2019.02.18-19.28.48:930][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.18-19.28.48:941][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.18-19.28.48:949][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.18-19.28.48:958][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.18-19.28.48:971][  0]LogCollectionManager: Loaded 0 collections in 0.002302 seconds
+[2019.02.18-19.28.49:031][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Saved/Collections/' took 0.01s
+[2019.02.18-19.28.49:031][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Content/Developers/Rueben/Collections/' took 0.01s
+[2019.02.18-19.28.49:031][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Content/Collections/' took 0.01s
+[2019.02.18-19.28.49:031][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.02.18-19.28.49:048][  0]LogContentBrowser: Native class hierarchy populated in 0.0149 seconds. Added 2572 classes and 603 folders.
+[2019.02.18-19.28.49:065][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.02.18-19.28.49:185][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.02.18-19.28.49:202][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.02.18-19.28.49:378][  0]LogSlate: Took 0.000206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.02.18-19.28.49:382][  0]LogSlate: Took 0.000265 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.02.18-19.28.49:391][  0]LogSlate: Took 0.001260 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.02.18-19.28.49:490][  0]LogRenderer: Reallocating scene render targets to support 856x340 Format 10 NumSamples 1 (Frame:1).
+[2019.02.18-19.28.49:720][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.02.18-19.28.49:720][  0]LogLoad: (Engine Initialization) Total time: 11.78 seconds
+[2019.02.18-19.28.49:720][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.02.18-19.28.49:730][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.02.18-19.28.49:771][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.02.18-19.28.49:794][  0]LogSlate: Took 0.001475 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.18-19.28.49:825][  1]LogAssetRegistry: Asset discovery search completed in 6.9760 seconds
+[2019.02.18-19.28.49:827][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.02.18-19.28.49:827][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000079 seconds (updated 0 objects)
+[2019.02.18-19.28.54:816][588]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Content/' took 5.07s
+[2019.02.18-19.28.57:109][860]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.18-19.28.58:732][ 51]LogSlate: Took 0.000220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.18-19.28.59:024][ 51]LogAIModule: Creating AISystem for world StartMenuBG
+[2019.02.18-19.28.59:054][ 51]LogAssetEditorManager: Opening Asset editor for World /Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG
+[2019.02.18-19.28.59:091][ 51]Cmd: MAP LOAD FILE="../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Content/_Maps/RubenLevel/StartMenuBG.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.18-19.28.59:091][ 51]LightingResults: New page: Lighting Build
+[2019.02.18-19.28.59:092][ 51]LoadErrors: New page: Loading map: StartMenuBG.umap
+[2019.02.18-19.28.59:093][ 51]MapCheck: New page: Map Check
+[2019.02.18-19.28.59:093][ 51]LightingResults: New page: Lighting Build
+[2019.02.18-19.28.59:222][ 51]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.18-19.28.59:290][ 51]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.18-19.28.59:388][ 51]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 97.031ms to complete.
+[2019.02.18-19.28.59:388][ 51]LogFileHelpers: Loading map 'StartMenuBG' took 0.297
+[2019.02.18-19.29.02:719][437]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.18-19.29.02:802][447]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.02.18-19.29.02:825][447]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG' with GeneratedClass '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG_C' with ClassGeneratedBy '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG'
+[2019.02.18-19.29.02:825][447]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.18-19.29.02:840][447]PIE: New page: PIE session: StartMenuBG (Feb 18, 2019, 9:29:02 AM)
+[2019.02.18-19.29.02:840][447]LogPlayLevel: Creating play world package: /Game/_Maps/RubenLevel/UEDPIE_0_StartMenuBG
+[2019.02.18-19.29.02:849][447]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008470s)
+[2019.02.18-19.29.02:849][447]LogAIModule: Creating AISystem for world StartMenuBG
+[2019.02.18-19.29.02:849][447]LogPlayLevel: PIE: World Init took: (0.000692s)
+[2019.02.18-19.29.02:849][447]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG to /Game/_Maps/RubenLevel/UEDPIE_0_StartMenuBG.StartMenuBG (0.009323s)
+[2019.02.18-19.29.02:884][447]LogInit: XAudio2 using 'TOSHIBA-TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.18-19.29.02:893][447]LogInit: FAudioDevice initialized.
+[2019.02.18-19.29.02:902][447]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.18-19.29.03:254][447]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.02.18-19.29.03:258][447]LogWorld: Bringing World /Game/_Maps/RubenLevel/UEDPIE_0_StartMenuBG.StartMenuBG up for play (max tick rate 0) at 2019.02.18-14.29.03
+[2019.02.18-19.29.03:258][447]LogWorld: Bringing up level for play took: 0.002174
+[2019.02.18-19.29.03:280][447]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2019.02.18-19.29.03:301][447]PIE: Play in editor start time for /Game/_Maps/RubenLevel/UEDPIE_0_StartMenuBG 1.257
+[2019.02.18-19.29.03:301][447]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG' with GeneratedClass '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG_C' with ClassGeneratedBy '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG'
+[2019.02.18-19.29.03:333][447]LogRenderer: Reallocating scene render targets to support 856x480 Format 10 NumSamples 1 (Frame:1).
+[2019.02.18-19.29.18:710][278]LogSlate: Window 'Dinochan_v001 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.02.18-19.29.18:715][278]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG' with GeneratedClass '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG_C' with ClassGeneratedBy '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG'
+[2019.02.18-19.29.18:746][278]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.18-19.29.18:746][278]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG' with GeneratedClass '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG_C' with ClassGeneratedBy '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG'
+[2019.02.18-19.29.18:802][279]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2019.02.19-04.39.51:284][675]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.19-04.39.56:182][246]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/4_UI_Widgets/MainMenu.MainMenu
+[2019.02.19-04.39.56:922][246]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 116 classes and 0 folders.
+[2019.02.19-04.39.58:121][246]LogSlate: Took 0.001507 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.02.19-04.39.58:911][306]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/4_UI_Widgets/QuitMenu.QuitMenu
+[2019.02.19-04.39.59:917][351]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/4_UI_Widgets/StartMenu.StartMenu
+[2019.02.19-04.40.08:547][980]LogSlate: Window 'QuitMenu' being destroyed
+[2019.02.19-04.40.59:677][861]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.02.19-04.41.10:907][194]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/4_UI_Widgets/MenuController.MenuController
+[2019.02.19-04.41.16:118][712]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG
+[2019.02.19-04.41.16:542][713]LogSlate: Took 0.001539 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.02.19-04.41.40:349][497]LogProperty: Warning: Illegal TEXT reference to a private object in external package (MenuCamera_Blueprint_C /Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.MenuCamera_Blueprint_2) from referencer (K2Node_Literal /Game/4_UI_Widgets/MenuController.MenuController:EventGraph.K2Node_Literal_1).  Import failed...
+[2019.02.19-04.41.40:349][497]LogProperty: Warning: ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef: unresolved reference to 'MenuCamera_Blueprint_C'"/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.MenuCamera_Blueprint_2"''
+[2019.02.19-04.42.01:737][979]LogEditorTransaction: Undo Move Node
+[2019.02.19-04.42.02:072][  9]LogEditorTransaction: Undo Move Nodes
+[2019.02.19-04.42.02:386][ 35]LogEditorTransaction: Undo Move Node
+[2019.02.19-04.42.02:986][101]LogEditorTransaction: Undo Delete current selection
+[2019.02.19-04.42.05:129][329]LogEditorTransaction: Undo Paste clipboard contents
+[2019.02.19-04.42.08:889][749]LogUObjectHash: Warning: Ambiguous search, could be K2Node_Event /Game/4_UI_Widgets/MenuController.MenuController:EventGraph.K2Node_Event_0 or K2Node_Event /Game/4_UI_Widgets/MenuController.MenuController:EventGraph.K2Node_Event_0
+[2019.02.19-04.42.08:892][749]LogProperty: Warning: Illegal TEXT reference to a private object in external package (MenuCamera_Blueprint_C /Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.MenuCamera_Blueprint_2) from referencer (K2Node_Literal /Game/4_UI_Widgets/MenuController.MenuController:EventGraph.K2Node_Literal_1).  Import failed...
+[2019.02.19-04.42.08:892][749]LogProperty: Warning: ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef: unresolved reference to 'MenuCamera_Blueprint_C'"/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.MenuCamera_Blueprint_2"''
+[2019.02.19-04.42.33:757][578]BlueprintLog: New page: Compile MenuController
+[2019.02.19-04.42.33:772][578]LogBlueprint: Warning: [Compiler MenuController] Node  Unknown  is not referencing a valid level actor
+[2019.02.19-04.42.34:007][578]LogBlueprint: Warning: [Compiler MenuController] [3236.07] Compile of MenuController successful, but with 1 Warning(s) [in 248 ms] (/Game/4_UI_Widgets/MenuController.MenuController)
+[2019.02.19-04.44.31:700][627]BlueprintLog: New page: Compile MenuController
+[2019.02.19-04.45.13:404][868]LogSlate: Window 'MenuController*' being destroyed
+[2019.02.19-04.45.35:183][397]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Blueprints/Ruben_Blueprint/MenuCamera_Blueprint.MenuCamera_Blueprint
+[2019.02.19-04.45.35:567][397]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/_Blueprints/Ruben_Blueprint/MenuCamera_Blueprint.MenuCamera_Blueprint_C:UserConstructionScript'!
+[2019.02.19-04.45.35:568][397]LogScript: Warning: Accessed None trying to read property Spline
+	MenuCamera_Blueprint_C /Engine/Transient.World_10:PersistentLevel.MenuCamera_Blueprint_C_0
+	Function /Game/_Blueprints/Ruben_Blueprint/MenuCamera_Blueprint.MenuCamera_Blueprint_C:UserConstructionScript:00AB
+[2019.02.19-04.45.35:568][397]LogScript: Warning: Accessed None
+	MenuCamera_Blueprint_C /Engine/Transient.World_10:PersistentLevel.MenuCamera_Blueprint_C_0
+	Function /Game/_Blueprints/Ruben_Blueprint/MenuCamera_Blueprint.MenuCamera_Blueprint_C:UserConstructionScript:00C0
+[2019.02.19-04.45.35:568][397]LogScript: Warning: Accessed None trying to read property Spline
+	MenuCamera_Blueprint_C /Engine/Transient.World_10:PersistentLevel.MenuCamera_Blueprint_C_0
+	Function /Game/_Blueprints/Ruben_Blueprint/MenuCamera_Blueprint.MenuCamera_Blueprint_C:UserConstructionScript:00FA
+[2019.02.19-04.45.35:568][397]LogScript: Warning: Accessed None
+	MenuCamera_Blueprint_C /Engine/Transient.World_10:PersistentLevel.MenuCamera_Blueprint_C_0
+	Function /Game/_Blueprints/Ruben_Blueprint/MenuCamera_Blueprint.MenuCamera_Blueprint_C:UserConstructionScript:010F
+[2019.02.19-04.45.55:131][670]BlueprintLog: New page: Compile MenuCamera_Blueprint
+[2019.02.19-04.45.55:308][670]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/_Blueprints/Ruben_Blueprint/MenuCamera_Blueprint.MenuCamera_Blueprint_C:UserConstructionScript'!
+[2019.02.19-04.45.55:308][670]LogScript: Warning: Accessed None trying to read property Spline
+	MenuCamera_Blueprint_C /Engine/Transient.World_10:PersistentLevel.MenuCamera_Blueprint_C_0
+	Function /Game/_Blueprints/Ruben_Blueprint/MenuCamera_Blueprint.MenuCamera_Blueprint_C:UserConstructionScript:00AB
+[2019.02.19-04.45.55:308][670]LogScript: Warning: Accessed None
+	MenuCamera_Blueprint_C /Engine/Transient.World_10:PersistentLevel.MenuCamera_Blueprint_C_0
+	Function /Game/_Blueprints/Ruben_Blueprint/MenuCamera_Blueprint.MenuCamera_Blueprint_C:UserConstructionScript:00C0
+[2019.02.19-04.45.55:308][670]LogScript: Warning: Accessed None trying to read property Spline
+	MenuCamera_Blueprint_C /Engine/Transient.World_10:PersistentLevel.MenuCamera_Blueprint_C_0
+	Function /Game/_Blueprints/Ruben_Blueprint/MenuCamera_Blueprint.MenuCamera_Blueprint_C:UserConstructionScript:00FA
+[2019.02.19-04.45.55:308][670]LogScript: Warning: Accessed None
+	MenuCamera_Blueprint_C /Engine/Transient.World_10:PersistentLevel.MenuCamera_Blueprint_C_0
+	Function /Game/_Blueprints/Ruben_Blueprint/MenuCamera_Blueprint.MenuCamera_Blueprint_C:UserConstructionScript:010F
+[2019.02.19-04.45.55:509][670]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/_Blueprints/Ruben_Blueprint/MenuCamera_Blueprint.MenuCamera_Blueprint_C:UserConstructionScript'!
+[2019.02.19-04.45.55:509][670]LogScript: Warning: Accessed None trying to read property Spline
+	MenuCamera_Blueprint_C /Engine/Transient.World_10:PersistentLevel.MenuCamera_Blueprint_C_0
+	Function /Game/_Blueprints/Ruben_Blueprint/MenuCamera_Blueprint.MenuCamera_Blueprint_C:UserConstructionScript:00AB
+[2019.02.19-04.45.55:509][670]LogScript: Warning: Accessed None
+	MenuCamera_Blueprint_C /Engine/Transient.World_10:PersistentLevel.MenuCamera_Blueprint_C_0
+	Function /Game/_Blueprints/Ruben_Blueprint/MenuCamera_Blueprint.MenuCamera_Blueprint_C:UserConstructionScript:00C0
+[2019.02.19-04.45.55:509][670]LogScript: Warning: Accessed None trying to read property Spline
+	MenuCamera_Blueprint_C /Engine/Transient.World_10:PersistentLevel.MenuCamera_Blueprint_C_0
+	Function /Game/_Blueprints/Ruben_Blueprint/MenuCamera_Blueprint.MenuCamera_Blueprint_C:UserConstructionScript:00FA
+[2019.02.19-04.45.55:509][670]LogScript: Warning: Accessed None
+	MenuCamera_Blueprint_C /Engine/Transient.World_10:PersistentLevel.MenuCamera_Blueprint_C_0
+	Function /Game/_Blueprints/Ruben_Blueprint/MenuCamera_Blueprint.MenuCamera_Blueprint_C:UserConstructionScript:010F
+[2019.02.19-04.45.55:515][670]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/_Blueprints/Ruben_Blueprint/MenuCamera_Blueprint.MenuCamera_Blueprint_C:UserConstructionScript'!
+[2019.02.19-04.45.55:515][670]LogScript: Warning: Accessed None trying to read property Spline
+	MenuCamera_Blueprint_C /Engine/Transient.World_10:PersistentLevel.MenuCamera_Blueprint_C_0
+	Function /Game/_Blueprints/Ruben_Blueprint/MenuCamera_Blueprint.MenuCamera_Blueprint_C:UserConstructionScript:00AB
+[2019.02.19-04.45.55:515][670]LogScript: Warning: Accessed None
+	MenuCamera_Blueprint_C /Engine/Transient.World_10:PersistentLevel.MenuCamera_Blueprint_C_0
+	Function /Game/_Blueprints/Ruben_Blueprint/MenuCamera_Blueprint.MenuCamera_Blueprint_C:UserConstructionScript:00C0
+[2019.02.19-04.45.55:515][670]LogScript: Warning: Accessed None trying to read property Spline
+	MenuCamera_Blueprint_C /Engine/Transient.World_10:PersistentLevel.MenuCamera_Blueprint_C_0
+	Function /Game/_Blueprints/Ruben_Blueprint/MenuCamera_Blueprint.MenuCamera_Blueprint_C:UserConstructionScript:00FA
+[2019.02.19-04.45.55:515][670]LogScript: Warning: Accessed None
+	MenuCamera_Blueprint_C /Engine/Transient.World_10:PersistentLevel.MenuCamera_Blueprint_C_0
+	Function /Game/_Blueprints/Ruben_Blueprint/MenuCamera_Blueprint.MenuCamera_Blueprint_C:UserConstructionScript:010F
+[2019.02.19-04.46.21:475][732]BlueprintLog: New page: Compile StartMenuBG
+[2019.02.19-04.46.24:001][953]LogSavePackage: Moving '../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Saved/StartMenuBGA34F18224476D3A8BB2D598FE6BD9215.tmp' to '../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Content/_Maps/RubenLevel/StartMenuBG.umap'
+[2019.02.19-04.46.24:049][953]LogFileHelpers: Saving map 'StartMenuBG' took 0.499
+[2019.02.19-04.46.29:383][551]LogSavePackage: Moving '../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Saved/MenuCamera_Blueprint5F372B904F908046A189C9908159531D.tmp' to '../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Content/_Blueprints/Ruben_Blueprint/MenuCamera_Blueprint.uasset'
+[2019.02.19-04.46.38:844][652]BlueprintLog: New page: Compile MenuController
+[2019.02.19-04.46.40:845][861]LogSavePackage: Moving '../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Saved/MenuControllerFD7CEF6A401E4678E840E79BBF6281CF.tmp' to '../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Content/4_UI_Widgets/MenuController.uasset'
+[2019.02.19-04.46.47:551][656]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.02.19-04.46.47:596][656]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG' with GeneratedClass '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG_C' with ClassGeneratedBy '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG'
+[2019.02.19-04.46.47:596][656]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.19-04.46.47:596][656]PIE: New page: PIE session: StartMenuBG (Feb 18, 2019, 6:46:47 PM)
+[2019.02.19-04.46.47:596][656]LogPlayLevel: Creating play world package: /Game/_Maps/RubenLevel/UEDPIE_0_StartMenuBG
+[2019.02.19-04.46.47:603][656]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006627s)
+[2019.02.19-04.46.47:604][656]LogAIModule: Creating AISystem for world StartMenuBG
+[2019.02.19-04.46.47:604][656]LogPlayLevel: PIE: World Init took: (0.001054s)
+[2019.02.19-04.46.47:604][656]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG to /Game/_Maps/RubenLevel/UEDPIE_0_StartMenuBG.StartMenuBG (0.007852s)
+[2019.02.19-04.46.47:680][656]LogInit: XAudio2 using 'TOSHIBA-TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.19-04.46.47:691][656]LogInit: FAudioDevice initialized.
+[2019.02.19-04.46.47:699][656]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.19-04.46.47:768][656]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.02.19-04.46.47:770][656]LogWorld: Bringing World /Game/_Maps/RubenLevel/UEDPIE_0_StartMenuBG.StartMenuBG up for play (max tick rate 0) at 2019.02.18-23.46.47
+[2019.02.19-04.46.47:771][656]LogWorld: Bringing up level for play took: 0.002563
+[2019.02.19-04.46.47:784][656]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.02.19-04.46.47:788][656]PIE: Play in editor start time for /Game/_Maps/RubenLevel/UEDPIE_0_StartMenuBG -0.256
+[2019.02.19-04.46.47:789][656]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG' with GeneratedClass '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG_C' with ClassGeneratedBy '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG'
+[2019.02.19-04.46.53:062][255]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG' with GeneratedClass '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG_C' with ClassGeneratedBy '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG'
+[2019.02.19-04.46.53:063][255]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.19-04.46.53:088][255]LogSlate: Window 'Dinochan_v001 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.02.19-04.46.53:124][255]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.19-04.46.53:124][255]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG' with GeneratedClass '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG_C' with ClassGeneratedBy '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG'
+[2019.02.19-04.46.53:195][256]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.02.19-04.47.35:165][121]BlueprintLog: New page: Compile MenuCamera_Blueprint
+[2019.02.19-04.47.35:189][121]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/_Blueprints/Ruben_Blueprint/MenuCamera_Blueprint.MenuCamera_Blueprint_C:UserConstructionScript'!
+[2019.02.19-04.47.35:189][121]LogScript: Warning: Accessed None trying to read property Spline
+	MenuCamera_Blueprint_C /Engine/Transient.World_10:PersistentLevel.MenuCamera_Blueprint_C_0
+	Function /Game/_Blueprints/Ruben_Blueprint/MenuCamera_Blueprint.MenuCamera_Blueprint_C:UserConstructionScript:00AB
+[2019.02.19-04.47.35:371][121]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/_Blueprints/Ruben_Blueprint/MenuCamera_Blueprint.MenuCamera_Blueprint_C:UserConstructionScript'!
+[2019.02.19-04.47.35:378][121]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/_Blueprints/Ruben_Blueprint/MenuCamera_Blueprint.MenuCamera_Blueprint_C:UserConstructionScript'!
+[2019.02.19-04.47.36:025][187]LogSavePackage: Moving '../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Saved/MenuCamera_BlueprintA495A5FA404D0FEDFC7CC9AC049A8F46.tmp' to '../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Content/_Blueprints/Ruben_Blueprint/MenuCamera_Blueprint.uasset'
+[2019.02.19-04.47.40:632][722]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.02.19-04.47.40:679][722]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG' with GeneratedClass '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG_C' with ClassGeneratedBy '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG'
+[2019.02.19-04.47.40:679][722]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.19-04.47.40:680][722]PIE: New page: PIE session: StartMenuBG (Feb 18, 2019, 6:47:40 PM)
+[2019.02.19-04.47.40:680][722]LogPlayLevel: Creating play world package: /Game/_Maps/RubenLevel/UEDPIE_0_StartMenuBG
+[2019.02.19-04.47.40:687][722]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007593s)
+[2019.02.19-04.47.40:688][722]LogAIModule: Creating AISystem for world StartMenuBG
+[2019.02.19-04.47.40:688][722]LogPlayLevel: PIE: World Init took: (0.000885s)
+[2019.02.19-04.47.40:688][722]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG to /Game/_Maps/RubenLevel/UEDPIE_0_StartMenuBG.StartMenuBG (0.008639s)
+[2019.02.19-04.47.40:733][722]LogInit: XAudio2 using 'TOSHIBA-TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.19-04.47.40:742][722]LogInit: FAudioDevice initialized.
+[2019.02.19-04.47.40:749][722]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.19-04.47.40:827][722]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.02.19-04.47.40:830][722]LogWorld: Bringing World /Game/_Maps/RubenLevel/UEDPIE_0_StartMenuBG.StartMenuBG up for play (max tick rate 0) at 2019.02.18-23.47.40
+[2019.02.19-04.47.40:830][722]LogWorld: Bringing up level for play took: 0.002263
+[2019.02.19-04.47.40:847][722]PIE: Play in editor start time for /Game/_Maps/RubenLevel/UEDPIE_0_StartMenuBG 0.803
+[2019.02.19-04.47.40:848][722]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG' with GeneratedClass '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG_C' with ClassGeneratedBy '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG'
+[2019.02.19-04.47.49:036][652]LogSlate: Window 'Dinochan_v001 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.02.19-04.47.49:041][652]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG' with GeneratedClass '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG_C' with ClassGeneratedBy '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG'
+[2019.02.19-04.47.49:085][652]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.19-04.47.49:085][652]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG' with GeneratedClass '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG_C' with ClassGeneratedBy '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG'
+[2019.02.19-04.47.49:155][653]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.02.19-04.48.17:356][991]BlueprintLog: New page: Compile MenuController
+[2019.02.19-04.48.18:106][ 46]LogSavePackage: Moving '../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Saved/MenuController581A8CFF480B19DC0FDE3C87B09C4473.tmp' to '../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Content/4_UI_Widgets/MenuController.uasset'
+[2019.02.19-04.48.20:036][272]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.02.19-04.48.20:076][272]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG' with GeneratedClass '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG_C' with ClassGeneratedBy '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG'
+[2019.02.19-04.48.20:076][272]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.19-04.48.20:077][272]PIE: New page: PIE session: StartMenuBG (Feb 18, 2019, 6:48:20 PM)
+[2019.02.19-04.48.20:077][272]LogPlayLevel: Creating play world package: /Game/_Maps/RubenLevel/UEDPIE_0_StartMenuBG
+[2019.02.19-04.48.20:083][272]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005901s)
+[2019.02.19-04.48.20:083][272]LogAIModule: Creating AISystem for world StartMenuBG
+[2019.02.19-04.48.20:084][272]LogPlayLevel: PIE: World Init took: (0.000877s)
+[2019.02.19-04.48.20:084][272]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG to /Game/_Maps/RubenLevel/UEDPIE_0_StartMenuBG.StartMenuBG (0.006954s)
+[2019.02.19-04.48.20:124][272]LogInit: XAudio2 using 'TOSHIBA-TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.19-04.48.20:137][272]LogInit: FAudioDevice initialized.
+[2019.02.19-04.48.20:145][272]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.19-04.48.20:214][272]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.02.19-04.48.20:216][272]LogWorld: Bringing World /Game/_Maps/RubenLevel/UEDPIE_0_StartMenuBG.StartMenuBG up for play (max tick rate 0) at 2019.02.18-23.48.20
+[2019.02.19-04.48.20:216][272]LogWorld: Bringing up level for play took: 0.002036
+[2019.02.19-04.48.20:229][272]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.02.19-04.48.20:234][272]PIE: Play in editor start time for /Game/_Maps/RubenLevel/UEDPIE_0_StartMenuBG 0.19
+[2019.02.19-04.48.20:234][272]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG' with GeneratedClass '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG_C' with ClassGeneratedBy '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG'
+[2019.02.19-04.48.22:123][473]LogSlate: Window 'Dinochan_v001 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.02.19-04.48.22:128][473]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG' with GeneratedClass '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG_C' with ClassGeneratedBy '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG'
+[2019.02.19-04.48.22:167][473]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.19-04.48.22:167][473]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG' with GeneratedClass '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG_C' with ClassGeneratedBy '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG'
+[2019.02.19-04.48.22:246][474]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.02.19-04.50.22:229][741]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.02.19-04.50.22:274][741]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG' with GeneratedClass '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG_C' with ClassGeneratedBy '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG'
+[2019.02.19-04.50.22:274][741]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.19-04.50.22:274][741]PIE: New page: PIE session: StartMenuBG (Feb 18, 2019, 6:50:22 PM)
+[2019.02.19-04.50.22:274][741]LogPlayLevel: Creating play world package: /Game/_Maps/RubenLevel/UEDPIE_0_StartMenuBG
+[2019.02.19-04.50.22:282][741]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006386s)
+[2019.02.19-04.50.22:282][741]LogAIModule: Creating AISystem for world StartMenuBG
+[2019.02.19-04.50.22:282][741]LogPlayLevel: PIE: World Init took: (0.001246s)
+[2019.02.19-04.50.22:282][741]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG to /Game/_Maps/RubenLevel/UEDPIE_0_StartMenuBG.StartMenuBG (0.007818s)
+[2019.02.19-04.50.22:331][741]LogInit: XAudio2 using 'TOSHIBA-TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.19-04.50.22:340][741]LogInit: FAudioDevice initialized.
+[2019.02.19-04.50.22:348][741]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.19-04.50.22:422][741]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.02.19-04.50.22:425][741]LogWorld: Bringing World /Game/_Maps/RubenLevel/UEDPIE_0_StartMenuBG.StartMenuBG up for play (max tick rate 0) at 2019.02.18-23.50.22
+[2019.02.19-04.50.22:425][741]LogWorld: Bringing up level for play took: 0.002227
+[2019.02.19-04.50.22:437][741]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.02.19-04.50.22:441][741]PIE: Play in editor start time for /Game/_Maps/RubenLevel/UEDPIE_0_StartMenuBG 0.396
+[2019.02.19-04.50.22:441][741]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG' with GeneratedClass '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG_C' with ClassGeneratedBy '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG'
+[2019.02.19-04.50.25:005][ 23]LogSlate: Window 'Dinochan_v001 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.02.19-04.50.25:010][ 23]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG' with GeneratedClass '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG_C' with ClassGeneratedBy '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG'
+[2019.02.19-04.50.25:054][ 23]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.19-04.50.25:054][ 23]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG' with GeneratedClass '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG_C' with ClassGeneratedBy '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG'
+[2019.02.19-04.50.25:125][ 24]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2019.02.19-04.50.28:120][325]LogSavePackage: Moving '../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Saved/StartMenuBG780C3CD848FC3199A31270828D276A65.tmp' to '../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Content/_Maps/RubenLevel/StartMenuBG.umap'
+[2019.02.19-04.50.28:163][325]LogFileHelpers: Saving map 'StartMenuBG' took 0.459
+[2019.02.19-04.50.28:201][325]LogSavePackage: Moving '../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Saved/MenuControllerDFDBA6A74DC8DC12A906AD873C4BA160.tmp' to '../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Content/4_UI_Widgets/MenuController.uasset'
+[2019.02.19-04.50.29:601][491]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.02.19-04.50.29:638][491]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG' with GeneratedClass '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG_C' with ClassGeneratedBy '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG'
+[2019.02.19-04.50.29:639][491]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.19-04.50.29:639][491]PIE: New page: PIE session: StartMenuBG (Feb 18, 2019, 6:50:29 PM)
+[2019.02.19-04.50.29:639][491]LogPlayLevel: Creating play world package: /Game/_Maps/RubenLevel/UEDPIE_0_StartMenuBG
+[2019.02.19-04.50.29:646][491]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007439s)
+[2019.02.19-04.50.29:647][491]LogAIModule: Creating AISystem for world StartMenuBG
+[2019.02.19-04.50.29:647][491]LogPlayLevel: PIE: World Init took: (0.000852s)
+[2019.02.19-04.50.29:647][491]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG to /Game/_Maps/RubenLevel/UEDPIE_0_StartMenuBG.StartMenuBG (0.008459s)
+[2019.02.19-04.50.29:697][491]LogInit: XAudio2 using 'TOSHIBA-TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.19-04.50.29:706][491]LogInit: FAudioDevice initialized.
+[2019.02.19-04.50.29:713][491]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.19-04.50.29:783][491]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.02.19-04.50.29:787][491]LogWorld: Bringing World /Game/_Maps/RubenLevel/UEDPIE_0_StartMenuBG.StartMenuBG up for play (max tick rate 0) at 2019.02.18-23.50.29
+[2019.02.19-04.50.29:787][491]LogWorld: Bringing up level for play took: 0.003440
+[2019.02.19-04.50.29:799][491]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.02.19-04.50.29:804][491]PIE: Play in editor start time for /Game/_Maps/RubenLevel/UEDPIE_0_StartMenuBG -0.241
+[2019.02.19-04.50.29:804][491]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG' with GeneratedClass '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG_C' with ClassGeneratedBy '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG'
+[2019.02.19-04.50.36:666][275]LogSlate: Window 'Dinochan_v001 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.02.19-04.50.36:672][275]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG' with GeneratedClass '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG_C' with ClassGeneratedBy '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG'
+[2019.02.19-04.50.36:710][275]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.19-04.50.36:710][275]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG' with GeneratedClass '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG_C' with ClassGeneratedBy '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG'
+[2019.02.19-04.50.36:784][276]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2019.02.19-04.50.55:666][486]BlueprintLog: New page: Compile MenuController
+[2019.02.19-04.50.56:712][577]LogSavePackage: Moving '../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Saved/MenuController650AA98A4EC7BBD0021C5D98BCC8BBAD.tmp' to '../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Content/4_UI_Widgets/MenuController.uasset'
+[2019.02.19-04.50.57:740][695]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.02.19-04.50.57:779][695]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG' with GeneratedClass '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG_C' with ClassGeneratedBy '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG'
+[2019.02.19-04.50.57:779][695]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.19-04.50.57:779][695]PIE: New page: PIE session: StartMenuBG (Feb 18, 2019, 6:50:57 PM)
+[2019.02.19-04.50.57:779][695]LogPlayLevel: Creating play world package: /Game/_Maps/RubenLevel/UEDPIE_0_StartMenuBG
+[2019.02.19-04.50.57:786][695]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006930s)
+[2019.02.19-04.50.57:787][695]LogAIModule: Creating AISystem for world StartMenuBG
+[2019.02.19-04.50.57:787][695]LogPlayLevel: PIE: World Init took: (0.000960s)
+[2019.02.19-04.50.57:788][695]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG to /Game/_Maps/RubenLevel/UEDPIE_0_StartMenuBG.StartMenuBG (0.008060s)
+[2019.02.19-04.50.57:839][695]LogInit: XAudio2 using 'TOSHIBA-TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.19-04.50.57:847][695]LogInit: FAudioDevice initialized.
+[2019.02.19-04.50.57:855][695]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.19-04.50.57:926][695]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.02.19-04.50.57:929][695]LogWorld: Bringing World /Game/_Maps/RubenLevel/UEDPIE_0_StartMenuBG.StartMenuBG up for play (max tick rate 0) at 2019.02.18-23.50.57
+[2019.02.19-04.50.57:929][695]LogWorld: Bringing up level for play took: 0.002930
+[2019.02.19-04.50.57:942][695]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.02.19-04.50.57:947][695]PIE: Play in editor start time for /Game/_Maps/RubenLevel/UEDPIE_0_StartMenuBG -0.097
+[2019.02.19-04.50.57:947][695]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG' with GeneratedClass '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG_C' with ClassGeneratedBy '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG'
+[2019.02.19-04.51.03:815][347]LogSlate: Window 'Dinochan_v001 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.02.19-04.51.03:822][347]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG' with GeneratedClass '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG_C' with ClassGeneratedBy '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG'
+[2019.02.19-04.51.03:860][347]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.19-04.51.03:860][347]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG' with GeneratedClass '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG_C' with ClassGeneratedBy '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG'
+[2019.02.19-04.51.03:935][348]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2019.02.19-04.52.08:357][959]BlueprintLog: New page: Compile MenuController
+[2019.02.19-04.52.24:943][914]BlueprintLog: New page: Compile StartMenuBG
+[2019.02.19-04.52.26:498][ 73]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.02.19-04.52.26:535][ 73]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG' with GeneratedClass '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG_C' with ClassGeneratedBy '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG'
+[2019.02.19-04.52.26:535][ 73]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.19-04.52.26:536][ 73]PIE: New page: PIE session: StartMenuBG (Feb 18, 2019, 6:52:26 PM)
+[2019.02.19-04.52.26:536][ 73]LogPlayLevel: Creating play world package: /Game/_Maps/RubenLevel/UEDPIE_0_StartMenuBG
+[2019.02.19-04.52.26:542][ 73]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006599s)
+[2019.02.19-04.52.26:543][ 73]LogAIModule: Creating AISystem for world StartMenuBG
+[2019.02.19-04.52.26:544][ 73]LogPlayLevel: PIE: World Init took: (0.001243s)
+[2019.02.19-04.52.26:544][ 73]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG to /Game/_Maps/RubenLevel/UEDPIE_0_StartMenuBG.StartMenuBG (0.008050s)
+[2019.02.19-04.52.26:593][ 73]LogInit: XAudio2 using 'TOSHIBA-TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.19-04.52.26:601][ 73]LogInit: FAudioDevice initialized.
+[2019.02.19-04.52.26:608][ 73]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.19-04.52.26:676][ 73]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.02.19-04.52.26:679][ 73]LogWorld: Bringing World /Game/_Maps/RubenLevel/UEDPIE_0_StartMenuBG.StartMenuBG up for play (max tick rate 0) at 2019.02.18-23.52.26
+[2019.02.19-04.52.26:679][ 73]LogWorld: Bringing up level for play took: 0.002267
+[2019.02.19-04.52.26:692][ 73]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.02.19-04.52.26:697][ 73]PIE: Play in editor start time for /Game/_Maps/RubenLevel/UEDPIE_0_StartMenuBG 0.652
+[2019.02.19-04.52.26:697][ 73]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG' with GeneratedClass '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG_C' with ClassGeneratedBy '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG'
+[2019.02.19-04.52.34:977][ 31]LogSlate: Window 'Dinochan_v001 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.02.19-04.52.34:981][ 31]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG' with GeneratedClass '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG_C' with ClassGeneratedBy '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG'
+[2019.02.19-04.52.35:025][ 31]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.19-04.52.35:025][ 31]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG' with GeneratedClass '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG_C' with ClassGeneratedBy '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG'
+[2019.02.19-04.52.35:106][ 32]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2019.02.19-04.54.37:939][649]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.02.19-04.54.46:075][616]BlueprintLog: New page: Compile MenuController
+[2019.02.19-04.55.38:571][824]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.02.19-04.56.29:258][772]BlueprintLog: New page: Compile StartMenuBG
+[2019.02.19-04.56.29:267][772]LogBlueprint: Error: [Compiler PersistentLevel.StartMenuBG] The type of  Object  is undetermined.  Connect something to  Cast To MenuController  to imply a specific type.
+[2019.02.19-04.56.29:267][772]LogBlueprint: Error: [Compiler PersistentLevel.StartMenuBG] The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2019.02.19-04.56.29:463][772]LogBlueprint: Warning: [Compiler PersistentLevel.StartMenuBG] [4071.53] Compile of PersistentLevel.StartMenuBG failed. 2 Fatal Issue(s) 0 Warning(s) [in 204 ms] (/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG)
+[2019.02.19-04.57.08:666][356]LogBlueprint: Error: [Compiler PersistentLevel.StartMenuBG] The type of  Object  is undetermined.  Connect something to  Cast To MenuController  to imply a specific type.
+[2019.02.19-04.57.08:667][356]LogBlueprint: Error: [Compiler PersistentLevel.StartMenuBG] The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2019.02.19-04.57.08:667][356]LogBlueprint: Warning: [Compiler PersistentLevel.StartMenuBG] [4110.73] Compile of PersistentLevel.StartMenuBG failed. 2 Fatal Issue(s) 0 Warning(s) [in 6 ms] (/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG)
+[2019.02.19-04.57.08:912][356]LogSavePackage: Moving '../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Saved/StartMenuBG2639B41A488E54AE1437FCA1DB0C0D43.tmp' to '../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Content/_Maps/RubenLevel/StartMenuBG.umap'
+[2019.02.19-04.57.08:956][356]LogFileHelpers: Saving map 'StartMenuBG' took 0.481
+[2019.02.19-04.57.08:989][356]LogSavePackage: Moving '../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Saved/MenuControllerA96821A94FF9E999A338619778FD5C27.tmp' to '../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Content/4_UI_Widgets/MenuController.uasset'
+[2019.02.19-04.57.12:205][692]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.19-04.59.31:905][ 99]BlueprintLog: New page: Compile StartMenuBG
+[2019.02.19-05.00.14:292][ 71]LogSlate: Took 0.001811 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.02.19-05.00.24:134][240]BlueprintLog: New page: Compile MenuController
+[2019.02.19-05.00.41:961][328]BlueprintLog: New page: Compile MenuController
+[2019.02.19-05.00.44:428][588]LogSavePackage: Moving '../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Saved/MenuControllerB0CCDE24443B3DD2923159868381B6DF.tmp' to '../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Content/4_UI_Widgets/MenuController.uasset'
+[2019.02.19-05.02.20:366][861]BlueprintLog: New page: Compile StartMenuBG
+[2019.02.19-05.02.21:643][930]LogSavePackage: Moving '../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Saved/StartMenuBGBE099A3F45BD5DE8CE78ABBEDB55AC4D.tmp' to '../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Content/_Maps/RubenLevel/StartMenuBG.umap'
+[2019.02.19-05.02.21:691][930]LogFileHelpers: Saving map 'StartMenuBG' took 0.508
+[2019.02.19-05.02.33:293][304]BlueprintLog: New page: Compile StartMenuBG
+[2019.02.19-05.02.33:303][304]LogBlueprint: Error: [Compiler PersistentLevel.StartMenuBG] The type of  Object  is undetermined.  Connect something to  Cast To MenuController  to imply a specific type.
+[2019.02.19-05.02.33:303][304]LogBlueprint: Error: [Compiler PersistentLevel.StartMenuBG] The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2019.02.19-05.02.33:494][304]LogBlueprint: Warning: [Compiler PersistentLevel.StartMenuBG] [4435.56] Compile of PersistentLevel.StartMenuBG failed. 2 Fatal Issue(s) 0 Warning(s) [in 201 ms] (/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG)
+[2019.02.19-05.02.36:753][667]LogBlueprint: Error: [Compiler PersistentLevel.StartMenuBG] The type of  Object  is undetermined.  Connect something to  Cast To MenuController  to imply a specific type.
+[2019.02.19-05.02.36:754][667]LogBlueprint: Error: [Compiler PersistentLevel.StartMenuBG] The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2019.02.19-05.02.36:754][667]LogBlueprint: Warning: [Compiler PersistentLevel.StartMenuBG] [4438.82] Compile of PersistentLevel.StartMenuBG failed. 2 Fatal Issue(s) 0 Warning(s) [in 7 ms] (/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG)
+[2019.02.19-05.02.37:000][667]LogSavePackage: Moving '../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Saved/StartMenuBG056CA66C41645A473800EBA6F8E9081F.tmp' to '../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Content/_Maps/RubenLevel/StartMenuBG.umap'
+[2019.02.19-05.02.37:044][667]LogFileHelpers: Saving map 'StartMenuBG' took 0.465
+[2019.02.19-05.04.00:081][332]LogSavePackage: Moving '../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Saved/StartMenuBG4070E3704C748A7C22964C9426BA6213.tmp' to '../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Content/_Maps/RubenLevel/StartMenuBG.umap'
+[2019.02.19-05.04.00:128][332]LogFileHelpers: Saving map 'StartMenuBG' took 0.482
+[2019.02.19-05.04.04:818][882]BlueprintLog: New page: Compile StartMenuBG
+[2019.02.19-05.04.07:091][ 71]LogSavePackage: Moving '../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Saved/StartMenuBG5D7F12404EFBC36A753422B1FE1934CE.tmp' to '../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Content/_Maps/RubenLevel/StartMenuBG.umap'
+[2019.02.19-05.04.07:137][ 71]LogFileHelpers: Saving map 'StartMenuBG' took 0.486
+[2019.02.19-05.04.16:392][150]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.02.19-05.04.16:429][150]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG' with GeneratedClass '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG_C' with ClassGeneratedBy '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG'
+[2019.02.19-05.04.16:429][150]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.19-05.04.16:429][150]PIE: New page: PIE session: StartMenuBG (Feb 18, 2019, 7:04:16 PM)
+[2019.02.19-05.04.16:430][150]LogPlayLevel: Creating play world package: /Game/_Maps/RubenLevel/UEDPIE_0_StartMenuBG
+[2019.02.19-05.04.16:437][150]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007207s)
+[2019.02.19-05.04.16:438][150]LogAIModule: Creating AISystem for world StartMenuBG
+[2019.02.19-05.04.16:438][150]LogPlayLevel: PIE: World Init took: (0.000939s)
+[2019.02.19-05.04.16:438][150]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG to /Game/_Maps/RubenLevel/UEDPIE_0_StartMenuBG.StartMenuBG (0.008349s)
+[2019.02.19-05.04.16:488][150]LogInit: XAudio2 using 'TOSHIBA-TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.19-05.04.16:499][150]LogInit: FAudioDevice initialized.
+[2019.02.19-05.04.16:509][150]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.19-05.04.16:580][150]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.02.19-05.04.16:584][150]LogWorld: Bringing World /Game/_Maps/RubenLevel/UEDPIE_0_StartMenuBG.StartMenuBG up for play (max tick rate 0) at 2019.02.19-00.04.16
+[2019.02.19-05.04.16:585][150]LogWorld: Bringing up level for play took: 0.003316
+[2019.02.19-05.04.16:597][150]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.02.19-05.04.16:604][150]PIE: Play in editor start time for /Game/_Maps/RubenLevel/UEDPIE_0_StartMenuBG 0.561
+[2019.02.19-05.04.16:605][150]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG' with GeneratedClass '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG_C' with ClassGeneratedBy '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG'
+[2019.02.19-05.04.24:488][  6]LogSlate: Window 'Dinochan_v001 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.02.19-05.04.24:494][  6]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG' with GeneratedClass '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG_C' with ClassGeneratedBy '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG'
+[2019.02.19-05.04.24:542][  6]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.19-05.04.24:542][  6]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG' with GeneratedClass '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG_C' with ClassGeneratedBy '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG'
+[2019.02.19-05.04.24:616][  7]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2019.02.19-05.07.30:025][978]BlueprintLog: New page: Compile MainMenu
+[2019.02.19-05.07.57:572][247]BlueprintLog: New page: Compile MainMenu
+[2019.02.19-05.07.58:817][382]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.02.19-05.07.58:851][382]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG' with GeneratedClass '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG_C' with ClassGeneratedBy '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG'
+[2019.02.19-05.07.58:851][382]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.19-05.07.58:851][382]PIE: New page: PIE session: StartMenuBG (Feb 18, 2019, 7:07:58 PM)
+[2019.02.19-05.07.58:851][382]LogPlayLevel: Creating play world package: /Game/_Maps/RubenLevel/UEDPIE_0_StartMenuBG
+[2019.02.19-05.07.58:859][382]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007611s)
+[2019.02.19-05.07.58:860][382]LogAIModule: Creating AISystem for world StartMenuBG
+[2019.02.19-05.07.58:860][382]LogPlayLevel: PIE: World Init took: (0.000910s)
+[2019.02.19-05.07.58:860][382]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG to /Game/_Maps/RubenLevel/UEDPIE_0_StartMenuBG.StartMenuBG (0.008695s)
+[2019.02.19-05.07.58:903][382]LogInit: XAudio2 using 'TOSHIBA-TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.19-05.07.58:912][382]LogInit: FAudioDevice initialized.
+[2019.02.19-05.07.58:920][382]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.19-05.07.58:989][382]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.02.19-05.07.58:991][382]LogWorld: Bringing World /Game/_Maps/RubenLevel/UEDPIE_0_StartMenuBG.StartMenuBG up for play (max tick rate 0) at 2019.02.19-00.07.58
+[2019.02.19-05.07.58:992][382]LogWorld: Bringing up level for play took: 0.002312
+[2019.02.19-05.07.59:004][382]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.02.19-05.07.59:010][382]PIE: Play in editor start time for /Game/_Maps/RubenLevel/UEDPIE_0_StartMenuBG 0.966
+[2019.02.19-05.07.59:011][382]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG' with GeneratedClass '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG_C' with ClassGeneratedBy '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG'
+[2019.02.19-05.08.05:310][120]LogScript: Warning: Accessed None trying to read property MenuController
+	MainMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_9.MainMenu_C_0
+	Function /Game/4_UI_Widgets/MainMenu.MainMenu_C:ExecuteUbergraph_MainMenu:001D
+[2019.02.19-05.08.05:310][120]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property MenuController". Blueprint:  MainMenu Function:  Execute Ubergraph Main Menu Graph:  EventGraph Node:  Set Visibility
+[2019.02.19-05.08.05:310][120]LogScript: Warning: Accessed None
+	MainMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_9.MainMenu_C_0
+	Function /Game/4_UI_Widgets/MainMenu.MainMenu_C:ExecuteUbergraph_MainMenu:0032
+[2019.02.19-05.08.05:310][120]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  MainMenu Function:  Execute Ubergraph Main Menu Graph:  EventGraph Node:  Set Visibility
+[2019.02.19-05.08.06:062][209]LogScript: Warning: Accessed None trying to read property MenuController
+	MainMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_9.MainMenu_C_0
+	Function /Game/4_UI_Widgets/MainMenu.MainMenu_C:ExecuteUbergraph_MainMenu:001D
+[2019.02.19-05.08.06:062][209]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property MenuController". Blueprint:  MainMenu Function:  Execute Ubergraph Main Menu Graph:  EventGraph Node:  Set Visibility
+[2019.02.19-05.08.06:062][209]LogScript: Warning: Accessed None
+	MainMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_9.MainMenu_C_0
+	Function /Game/4_UI_Widgets/MainMenu.MainMenu_C:ExecuteUbergraph_MainMenu:0032
+[2019.02.19-05.08.06:062][209]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  MainMenu Function:  Execute Ubergraph Main Menu Graph:  EventGraph Node:  Set Visibility
+[2019.02.19-05.08.07:252][350]LogScript: Warning: Accessed None trying to read property MenuController
+	MainMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_9.MainMenu_C_0
+	Function /Game/4_UI_Widgets/MainMenu.MainMenu_C:ExecuteUbergraph_MainMenu:001D
+[2019.02.19-05.08.07:253][350]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property MenuController". Blueprint:  MainMenu Function:  Execute Ubergraph Main Menu Graph:  EventGraph Node:  Set Visibility
+[2019.02.19-05.08.07:253][350]LogScript: Warning: Accessed None
+	MainMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_9.MainMenu_C_0
+	Function /Game/4_UI_Widgets/MainMenu.MainMenu_C:ExecuteUbergraph_MainMenu:0032
+[2019.02.19-05.08.07:253][350]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  MainMenu Function:  Execute Ubergraph Main Menu Graph:  EventGraph Node:  Set Visibility
+[2019.02.19-05.08.07:951][433]LogScript: Warning: Accessed None trying to read property MenuController
+	MainMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_9.MainMenu_C_0
+	Function /Game/4_UI_Widgets/MainMenu.MainMenu_C:ExecuteUbergraph_MainMenu:001D
+[2019.02.19-05.08.07:951][433]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property MenuController". Blueprint:  MainMenu Function:  Execute Ubergraph Main Menu Graph:  EventGraph Node:  Set Visibility
+[2019.02.19-05.08.07:951][433]LogScript: Warning: Accessed None
+	MainMenu_C /Engine/Transient.UnrealEdEngine_0:GameInstance_9.MainMenu_C_0
+	Function /Game/4_UI_Widgets/MainMenu.MainMenu_C:ExecuteUbergraph_MainMenu:0032
+[2019.02.19-05.08.07:951][433]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  MainMenu Function:  Execute Ubergraph Main Menu Graph:  EventGraph Node:  Set Visibility
+[2019.02.19-05.08.08:967][551]LogSlate: Window 'Dinochan_v001 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.02.19-05.08.08:975][551]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG' with GeneratedClass '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG_C' with ClassGeneratedBy '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG'
+[2019.02.19-05.08.09:014][551]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.19-05.08.09:014][551]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG' with GeneratedClass '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG_C' with ClassGeneratedBy '/Game/_Maps/RubenLevel/StartMenuBG.StartMenuBG:PersistentLevel.StartMenuBG'
+[2019.02.19-05.08.09:096][552]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2019.02.19-05.08.23:408][241]LogEditorViewport: Clicking on Actor (LMB): MenuController_C (MenuController)
+[2019.02.19-05.08.25:147][436]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.19-05.10.17:992][911]BlueprintLog: New page: Compile MainMenu
+[2019.02.19-05.14.25:219][422]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Maps/RubenLevel/StartMenuBG' took 0.047
+[2019.02.19-05.14.25:221][422]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/4_UI_Widgets/MainMenu] ([1] browsable assets)...
+[2019.02.19-05.14.25:221][422]OBJ SavePackage: Finished generating thumbnails for package [/Game/4_UI_Widgets/MainMenu]
+[2019.02.19-05.14.25:281][422]LogSavePackage: Moving '../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Saved/MainMenu_Auto1C03236E7441FD1CD69871F972F8945AB.tmp' to '../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Saved/Autosaves/Game/4_UI_Widgets/MainMenu_Auto1.uasset'
+[2019.02.19-05.14.25:284][422]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/4_UI_Widgets/MenuController] ([1] browsable assets)...
+[2019.02.19-05.14.25:284][422]OBJ SavePackage: Finished generating thumbnails for package [/Game/4_UI_Widgets/MenuController]
+[2019.02.19-05.14.25:317][422]LogSavePackage: Moving '../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Saved/MenuController_Auto18A848DF04523CDFC17D047BF164898B1.tmp' to '../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Saved/Autosaves/Game/4_UI_Widgets/MenuController_Auto1.uasset'
+[2019.02.19-05.14.25:319][422]LogFileHelpers: Auto-saving content packages took 0.099
+[2019.02.19-05.23.34:780][359]BlueprintLog: New page: Compile MenuController
+[2019.02.19-05.23.47:291][826]LogUObjectBase: Warning: Object is not registered
+[2019.02.19-05.23.47:851][826]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.561 s
+[2019.02.19-05.23.47:851][826]LogOutputDevice: Error: === Handled ensure: ===
+[2019.02.19-05.23.47:851][826]LogOutputDevice: Error: 
+[2019.02.19-05.23.47:851][826]LogOutputDevice: Error: Ensure condition failed: false [File:D:\Build\++UE4\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1142]
+[2019.02.19-05.23.47:851][826]LogOutputDevice: Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2019.02.19-05.23.47:851][826]LogOutputDevice: Error: Stack: 
+[2019.02.19-05.23.47:851][826]LogOutputDevice: Error: [Callstack] 0x00007ffbbbad71f6 UE4Editor-Core.dll!UnknownFunction []
+[2019.02.19-05.23.47:851][826]LogOutputDevice: Error: [Callstack] 0x00007ffbbb810c92 UE4Editor-Core.dll!UnknownFunction []
+[2019.02.19-05.23.47:851][826]LogOutputDevice: Error: [Callstack] 0x00007ffbbb82b356 UE4Editor-Core.dll!UnknownFunction []
+[2019.02.19-05.23.47:851][826]LogOutputDevice: Error: [Callstack] 0x00007ffbb72a11db UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.19-05.23.47:851][826]LogOutputDevice: Error: [Callstack] 0x00007ffbb72b060e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.19-05.23.47:851][826]LogOutputDevice: Error: [Callstack] 0x00007ffbb3aeda7a UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2019.02.19-05.23.47:851][826]LogOutputDevice: Error: [Callstack] 0x00007ffbb2b7ec2a UE4Editor-GraphEditor.dll!UnknownFunction []
+[2019.02.19-05.23.47:851][826]LogOutputDevice: Error: [Callstack] 0x00007ffbb2b3f337 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2019.02.19-05.23.47:851][826]LogOutputDevice: Error: [Callstack] 0x00007ffbb84e8204 UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.19-05.23.47:851][826]LogOutputDevice: Error: [Callstack] 0x00007ffbb872e933 UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.19-05.23.47:851][826]LogOutputDevice: Error: [Callstack] 0x00007ffbb854281a UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.19-05.23.47:851][826]LogOutputDevice: Error: [Callstack] 0x00007ffbb8518190 UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.19-05.23.47:851][826]LogOutputDevice: Error: [Callstack] 0x00007ffbb850b073 UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.19-05.23.47:851][826]LogOutputDevice: Error: [Callstack] 0x00007ffbed58d007 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.02.19-05.23.47:851][826]LogOutputDevice: Error: [Callstack] 0x00007ffbed580270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.02.19-05.23.47:851][826]LogOutputDevice: Error: [Callstack] 0x00007ffbed58f4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.02.19-05.23.47:851][826]LogOutputDevice: Error: [Callstack] 0x00007ffbed57c209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.02.19-05.23.47:851][826]LogOutputDevice: Error: [Callstack] 0x00007ffc250a6d41 USER32.dll!UnknownFunction []
+[2019.02.19-05.23.47:851][826]LogOutputDevice: Error: [Callstack] 0x00007ffc250a6713 USER32.dll!UnknownFunction []
+[2019.02.19-05.23.47:851][826]LogOutputDevice: Error: [Callstack] 0x00007ffbed590646 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.02.19-05.23.47:851][826]LogOutputDevice: Error: [Callstack] 0x00007ff786ad54e5 UE4Editor.exe!UnknownFunction []
+[2019.02.19-05.23.47:851][826]LogOutputDevice: Error: [Callstack] 0x00007ff786ae5b3c UE4Editor.exe!UnknownFunction []
+[2019.02.19-05.23.47:851][826]LogOutputDevice: Error: [Callstack] 0x00007ff786ae5bba UE4Editor.exe!UnknownFunction []
+[2019.02.19-05.23.47:851][826]LogOutputDevice: Error: [Callstack] 0x00007ff786af3dac UE4Editor.exe!UnknownFunction []
+[2019.02.19-05.23.47:851][826]LogOutputDevice: Error: [Callstack] 0x00007ff786af5aaa UE4Editor.exe!UnknownFunction []
+[2019.02.19-05.23.47:851][826]LogOutputDevice: Error: [Callstack] 0x00007ffc22bb3dc4 KERNEL32.DLL!UnknownFunction []
+[2019.02.19-05.23.47:851][826]LogOutputDevice: Error: [Callstack] 0x00007ffc25773691 ntdll.dll!UnknownFunction []
+[2019.02.19-05.23.47:851][826]LogOutputDevice: Error: 
+[2019.02.19-05.23.47:861][826]LogStats:                SubmitErrorReport -  0.000 s
