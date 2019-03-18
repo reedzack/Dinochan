@@ -6502,3 +6502,59 @@ LogInit: Object subsystem initialized
 [2019.03.10-05.06.00:676][107]LogSlate: FSceneViewport::OnFocusLost() reason 2
 [2019.03.10-05.06.00:778][107]LogSavePackage: Moving '../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Saved/ThirdPersonCharacterE51D8194453D2E046CFBC191A93767CB.tmp' to '../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
 [2019.03.10-05.08.24:377][999]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.10-08.34.22:672][729]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.10-09.00.42:933][453]LogInit: XAudio2 using 'TOSHIBA-TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.11-02.55.03:263][ 72]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.11-05.15.11:929][239]LogInit: XAudio2 using 'TOSHIBA-TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.11-16.54.29:823][615]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.11-17.57.01:282][838]LogInit: XAudio2 using 'TOSHIBA-TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.13-04.59.57:885][628]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.13-05.57.45:425][993]LogInit: XAudio2 using 'TOSHIBA-TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.14-01.35.38:737][350]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.14-07.09.27:394][335]LogInit: XAudio2 using 'TOSHIBA-TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.14-08.10.22:553][283]LogHttp: Warning: 000002056A989BC0: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.03.14-08.10.22:566][283]LogHttp: Warning: 000002056A989BC0: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x204945b3fa0 [can pipeline])
+[2019.03.14-08.10.22:566][283]LogHttp: Warning: 000002056A989BC0: libcurl info message cache 1 (Re-using existing connection! (#3531) with host datarouter.ol.epicgames.com)
+[2019.03.14-08.10.22:567][283]LogHttp: Warning: 000002056A989BC0: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.203.71.255) port 443 (#3531))
+[2019.03.14-08.10.22:567][283]LogHttp: Warning: 000002056A989BC0: libcurl info message cache 3 (upload completely sent off: 740 out of 740 bytes)
+[2019.03.14-08.10.22:567][283]LogHttp: Warning: 000002056A989BC0: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2019.03.14-08.10.22:567][283]LogHttp: Warning: 000002056A989BC0: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2019.03.14-08.10.22:567][283]LogHttp: Warning: 000002056A989BC0: libcurl info message cache 6 (Closing connection 3531)
+[2019.03.14-08.10.22:567][283]LogHttp: Warning: 000002056A989BC0: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA1823BDC-4FF2-996D-0D13-13B6F6C761CF%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=e6b78d314f799816426c6a9273773793%7C51b1b8fc1c884f6f85ca575ff629b78a%7C4fd25ed8-73bd-4f1a-93f1-559792c5771a&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2019.03.14-08.10.22:567][283]LogHttp: Warning: 000002056A989BC0: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.03.14-08.10.22:567][283]LogHttp: Warning: 000002056A989BC0: libcurl info message cache 9 (Closing connection 3532)
+[2019.03.14-08.12.23:157][644]LogHttp: Warning: 000002056A989BC0: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.03.14-08.12.23:157][644]LogHttp: Warning: 000002056A989BC0: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.03.14-08.12.23:157][644]LogHttp: Warning: 000002056A989BC0: libcurl info message cache 1 (Closing connection 3533)
+[2019.03.14-08.14.23:758][999]LogHttp: Warning: 000002056A989BC0: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.03.14-08.14.23:758][999]LogHttp: Warning: 000002056A989BC0: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.03.14-08.14.23:758][999]LogHttp: Warning: 000002056A989BC0: libcurl info message cache 1 (Closing connection 3534)
+[2019.03.15-12.29.06:320][410]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.15-13.17.53:412][179]LogInit: XAudio2 using 'TOSHIBA-TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.16-01.57.52:380][618]LogHttp: Warning: 000002056A989440: request has been successfully processed. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA1823BDC-4FF2-996D-0D13-13B6F6C761CF%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=e6b78d314f799816426c6a9273773793%7C51b1b8fc1c884f6f85ca575ff629b78a%7C4fd25ed8-73bd-4f1a-93f1-559792c5771a&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 502, content length: 138, actual payload size: 138
+[2019.03.16-01.57.52:381][618]LogHttp: Warning: 000002056A989440 Response Header Server: awselb/2.0
+[2019.03.16-01.57.52:381][618]LogHttp: Warning: 000002056A989440 Response Header Date: Sat, 16 Mar 2019 01:57:55 GMT
+[2019.03.16-01.57.52:381][618]LogHttp: Warning: 000002056A989440 Response Header Content-Type: text/html
+[2019.03.16-01.57.52:381][618]LogHttp: Warning: 000002056A989440 Response Header Content-Length: 138
+[2019.03.16-01.57.52:381][618]LogHttp: Warning: 000002056A989440 Response Header Connection: keep-alive
+[2019.03.16-13.29.59:503][692]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.16-13.57.29:698][637]LogInit: XAudio2 using 'TOSHIBA-TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.16-14.29.00:815][304]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.16-14.34.04:533][212]LogInit: XAudio2 using 'TOSHIBA-TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.17-00.32.11:577][475]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.17-04.37.05:656][479]LogInit: XAudio2 using 'TOSHIBA-TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.17-15.52.56:264][686]LogHttp: Warning: 000002056A988B80: request has been successfully processed. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA1823BDC-4FF2-996D-0D13-13B6F6C761CF%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=e6b78d314f799816426c6a9273773793%7C51b1b8fc1c884f6f85ca575ff629b78a%7C4fd25ed8-73bd-4f1a-93f1-559792c5771a&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 502, content length: 138, actual payload size: 138
+[2019.03.17-15.52.56:265][686]LogHttp: Warning: 000002056A988B80 Response Header Server: awselb/2.0
+[2019.03.17-15.52.56:265][686]LogHttp: Warning: 000002056A988B80 Response Header Date: Sun, 17 Mar 2019 15:52:58 GMT
+[2019.03.17-15.52.56:265][686]LogHttp: Warning: 000002056A988B80 Response Header Content-Type: text/html
+[2019.03.17-15.52.56:265][686]LogHttp: Warning: 000002056A988B80 Response Header Content-Length: 138
+[2019.03.17-15.52.56:265][686]LogHttp: Warning: 000002056A988B80 Response Header Connection: keep-alive
+[2019.03.18-01.32.44:432][693]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.18-02.53.32:924][511]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-02.53.47:513][523]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.03.18-02.53.50:207][523]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.03.18-02.53.53:045][523]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.03.18-02.53.55:985][523]LogSlate: Window 'Dinochan_v001 - Unreal Editor' being destroyed
+[2019.03.18-02.53.56:011][523]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.18-02.54.06:004][524]Cmd: QUIT_EDITOR
+[2019.03.18-02.54.08:576][524]LogExit: Preparing to exit.
