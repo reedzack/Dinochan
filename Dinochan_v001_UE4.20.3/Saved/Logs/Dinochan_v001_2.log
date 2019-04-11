@@ -1,4 +1,4 @@
-﻿Log file open, 04/05/19 20:36:14
+﻿Log file open, 04/10/19 20:20:26
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Dinochan_v001
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 59 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.707542
+LogStats: Stats thread started at 0.697834
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.071s to configure plugins.
+LogStreaming: Display: Took  0.073s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -123,7 +123,7 @@ LogInit: Compiled (64-bit): Jul 26 2018 10:07:30
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.20
-LogInit: Command Line:  /Game/_Maps/RubenLevel/Rueben_Dev -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -messaging -SessionName="Play in Standalone Game" -nosound -windowed 
+LogInit: Command Line:  /Game/_Maps/SharedLevel/Persistant_Empty -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -messaging -SessionName="Play in Standalone Game" -nosound -windowed 
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 20
@@ -147,332 +147,971 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.003s to delete old logs.
+LogStreaming: Display: Took  0.006s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.04.06-00.36.14:523][  0]LogInit: Selected Device Profile: [Windows]
-[2019.04.06-00.36.14:523][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.04.06-00.36.14:533][  0]LogHAL: Display: Platform has ~ 32 GB [34277933056 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.04.06-00.36.14:533][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2019.04.06-00.36.14:533][  0]LogInit: Going up to parent DeviceProfile []
-[2019.04.06-00.36.14:534][  0]LogInit: Computer: ATC-174-08
-[2019.04.06-00.36.14:534][  0]LogInit: User: brownr55
-[2019.04.06-00.36.14:534][  0]LogInit: CPU Page size=4096, Cores=10
-[2019.04.06-00.36.14:534][  0]LogInit: High frequency timer resolution =2.143478 MHz
-[2019.04.06-00.36.14:535][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2019.04.06-00.36.14:535][  0]LogMemory: Platform Memory Stats for Windows
-[2019.04.06-00.36.14:535][  0]LogMemory: Process Physical Memory: 103.82 MB used, 103.82 MB peak
-[2019.04.06-00.36.14:535][  0]LogMemory: Process Virtual Memory: 95.90 MB used, 95.90 MB peak
-[2019.04.06-00.36.14:535][  0]LogMemory: Physical Memory: 15260.05 MB used,  17429.94 MB free, 32689.98 MB total
-[2019.04.06-00.36.14:535][  0]LogMemory: Virtual Memory: 603.81 MB used,  17429.94 MB free, 134217728.00 MB total
-[2019.04.06-00.36.14:570][  0]LogInit: Using OS detected language (en-US).
-[2019.04.06-00.36.14:570][  0]LogInit: Using OS detected locale (en-US).
-[2019.04.06-00.36.14:570][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.04.06-00.36.15:170][  0]LogStreaming: Display: Took  0.601s to InitEngineTextLocalization.
-[2019.04.06-00.36.15:220][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.04.06-00.36.15:220][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.04.06-00.36.15:238][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.04.06-00.36.15:238][  0]LogD3D11RHI: D3D11 adapters:
-[2019.04.06-00.36.15:328][  0]LogD3D11RHI:    0. 'NVIDIA Quadro P5000' (Feature Level 11_0)
-[2019.04.06-00.36.15:328][  0]LogD3D11RHI:       16255/0/16344 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2019.04.06-00.36.15:331][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.04.06-00.36.15:331][  0]LogD3D11RHI:       0/0/16344 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.04.06-00.36.15:331][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.04.06-00.36.15:345][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.04.06-00.36.15:345][  0]LogD3D11RHI:     GPU DeviceId: 0x1bb0 (for the marketing name, search the web for "GPU Device Id")
-[2019.04.06-00.36.15:345][  0]LogWindows: EnumDisplayDevices:
-[2019.04.06-00.36.15:345][  0]LogWindows:    0. 'NVIDIA Quadro P5000' (P:1 D:1)
-[2019.04.06-00.36.15:346][  0]LogWindows:    1. 'NVIDIA Quadro P5000' (P:0 D:1)
-[2019.04.06-00.36.15:346][  0]LogWindows:    2. 'NVIDIA Quadro P5000' (P:0 D:0)
-[2019.04.06-00.36.15:346][  0]LogWindows:    3. 'NVIDIA Quadro P5000' (P:0 D:0)
-[2019.04.06-00.36.15:346][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2019.04.06-00.36.15:346][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro P5000
-[2019.04.06-00.36.15:346][  0]LogD3D11RHI:   Driver Version: 397.93 (internal:24.21.13.9793, unified:397.93)
-[2019.04.06-00.36.15:346][  0]LogD3D11RHI:      Driver Date: 5-22-2018
-[2019.04.06-00.36.15:346][  0]LogRHI: Texture pool is 11378 MB (70% of 16255 MB)
-[2019.04.06-00.36.15:398][  0]LogD3D11RHI: Async texture creation enabled
-[2019.04.06-00.36.15:418][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2019.04.06-00.36.15:421][  0]LogShaderCompilers: Guid format shader working directory is -33 characters bigger than the processId version (../../../../../../Users/brownr55/Desktop/Dinochan/Dinochan/Dinochan_v001_UE4.20.3/Intermediate/Shaders/WorkingDirectory/19284/).
-[2019.04.06-00.36.15:421][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/brownr55/AppData/Local/Temp/UnrealShaderWorkingDir/5F29EED645FF0E5AD84B16845FC949D1/'.
-[2019.04.06-00.36.15:723][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.04.06-00.36.15:745][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.04.06-00.36.15:772][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.04.06-00.36.15:793][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.04.06-00.36.15:793][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.04.06-00.36.15:874][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.04.06-00.36.15:874][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.04.06-00.36.15:875][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.04.06-00.36.17:008][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.04.06-00.36.17:082][  0]LogDerivedDataCache: Loaded boot cache 0.07s 71MB C:/Users/brownr55/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.04.06-00.36.17:083][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/brownr55/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2019.04.06-00.36.17:083][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/brownr55/Desktop/Dinochan/Dinochan/Dinochan_v001_UE4.20.3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.04.06-00.36.17:083][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.04.06-00.36.17:083][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/brownr55/Desktop/Dinochan/Dinochan/Dinochan_v001_UE4.20.3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.04.06-00.36.17:083][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.04.06-00.36.17:107][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.04.06-00.36.17:120][  0]LogDerivedDataCache: Using Local data cache path C:/Users/brownr55/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.04.06-00.36.17:120][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.04.06-00.36.17:120][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.04.06-00.36.17:158][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.04.06-00.36.17:160][  0]LogSlate: Using FreeType 2.6.0
-[2019.04.06-00.36.17:161][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.04.06-00.36.17:231][  0]LogInit: Using OS detected language (en-US).
-[2019.04.06-00.36.17:231][  0]LogInit: Using OS detected locale (en-US).
-[2019.04.06-00.36.17:232][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
-[2019.04.06-00.36.17:232][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
-[2019.04.06-00.36.17:671][  0]LogStreaming: Display: Took  0.439s to InitGameTextLocalization.
-[2019.04.06-00.36.17:687][  0]LogAssetRegistry: FAssetRegistry took 0.0112 seconds to start up
-[2019.04.06-00.36.17:971][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.016779 seconds
-[2019.04.06-00.36.18:128][  0]LogInit: Selected Device Profile: [Windows]
-[2019.04.06-00.36.18:317][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.04.06-00.36.18:322][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.04.06-00.36.18:322][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.04.06-00.36.18:322][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.04.06-00.36.18:322][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.04.06-00.36.18:356][  0]LogNetVersion: Dinochan_v001 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2574802920)
-[2019.04.06-00.36.19:097][  0]LogMoviePlayer: Initializing movie player
-[2019.04.06-00.36.19:182][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.04.06-00.36.19:182][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.04.06-00.36.19:308][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.04.06-00.36.19:321][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.04.06-00.36.19:434][  0]SourceControl: Source control is disabled
-[2019.04.06-00.36.19:434][  0]SourceControl: Source control is disabled
-[2019.04.06-00.36.19:435][  0]SourceControl: Source control is disabled
-[2019.04.06-00.36.19:571][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.04.06-00.36.19:626][  0]LogOcInput: OculusInput pre-init called
-[2019.04.06-00.36.19:640][  0]LogUObjectArray: 42168 objects as part of root set at end of initial load.
-[2019.04.06-00.36.19:640][  0]LogUObjectAllocator: 7432344 out of 0 bytes used by permanent object pool.
-[2019.04.06-00.36.19:640][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.04.06-00.36.19:708][  0]LogEngine: Initializing Engine...
-[2019.04.06-00.36.19:709][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.04.06-00.36.19:723][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.04.06-00.36.19:723][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.04.06-00.36.19:723][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.04.06-00.36.19:723][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.04.06-00.36.19:982][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.04.06-00.36.19:982][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.04.06-00.36.19:983][  0]LogInit: Texture streaming: Enabled
-[2019.04.06-00.36.20:173][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.06-00.36.20:173][  0]LogInit: Display: Game Engine Initialized.
-[2019.04.06-00.36.20:173][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.04.06-00.36.20:173][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.04.06-00.36.20:173][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.04.06-00.36.20:174][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.04.06-00.36.20:174][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.04.06-00.36.20:191][  0]LogInit: Display: Starting Game.
-[2019.04.06-00.36.20:191][  0]LogNet: Browse: /Game/_Maps/RubenLevel/Rueben_Dev?Name=Player
-[2019.04.06-00.36.20:192][  0]LogLoad: LoadMap: /Game/_Maps/RubenLevel/Rueben_Dev?Name=Player
-[2019.04.06-00.36.20:951][  0]LogAIModule: Creating AISystem for world Rueben_Dev
-[2019.04.06-00.36.20:965][  0]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2019.04.06-00.36.20:983][  0]LogWorld: Bringing World /Game/_Maps/RubenLevel/Rueben_Dev.Rueben_Dev up for play (max tick rate 0) at 2019.04.05-20.36.20
-[2019.04.06-00.36.20:983][  0]LogWorld: Bringing up level for play took: 0.017728
-[2019.04.06-00.36.20:991][  0]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-2830.000 Y=3810.000 Z=981.860 Rotation: P=0.000000 Y=-90.000114 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
-[2019.04.06-00.36.20:991][  0]LogLoad: Took 0.799768 seconds to LoadMap(/Game/_Maps/RubenLevel/Rueben_Dev)
-[2019.04.06-00.36.21:209][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
-[2019.04.06-00.36.21:209][  0]LogLoad: (Engine Initialization) Total time: 9.66 seconds
-[2019.04.06-00.36.21:209][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.04.06-00.36.21:239][  0]LogContentStreaming: Texture pool size now 3000 MB
-[2019.04.06-00.36.36:222][849]LogSlate: Window 'Dinochan_v001 (64-bit Development PCD3D_SM5) ' being destroyed
-[2019.04.06-00.36.36:222][849]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.04.06-00.36.36:222][849]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.04.06-00.36.36:228][849]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.04.06-00.36.36:228][849]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.04.06-00.36.36:230][849]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.06-00.36.36:230][849]LogEngine: All Windows Closed
-[2019.04.06-00.36.36:230][849]LogWindows: FPlatformMisc::RequestExit(0)
-[2019.04.06-00.36.36:718][850]LogExit: Preparing to exit.
-[2019.04.06-00.36.36:719][850]LogMoviePlayer: Shutting down movie player
-[2019.04.06-00.36.37:349][850]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.06-00.36.37:367][850]LogExit: Game engine shut down
-[2019.04.06-00.36.37:521][850]LogExit: Object subsystem successfully closed.
-[2019.04.06-00.36.37:549][850]LogShaderCompilers: Display: Shaders left to compile 0
-[2019.04.06-00.36.37:552][850]LogD3D11RHI: Shutdown
-[2019.04.06-00.36.37:552][850]LogD3D11RHI: CleanupD3DDevice
-[2019.04.06-00.36.37:554][850]LogD3D11RHI: ~FD3D11DynamicRHI
-[2019.04.06-00.36.37:569][850]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (376)
-[2019.04.06-00.36.37:569][850]LogModuleManager: Shutting down and abandoning module SequenceRecorder (374)
-[2019.04.06-00.36.37:569][850]LogModuleManager: Shutting down and abandoning module AutomationController (372)
-[2019.04.06-00.36.37:569][850]LogModuleManager: Shutting down and abandoning module AutomationWorker (370)
-[2019.04.06-00.36.37:569][850]LogModuleManager: Shutting down and abandoning module Voice (368)
-[2019.04.06-00.36.37:569][850]LogModuleManager: Shutting down and abandoning module AIModule (366)
-[2019.04.06-00.36.37:569][850]LogModuleManager: Shutting down and abandoning module GameplayDebugger (365)
-[2019.04.06-00.36.37:570][850]LogModuleManager: Shutting down and abandoning module AITestSuite (363)
-[2019.04.06-00.36.37:570][850]LogModuleManager: Shutting down and abandoning module NavigationSystem (361)
-[2019.04.06-00.36.37:570][850]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (358)
-[2019.04.06-00.36.37:570][850]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (356)
-[2019.04.06-00.36.37:570][850]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (354)
-[2019.04.06-00.36.37:570][850]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (352)
-[2019.04.06-00.36.37:570][850]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (350)
-[2019.04.06-00.36.37:570][850]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (348)
-[2019.04.06-00.36.37:570][850]LogModuleManager: Shutting down and abandoning module CharacterAI (346)
-[2019.04.06-00.36.37:570][850]LogModuleManager: Shutting down and abandoning module SessionServices (344)
-[2019.04.06-00.36.37:570][850]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (342)
-[2019.04.06-00.36.37:570][850]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (340)
-[2019.04.06-00.36.37:570][850]LogModuleManager: Shutting down and abandoning module MovieScene (338)
-[2019.04.06-00.36.37:570][850]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (336)
-[2019.04.06-00.36.37:570][850]LogModuleManager: Shutting down and abandoning module PortalServices (334)
-[2019.04.06-00.36.37:570][850]LogModuleManager: Shutting down and abandoning module PortalRpc (332)
-[2019.04.06-00.36.37:570][850]LogModuleManager: Shutting down and abandoning module MessagingRpc (330)
-[2019.04.06-00.36.37:570][850]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
-[2019.04.06-00.36.37:680][850]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
-[2019.04.06-00.36.37:680][850]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
-[2019.04.06-00.36.37:680][850]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (322)
-[2019.04.06-00.36.37:680][850]LogModuleManager: Shutting down and abandoning module OculusInput (320)
-[2019.04.06-00.36.37:680][850]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (318)
-[2019.04.06-00.36.37:680][850]LogModuleManager: Shutting down and abandoning module EditableMesh (316)
-[2019.04.06-00.36.37:680][850]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (314)
-[2019.04.06-00.36.37:680][850]LogModuleManager: Shutting down and abandoning module CableComponent (312)
-[2019.04.06-00.36.37:680][850]LogModuleManager: Shutting down and abandoning module AudioCapture (310)
-[2019.04.06-00.36.37:680][850]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (308)
-[2019.04.06-00.36.37:680][850]LogModuleManager: Shutting down and abandoning module AndroidPermission (306)
-[2019.04.06-00.36.37:680][850]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (304)
-[2019.04.06-00.36.37:680][850]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (302)
-[2019.04.06-00.36.37:680][850]LogModuleManager: Shutting down and abandoning module MediaCompositing (300)
-[2019.04.06-00.36.37:680][850]LogModuleManager: Shutting down and abandoning module LinearTimecode (298)
-[2019.04.06-00.36.37:680][850]LogModuleManager: Shutting down and abandoning module ImgMedia (296)
-[2019.04.06-00.36.37:683][850]LogModuleManager: Shutting down and abandoning module HTML5Networking (294)
-[2019.04.06-00.36.37:683][850]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (292)
-[2019.04.06-00.36.37:683][850]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (291)
-[2019.04.06-00.36.37:683][850]LogModuleManager: Shutting down and abandoning module GeometryCache (288)
-[2019.04.06-00.36.37:683][850]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (287)
-[2019.04.06-00.36.37:683][850]LogModuleManager: Shutting down and abandoning module BackChannel (284)
-[2019.04.06-00.36.37:683][850]LogModuleManager: Shutting down and abandoning module AppleVision (282)
-[2019.04.06-00.36.37:683][850]LogModuleManager: Shutting down and abandoning module AppleImageUtils (280)
-[2019.04.06-00.36.37:683][850]LogModuleManager: Shutting down and abandoning module DatasmithContent (278)
-[2019.04.06-00.36.37:684][850]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (276)
-[2019.04.06-00.36.37:684][850]LogModuleManager: Shutting down and abandoning module CryptoKeys (274)
-[2019.04.06-00.36.37:684][850]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (272)
-[2019.04.06-00.36.37:684][850]LogModuleManager: Shutting down and abandoning module HotReload (271)
-[2019.04.06-00.36.37:684][850]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (270)
-[2019.04.06-00.36.37:685][850]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (266)
-[2019.04.06-00.36.37:685][850]LogModuleManager: Shutting down and abandoning module UObjectPlugin (264)
-[2019.04.06-00.36.37:685][850]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (262)
-[2019.04.06-00.36.37:685][850]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (260)
-[2019.04.06-00.36.37:685][850]LogModuleManager: Shutting down and abandoning module SourceControl (259)
-[2019.04.06-00.36.37:685][850]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (256)
-[2019.04.06-00.36.37:685][850]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (254)
-[2019.04.06-00.36.37:685][850]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (252)
-[2019.04.06-00.36.37:685][850]LogModuleManager: Shutting down and abandoning module PhysXVehicles (250)
-[2019.04.06-00.36.37:685][850]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (248)
-[2019.04.06-00.36.37:685][850]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (246)
-[2019.04.06-00.36.37:685][850]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (244)
-[2019.04.06-00.36.37:685][850]LogModuleManager: Shutting down and abandoning module ActorSequence (242)
-[2019.04.06-00.36.37:685][850]LogModuleManager: Shutting down and abandoning module UdpMessaging (240)
-[2019.04.06-00.36.37:785][850]LogModuleManager: Shutting down and abandoning module TcpMessaging (238)
-[2019.04.06-00.36.38:318][850]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (236)
-[2019.04.06-00.36.38:318][850]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (234)
-[2019.04.06-00.36.38:318][850]LogModuleManager: Shutting down and abandoning module FacialAnimation (232)
-[2019.04.06-00.36.38:318][850]LogModuleManager: Shutting down and abandoning module DataValidation (230)
-[2019.04.06-00.36.38:318][850]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (228)
-[2019.04.06-00.36.38:318][850]LogModuleManager: Shutting down and abandoning module TreeMap (227)
-[2019.04.06-00.36.38:318][850]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (224)
-[2019.04.06-00.36.38:318][850]LogModuleManager: Shutting down and abandoning module AISupportModule (222)
-[2019.04.06-00.36.38:318][850]LogModuleManager: Shutting down and abandoning module Paper2D (220)
-[2019.04.06-00.36.38:318][850]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (218)
-[2019.04.06-00.36.38:318][850]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
-[2019.04.06-00.36.38:318][850]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
-[2019.04.06-00.36.38:320][850]LogModuleManager: Shutting down and abandoning module Media (213)
-[2019.04.06-00.36.38:325][850]LogModuleManager: Shutting down and abandoning module PacketHandler (210)
-[2019.04.06-00.36.38:326][850]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (208)
-[2019.04.06-00.36.38:326][850]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (206)
-[2019.04.06-00.36.38:326][850]LogModuleManager: Shutting down and abandoning module MediaAssets (204)
-[2019.04.06-00.36.38:326][850]LogModuleManager: Shutting down and abandoning module Overlay (202)
-[2019.04.06-00.36.38:326][850]LogModuleManager: Shutting down and abandoning module OverlayEditor (201)
-[2019.04.06-00.36.38:326][850]LogModuleManager: Shutting down and abandoning module VREditor (198)
-[2019.04.06-00.36.38:326][850]LogModuleManager: Shutting down and abandoning module StringTableEditor (196)
-[2019.04.06-00.36.38:326][850]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (194)
-[2019.04.06-00.36.38:326][850]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (192)
-[2019.04.06-00.36.38:326][850]LogModuleManager: Shutting down and abandoning module FunctionalTesting (190)
-[2019.04.06-00.36.38:326][850]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (188)
-[2019.04.06-00.36.38:326][850]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (187)
-[2019.04.06-00.36.38:326][850]LogModuleManager: Shutting down and abandoning module UMG (184)
-[2019.04.06-00.36.38:326][850]LogModuleManager: Shutting down and abandoning module UMGEditor (183)
-[2019.04.06-00.36.38:326][850]LogModuleManager: Shutting down and abandoning module Sequencer (182)
-[2019.04.06-00.36.38:326][850]LogModuleManager: Shutting down and abandoning module MessageLog (179)
-[2019.04.06-00.36.38:326][850]LogModuleManager: Shutting down and abandoning module SlateReflector (174)
-[2019.04.06-00.36.38:326][850]LogModuleManager: Shutting down and abandoning module Slate (172)
-[2019.04.06-00.36.38:326][850]LogModuleManager: Shutting down and abandoning module EditorStyle (170)
-[2019.04.06-00.36.38:329][850]LogModuleManager: Shutting down and abandoning module MRMesh (168)
-[2019.04.06-00.36.38:329][850]LogModuleManager: Shutting down and abandoning module Messaging (166)
-[2019.04.06-00.36.38:329][850]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
-[2019.04.06-00.36.38:329][850]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
-[2019.04.06-00.36.38:329][850]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
-[2019.04.06-00.36.38:329][850]LogModuleManager: Shutting down and abandoning module Networking (158)
-[2019.04.06-00.36.38:329][850]LogModuleManager: Shutting down and abandoning module Core (156)
-[2019.04.06-00.36.38:329][850]LogModuleManager: Shutting down and abandoning module LevelSequence (154)
-[2019.04.06-00.36.38:329][850]LogModuleManager: Shutting down and abandoning module KismetCompiler (152)
-[2019.04.06-00.36.38:329][850]LogModuleManager: Shutting down and abandoning module MeshUtilities (150)
-[2019.04.06-00.36.38:330][850]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (149)
-[2019.04.06-00.36.38:330][850]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (148)
-[2019.04.06-00.36.38:330][850]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (147)
-[2019.04.06-00.36.38:330][850]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (145)
-[2019.04.06-00.36.38:330][850]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (143)
-[2019.04.06-00.36.38:330][850]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (141)
-[2019.04.06-00.36.38:330][850]LogModuleManager: Shutting down and abandoning module MaterialBaking (137)
-[2019.04.06-00.36.38:330][850]LogModuleManager: Shutting down and abandoning module DerivedDataCache (132)
-[2019.04.06-00.36.38:629][850]LogDerivedDataCache: Shutdown
-[2019.04.06-00.36.38:629][850]LogModuleManager: Shutting down and abandoning module XGEController (130)
-[2019.04.06-00.36.38:629][850]LogModuleManager: Shutting down and abandoning module TargetPlatform (128)
-[2019.04.06-00.36.38:629][850]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (127)
-[2019.04.06-00.36.38:629][850]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (125)
-[2019.04.06-00.36.38:629][850]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (123)
-[2019.04.06-00.36.38:629][850]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (121)
-[2019.04.06-00.36.38:629][850]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (119)
-[2019.04.06-00.36.38:629][850]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (117)
-[2019.04.06-00.36.38:629][850]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (115)
-[2019.04.06-00.36.38:629][850]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (113)
-[2019.04.06-00.36.38:629][850]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (111)
-[2019.04.06-00.36.38:630][850]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (109)
-[2019.04.06-00.36.38:630][850]LogModuleManager: Shutting down and abandoning module ImageWrapper (108)
-[2019.04.06-00.36.38:630][850]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (105)
-[2019.04.06-00.36.38:630][850]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (103)
-[2019.04.06-00.36.38:630][850]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (101)
-[2019.04.06-00.36.38:630][850]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (99)
-[2019.04.06-00.36.38:630][850]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (97)
-[2019.04.06-00.36.38:630][850]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (95)
-[2019.04.06-00.36.38:630][850]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (93)
-[2019.04.06-00.36.38:630][850]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (91)
-[2019.04.06-00.36.38:630][850]LogModuleManager: Shutting down and abandoning module InputCore (88)
-[2019.04.06-00.36.38:630][850]LogModuleManager: Shutting down and abandoning module Settings (86)
-[2019.04.06-00.36.38:630][850]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
-[2019.04.06-00.36.38:630][850]LogModuleManager: Shutting down and abandoning module SteamVR (82)
-[2019.04.06-00.36.38:630][850]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
-[2019.04.06-00.36.38:630][850]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
-[2019.04.06-00.36.38:630][850]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
-[2019.04.06-00.36.38:630][850]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
-[2019.04.06-00.36.38:630][850]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
-[2019.04.06-00.36.38:631][850]LogModuleManager: Shutting down and abandoning module XMPP (65)
-[2019.04.06-00.36.38:631][850]LogModuleManager: Shutting down and abandoning module WebSockets (64)
-[2019.04.06-00.36.38:648][850]LogModuleManager: Shutting down and abandoning module HTTP (61)
-[2019.04.06-00.36.38:667][850]LogModuleManager: Shutting down and abandoning module SSL (60)
-[2019.04.06-00.36.38:669][850]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
-[2019.04.06-00.36.38:669][850]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
-[2019.04.06-00.36.38:669][850]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
-[2019.04.06-00.36.38:669][850]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
-[2019.04.06-00.36.38:669][850]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
-[2019.04.06-00.36.38:669][850]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
-[2019.04.06-00.36.38:669][850]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
-[2019.04.06-00.36.38:669][850]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
-[2019.04.06-00.36.38:669][850]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
-[2019.04.06-00.36.38:669][850]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2019.04.06-00.36.38:669][850]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
-[2019.04.06-00.36.38:669][850]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2019.04.06-00.36.38:669][850]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2019.04.06-00.36.38:669][850]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2019.04.06-00.36.38:669][850]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2019.04.06-00.36.38:669][850]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2019.04.06-00.36.38:669][850]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2019.04.06-00.36.38:669][850]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2019.04.06-00.36.38:670][850]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2019.04.06-00.36.38:670][850]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2019.04.06-00.36.38:670][850]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2019.04.06-00.36.38:670][850]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2019.04.06-00.36.38:670][850]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2019.04.06-00.36.38:670][850]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2019.04.06-00.36.38:670][850]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2019.04.06-00.36.38:670][850]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2019.04.06-00.36.38:670][850]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2019.04.06-00.36.38:670][850]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2019.04.06-00.36.38:670][850]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2019.04.06-00.36.38:687][850]LogExit: Exiting.
-[2019.04.06-00.36.38:692][850]Log file closed, 04/05/19 20:36:38
+[2019.04.11-00.20.27:201][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.11-00.20.27:201][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.04.11-00.20.27:207][  0]LogHAL: Display: Platform has ~ 32 GB [34277924864 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.04.11-00.20.27:207][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.04.11-00.20.27:207][  0]LogInit: Going up to parent DeviceProfile []
+[2019.04.11-00.20.27:207][  0]LogInit: Computer: ATC-174-14
+[2019.04.11-00.20.27:207][  0]LogInit: User: modderd1
+[2019.04.11-00.20.27:207][  0]LogInit: CPU Page size=4096, Cores=10
+[2019.04.11-00.20.27:207][  0]LogInit: High frequency timer resolution =2.143474 MHz
+[2019.04.11-00.20.27:208][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2019.04.11-00.20.27:208][  0]LogMemory: Platform Memory Stats for Windows
+[2019.04.11-00.20.27:208][  0]LogMemory: Process Physical Memory: 104.10 MB used, 104.10 MB peak
+[2019.04.11-00.20.27:208][  0]LogMemory: Process Virtual Memory: 95.88 MB used, 95.88 MB peak
+[2019.04.11-00.20.27:208][  0]LogMemory: Physical Memory: 8005.24 MB used,  24684.73 MB free, 32689.98 MB total
+[2019.04.11-00.20.27:208][  0]LogMemory: Virtual Memory: 599.00 MB used,  24684.73 MB free, 134217728.00 MB total
+[2019.04.11-00.20.27:240][  0]LogInit: Using OS detected language (en-US).
+[2019.04.11-00.20.27:240][  0]LogInit: Using OS detected locale (en-US).
+[2019.04.11-00.20.27:241][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.04.11-00.20.27:787][  0]LogStreaming: Display: Took  0.547s to InitEngineTextLocalization.
+[2019.04.11-00.20.27:827][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.04.11-00.20.27:827][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.04.11-00.20.27:846][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.11-00.20.27:846][  0]LogD3D11RHI: D3D11 adapters:
+[2019.04.11-00.20.27:951][  0]LogD3D11RHI:    0. 'NVIDIA Quadro P5000' (Feature Level 11_0)
+[2019.04.11-00.20.27:951][  0]LogD3D11RHI:       16255/0/16344 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.04.11-00.20.27:955][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.04.11-00.20.27:955][  0]LogD3D11RHI:       0/0/16344 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.04.11-00.20.27:955][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.04.11-00.20.27:964][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.04.11-00.20.27:964][  0]LogD3D11RHI:     GPU DeviceId: 0x1bb0 (for the marketing name, search the web for "GPU Device Id")
+[2019.04.11-00.20.27:964][  0]LogWindows: EnumDisplayDevices:
+[2019.04.11-00.20.27:965][  0]LogWindows:    0. 'NVIDIA Quadro P5000' (P:1 D:1)
+[2019.04.11-00.20.27:965][  0]LogWindows:    1. 'NVIDIA Quadro P5000' (P:0 D:1)
+[2019.04.11-00.20.27:965][  0]LogWindows:    2. 'NVIDIA Quadro P5000' (P:0 D:0)
+[2019.04.11-00.20.27:965][  0]LogWindows:    3. 'NVIDIA Quadro P5000' (P:0 D:0)
+[2019.04.11-00.20.27:965][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.04.11-00.20.27:965][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro P5000
+[2019.04.11-00.20.27:965][  0]LogD3D11RHI:   Driver Version: 397.93 (internal:24.21.13.9793, unified:397.93)
+[2019.04.11-00.20.27:965][  0]LogD3D11RHI:      Driver Date: 5-22-2018
+[2019.04.11-00.20.27:965][  0]LogRHI: Texture pool is 11378 MB (70% of 16255 MB)
+[2019.04.11-00.20.28:030][  0]LogD3D11RHI: Async texture creation enabled
+[2019.04.11-00.20.28:050][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.04.11-00.20.28:056][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Intermediate/Shaders/WorkingDirectory/11828/).
+[2019.04.11-00.20.28:056][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/modderd1/AppData/Local/Temp/UnrealShaderWorkingDir/6C1EFA8043F16310BF34518DD3BE4D64/'.
+[2019.04.11-00.20.28:339][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.04.11-00.20.28:358][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.04.11-00.20.28:381][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.04.11-00.20.28:402][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.04.11-00.20.28:402][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.04.11-00.20.28:489][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.04.11-00.20.28:489][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.04.11-00.20.28:489][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.04.11-00.20.29:704][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.04.11-00.20.29:775][  0]LogDerivedDataCache: Loaded boot cache 0.07s 71MB C:/Users/modderd1/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.04.11-00.20.29:775][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/modderd1/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.04.11-00.20.29:775][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.04.11-00.20.29:775][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.04.11-00.20.29:775][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.11-00.20.29:775][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.04.11-00.20.29:800][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.04.11-00.20.29:812][  0]LogDerivedDataCache: Using Local data cache path C:/Users/modderd1/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.04.11-00.20.29:812][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.04.11-00.20.29:812][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.04.11-00.20.29:846][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.04.11-00.20.29:848][  0]LogSlate: Using FreeType 2.6.0
+[2019.04.11-00.20.29:848][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.11-00.20.29:938][  0]LogInit: Using OS detected language (en-US).
+[2019.04.11-00.20.29:938][  0]LogInit: Using OS detected locale (en-US).
+[2019.04.11-00.20.29:938][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
+[2019.04.11-00.20.29:938][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
+[2019.04.11-00.20.30:407][  0]LogStreaming: Display: Took  0.470s to InitGameTextLocalization.
+[2019.04.11-00.20.30:417][  0]LogAssetRegistry: FAssetRegistry took 0.0058 seconds to start up
+[2019.04.11-00.20.30:720][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.017525 seconds
+[2019.04.11-00.20.30:898][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.11-00.20.31:129][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.04.11-00.20.31:133][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.04.11-00.20.31:133][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.04.11-00.20.31:134][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.04.11-00.20.31:134][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.04.11-00.20.31:168][  0]LogNetVersion: Dinochan_v001 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2574802920)
+[2019.04.11-00.20.31:811][  0]LogMoviePlayer: Initializing movie player
+[2019.04.11-00.20.32:050][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.04.11-00.20.32:063][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.04.11-00.20.32:158][  0]SourceControl: Source control is disabled
+[2019.04.11-00.20.32:158][  0]SourceControl: Source control is disabled
+[2019.04.11-00.20.32:159][  0]SourceControl: Source control is disabled
+[2019.04.11-00.20.32:293][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.04.11-00.20.32:342][  0]LogOcInput: OculusInput pre-init called
+[2019.04.11-00.20.32:353][  0]LogUObjectArray: 42168 objects as part of root set at end of initial load.
+[2019.04.11-00.20.32:353][  0]LogUObjectAllocator: 7432352 out of 0 bytes used by permanent object pool.
+[2019.04.11-00.20.32:353][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.04.11-00.20.32:418][  0]LogEngine: Initializing Engine...
+[2019.04.11-00.20.32:419][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.11-00.20.32:432][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.11-00.20.32:432][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.11-00.20.32:432][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.11-00.20.32:432][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.11-00.20.32:659][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.04.11-00.20.32:659][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.04.11-00.20.32:659][  0]LogInit: Texture streaming: Enabled
+[2019.04.11-00.20.32:837][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.11-00.20.32:837][  0]LogInit: Display: Game Engine Initialized.
+[2019.04.11-00.20.32:837][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.04.11-00.20.32:837][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.11-00.20.32:837][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.11-00.20.32:837][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.11-00.20.32:837][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.11-00.20.32:855][  0]LogInit: Display: Starting Game.
+[2019.04.11-00.20.32:855][  0]LogNet: Browse: /Game/_Maps/SharedLevel/Persistant_Empty?Name=Player
+[2019.04.11-00.20.32:855][  0]LogLoad: LoadMap: /Game/_Maps/SharedLevel/Persistant_Empty?Name=Player
+[2019.04.11-00.20.32:946][  0]LogAIModule: Creating AISystem for world Persistant_Empty
+[2019.04.11-00.20.33:066][  0]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.04.11-00.20.33:066][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/_Maps/SharedLevel/AssetLevel) is flushing async loading
+[2019.04.11-00.20.33:067][  0]LogStreaming: Display: Flushing async loaders.
+[2019.04.11-00.20.33:645][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/_Maps/SharedLevel/Cine_Level) is flushing async loading
+[2019.04.11-00.20.33:735][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/_Maps/SharedLevel/BP_Level) is flushing async loading
+[2019.04.11-00.20.33:831][  0]LogWorld: Bringing World /Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty up for play (max tick rate 0) at 2019.04.10-20.20.33
+[2019.04.11-00.20.33:934][  0]LogWorld: Bringing up level for play took: 0.103645
+[2019.04.11-00.20.33:940][  0]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-2830.000 Y=3400.000 Z=1215.793 Rotation: P=0.000000 Y=0.000000 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.11-00.20.33:940][  0]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-2830.000 Y=3400.000 Z=1215.793 Rotation: P=0.000000 Y=0.000000 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.11-00.20.33:941][  0]LogLoad: Took 1.085874 seconds to LoadMap(/Game/_Maps/SharedLevel/Persistant_Empty)
+[2019.04.11-00.20.34:058][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2019.04.11-00.20.34:058][  0]LogLoad: (Engine Initialization) Total time: 9.55 seconds
+[2019.04.11-00.20.34:058][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.04.11-00.20.34:076][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.04.11-00.20.34:081][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2019.04.11-00.20.34:146][  1]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.34:162][  2]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.34:178][  3]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.34:195][  4]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.34:211][  5]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.34:227][  6]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.34:243][  7]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.34:259][  8]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.34:275][  9]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.34:291][ 10]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.34:307][ 11]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.34:323][ 12]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.34:339][ 13]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.34:356][ 14]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.34:372][ 15]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.34:388][ 16]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.34:404][ 17]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.34:420][ 18]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.34:436][ 19]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.34:452][ 20]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.34:468][ 21]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.34:485][ 22]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.34:501][ 23]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-2830.000 Y=3400.000 Z=1129.889 Rotation: P=0.000000 Y=0.000000 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.11-00.20.34:501][ 23]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.34:517][ 24]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.34:533][ 25]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.34:549][ 26]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.34:565][ 27]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.34:581][ 28]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.34:597][ 29]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.34:614][ 30]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.34:630][ 31]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.34:646][ 32]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.34:662][ 33]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.34:678][ 34]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.34:694][ 35]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.34:711][ 36]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.34:727][ 37]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.34:743][ 38]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.34:759][ 39]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.34:775][ 40]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.34:791][ 41]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.34:807][ 42]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.34:823][ 43]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.34:840][ 44]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.34:856][ 45]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.34:872][ 46]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.34:888][ 47]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.34:907][ 48]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.34:920][ 49]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.34:936][ 50]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.34:952][ 51]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.34:969][ 52]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.34:985][ 53]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:001][ 54]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:017][ 55]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:033][ 56]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:049][ 57]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:065][ 58]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:081][ 59]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:097][ 60]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:114][ 61]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:130][ 62]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:146][ 63]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:162][ 64]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:178][ 65]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:194][ 66]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:210][ 67]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:227][ 68]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:242][ 69]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:259][ 70]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:275][ 71]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:291][ 72]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:307][ 73]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:324][ 74]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:340][ 75]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:356][ 76]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:372][ 77]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:388][ 78]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:404][ 79]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:420][ 80]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:437][ 81]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:452][ 82]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:469][ 83]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:485][ 84]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:501][ 85]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:517][ 86]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:533][ 87]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:549][ 88]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:565][ 89]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:581][ 90]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:598][ 91]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:614][ 92]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:630][ 93]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:646][ 94]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:662][ 95]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:678][ 96]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:694][ 97]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:710][ 98]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:727][ 99]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:743][100]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:759][101]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:775][102]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:791][103]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:807][104]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:823][105]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:839][106]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:856][107]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:872][108]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:888][109]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:907][110]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:920][111]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:937][112]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:953][113]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:969][114]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.35:985][115]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:001][116]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:017][117]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:033][118]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:049][119]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:065][120]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:081][121]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:098][122]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:114][123]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:130][124]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:146][125]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:162][126]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:178][127]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:194][128]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:210][129]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:227][130]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:243][131]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:259][132]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:275][133]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:291][134]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:307][135]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:323][136]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:339][137]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:356][138]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:372][139]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:388][140]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:404][141]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:420][142]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:436][143]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:453][144]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:469][145]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:484][146]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:501][147]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:517][148]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:533][149]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:549][150]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:565][151]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:582][152]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:598][153]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:614][154]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:630][155]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:646][156]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:662][157]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:679][158]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:695][159]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:710][160]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:727][161]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:743][162]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:759][163]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:775][164]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:791][165]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:807][166]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:824][167]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:840][168]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:856][169]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:872][170]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:888][171]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:908][172]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:920][173]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:936][174]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:952][175]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:969][176]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.36:985][177]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:001][178]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:017][179]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:033][180]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:049][181]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:065][182]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:082][183]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:098][184]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:114][185]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:130][186]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:146][187]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:162][188]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:178][189]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:194][190]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:210][191]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:227][192]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:243][193]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:259][194]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:275][195]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:291][196]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:307][197]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:324][198]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:339][199]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:356][200]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:372][201]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:388][202]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:404][203]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:420][204]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:436][205]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:452][206]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:469][207]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:485][208]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:501][209]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:517][210]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:533][211]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:549][212]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:565][213]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:582][214]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:597][215]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:614][216]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:630][217]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:646][218]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:662][219]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:678][220]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:695][221]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:711][222]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:727][223]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:743][224]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:759][225]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:775][226]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:792][227]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:808][228]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:824][229]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:840][230]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:856][231]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:872][232]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:888][233]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:909][234]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:923][235]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:939][236]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:955][237]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:972][238]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.37:987][239]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:004][240]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:020][241]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:036][242]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:052][243]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:068][244]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:084][245]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:100][246]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:116][247]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:132][248]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:149][249]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:165][250]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:181][251]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:197][252]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:213][253]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:230][254]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:246][255]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:262][256]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:278][257]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:294][258]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:310][259]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:326][260]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:342][261]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:359][262]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:374][263]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:391][264]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:407][265]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:423][266]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:439][267]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:455][268]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:472][269]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:488][270]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:504][271]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:520][272]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:536][273]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:552][274]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:568][275]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:584][276]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:600][277]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:617][278]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:632][279]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:649][280]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:665][281]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:681][282]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:697][283]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:713][284]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:730][285]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:746][286]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:761][287]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:778][288]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:794][289]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:810][290]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:826][291]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:842][292]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:858][293]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:875][294]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:891][295]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:908][296]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:923][297]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:939][298]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:955][299]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:971][300]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.38:988][301]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:004][302]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:020][303]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:036][304]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:052][305]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:068][306]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:084][307]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:101][308]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:116][309]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:133][310]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:149][311]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:165][312]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:181][313]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:197][314]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:214][315]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:230][316]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:246][317]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:262][318]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:278][319]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:294][320]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:310][321]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:326][322]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:342][323]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:358][324]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:374][325]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:391][326]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:407][327]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:423][328]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:439][329]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:455][330]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:471][331]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:487][332]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:504][333]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:520][334]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:536][335]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:552][336]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:568][337]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:584][338]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:600][339]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:616][340]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:633][341]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:649][342]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:665][343]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:681][344]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:697][345]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:713][346]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:730][347]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:746][348]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:762][349]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:778][350]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:794][351]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:810][352]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:826][353]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:843][354]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:859][355]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:875][356]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:891][357]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:908][358]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:923][359]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:939][360]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:955][361]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:971][362]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.39:987][363]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:004][364]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:020][365]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:036][366]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:053][367]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:069][368]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:085][369]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:100][370]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:117][371]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:133][372]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:149][373]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:165][374]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:181][375]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:197][376]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:214][377]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:230][378]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:246][379]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:262][380]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:278][381]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:294][382]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:310][383]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:326][384]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:343][385]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:358][386]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:375][387]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:391][388]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:407][389]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:423][390]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:439][391]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:456][392]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:472][393]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:488][394]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:504][395]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:520][396]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:536][397]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:552][398]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:568][399]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:584][400]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:601][401]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:617][402]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:633][403]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:649][404]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:665][405]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:682][406]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:698][407]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:714][408]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:730][409]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:746][410]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:762][411]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:778][412]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:794][413]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:810][414]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:827][415]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:843][416]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:859][417]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:875][418]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:891][419]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:909][420]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:924][421]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:940][422]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:956][423]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:972][424]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.40:988][425]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:004][426]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:020][427]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:036][428]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:052][429]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:068][430]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:084][431]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:101][432]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:117][433]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:133][434]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:149][435]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:166][436]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:181][437]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:197][438]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:214][439]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:230][440]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:246][441]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:262][442]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:279][443]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:294][444]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:310][445]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:327][446]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:343][447]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:359][448]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:375][449]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:391][450]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:407][451]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:423][452]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:439][453]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:456][454]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:472][455]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:488][456]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:504][457]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:520][458]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:536][459]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:552][460]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:569][461]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:585][462]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:601][463]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:617][464]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:633][465]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:649][466]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:665][467]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:681][468]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:697][469]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:714][470]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:730][471]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:746][472]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:762][473]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:778][474]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:794][475]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:810][476]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:827][477]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:843][478]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:859][479]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:875][480]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:891][481]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:911][482]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:923][483]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:939][484]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:956][485]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:972][486]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.41:988][487]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:004][488]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:020][489]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:036][490]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:053][491]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:068][492]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:085][493]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:101][494]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:117][495]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:133][496]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:149][497]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:165][498]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:181][499]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:197][500]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:214][501]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:230][502]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:246][503]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:262][504]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:278][505]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:294][506]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:310][507]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:326][508]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:343][509]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:359][510]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:375][511]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:391][512]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:407][513]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:424][514]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:440][515]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:456][516]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:472][517]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:488][518]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:504][519]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:520][520]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:536][521]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:552][522]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:568][523]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:585][524]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:601][525]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:617][526]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:633][527]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:649][528]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:665][529]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:681][530]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:698][531]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:714][532]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:730][533]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:746][534]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:762][535]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:778][536]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:795][537]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:810][538]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:827][539]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:843][540]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:859][541]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:876][542]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:891][543]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:911][544]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:924][545]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:940][546]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:956][547]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:972][548]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.42:988][549]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:004][550]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:020][551]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:037][552]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:053][553]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:068][554]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:085][555]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:101][556]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:117][557]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:134][558]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:149][559]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:166][560]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:182][561]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:198][562]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:214][563]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:230][564]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:246][565]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:262][566]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:278][567]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:296][568]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:311][569]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:327][570]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:343][571]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:359][572]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:375][573]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:391][574]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:407][575]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:424][576]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:440][577]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:456][578]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:473][579]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:488][580]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:504][581]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:520][582]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:536][583]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:553][584]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:569][585]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:585][586]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:601][587]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:617][588]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:633][589]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:649][590]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:665][591]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:681][592]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:698][593]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:714][594]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:730][595]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:746][596]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:762][597]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:778][598]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:794][599]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:810][600]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:826][601]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:843][602]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:859][603]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:875][604]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:891][605]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:907][606]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:925][607]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:940][608]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:956][609]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:972][610]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.43:989][611]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.44:004][612]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.44:021][613]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.44:037][614]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.44:053][615]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.44:069][616]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.44:085][617]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.44:101][618]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.44:117][619]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.44:133][620]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.44:149][621]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.44:165][622]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.44:181][623]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.44:198][624]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.44:214][625]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.44:230][626]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.44:246][627]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.44:262][628]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.44:278][629]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.44:294][630]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.44:312][631]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.44:327][632]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.44:343][633]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.44:360][634]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.44:376][635]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.44:392][636]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.44:408][637]LogBlueprintUserMessages: [GreatDoor_2] P=0.000000 Y=9.059996 R=0.000000
+[2019.04.11-00.20.44:536][638]LogSlate: Window 'Dinochan_v001 (64-bit Development PCD3D_SM5) ' being destroyed
+[2019.04.11-00.20.44:536][638]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.04.11-00.20.44:542][638]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.11-00.20.44:542][638]LogEngine: All Windows Closed
+[2019.04.11-00.20.44:542][638]LogWindows: FPlatformMisc::RequestExit(0)
+[2019.04.11-00.20.45:441][639]LogExit: Preparing to exit.
+[2019.04.11-00.20.45:441][639]LogMoviePlayer: Shutting down movie player
+[2019.04.11-00.20.46:093][639]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.11-00.20.46:113][639]LogExit: Game engine shut down
+[2019.04.11-00.20.46:224][639]LogExit: Object subsystem successfully closed.
+[2019.04.11-00.20.46:249][639]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.04.11-00.20.46:253][639]LogD3D11RHI: Shutdown
+[2019.04.11-00.20.46:253][639]LogD3D11RHI: CleanupD3DDevice
+[2019.04.11-00.20.46:255][639]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.04.11-00.20.46:268][639]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (376)
+[2019.04.11-00.20.46:268][639]LogModuleManager: Shutting down and abandoning module SequenceRecorder (374)
+[2019.04.11-00.20.46:268][639]LogModuleManager: Shutting down and abandoning module AutomationController (372)
+[2019.04.11-00.20.46:268][639]LogModuleManager: Shutting down and abandoning module AutomationWorker (370)
+[2019.04.11-00.20.46:268][639]LogModuleManager: Shutting down and abandoning module Voice (368)
+[2019.04.11-00.20.46:268][639]LogModuleManager: Shutting down and abandoning module AIModule (366)
+[2019.04.11-00.20.46:268][639]LogModuleManager: Shutting down and abandoning module GameplayDebugger (365)
+[2019.04.11-00.20.46:269][639]LogModuleManager: Shutting down and abandoning module AITestSuite (363)
+[2019.04.11-00.20.46:269][639]LogModuleManager: Shutting down and abandoning module NavigationSystem (361)
+[2019.04.11-00.20.46:269][639]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (358)
+[2019.04.11-00.20.46:269][639]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (356)
+[2019.04.11-00.20.46:269][639]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (354)
+[2019.04.11-00.20.46:269][639]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (352)
+[2019.04.11-00.20.46:269][639]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (350)
+[2019.04.11-00.20.46:269][639]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (348)
+[2019.04.11-00.20.46:269][639]LogModuleManager: Shutting down and abandoning module CharacterAI (346)
+[2019.04.11-00.20.46:269][639]LogModuleManager: Shutting down and abandoning module SessionServices (344)
+[2019.04.11-00.20.46:269][639]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (342)
+[2019.04.11-00.20.46:269][639]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (340)
+[2019.04.11-00.20.46:269][639]LogModuleManager: Shutting down and abandoning module MovieScene (338)
+[2019.04.11-00.20.46:269][639]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (336)
+[2019.04.11-00.20.46:269][639]LogModuleManager: Shutting down and abandoning module PortalServices (334)
+[2019.04.11-00.20.46:269][639]LogModuleManager: Shutting down and abandoning module PortalRpc (332)
+[2019.04.11-00.20.46:269][639]LogModuleManager: Shutting down and abandoning module MessagingRpc (330)
+[2019.04.11-00.20.46:269][639]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2019.04.11-00.20.46:382][639]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2019.04.11-00.20.46:383][639]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2019.04.11-00.20.46:383][639]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (322)
+[2019.04.11-00.20.46:383][639]LogModuleManager: Shutting down and abandoning module OculusInput (320)
+[2019.04.11-00.20.46:383][639]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (318)
+[2019.04.11-00.20.46:383][639]LogModuleManager: Shutting down and abandoning module EditableMesh (316)
+[2019.04.11-00.20.46:383][639]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (314)
+[2019.04.11-00.20.46:383][639]LogModuleManager: Shutting down and abandoning module CableComponent (312)
+[2019.04.11-00.20.46:383][639]LogModuleManager: Shutting down and abandoning module AudioCapture (310)
+[2019.04.11-00.20.46:383][639]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (308)
+[2019.04.11-00.20.46:383][639]LogModuleManager: Shutting down and abandoning module AndroidPermission (306)
+[2019.04.11-00.20.46:383][639]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (304)
+[2019.04.11-00.20.46:383][639]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (302)
+[2019.04.11-00.20.46:383][639]LogModuleManager: Shutting down and abandoning module MediaCompositing (300)
+[2019.04.11-00.20.46:383][639]LogModuleManager: Shutting down and abandoning module LinearTimecode (298)
+[2019.04.11-00.20.46:383][639]LogModuleManager: Shutting down and abandoning module ImgMedia (296)
+[2019.04.11-00.20.46:387][639]LogModuleManager: Shutting down and abandoning module HTML5Networking (294)
+[2019.04.11-00.20.46:387][639]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (292)
+[2019.04.11-00.20.46:387][639]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (291)
+[2019.04.11-00.20.46:387][639]LogModuleManager: Shutting down and abandoning module GeometryCache (288)
+[2019.04.11-00.20.46:387][639]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (287)
+[2019.04.11-00.20.46:387][639]LogModuleManager: Shutting down and abandoning module BackChannel (284)
+[2019.04.11-00.20.46:387][639]LogModuleManager: Shutting down and abandoning module AppleVision (282)
+[2019.04.11-00.20.46:387][639]LogModuleManager: Shutting down and abandoning module AppleImageUtils (280)
+[2019.04.11-00.20.46:387][639]LogModuleManager: Shutting down and abandoning module DatasmithContent (278)
+[2019.04.11-00.20.46:389][639]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (276)
+[2019.04.11-00.20.46:389][639]LogModuleManager: Shutting down and abandoning module CryptoKeys (274)
+[2019.04.11-00.20.46:389][639]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (272)
+[2019.04.11-00.20.46:389][639]LogModuleManager: Shutting down and abandoning module HotReload (271)
+[2019.04.11-00.20.46:390][639]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (270)
+[2019.04.11-00.20.46:390][639]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (266)
+[2019.04.11-00.20.46:390][639]LogModuleManager: Shutting down and abandoning module UObjectPlugin (264)
+[2019.04.11-00.20.46:390][639]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (262)
+[2019.04.11-00.20.46:390][639]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (260)
+[2019.04.11-00.20.46:390][639]LogModuleManager: Shutting down and abandoning module SourceControl (259)
+[2019.04.11-00.20.46:390][639]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (256)
+[2019.04.11-00.20.46:390][639]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (254)
+[2019.04.11-00.20.46:390][639]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (252)
+[2019.04.11-00.20.46:390][639]LogModuleManager: Shutting down and abandoning module PhysXVehicles (250)
+[2019.04.11-00.20.46:390][639]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (248)
+[2019.04.11-00.20.46:390][639]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (246)
+[2019.04.11-00.20.46:390][639]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (244)
+[2019.04.11-00.20.46:390][639]LogModuleManager: Shutting down and abandoning module ActorSequence (242)
+[2019.04.11-00.20.46:390][639]LogModuleManager: Shutting down and abandoning module UdpMessaging (240)
+[2019.04.11-00.20.46:491][639]LogModuleManager: Shutting down and abandoning module TcpMessaging (238)
+[2019.04.11-00.20.47:056][639]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (236)
+[2019.04.11-00.20.47:056][639]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (234)
+[2019.04.11-00.20.47:056][639]LogModuleManager: Shutting down and abandoning module FacialAnimation (232)
+[2019.04.11-00.20.47:056][639]LogModuleManager: Shutting down and abandoning module DataValidation (230)
+[2019.04.11-00.20.47:056][639]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (228)
+[2019.04.11-00.20.47:056][639]LogModuleManager: Shutting down and abandoning module TreeMap (227)
+[2019.04.11-00.20.47:056][639]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (224)
+[2019.04.11-00.20.47:056][639]LogModuleManager: Shutting down and abandoning module AISupportModule (222)
+[2019.04.11-00.20.47:056][639]LogModuleManager: Shutting down and abandoning module Paper2D (220)
+[2019.04.11-00.20.47:056][639]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (218)
+[2019.04.11-00.20.47:056][639]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2019.04.11-00.20.47:056][639]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2019.04.11-00.20.47:057][639]LogModuleManager: Shutting down and abandoning module Media (213)
+[2019.04.11-00.20.47:063][639]LogModuleManager: Shutting down and abandoning module PacketHandler (210)
+[2019.04.11-00.20.47:063][639]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (208)
+[2019.04.11-00.20.47:063][639]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (206)
+[2019.04.11-00.20.47:063][639]LogModuleManager: Shutting down and abandoning module MediaAssets (204)
+[2019.04.11-00.20.47:063][639]LogModuleManager: Shutting down and abandoning module Overlay (202)
+[2019.04.11-00.20.47:063][639]LogModuleManager: Shutting down and abandoning module OverlayEditor (201)
+[2019.04.11-00.20.47:063][639]LogModuleManager: Shutting down and abandoning module VREditor (198)
+[2019.04.11-00.20.47:063][639]LogModuleManager: Shutting down and abandoning module StringTableEditor (196)
+[2019.04.11-00.20.47:063][639]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (194)
+[2019.04.11-00.20.47:063][639]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (192)
+[2019.04.11-00.20.47:063][639]LogModuleManager: Shutting down and abandoning module FunctionalTesting (190)
+[2019.04.11-00.20.47:063][639]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (188)
+[2019.04.11-00.20.47:063][639]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (187)
+[2019.04.11-00.20.47:063][639]LogModuleManager: Shutting down and abandoning module UMG (184)
+[2019.04.11-00.20.47:063][639]LogModuleManager: Shutting down and abandoning module UMGEditor (183)
+[2019.04.11-00.20.47:063][639]LogModuleManager: Shutting down and abandoning module Sequencer (182)
+[2019.04.11-00.20.47:063][639]LogModuleManager: Shutting down and abandoning module MessageLog (179)
+[2019.04.11-00.20.47:063][639]LogModuleManager: Shutting down and abandoning module SlateReflector (174)
+[2019.04.11-00.20.47:063][639]LogModuleManager: Shutting down and abandoning module Slate (172)
+[2019.04.11-00.20.47:064][639]LogModuleManager: Shutting down and abandoning module EditorStyle (170)
+[2019.04.11-00.20.47:065][639]LogModuleManager: Shutting down and abandoning module MRMesh (168)
+[2019.04.11-00.20.47:065][639]LogModuleManager: Shutting down and abandoning module Messaging (166)
+[2019.04.11-00.20.47:065][639]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2019.04.11-00.20.47:065][639]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2019.04.11-00.20.47:065][639]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2019.04.11-00.20.47:065][639]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2019.04.11-00.20.47:065][639]LogModuleManager: Shutting down and abandoning module Core (156)
+[2019.04.11-00.20.47:065][639]LogModuleManager: Shutting down and abandoning module LevelSequence (154)
+[2019.04.11-00.20.47:065][639]LogModuleManager: Shutting down and abandoning module KismetCompiler (152)
+[2019.04.11-00.20.47:065][639]LogModuleManager: Shutting down and abandoning module MeshUtilities (150)
+[2019.04.11-00.20.47:065][639]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (149)
+[2019.04.11-00.20.47:065][639]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (148)
+[2019.04.11-00.20.47:065][639]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (147)
+[2019.04.11-00.20.47:065][639]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (145)
+[2019.04.11-00.20.47:065][639]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (143)
+[2019.04.11-00.20.47:065][639]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (141)
+[2019.04.11-00.20.47:065][639]LogModuleManager: Shutting down and abandoning module MaterialBaking (137)
+[2019.04.11-00.20.47:065][639]LogModuleManager: Shutting down and abandoning module DerivedDataCache (132)
+[2019.04.11-00.20.47:320][639]LogDerivedDataCache: Shutdown
+[2019.04.11-00.20.47:320][639]LogModuleManager: Shutting down and abandoning module XGEController (130)
+[2019.04.11-00.20.47:320][639]LogModuleManager: Shutting down and abandoning module TargetPlatform (128)
+[2019.04.11-00.20.47:320][639]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (127)
+[2019.04.11-00.20.47:320][639]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (125)
+[2019.04.11-00.20.47:320][639]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (123)
+[2019.04.11-00.20.47:320][639]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (121)
+[2019.04.11-00.20.47:320][639]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (119)
+[2019.04.11-00.20.47:320][639]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (117)
+[2019.04.11-00.20.47:320][639]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (115)
+[2019.04.11-00.20.47:320][639]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (113)
+[2019.04.11-00.20.47:321][639]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (111)
+[2019.04.11-00.20.47:321][639]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (109)
+[2019.04.11-00.20.47:321][639]LogModuleManager: Shutting down and abandoning module ImageWrapper (108)
+[2019.04.11-00.20.47:321][639]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (105)
+[2019.04.11-00.20.47:321][639]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (103)
+[2019.04.11-00.20.47:321][639]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (101)
+[2019.04.11-00.20.47:321][639]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (99)
+[2019.04.11-00.20.47:321][639]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (97)
+[2019.04.11-00.20.47:321][639]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (95)
+[2019.04.11-00.20.47:321][639]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (93)
+[2019.04.11-00.20.47:321][639]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (91)
+[2019.04.11-00.20.47:321][639]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2019.04.11-00.20.47:321][639]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2019.04.11-00.20.47:321][639]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.04.11-00.20.47:321][639]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2019.04.11-00.20.47:321][639]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2019.04.11-00.20.47:321][639]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2019.04.11-00.20.47:321][639]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2019.04.11-00.20.47:321][639]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2019.04.11-00.20.47:321][639]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2019.04.11-00.20.47:322][639]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2019.04.11-00.20.47:322][639]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2019.04.11-00.20.47:333][639]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2019.04.11-00.20.47:365][639]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2019.04.11-00.20.47:366][639]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2019.04.11-00.20.47:366][639]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2019.04.11-00.20.47:366][639]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2019.04.11-00.20.47:366][639]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2019.04.11-00.20.47:366][639]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2019.04.11-00.20.47:366][639]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2019.04.11-00.20.47:366][639]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2019.04.11-00.20.47:366][639]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2019.04.11-00.20.47:366][639]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2019.04.11-00.20.47:366][639]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.04.11-00.20.47:366][639]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2019.04.11-00.20.47:366][639]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.04.11-00.20.47:366][639]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.04.11-00.20.47:366][639]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.04.11-00.20.47:366][639]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.04.11-00.20.47:367][639]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.04.11-00.20.47:367][639]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.04.11-00.20.47:367][639]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.04.11-00.20.47:367][639]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.04.11-00.20.47:367][639]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.04.11-00.20.47:367][639]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.04.11-00.20.47:367][639]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.04.11-00.20.47:367][639]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.04.11-00.20.47:367][639]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.04.11-00.20.47:367][639]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.04.11-00.20.47:367][639]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.04.11-00.20.47:367][639]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.04.11-00.20.47:367][639]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.04.11-00.20.47:367][639]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.04.11-00.20.47:387][639]LogExit: Exiting.
+[2019.04.11-00.20.47:389][639]Log file closed, 04/10/19 20:20:47
