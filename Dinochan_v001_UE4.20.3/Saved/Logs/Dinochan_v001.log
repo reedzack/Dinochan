@@ -11343,3 +11343,409 @@ LogInit: Object subsystem initialized
 [2019.04.16-00.11.58:629][ 80]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MainIsland_BalconyIsland_Final_001)
 [2019.04.16-00.11.58:629][ 80]LogEditorSelectUtils: Warning: SelectActor: The requested operation could not be completed because the level is locked. (MainIsland_BalconyIsland_Final_001)
 [2019.04.16-00.11.59:720][185]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.16-00.12.37:092][668]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.16-00.12.37:216][681]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MainIsland_BalconyIsland_Final_001)
+[2019.04.16-00.12.37:216][681]LogEditorSelectUtils: Warning: SelectActor: The requested operation could not be completed because the level is locked. (MainIsland_BalconyIsland_Final_001)
+[2019.04.16-00.12.52:236][309]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.16-00.12.53:770][467]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.16-00.12.54:282][467]LogSavePackage: Moving '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Saved/Persistant_Empty903792324587324E4C43659645C84BBE.tmp' to '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/_Maps/SharedLevel/Persistant_Empty.umap'
+[2019.04.16-00.12.54:377][467]LogFileHelpers: Saving map 'Persistant_Empty' took 0.600
+[2019.04.16-00.12.54:449][467]LogSavePackage: Moving '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Saved/Persistant_Empty_BuiltDataF8BF373843BD8BC07570A2AD3E83E202.tmp' to '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/_Maps/SharedLevel/Persistant_Empty_BuiltData.uasset'
+[2019.04.16-00.12.55:082][467]LogSavePackage: Moving '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Saved/AssetLevel56AB283C4C685A6936B887BEDB4FFAC0.tmp' to '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/_Maps/SharedLevel/AssetLevel.umap'
+[2019.04.16-00.12.55:103][467]LogFileHelpers: Saving map 'AssetLevel' took 0.637
+[2019.04.16-00.12.56:350][467]LogSavePackage: Moving '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Saved/AssetLevel_BuiltDataA761E25D4F28AD5C935BD1ACA899FE66.tmp' to '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/_Maps/SharedLevel/AssetLevel_BuiltData.uasset'
+[2019.04.16-00.12.56:642][467]LogSpawn: Warning: UWorld::DestroyActor: World has no context! World: Cine_Level, Actor: /Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.REINST_Cine_Level_C_0
+[2019.04.16-00.12.56:879][467]LogSavePackage: Moving '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Saved/Cine_Level8D42D3AD4989F5DE362428B8B2F564EC.tmp' to '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/_Maps/SharedLevel/Cine_Level.umap'
+[2019.04.16-00.12.56:907][467]LogFileHelpers: Saving map 'Cine_Level' took 0.535
+[2019.04.16-00.12.56:977][467]LogSavePackage: Moving '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Saved/Cine_Level_BuiltData3748A02849304841F5AFA697BE221569.tmp' to '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/_Maps/SharedLevel/Cine_Level_BuiltData.uasset'
+[2019.04.16-00.12.57:236][467]LogSpawn: Warning: UWorld::DestroyActor: World has no context! World: BP_Level, Actor: /Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.REINST_BP_Level_C_0
+[2019.04.16-00.12.57:456][467]LogSavePackage: Moving '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Saved/BP_Level96F2753B497B4FAA95D3A8998D1A2615.tmp' to '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/_Maps/SharedLevel/BP_Level.umap'
+[2019.04.16-00.12.57:473][467]LogFileHelpers: Saving map 'BP_Level' took 0.484
+[2019.04.16-00.12.57:513][467]LogSavePackage: Moving '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Saved/BP_Level_BuiltData328519214E9F614C50F3E69E5829DDA7.tmp' to '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/_Maps/SharedLevel/BP_Level_BuiltData.uasset'
+[2019.04.16-00.12.58:533][467]LogSavePackage: Moving '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Saved/AssetLevel_BuiltData96824FC34EC13738A3FAB2A765A79D74.tmp' to '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/_Maps/SharedLevel/AssetLevel_BuiltData.uasset'
+[2019.04.16-00.12.58:588][467]LogSavePackage: Moving '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Saved/GemShine_SocketD7A4CF5B4F4C4DF6753230A2AC64B78E.tmp' to '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/3_Materials/JemShine/GemShine_Socket.uasset'
+[2019.04.16-00.12.58:663][467]LogSavePackage: Moving '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Saved/Sparkle_Shine_Twinkle8C724C5A40EF5BD80713D7856012D7B6.tmp' to '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/8_ParticleEffects/Sparkle_Shine_Twinkle.uasset'
+[2019.04.16-00.12.58:681][467]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sequences/Scene2" FILE="../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/Sequences/Scene2.uasset" SILENT=true
+[2019.04.16-00.12.58:750][467]LogSavePackage: Moving '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Saved/Scene2667919BA4F9DEC0B879C1892697C6DCA.tmp' to '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/Sequences/Scene2.uasset'
+[2019.04.16-00.12.58:842][467]LogSavePackage: Moving '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Saved/GemShine_L_1919C08D74CC40D2F02AE5F8682A15633.tmp' to '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/3_Materials/JemShine/GemShine_L_1.uasset'
+[2019.04.16-00.13.30:942][903]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.16-00.13.31:112][920]LogActorFactory: Actor Factory created Cube
+[2019.04.16-00.13.32:943][ 97]LogActorFactory: Actor Factory created Cube
+[2019.04.16-00.14.03:592][381]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MainIsland_BalconyIsland_Final_001)
+[2019.04.16-00.14.03:592][381]LogEditorSelectUtils: Warning: SelectActor: The requested operation could not be completed because the level is locked. (MainIsland_BalconyIsland_Final_001)
+[2019.04.16-00.14.08:456][912]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.16-00.15.04:733][687]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.16-00.15.04:846][695]LogEditorViewport: Clicking on Actor (LMB): CineCameraActor (Scene2_Camera1)
+[2019.04.16-00.15.27:159][121]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.16-00.15.50:374][758]LogEditorViewport: Clicking on Actor (LMB): CineCameraActor (Scene2_Camera1)
+[2019.04.16-00.15.52:064][873]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.16-00.15.59:640][451]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MainIsland_BalconyIsland_Final_001)
+[2019.04.16-00.15.59:640][451]LogEditorSelectUtils: Warning: SelectActor: The requested operation could not be completed because the level is locked. (MainIsland_BalconyIsland_Final_001)
+[2019.04.16-00.16.05:819][947]Cmd: TRANSACTION UNDO
+[2019.04.16-00.16.05:819][947]LogEditorTransaction: Undo Move Actors
+[2019.04.16-00.16.07:780][ 96]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MainIsland_BalconyIsland_Final_001)
+[2019.04.16-00.16.07:780][ 96]LogEditorSelectUtils: Warning: SelectActor: The requested operation could not be completed because the level is locked. (MainIsland_BalconyIsland_Final_001)
+[2019.04.16-00.16.09:769][291]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.16-00.16.27:054][444]Cmd: TRANSACTION UNDO
+[2019.04.16-00.16.27:054][444]LogEditorTransaction: Undo Move Actors
+[2019.04.16-00.16.31:205][693]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.16-00.17.44:303][ 74]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.16-00.19.00:089][875]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (testTree)
+[2019.04.16-00.19.00:089][875]LogEditorSelectUtils: Warning: SelectActor: The requested operation could not be completed because the level is locked. (testTree)
+[2019.04.16-00.19.01:779][ 58]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.16-00.19.30:483][286]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.16-00.19.54:213][265]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.16-00.20.13:705][654]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.16-00.22.35:308][385]LogEditorTransaction: Undo Move Key
+[2019.04.16-00.22.43:411][ 69]LogEditorTransaction: Undo Move Key
+[2019.04.16-00.23.43:213][937]LogSpawn: Warning: UWorld::DestroyActor: World has no context! World: Cine_Level, Actor: /Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.REINST_Cine_Level_C_0
+[2019.04.16-00.23.43:491][937]LogSavePackage: Moving '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Saved/Cine_Level_Auto93219742B428E0BF1F559779304A50B1C.tmp' to '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Saved/Autosaves/Game/_Maps/SharedLevel/Cine_Level_Auto9.umap'
+[2019.04.16-00.23.43:503][937]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Maps/SharedLevel/Persistant_Empty' took 0.384
+[2019.04.16-00.23.43:503][937]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.384
+[2019.04.16-00.23.43:506][937]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Sequences/Scene2] ([1] browsable assets)...
+[2019.04.16-00.23.43:506][937]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sequences/Scene2]
+[2019.04.16-00.23.43:591][937]LogSavePackage: Moving '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Saved/Scene2_Auto903BA45FB47CA81A8766661ABE1374EAD.tmp' to '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Saved/Autosaves/Game/Sequences/Scene2_Auto9.uasset'
+[2019.04.16-00.23.43:595][937]LogFileHelpers: Auto-saving content packages took 0.091
+[2019.04.16-00.24.28:899][572]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.16-00.29.17:304][973]LogEditorViewport: Clicking Background
+[2019.04.16-00.29.20:508][312]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.16-00.37.54:375][714]LogEditorTransaction: Undo Delete Keys
+[2019.04.16-00.41.12:090][503]Cmd: TRANSACTION UNDO
+[2019.04.16-00.41.12:090][503]LogEditorTransaction: Undo Delete Node
+[2019.04.16-00.42.38:251][635]LogEditorTransaction: Undo Move Key
+[2019.04.16-00.44.31:645][ 97]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Maps/SharedLevel/Persistant_Empty' took 0.052
+[2019.04.16-00.44.31:647][ 97]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Sequences/Scene2] ([1] browsable assets)...
+[2019.04.16-00.44.31:647][ 97]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sequences/Scene2]
+[2019.04.16-00.44.31:729][ 97]LogSavePackage: Moving '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Saved/Scene2_Auto0B2D0C01C4086A98D78C32A8B27AD5273.tmp' to '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Saved/Autosaves/Game/Sequences/Scene2_Auto0.uasset'
+[2019.04.16-00.44.31:733][ 97]LogFileHelpers: Auto-saving content packages took 0.087
+[2019.04.16-00.47.28:594][765]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.16-00.47.54:541][671]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.16-00.51.59:231][289]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.16-00.52.00:470][426]LogEditorViewport: Clicking Background
+[2019.04.16-00.52.01:532][544]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.16-00.52.07:646][240]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MainIsland_BalconyIsland_Final_001)
+[2019.04.16-00.52.07:646][240]LogEditorSelectUtils: Warning: SelectActor: The requested operation could not be completed because the level is locked. (MainIsland_BalconyIsland_Final_001)
+[2019.04.16-00.52.09:155][387]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.16-00.52.10:797][557]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.16-00.52.21:413][588]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.16-00.52.21:504][598]LogEditorViewport: Clicking on Actor (LMB): GreatDoor_C (GreatDoor)
+[2019.04.16-00.52.45:930][568]Cmd: SELECT NONE
+[2019.04.16-00.52.51:199][136]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.16-00.53.59:264][495]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.16-00.54.29:709][584]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.16-00.55.19:694][479]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.16-00.56.06:767][ 71]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.16-00.56.57:414][973]LogEditorTransaction: Undo Move Key
+[2019.04.16-00.59.10:793][983]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.16-00.59.58:498][621]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.16-01.00.14:596][876]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.16-01.02.22:843][560]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.16-01.02.32:878][340]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.16-01.03.27:462][639]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.16-01.03.27:568][639]LogSpawn: Warning: UWorld::DestroyActor: World has no context! World: Cine_Level, Actor: /Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.REINST_Cine_Level_C_0
+[2019.04.16-01.03.27:922][639]LogSavePackage: Moving '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Saved/Cine_Level_Auto1FC21A2C94410D067EA2CC28D31DDBEB4.tmp' to '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Saved/Autosaves/Game/_Maps/SharedLevel/Cine_Level_Auto1.umap'
+[2019.04.16-01.03.27:933][639]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Maps/SharedLevel/Persistant_Empty' took 0.454
+[2019.04.16-01.03.27:933][639]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.454
+[2019.04.16-01.03.27:935][639]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Sequences/Scene2] ([1] browsable assets)...
+[2019.04.16-01.03.27:935][639]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sequences/Scene2]
+[2019.04.16-01.03.28:023][639]LogSavePackage: Moving '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Saved/Scene2_Auto14D6D950C4F49A51B4841FAAC7DCC44AB.tmp' to '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Saved/Autosaves/Game/Sequences/Scene2_Auto1.uasset'
+[2019.04.16-01.03.28:032][639]LogFileHelpers: Auto-saving content packages took 0.097
+[2019.04.16-01.03.41:062][630]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.16-01.06.27:694][215]LogEditorTransaction: Undo Delete Keys
+[2019.04.16-01.06.28:843][294]LogEditorTransaction: Undo Delete Keys
+[2019.04.16-01.06.29:552][343]LogEditorTransaction: Undo Delete Keys
+[2019.04.16-01.07.23:238][330]LogEditorTransaction: Undo Move Key
+[2019.04.16-01.13.28:228][ 66]LogSpawn: Warning: UWorld::DestroyActor: World has no context! World: Cine_Level, Actor: /Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.REINST_Cine_Level_C_0
+[2019.04.16-01.13.28:476][ 66]LogSavePackage: Moving '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Saved/Cine_Level_Auto264ABE591429339037E8D36B299CBD2DF.tmp' to '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Saved/Autosaves/Game/_Maps/SharedLevel/Cine_Level_Auto2.umap'
+[2019.04.16-01.13.28:487][ 66]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Maps/SharedLevel/Persistant_Empty' took 0.356
+[2019.04.16-01.13.28:487][ 66]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.356
+[2019.04.16-01.13.28:489][ 66]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Sequences/Scene2] ([1] browsable assets)...
+[2019.04.16-01.13.28:489][ 66]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sequences/Scene2]
+[2019.04.16-01.13.28:561][ 66]LogSavePackage: Moving '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Saved/Scene2_Auto2C8CE15F0428A47AC949AB2A8E56AAF8B.tmp' to '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Saved/Autosaves/Game/Sequences/Scene2_Auto2.uasset'
+[2019.04.16-01.13.28:568][ 66]LogFileHelpers: Auto-saving content packages took 0.080
+[2019.04.16-01.16.09:294][542]LogSpawn: Warning: UWorld::DestroyActor: World has no context! World: Cine_Level, Actor: /Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.REINST_Cine_Level_C_0
+[2019.04.16-01.16.09:532][542]LogSavePackage: Moving '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Saved/Cine_Level2FA621084DF709D3DE9F70BC1097C9F8.tmp' to '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/_Maps/SharedLevel/Cine_Level.umap'
+[2019.04.16-01.16.09:559][542]LogFileHelpers: Saving map 'Cine_Level' took 0.501
+[2019.04.16-01.16.09:562][542]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sequences/Scene2" FILE="../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/Sequences/Scene2.uasset" SILENT=true
+[2019.04.16-01.16.09:631][542]LogSavePackage: Moving '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Saved/Scene28027C32F48623823295BC48AB1E35C8D.tmp' to '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/Sequences/Scene2.uasset'
+[2019.04.16-01.16.12:311][681]LogTexture: Display: Building textures: Layer_9 (AutoDXT, 1920X1080)
+[2019.04.16-01.16.12:311][681]LogTexture: Display: Building textures: Layer_5 (AutoDXT, 1920X1080)
+[2019.04.16-01.16.12:311][681]LogTexture: Display: Building textures: Layer_7 (AutoDXT, 1920X1080)
+[2019.04.16-01.16.12:311][681]LogTexture: Display: Building textures: Layer_6 (AutoDXT, 1920X1080)
+[2019.04.16-01.16.12:311][681]LogTexture: Display: Building textures: Layer_8 (AutoDXT, 1920X1080)
+[2019.04.16-01.16.12:311][681]LogTexture: Display: Building textures: Layer_10 (AutoDXT, 1920X1080)
+[2019.04.16-01.16.31:608][790]LogTemp: Starting movie scene capture...
+[2019.04.16-01.16.31:628][790]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty' with GeneratedClass '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty'
+[2019.04.16-01.16.31:628][790]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level' with GeneratedClass '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level'
+[2019.04.16-01.16.31:628][790]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level' with GeneratedClass '/Game/_Maps/SharedLevel/BP_Level.BP_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level'
+[2019.04.16-01.16.31:628][790]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.16-01.16.31:628][790]PIE: New page: PIE session: Persistant_Empty (Apr 15, 2019, 5:16:31 PM)
+[2019.04.16-01.16.31:628][790]LogPlayLevel: Creating play world package: /Game/_Maps/SharedLevel/UEDPIE_0_Persistant_Empty
+[2019.04.16-01.16.31:630][790]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001784s)
+[2019.04.16-01.16.31:631][790]LogAIModule: Creating AISystem for world Persistant_Empty
+[2019.04.16-01.16.31:631][790]LogPlayLevel: PIE: World Init took: (0.000941s)
+[2019.04.16-01.16.31:631][790]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty to /Game/_Maps/SharedLevel/UEDPIE_0_Persistant_Empty.Persistant_Empty (0.002875s)
+[2019.04.16-01.16.31:716][790]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.16-01.16.31:725][790]LogInit: FAudioDevice initialized.
+[2019.04.16-01.16.31:726][790]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.16-01.16.31:903][790]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.04.16-01.16.31:904][790]LogWorld: Bringing World /Game/_Maps/SharedLevel/UEDPIE_0_Persistant_Empty.Persistant_Empty up for play (max tick rate 0) at 2019.04.15-21.16.31
+[2019.04.16-01.16.31:911][790]LogWorld: Bringing up level for play took: 0.007168
+[2019.04.16-01.16.31:925][790]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-2830.000 Y=3400.000 Z=1215.793 Rotation: P=0.000000 Y=0.000000 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.16-01.16.31:925][790]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-2830.000 Y=3400.000 Z=1215.793 Rotation: P=0.000000 Y=0.000000 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.16-01.16.31:935][790]PIE: Play in editor start time for /Game/_Maps/SharedLevel/UEDPIE_0_Persistant_Empty 1.087
+[2019.04.16-01.16.32:007][790]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty' with GeneratedClass '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty'
+[2019.04.16-01.16.32:007][790]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level' with GeneratedClass '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level'
+[2019.04.16-01.16.32:007][790]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level' with GeneratedClass '/Game/_Maps/SharedLevel/BP_Level.BP_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level'
+[2019.04.16-01.16.32:010][790]LogConsoleManager: Warning: Setting the console variable 'r.Streaming.PoolSize' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByConsole'. Value remains '-1'
+[2019.04.16-01.16.32:057][790]LogRenderer: Reallocating scene render targets to support 1920x1080 Format 10 NumSamples 1 (Frame:1).
+[2019.04.16-01.16.32:806][791]LogRenderer: Reallocating scene render targets to support 1920x1080 Format 10 NumSamples 1 (Frame:2).
+[2019.04.16-01.16.33:347][796]LogContentStreaming: Texture pool size now 11378 MB
+[2019.04.16-01.16.33:933][803]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-2830.000 Y=3400.000 Z=1129.889 Rotation: P=0.000000 Y=0.000000 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.16-01.17.52:838][649]LogConsoleManager: Warning: Setting the console variable 'r.Streaming.PoolSize' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByConsole'. Value remains '-1'
+[2019.04.16-01.17.53:049][649]LogConsoleManager: Warning: Setting the console variable 'r.Streaming.PoolSize' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByConsole'. Value remains '3000'
+[2019.04.16-01.17.53:050][649]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty' with GeneratedClass '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty'
+[2019.04.16-01.17.53:050][649]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level' with GeneratedClass '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level'
+[2019.04.16-01.17.53:051][649]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level' with GeneratedClass '/Game/_Maps/SharedLevel/BP_Level.BP_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level'
+[2019.04.16-01.17.53:081][649]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.16-01.17.53:133][649]LogSlate: Window 'Movie Render - Preview' being destroyed
+[2019.04.16-01.17.53:144][649]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.16-01.17.53:145][649]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty' with GeneratedClass '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty'
+[2019.04.16-01.17.53:145][649]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level' with GeneratedClass '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level'
+[2019.04.16-01.17.53:145][649]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level' with GeneratedClass '/Game/_Maps/SharedLevel/BP_Level.BP_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level'
+[2019.04.16-01.17.53:238][649]LogTemp: Movie Capture finished. Success: 1
+[2019.04.16-01.17.53:249][650]LogRenderer: Reallocating scene render targets to support 1920x1080 Format 10 NumSamples 1 (Frame:1689464).
+[2019.04.16-01.17.53:249][650]LogContentStreaming: Texture pool size now 3000 MB
+[2019.04.16-01.17.53:325][652]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2019.04.16-01.20.37:038][867]LogTemp: Starting movie scene capture...
+[2019.04.16-01.20.37:073][867]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty' with GeneratedClass '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty'
+[2019.04.16-01.20.37:073][867]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level' with GeneratedClass '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level'
+[2019.04.16-01.20.37:073][867]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level' with GeneratedClass '/Game/_Maps/SharedLevel/BP_Level.BP_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level'
+[2019.04.16-01.20.37:073][867]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.16-01.20.37:073][867]PIE: New page: PIE session: Persistant_Empty (Apr 15, 2019, 5:20:37 PM)
+[2019.04.16-01.20.37:074][867]LogPlayLevel: Creating play world package: /Game/_Maps/SharedLevel/UEDPIE_0_Persistant_Empty
+[2019.04.16-01.20.37:076][867]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002382s)
+[2019.04.16-01.20.37:077][867]LogAIModule: Creating AISystem for world Persistant_Empty
+[2019.04.16-01.20.37:078][867]LogPlayLevel: PIE: World Init took: (0.001371s)
+[2019.04.16-01.20.37:078][867]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty to /Game/_Maps/SharedLevel/UEDPIE_0_Persistant_Empty.Persistant_Empty (0.004020s)
+[2019.04.16-01.20.37:132][867]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.16-01.20.37:143][867]LogInit: FAudioDevice initialized.
+[2019.04.16-01.20.37:143][867]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.16-01.20.37:324][867]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.04.16-01.20.37:325][867]LogWorld: Bringing World /Game/_Maps/SharedLevel/UEDPIE_0_Persistant_Empty.Persistant_Empty up for play (max tick rate 0) at 2019.04.15-21.20.37
+[2019.04.16-01.20.37:329][867]LogWorld: Bringing up level for play took: 0.004225
+[2019.04.16-01.20.37:343][867]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-2830.000 Y=3400.000 Z=1215.793 Rotation: P=0.000000 Y=0.000000 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.16-01.20.37:343][867]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-2830.000 Y=3400.000 Z=1215.793 Rotation: P=0.000000 Y=0.000000 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.16-01.20.37:351][867]PIE: Play in editor start time for /Game/_Maps/SharedLevel/UEDPIE_0_Persistant_Empty 0.502
+[2019.04.16-01.20.37:352][867]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty' with GeneratedClass '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty'
+[2019.04.16-01.20.37:352][867]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level' with GeneratedClass '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level'
+[2019.04.16-01.20.37:352][867]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level' with GeneratedClass '/Game/_Maps/SharedLevel/BP_Level.BP_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level'
+[2019.04.16-01.20.37:354][867]LogConsoleManager: Warning: Setting the console variable 'r.Streaming.PoolSize' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByConsole'. Value remains '-1'
+[2019.04.16-01.20.37:427][868]LogRenderer: Reallocating scene render targets to support 1920x1080 Format 10 NumSamples 1 (Frame:1715815).
+[2019.04.16-01.20.37:905][873]LogContentStreaming: Texture pool size now 11378 MB
+[2019.04.16-01.20.38:502][880]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-2830.000 Y=3400.000 Z=1129.889 Rotation: P=0.000000 Y=0.000000 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.16-01.21.02:149][132]LogSlate: Window 'Movie Render - Preview' being destroyed
+[2019.04.16-01.21.02:154][132]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty' with GeneratedClass '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty'
+[2019.04.16-01.21.02:154][132]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level' with GeneratedClass '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level'
+[2019.04.16-01.21.02:154][132]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level' with GeneratedClass '/Game/_Maps/SharedLevel/BP_Level.BP_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level'
+[2019.04.16-01.21.02:155][132]LogConsoleManager: Warning: Setting the console variable 'r.Streaming.PoolSize' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByConsole'. Value remains '3000'
+[2019.04.16-01.21.02:293][132]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.16-01.21.02:293][132]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty' with GeneratedClass '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty'
+[2019.04.16-01.21.02:293][132]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level' with GeneratedClass '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level'
+[2019.04.16-01.21.02:293][132]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level' with GeneratedClass '/Game/_Maps/SharedLevel/BP_Level.BP_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level'
+[2019.04.16-01.21.02:363][132]LogContentStreaming: Texture pool size now 3000 MB
+[2019.04.16-01.21.02:383][132]LogTemp: Movie Capture finished. Success: 1
+[2019.04.16-01.21.02:402][134]LogRenderer: Reallocating scene render targets to support 1920x1080 Format 10 NumSamples 1 (Frame:1715819).
+[2019.04.16-01.21.02:468][135]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2019.04.16-01.21.28:625][173]LogEditorSelectUtils: Warning: SelectActor: The requested operation could not be completed because the level is locked. (CineCameraActor2)
+[2019.04.16-01.21.54:444][123]LogSlate: Window 'Save Content' being destroyed
+[2019.04.16-01.21.54:780][123]LogSpawn: Warning: UWorld::DestroyActor: World has no context! World: Cine_Level, Actor: /Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.REINST_Cine_Level_C_0
+[2019.04.16-01.21.55:051][123]LogSavePackage: Moving '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Saved/Cine_Level4196D5FD4CEC6399845AB79EF7CBFBCE.tmp' to '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/_Maps/SharedLevel/Cine_Level.umap'
+[2019.04.16-01.21.55:067][123]LogFileHelpers: Saving map 'Cine_Level' took 0.587
+[2019.04.16-01.21.55:069][123]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sequences/Scene2" FILE="../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/Sequences/Scene2.uasset" SILENT=true
+[2019.04.16-01.21.55:161][123]LogSavePackage: Moving '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Saved/Scene29787263247475BE48A7C7BA297026CAC.tmp' to '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/Sequences/Scene2.uasset'
+[2019.04.16-01.21.55:261][123]LogTemp: Starting movie scene capture...
+[2019.04.16-01.21.55:286][123]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty' with GeneratedClass '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty'
+[2019.04.16-01.21.55:286][123]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level' with GeneratedClass '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level'
+[2019.04.16-01.21.55:286][123]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level' with GeneratedClass '/Game/_Maps/SharedLevel/BP_Level.BP_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level'
+[2019.04.16-01.21.55:286][123]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.16-01.21.55:286][123]PIE: New page: PIE session: Persistant_Empty (Apr 15, 2019, 5:21:55 PM)
+[2019.04.16-01.21.55:286][123]LogPlayLevel: Creating play world package: /Game/_Maps/SharedLevel/UEDPIE_0_Persistant_Empty
+[2019.04.16-01.21.55:288][123]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001835s)
+[2019.04.16-01.21.55:289][123]LogAIModule: Creating AISystem for world Persistant_Empty
+[2019.04.16-01.21.55:289][123]LogPlayLevel: PIE: World Init took: (0.000805s)
+[2019.04.16-01.21.55:289][123]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty to /Game/_Maps/SharedLevel/UEDPIE_0_Persistant_Empty.Persistant_Empty (0.002811s)
+[2019.04.16-01.21.55:343][123]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.16-01.21.55:352][123]LogInit: FAudioDevice initialized.
+[2019.04.16-01.21.55:352][123]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.16-01.21.55:529][123]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.04.16-01.21.55:531][123]LogWorld: Bringing World /Game/_Maps/SharedLevel/UEDPIE_0_Persistant_Empty.Persistant_Empty up for play (max tick rate 0) at 2019.04.15-21.21.55
+[2019.04.16-01.21.55:534][123]LogWorld: Bringing up level for play took: 0.003230
+[2019.04.16-01.21.55:548][123]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-2830.000 Y=3400.000 Z=1215.793 Rotation: P=0.000000 Y=0.000000 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.16-01.21.55:548][123]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-2830.000 Y=3400.000 Z=1215.793 Rotation: P=0.000000 Y=0.000000 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.16-01.21.55:558][123]PIE: Play in editor start time for /Game/_Maps/SharedLevel/UEDPIE_0_Persistant_Empty 0.708
+[2019.04.16-01.21.55:558][123]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty' with GeneratedClass '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty'
+[2019.04.16-01.21.55:558][123]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level' with GeneratedClass '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level'
+[2019.04.16-01.21.55:558][123]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level' with GeneratedClass '/Game/_Maps/SharedLevel/BP_Level.BP_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level'
+[2019.04.16-01.21.55:561][123]LogConsoleManager: Warning: Setting the console variable 'r.Streaming.PoolSize' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByConsole'. Value remains '-1'
+[2019.04.16-01.21.55:640][124]LogRenderer: Reallocating scene render targets to support 1920x1080 Format 10 NumSamples 1 (Frame:1721733).
+[2019.04.16-01.21.55:901][128]LogContentStreaming: Texture pool size now 11378 MB
+[2019.04.16-01.21.56:260][136]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-2830.000 Y=3400.000 Z=1129.889 Rotation: P=0.000000 Y=0.000000 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.16-01.21.58:933][187]LogSlate: Window 'Movie Render - Preview' being destroyed
+[2019.04.16-01.21.58:938][187]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty' with GeneratedClass '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty'
+[2019.04.16-01.21.58:938][187]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level' with GeneratedClass '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level'
+[2019.04.16-01.21.58:938][187]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level' with GeneratedClass '/Game/_Maps/SharedLevel/BP_Level.BP_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level'
+[2019.04.16-01.21.58:939][187]LogConsoleManager: Warning: Setting the console variable 'r.Streaming.PoolSize' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByConsole'. Value remains '3000'
+[2019.04.16-01.21.59:157][187]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.16-01.21.59:158][187]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty' with GeneratedClass '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty'
+[2019.04.16-01.21.59:158][187]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level' with GeneratedClass '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level'
+[2019.04.16-01.21.59:158][187]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level' with GeneratedClass '/Game/_Maps/SharedLevel/BP_Level.BP_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level'
+[2019.04.16-01.21.59:240][187]LogTemp: Movie Capture finished. Success: 1
+[2019.04.16-01.21.59:259][189]LogRenderer: Reallocating scene render targets to support 1920x1080 Format 10 NumSamples 1 (Frame:1721738).
+[2019.04.16-01.21.59:318][190]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2019.04.16-01.21.59:338][191]LogContentStreaming: Texture pool size now 3000 MB
+[2019.04.16-01.22.23:980][798]LogSlate: Window 'Save Content' being destroyed
+[2019.04.16-01.22.24:290][798]LogSpawn: Warning: UWorld::DestroyActor: World has no context! World: Cine_Level, Actor: /Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.REINST_Cine_Level_C_0
+[2019.04.16-01.22.24:565][798]LogSavePackage: Moving '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Saved/Cine_LevelBA17E24145705666A1C785930560C4DB.tmp' to '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/_Maps/SharedLevel/Cine_Level.umap'
+[2019.04.16-01.22.24:585][798]LogFileHelpers: Saving map 'Cine_Level' took 0.571
+[2019.04.16-01.22.25:086][798]LogSavePackage: Moving '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Saved/Persistant_EmptyDE875B2D440D33A8BC8CD8946215A33E.tmp' to '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/_Maps/SharedLevel/Persistant_Empty.umap'
+[2019.04.16-01.22.25:176][798]LogFileHelpers: Saving map 'Persistant_Empty' took 0.589
+[2019.04.16-01.22.25:181][798]LogTemp: Starting movie scene capture...
+[2019.04.16-01.22.25:206][798]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty' with GeneratedClass '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty'
+[2019.04.16-01.22.25:206][798]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level' with GeneratedClass '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level'
+[2019.04.16-01.22.25:206][798]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level' with GeneratedClass '/Game/_Maps/SharedLevel/BP_Level.BP_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level'
+[2019.04.16-01.22.25:206][798]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.16-01.22.25:206][798]PIE: New page: PIE session: Persistant_Empty (Apr 15, 2019, 5:22:25 PM)
+[2019.04.16-01.22.25:206][798]LogPlayLevel: Creating play world package: /Game/_Maps/SharedLevel/UEDPIE_0_Persistant_Empty
+[2019.04.16-01.22.25:208][798]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001651s)
+[2019.04.16-01.22.25:208][798]LogAIModule: Creating AISystem for world Persistant_Empty
+[2019.04.16-01.22.25:209][798]LogPlayLevel: PIE: World Init took: (0.000805s)
+[2019.04.16-01.22.25:209][798]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty to /Game/_Maps/SharedLevel/UEDPIE_0_Persistant_Empty.Persistant_Empty (0.002620s)
+[2019.04.16-01.22.25:264][798]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.16-01.22.25:276][798]LogInit: FAudioDevice initialized.
+[2019.04.16-01.22.25:276][798]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.16-01.22.25:498][798]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.04.16-01.22.25:500][798]LogWorld: Bringing World /Game/_Maps/SharedLevel/UEDPIE_0_Persistant_Empty.Persistant_Empty up for play (max tick rate 0) at 2019.04.15-21.22.25
+[2019.04.16-01.22.25:501][798]LogWorld: Bringing up level for play took: 0.001796
+[2019.04.16-01.22.25:515][798]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-2830.000 Y=3400.000 Z=1215.793 Rotation: P=0.000000 Y=0.000000 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.16-01.22.25:515][798]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-2830.000 Y=3400.000 Z=1215.793 Rotation: P=0.000000 Y=0.000000 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.16-01.22.25:524][798]PIE: Play in editor start time for /Game/_Maps/SharedLevel/UEDPIE_0_Persistant_Empty 0.674
+[2019.04.16-01.22.25:544][798]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty' with GeneratedClass '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty'
+[2019.04.16-01.22.25:544][798]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level' with GeneratedClass '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level'
+[2019.04.16-01.22.25:544][798]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level' with GeneratedClass '/Game/_Maps/SharedLevel/BP_Level.BP_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level'
+[2019.04.16-01.22.25:546][798]LogConsoleManager: Warning: Setting the console variable 'r.Streaming.PoolSize' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByConsole'. Value remains '-1'
+[2019.04.16-01.22.25:637][799]LogRenderer: Reallocating scene render targets to support 1920x1080 Format 10 NumSamples 1 (Frame:1724961).
+[2019.04.16-01.22.25:789][801]LogContentStreaming: Texture pool size now 11378 MB
+[2019.04.16-01.22.26:255][811]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-2830.000 Y=3400.000 Z=1129.889 Rotation: P=0.000000 Y=0.000000 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.16-01.22.32:657][934]LogSlate: Window 'Movie Render - Preview' being destroyed
+[2019.04.16-01.22.32:662][934]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty' with GeneratedClass '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty'
+[2019.04.16-01.22.32:662][934]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level' with GeneratedClass '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level'
+[2019.04.16-01.22.32:662][934]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level' with GeneratedClass '/Game/_Maps/SharedLevel/BP_Level.BP_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level'
+[2019.04.16-01.22.32:663][934]LogConsoleManager: Warning: Setting the console variable 'r.Streaming.PoolSize' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByConsole'. Value remains '3000'
+[2019.04.16-01.22.32:833][934]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.16-01.22.32:834][934]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty' with GeneratedClass '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty'
+[2019.04.16-01.22.32:834][934]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level' with GeneratedClass '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level'
+[2019.04.16-01.22.32:834][934]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level' with GeneratedClass '/Game/_Maps/SharedLevel/BP_Level.BP_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level'
+[2019.04.16-01.22.32:903][934]LogContentStreaming: Texture pool size now 3000 MB
+[2019.04.16-01.22.32:924][934]LogTemp: Movie Capture finished. Success: 1
+[2019.04.16-01.22.32:942][936]LogRenderer: Reallocating scene render targets to support 1920x1080 Format 10 NumSamples 1 (Frame:1724966).
+[2019.04.16-01.22.33:018][937]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2019.04.16-01.23.13:356][778]LogSlate: Window 'Save Content' being destroyed
+[2019.04.16-01.23.13:987][778]LogSavePackage: Moving '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Saved/AssetLevelDDCF72DD4ABAD95B12789D9ED99D740F.tmp' to '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/_Maps/SharedLevel/AssetLevel.umap'
+[2019.04.16-01.23.14:002][778]LogFileHelpers: Saving map 'AssetLevel' took 0.612
+[2019.04.16-01.23.14:496][778]LogSavePackage: Moving '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Saved/Persistant_EmptyA1039459462DF83DE654BE99BD088B3E.tmp' to '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/_Maps/SharedLevel/Persistant_Empty.umap'
+[2019.04.16-01.23.14:619][778]LogFileHelpers: Saving map 'Persistant_Empty' took 0.614
+[2019.04.16-01.23.14:624][778]LogTemp: Starting movie scene capture...
+[2019.04.16-01.23.14:649][778]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty' with GeneratedClass '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty'
+[2019.04.16-01.23.14:649][778]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level' with GeneratedClass '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level'
+[2019.04.16-01.23.14:649][778]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level' with GeneratedClass '/Game/_Maps/SharedLevel/BP_Level.BP_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level'
+[2019.04.16-01.23.14:649][778]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.16-01.23.14:649][778]PIE: New page: PIE session: Persistant_Empty (Apr 15, 2019, 5:23:14 PM)
+[2019.04.16-01.23.14:649][778]LogPlayLevel: Creating play world package: /Game/_Maps/SharedLevel/UEDPIE_0_Persistant_Empty
+[2019.04.16-01.23.14:651][778]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001741s)
+[2019.04.16-01.23.14:652][778]LogAIModule: Creating AISystem for world Persistant_Empty
+[2019.04.16-01.23.14:652][778]LogPlayLevel: PIE: World Init took: (0.000783s)
+[2019.04.16-01.23.14:652][778]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty to /Game/_Maps/SharedLevel/UEDPIE_0_Persistant_Empty.Persistant_Empty (0.002701s)
+[2019.04.16-01.23.14:711][778]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.16-01.23.14:721][778]LogInit: FAudioDevice initialized.
+[2019.04.16-01.23.14:721][778]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.16-01.23.14:936][778]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.04.16-01.23.14:938][778]LogWorld: Bringing World /Game/_Maps/SharedLevel/UEDPIE_0_Persistant_Empty.Persistant_Empty up for play (max tick rate 0) at 2019.04.15-21.23.14
+[2019.04.16-01.23.14:939][778]LogWorld: Bringing up level for play took: 0.001772
+[2019.04.16-01.23.14:953][778]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-2830.000 Y=3400.000 Z=1215.793 Rotation: P=0.000000 Y=0.000000 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.16-01.23.14:953][778]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-2830.000 Y=3400.000 Z=1215.793 Rotation: P=0.000000 Y=0.000000 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.16-01.23.14:962][778]PIE: Play in editor start time for /Game/_Maps/SharedLevel/UEDPIE_0_Persistant_Empty 0.111
+[2019.04.16-01.23.14:994][778]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty' with GeneratedClass '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty'
+[2019.04.16-01.23.14:994][778]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level' with GeneratedClass '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level'
+[2019.04.16-01.23.14:994][778]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level' with GeneratedClass '/Game/_Maps/SharedLevel/BP_Level.BP_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level'
+[2019.04.16-01.23.14:997][778]LogConsoleManager: Warning: Setting the console variable 'r.Streaming.PoolSize' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByConsole'. Value remains '-1'
+[2019.04.16-01.23.15:103][779]LogRenderer: Reallocating scene render targets to support 1920x1080 Format 10 NumSamples 1 (Frame:1730655).
+[2019.04.16-01.23.15:361][783]LogContentStreaming: Texture pool size now 11378 MB
+[2019.04.16-01.23.15:732][791]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-2830.000 Y=3400.000 Z=1129.889 Rotation: P=0.000000 Y=0.000000 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.16-01.23.56:947][637]LogConsoleManager: Warning: Setting the console variable 'r.Streaming.PoolSize' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByConsole'. Value remains '-1'
+[2019.04.16-01.23.57:159][637]LogConsoleManager: Warning: Setting the console variable 'r.Streaming.PoolSize' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByConsole'. Value remains '3000'
+[2019.04.16-01.23.57:160][637]LogContentStreaming: Texture pool size now 3000 MB
+[2019.04.16-01.23.57:160][637]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty' with GeneratedClass '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty'
+[2019.04.16-01.23.57:160][637]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level' with GeneratedClass '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level'
+[2019.04.16-01.23.57:160][637]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level' with GeneratedClass '/Game/_Maps/SharedLevel/BP_Level.BP_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level'
+[2019.04.16-01.23.57:164][637]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.16-01.23.57:228][637]LogSlate: Window 'Movie Render - Preview' being destroyed
+[2019.04.16-01.23.57:240][637]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.16-01.23.57:241][637]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty' with GeneratedClass '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty'
+[2019.04.16-01.23.57:241][637]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level' with GeneratedClass '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level'
+[2019.04.16-01.23.57:241][637]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level' with GeneratedClass '/Game/_Maps/SharedLevel/BP_Level.BP_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level'
+[2019.04.16-01.23.57:321][637]LogTemp: Movie Capture finished. Success: 1
+[2019.04.16-01.23.57:342][639]LogRenderer: Reallocating scene render targets to support 1920x1080 Format 10 NumSamples 1 (Frame:1730658).
+[2019.04.16-01.23.57:406][640]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2019.04.16-01.25.31:715][571]LogSlate: Window 'Save Content' being destroyed
+[2019.04.16-01.25.32:210][571]LogSavePackage: Moving '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Saved/Persistant_EmptyFC379BFE41F41FF0F5568B8EEFC283BB.tmp' to '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/_Maps/SharedLevel/Persistant_Empty.umap'
+[2019.04.16-01.25.32:305][571]LogFileHelpers: Saving map 'Persistant_Empty' took 0.557
+[2019.04.16-01.25.32:389][571]LogTemp: Starting movie scene capture...
+[2019.04.16-01.25.32:416][571]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty' with GeneratedClass '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty'
+[2019.04.16-01.25.32:416][571]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level' with GeneratedClass '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level'
+[2019.04.16-01.25.32:417][571]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level' with GeneratedClass '/Game/_Maps/SharedLevel/BP_Level.BP_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level'
+[2019.04.16-01.25.32:417][571]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.16-01.25.32:417][571]PIE: New page: PIE session: Persistant_Empty (Apr 15, 2019, 5:25:32 PM)
+[2019.04.16-01.25.32:417][571]LogPlayLevel: Creating play world package: /Game/_Maps/SharedLevel/UEDPIE_0_Persistant_Empty
+[2019.04.16-01.25.32:419][571]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001850s)
+[2019.04.16-01.25.32:420][571]LogAIModule: Creating AISystem for world Persistant_Empty
+[2019.04.16-01.25.32:420][571]LogPlayLevel: PIE: World Init took: (0.000963s)
+[2019.04.16-01.25.32:420][571]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty to /Game/_Maps/SharedLevel/UEDPIE_0_Persistant_Empty.Persistant_Empty (0.002997s)
+[2019.04.16-01.25.32:482][571]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.16-01.25.32:492][571]LogInit: FAudioDevice initialized.
+[2019.04.16-01.25.32:492][571]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.16-01.25.32:660][571]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.04.16-01.25.32:661][571]LogWorld: Bringing World /Game/_Maps/SharedLevel/UEDPIE_0_Persistant_Empty.Persistant_Empty up for play (max tick rate 0) at 2019.04.15-21.25.32
+[2019.04.16-01.25.32:663][571]LogWorld: Bringing up level for play took: 0.001772
+[2019.04.16-01.25.32:677][571]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-2830.000 Y=3400.000 Z=1215.793 Rotation: P=0.000000 Y=0.000000 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.16-01.25.32:677][571]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-2830.000 Y=3400.000 Z=1215.793 Rotation: P=0.000000 Y=0.000000 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.16-01.25.32:686][571]PIE: Play in editor start time for /Game/_Maps/SharedLevel/UEDPIE_0_Persistant_Empty -0.166
+[2019.04.16-01.25.32:686][571]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty' with GeneratedClass '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty'
+[2019.04.16-01.25.32:687][571]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level' with GeneratedClass '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level'
+[2019.04.16-01.25.32:687][571]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level' with GeneratedClass '/Game/_Maps/SharedLevel/BP_Level.BP_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level'
+[2019.04.16-01.25.32:690][571]LogConsoleManager: Warning: Setting the console variable 'r.Streaming.PoolSize' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByConsole'. Value remains '-1'
+[2019.04.16-01.25.32:720][571]LogRenderer: Reallocating scene render targets to support 3840x2160 Format 10 NumSamples 1 (Frame:1).
+[2019.04.16-01.25.32:844][572]LogRenderer: Reallocating scene render targets to support 3840x2160 Format 10 NumSamples 1 (Frame:1742391).
+[2019.04.16-01.25.32:994][573]LogContentStreaming: Texture pool size now 11378 MB
+[2019.04.16-01.25.34:104][584]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-2830.000 Y=3400.000 Z=1129.889 Rotation: P=0.000000 Y=0.000000 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.16-01.27.12:106][430]LogConsoleManager: Warning: Setting the console variable 'r.Streaming.PoolSize' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByConsole'. Value remains '-1'
+[2019.04.16-01.27.12:325][430]LogConsoleManager: Warning: Setting the console variable 'r.Streaming.PoolSize' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByConsole'. Value remains '3000'
+[2019.04.16-01.27.12:326][430]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty' with GeneratedClass '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty'
+[2019.04.16-01.27.12:327][430]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level' with GeneratedClass '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level'
+[2019.04.16-01.27.12:327][430]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level' with GeneratedClass '/Game/_Maps/SharedLevel/BP_Level.BP_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level'
+[2019.04.16-01.27.12:329][430]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.16-01.27.12:387][430]LogSlate: Window 'Movie Render - Preview' being destroyed
+[2019.04.16-01.27.12:400][430]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.16-01.27.12:401][430]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty' with GeneratedClass '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty'
+[2019.04.16-01.27.12:401][430]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level' with GeneratedClass '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level'
+[2019.04.16-01.27.12:401][430]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level' with GeneratedClass '/Game/_Maps/SharedLevel/BP_Level.BP_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level'
+[2019.04.16-01.27.12:485][430]LogTemp: Movie Capture finished. Success: 1
+[2019.04.16-01.27.12:518][432]LogRenderer: Reallocating scene render targets to support 3840x2160 Format 10 NumSamples 1 (Frame:1742394).
+[2019.04.16-01.27.12:633][433]LogPlayLevel: Display: Destroying online subsystem :Context_51
+[2019.04.16-01.27.12:653][434]LogContentStreaming: Texture pool size now 3000 MB
+[2019.04.16-01.29.02:918][726]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sequences/Scene2" FILE="../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/Sequences/Scene2.uasset" SILENT=true
+[2019.04.16-01.29.03:025][726]LogSavePackage: Moving '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Saved/Scene209EB3A2A40829DE465B019AA67C51D10.tmp' to '../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Content/Sequences/Scene2.uasset'
+[2019.04.16-01.29.09:287][ 74]LogSlate: Window 'Save Content' being destroyed
+[2019.04.16-01.29.10:451][173]LogSlate: Window 'Render Movie Settings' being destroyed
+[2019.04.16-01.29.22:421][321]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MainIsland_Final_001)
+[2019.04.16-01.29.31:648][690]LogSlate: FSceneViewport::OnFocusLost() reason 0
