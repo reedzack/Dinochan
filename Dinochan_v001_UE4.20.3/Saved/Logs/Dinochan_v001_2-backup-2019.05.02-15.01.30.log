@@ -1,0 +1,711 @@
+﻿Log file open, 05/02/19 14:59:21
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Dinochan_v001
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.562005
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.066s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4233996
+LogInit: Engine Version: 4.20.1-4233996+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz, GPU: NVIDIA Quadro K4200
+LogInit: Compiled (64-bit): Jul 26 2018 10:07:30
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  /Game/_Maps/SharedLevel/Persistant_Empty -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -messaging -SessionName="Play in Standalone Game" -nosound -windowed 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.009s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.05.02-18.59.21:674][  0]LogInit: Selected Device Profile: [Windows]
+[2019.05.02-18.59.21:674][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.05.02-18.59.21:680][  0]LogHAL: Display: Platform has ~ 32 GB [34262499328 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.05.02-18.59.21:680][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.05.02-18.59.21:680][  0]LogInit: Going up to parent DeviceProfile []
+[2019.05.02-18.59.21:681][  0]LogInit: Computer: ATC-172-19
+[2019.05.02-18.59.21:681][  0]LogInit: User: modderd1
+[2019.05.02-18.59.21:681][  0]LogInit: CPU Page size=4096, Cores=8
+[2019.05.02-18.59.21:681][  0]LogInit: High frequency timer resolution =2.338339 MHz
+[2019.05.02-18.59.21:681][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2019.05.02-18.59.21:681][  0]LogMemory: Platform Memory Stats for Windows
+[2019.05.02-18.59.21:681][  0]LogMemory: Process Physical Memory: 103.65 MB used, 103.65 MB peak
+[2019.05.02-18.59.21:681][  0]LogMemory: Process Virtual Memory: 99.20 MB used, 99.20 MB peak
+[2019.05.02-18.59.21:681][  0]LogMemory: Physical Memory: 9709.57 MB used,  22965.69 MB free, 32675.27 MB total
+[2019.05.02-18.59.21:681][  0]LogMemory: Virtual Memory: 589.79 MB used,  22965.69 MB free, 134217728.00 MB total
+[2019.05.02-18.59.21:720][  0]LogInit: Using OS detected language (en-US).
+[2019.05.02-18.59.21:720][  0]LogInit: Using OS detected locale (en-US).
+[2019.05.02-18.59.21:720][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.05.02-18.59.22:234][  0]LogStreaming: Display: Took  0.515s to InitEngineTextLocalization.
+[2019.05.02-18.59.22:267][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.05.02-18.59.22:267][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.05.02-18.59.22:290][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.05.02-18.59.22:290][  0]LogD3D11RHI: D3D11 adapters:
+[2019.05.02-18.59.22:351][  0]LogD3D11RHI:    0. 'NVIDIA Quadro K4200' (Feature Level 11_0)
+[2019.05.02-18.59.22:351][  0]LogD3D11RHI:       4052/0/16337 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.05.02-18.59.22:355][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.05.02-18.59.22:355][  0]LogD3D11RHI:       0/0/16337 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.05.02-18.59.22:355][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.05.02-18.59.22:363][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.05.02-18.59.22:363][  0]LogD3D11RHI:     GPU DeviceId: 0x11b4 (for the marketing name, search the web for "GPU Device Id")
+[2019.05.02-18.59.22:363][  0]LogWindows: EnumDisplayDevices:
+[2019.05.02-18.59.22:363][  0]LogWindows:    0. 'NVIDIA Quadro K4200' (P:1 D:1)
+[2019.05.02-18.59.22:363][  0]LogWindows:    1. 'NVIDIA Quadro K4200' (P:0 D:1)
+[2019.05.02-18.59.22:363][  0]LogWindows:    2. 'NVIDIA Quadro K4200' (P:0 D:0)
+[2019.05.02-18.59.22:363][  0]LogWindows:    3. 'NVIDIA Quadro K4200' (P:0 D:0)
+[2019.05.02-18.59.22:364][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.05.02-18.59.22:364][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro K4200
+[2019.05.02-18.59.22:364][  0]LogD3D11RHI:   Driver Version: 397.93 (internal:24.21.13.9793, unified:397.93)
+[2019.05.02-18.59.22:364][  0]LogD3D11RHI:      Driver Date: 5-22-2018
+[2019.05.02-18.59.22:364][  0]LogRHI: Texture pool is 2836 MB (70% of 4052 MB)
+[2019.05.02-18.59.22:415][  0]LogD3D11RHI: Async texture creation enabled
+[2019.05.02-18.59.22:440][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.05.02-18.59.22:443][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/Intermediate/Shaders/WorkingDirectory/7572/).
+[2019.05.02-18.59.22:443][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/modderd1/AppData/Local/Temp/UnrealShaderWorkingDir/C54ADBCD4664875A13EA4EA8FB45EDAB/'.
+[2019.05.02-18.59.22:753][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.05.02-18.59.22:771][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.05.02-18.59.22:789][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.05.02-18.59.22:809][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.05.02-18.59.22:809][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.05.02-18.59.22:905][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.05.02-18.59.22:905][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.05.02-18.59.22:905][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.05.02-18.59.24:040][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.05.02-18.59.24:128][  0]LogDerivedDataCache: Loaded boot cache 0.09s 71MB C:/Users/modderd1/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.05.02-18.59.24:129][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/modderd1/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.05.02-18.59.24:129][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.05.02-18.59.24:129][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.05.02-18.59.24:129][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/modderd1/Desktop/Dinochan/Dinochan_v001_UE4.20.3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.05.02-18.59.24:129][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.05.02-18.59.24:153][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.05.02-18.59.24:166][  0]LogDerivedDataCache: Using Local data cache path C:/Users/modderd1/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.05.02-18.59.24:166][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.05.02-18.59.24:166][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.05.02-18.59.24:199][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.05.02-18.59.24:201][  0]LogSlate: Using FreeType 2.6.0
+[2019.05.02-18.59.24:202][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.05.02-18.59.24:273][  0]LogInit: Using OS detected language (en-US).
+[2019.05.02-18.59.24:273][  0]LogInit: Using OS detected locale (en-US).
+[2019.05.02-18.59.24:273][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
+[2019.05.02-18.59.24:273][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
+[2019.05.02-18.59.24:766][  0]LogStreaming: Display: Took  0.493s to InitGameTextLocalization.
+[2019.05.02-18.59.24:776][  0]LogAssetRegistry: FAssetRegistry took 0.0064 seconds to start up
+[2019.05.02-18.59.25:080][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.015761 seconds
+[2019.05.02-18.59.25:260][  0]LogInit: Selected Device Profile: [Windows]
+[2019.05.02-18.59.25:467][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.05.02-18.59.25:476][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.05.02-18.59.25:476][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.05.02-18.59.25:476][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.05.02-18.59.25:476][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.05.02-18.59.25:506][  0]LogNetVersion: Dinochan_v001 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2574802920)
+[2019.05.02-18.59.26:205][  0]LogMoviePlayer: Initializing movie player
+[2019.05.02-18.59.26:410][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.05.02-18.59.26:423][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.05.02-18.59.26:517][  0]SourceControl: Source control is disabled
+[2019.05.02-18.59.26:517][  0]SourceControl: Source control is disabled
+[2019.05.02-18.59.26:518][  0]SourceControl: Source control is disabled
+[2019.05.02-18.59.26:660][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.05.02-18.59.26:713][  0]LogOcInput: OculusInput pre-init called
+[2019.05.02-18.59.26:730][  0]LogUObjectArray: 42168 objects as part of root set at end of initial load.
+[2019.05.02-18.59.26:730][  0]LogUObjectAllocator: 7432344 out of 0 bytes used by permanent object pool.
+[2019.05.02-18.59.26:730][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.05.02-18.59.26:802][  0]LogEngine: Initializing Engine...
+[2019.05.02-18.59.26:803][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.05.02-18.59.26:816][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.05.02-18.59.26:816][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.05.02-18.59.26:816][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.05.02-18.59.26:816][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.05.02-18.59.27:061][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.05.02-18.59.27:062][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.05.02-18.59.27:062][  0]LogInit: Texture streaming: Enabled
+[2019.05.02-18.59.27:274][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.02-18.59.27:274][  0]LogInit: Display: Game Engine Initialized.
+[2019.05.02-18.59.27:274][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.05.02-18.59.27:274][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.05.02-18.59.27:274][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.05.02-18.59.27:274][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.05.02-18.59.27:274][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.05.02-18.59.27:295][  0]LogInit: Display: Starting Game.
+[2019.05.02-18.59.27:295][  0]LogNet: Browse: /Game/_Maps/SharedLevel/Persistant_Empty?Name=Player
+[2019.05.02-18.59.27:295][  0]LogLoad: LoadMap: /Game/_Maps/SharedLevel/Persistant_Empty?Name=Player
+[2019.05.02-18.59.28:119][  0]LogAIModule: Creating AISystem for world Persistant_Empty
+[2019.05.02-18.59.28:262][  0]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.05.02-18.59.28:262][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/_Maps/SharedLevel/AssetLevel) is flushing async loading
+[2019.05.02-18.59.28:262][  0]LogStreaming: Display: Flushing async loaders.
+[2019.05.02-18.59.28:804][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/_Maps/SharedLevel/Cine_Level) is flushing async loading
+[2019.05.02-18.59.29:883][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/_Maps/SharedLevel/BP_Level) is flushing async loading
+[2019.05.02-18.59.30:176][  0]LogWorld: Bringing World /Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty up for play (max tick rate 0) at 2019.05.02-14.59.30
+[2019.05.02-18.59.30:290][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/1_Models/Dinochan/Dinochan_Anims/Dino_Push_24FxS_Anim.Dino_Push_24FxS_Anim
+[2019.05.02-18.59.30:290][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/1_Models/Dinochan/Dinochan_Anims/Dino_Push_24FxS_Anim.Dino_Push_24FxS_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.05.02-18.59.30:313][  0]LogWorld: Bringing up level for play took: 0.142608
+[2019.05.02-18.59.30:324][  0]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-2721.107 Y=3390.170 Z=1129.727 Rotation: P=0.000000 Y=-110.322670 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-18.59.30:326][  0]LogLoad: Took 3.030555 seconds to LoadMap(/Game/_Maps/SharedLevel/Persistant_Empty)
+[2019.05.02-18.59.30:468][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2019.05.02-18.59.30:468][  0]LogLoad: (Engine Initialization) Total time: 11.26 seconds
+[2019.05.02-18.59.30:468][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.05.02-18.59.30:515][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.05.02-18.59.30:522][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2019.05.02-18.59.36:989][384]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-1067.979 Y=1972.847 Z=1138.327 Rotation: P=0.000000 Y=-64.389229 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-18.59.37:667][426]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-902.217 Y=1632.961 Z=1252.381 Rotation: P=0.000000 Y=-51.528034 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-18.59.38:038][449]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-843.682 Y=1569.431 Z=1254.538 Rotation: P=0.000000 Y=-46.390255 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-18.59.38:796][496]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-616.814 Y=1331.276 Z=1353.948 Rotation: P=0.000000 Y=-46.390255 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-18.59.42:980][755]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-548.162 Y=1332.255 Z=1363.152 Rotation: P=0.000000 Y=-44.404213 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-18.59.43:496][787]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-371.895 Y=1157.221 Z=1503.773 Rotation: P=0.000000 Y=-48.866261 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-18.59.57:466][651]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-273.046 Y=999.377 Z=1569.255 Rotation: P=0.000000 Y=-86.693977 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-18.59.57:902][678]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-257.764 Y=738.257 Z=1711.008 Rotation: P=0.000000 Y=-86.693977 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-18.59.58:838][736]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-252.426 Y=501.169 Z=1747.860 Rotation: P=0.000000 Y=-91.817932 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.00:177][819]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-233.085 Y=-1.600 Z=1629.811 Rotation: P=0.000000 Y=-81.931396 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.00:580][844]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-200.586 Y=-147.037 Z=1672.289 Rotation: P=0.000000 Y=-80.679428 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.01:483][900]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-117.188 Y=-681.170 Z=1724.497 Rotation: P=0.000000 Y=-104.879791 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.02:177][943]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-273.338 Y=-635.841 Z=1774.491 Rotation: P=0.000000 Y=144.299576 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.03:129][  2]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-574.642 Y=-447.704 Z=1784.981 Rotation: P=0.000000 Y=151.504440 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.11:241][503]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-727.008 Y=-459.167 Z=1726.508 Rotation: P=0.000000 Y=139.635361 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.11:709][532]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.582 Y=-466.748 Z=1639.597 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.11:725][533]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.582 Y=-466.748 Z=1639.597 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.11:742][534]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.582 Y=-466.748 Z=1639.597 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.11:757][535]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.582 Y=-466.748 Z=1639.597 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.11:773][536]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.582 Y=-466.748 Z=1639.597 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.21:204][119]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.21:220][120]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.21:237][121]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.21:253][122]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.21:269][123]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.21:285][124]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.21:301][125]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.21:317][126]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.21:333][127]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.21:350][128]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.21:366][129]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.21:382][130]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.21:397][131]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.21:414][132]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.21:430][133]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.21:446][134]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.21:462][135]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.21:479][136]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.21:495][137]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.21:511][138]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.21:527][139]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.21:543][140]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.21:559][141]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.21:575][142]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.21:591][143]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.21:608][144]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.21:623][145]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.21:641][146]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.21:656][147]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.21:672][148]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.21:688][149]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.21:704][150]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.21:720][151]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.21:736][152]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.21:752][153]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.21:769][154]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.21:785][155]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.21:803][156]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CurrentMenu' of length 0 in '/Game/_Blueprints/Ruben_Blueprint/menucontroller.MenuController_C'!
+[2019.05.02-19.00.36:906][ 89]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.36:906][ 89]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.36:906][ 89]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.36:923][ 90]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.36:938][ 91]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.36:955][ 92]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.36:971][ 93]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.36:986][ 94]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.37:003][ 95]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.37:019][ 96]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.37:035][ 97]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.37:051][ 98]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.37:067][ 99]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.37:083][100]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.37:099][101]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.37:115][102]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.37:132][103]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.37:148][104]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.37:164][105]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.37:180][106]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.37:197][107]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.37:213][108]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.37:229][109]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.37:245][110]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-734.583 Y=-466.749 Z=1639.615 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.38:589][193]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CurrentMenu' of length 0 in '/Game/_Blueprints/Ruben_Blueprint/menucontroller.MenuController_C'!
+[2019.05.02-19.00.39:735][264]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.02-19.00.44:185][539]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.02-19.00.46:494][682]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-754.588 Y=-486.754 Z=848.469 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.46:494][682]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-754.588 Y=-486.754 Z=848.469 Rotation: P=0.000000 Y=94.470497 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.48:238][790]LogBlueprintUserMessages: [KillPlane_2] you ded
+[2019.05.02-19.00.48:725][820]LogBlueprintUserMessages: [ThirdPersonCharacter_C_1] Translation: X=-2721.107 Y=3390.170 Z=1129.727 Rotation: P=0.000000 Y=-110.322685 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.50:520][931]LogBlueprintUserMessages: [ThirdPersonCharacter_C_1] Translation: X=-2666.581 Y=3402.705 Z=1129.727 Rotation: P=0.000000 Y=11.616558 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.51:537][994]LogBlueprintUserMessages: [ThirdPersonCharacter_C_1] Translation: X=-2305.189 Y=3212.342 Z=1129.889 Rotation: P=0.000000 Y=-56.028419 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.51:763][  8]LogBlueprintUserMessages: [ThirdPersonCharacter_C_1] Translation: X=-2232.171 Y=3103.921 Z=1129.889 Rotation: P=0.000000 Y=-53.312691 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.52:779][ 71]LogBlueprintUserMessages: [ThirdPersonCharacter_C_1] Translation: X=-1785.634 Y=2698.425 Z=1129.889 Rotation: P=0.000000 Y=-17.071850 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.54:456][175]LogBlueprintUserMessages: [ThirdPersonCharacter_C_1] Translation: X=-1123.373 Y=1992.648 Z=1138.095 Rotation: P=0.000000 Y=-56.423317 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.55:134][217]LogBlueprintUserMessages: [ThirdPersonCharacter_C_1] Translation: X=-891.704 Y=1658.512 Z=1253.701 Rotation: P=0.000000 Y=-45.170723 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.56:860][324]LogBlueprintUserMessages: [ThirdPersonCharacter_C_1] Translation: X=-763.117 Y=1520.885 Z=1255.908 Rotation: P=0.000000 Y=-46.185001 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.57:844][385]LogBlueprintUserMessages: [ThirdPersonCharacter_C_1] Translation: X=-732.015 Y=1489.496 Z=1290.292 Rotation: P=0.000000 Y=-46.185001 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.58:006][395]LogBlueprintUserMessages: [ThirdPersonCharacter_C_1] Translation: X=-726.791 Y=1484.365 Z=1292.017 Rotation: P=0.000000 Y=-46.185001 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.00.58:893][450]LogBlueprintUserMessages: [ThirdPersonCharacter_C_1] Translation: X=-642.793 Y=1397.437 Z=1356.455 Rotation: P=0.000000 Y=-46.185001 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.01.04:167][775]LogBlueprintUserMessages: [ThirdPersonCharacter_C_1] Translation: X=-557.259 Y=1333.515 Z=1394.653 Rotation: P=0.000000 Y=-48.832294 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.01.04:948][823]LogBlueprintUserMessages: [ThirdPersonCharacter_C_1] Translation: X=-267.581 Y=986.442 Z=1512.531 Rotation: P=0.000000 Y=-65.115677 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.01.07:243][965]LogBlueprintUserMessages: [ThirdPersonCharacter_C_1] Translation: X=-246.759 Y=917.377 Z=1584.007 Rotation: P=0.000000 Y=-82.625221 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.01.08:214][ 25]LogBlueprintUserMessages: [ThirdPersonCharacter_C_1] Translation: X=-199.298 Y=553.888 Z=1650.245 Rotation: P=0.000000 Y=-82.625221 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.01.08:504][ 43]LogBlueprintUserMessages: [ThirdPersonCharacter_C_1] Translation: X=-211.597 Y=527.712 Z=1650.071 Rotation: P=0.000000 Y=-118.047836 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.01.09:939][132]LogBlueprintUserMessages: [ThirdPersonCharacter_C_1] Translation: X=-417.823 Y=-2.694 Z=1392.548 Rotation: P=0.000000 Y=-88.531670 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.01.13:571][357]LogBlueprintUserMessages: [ThirdPersonCharacter_C_1] Translation: X=-198.932 Y=-219.096 Z=1677.178 Rotation: P=0.000000 Y=-79.843216 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.01.14:669][425]LogBlueprintUserMessages: [ThirdPersonCharacter_C_1] Translation: X=-116.634 Y=-729.988 Z=1674.876 Rotation: P=0.000000 Y=-119.780174 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.01.16:539][541]LogBlueprintUserMessages: [ThirdPersonCharacter_C_1] Translation: X=-335.883 Y=-621.068 Z=1754.727 Rotation: P=0.000000 Y=144.284592 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.05.02-19.01.18:445][659]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CurrentMenu' of length 0 in '/Game/_Blueprints/Ruben_Blueprint/menucontroller.MenuController_C'!
+[2019.05.02-19.01.18:963][691]LogScript: Warning: Attempted to access ThirdPersonCharacter_C_0 via property K2Node_DynamicCast_AsThird_Person_Character, but ThirdPersonCharacter_C_0 is pending kill
+	KillPlane_C /Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.KillPlane_2
+	Function /Game/_Blueprints/Ruben_Blueprint/KillPlane.KillPlane_C:ExecuteUbergraph_KillPlane:0263
+[2019.05.02-19.01.18:963][691]LogScript: Warning: Script call stack:
+	Function /Game/_Blueprints/Ruben_Blueprint/KillPlane.KillPlane_C:ReceiveTick
+	Function /Game/_Blueprints/Ruben_Blueprint/KillPlane.KillPlane_C:ExecuteUbergraph_KillPlane
+
+[2019.05.02-19.01.18:978][692]LogScript: Warning: Attempted to access ThirdPersonCharacter_C_0 via property K2Node_DynamicCast_AsThird_Person_Character, but ThirdPersonCharacter_C_0 is pending kill
+	KillPlane_C /Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.KillPlane_2
+	Function /Game/_Blueprints/Ruben_Blueprint/KillPlane.KillPlane_C:ExecuteUbergraph_KillPlane:0263
+[2019.05.02-19.01.18:979][692]LogScript: Warning: Script call stack:
+	Function /Game/_Blueprints/Ruben_Blueprint/KillPlane.KillPlane_C:ReceiveTick
+	Function /Game/_Blueprints/Ruben_Blueprint/KillPlane.KillPlane_C:ExecuteUbergraph_KillPlane
+
+[2019.05.02-19.01.18:994][693]LogScript: Warning: Attempted to access ThirdPersonCharacter_C_0 via property K2Node_DynamicCast_AsThird_Person_Character, but ThirdPersonCharacter_C_0 is pending kill
+	KillPlane_C /Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.KillPlane_2
+	Function /Game/_Blueprints/Ruben_Blueprint/KillPlane.KillPlane_C:ExecuteUbergraph_KillPlane:0263
+[2019.05.02-19.01.18:995][693]LogScript: Warning: Script call stack:
+	Function /Game/_Blueprints/Ruben_Blueprint/KillPlane.KillPlane_C:ReceiveTick
+	Function /Game/_Blueprints/Ruben_Blueprint/KillPlane.KillPlane_C:ExecuteUbergraph_KillPlane
+
+[2019.05.02-19.01.19:010][694]LogScript: Warning: Attempted to access ThirdPersonCharacter_C_0 via property K2Node_DynamicCast_AsThird_Person_Character, but ThirdPersonCharacter_C_0 is pending kill
+	KillPlane_C /Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.KillPlane_2
+	Function /Game/_Blueprints/Ruben_Blueprint/KillPlane.KillPlane_C:ExecuteUbergraph_KillPlane:0263
+[2019.05.02-19.01.19:011][694]LogScript: Warning: Script call stack:
+	Function /Game/_Blueprints/Ruben_Blueprint/KillPlane.KillPlane_C:ReceiveTick
+	Function /Game/_Blueprints/Ruben_Blueprint/KillPlane.KillPlane_C:ExecuteUbergraph_KillPlane
+
+[2019.05.02-19.01.19:027][695]LogScript: Warning: Attempted to access ThirdPersonCharacter_C_0 via property K2Node_DynamicCast_AsThird_Person_Character, but ThirdPersonCharacter_C_0 is pending kill
+	KillPlane_C /Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.KillPlane_2
+	Function /Game/_Blueprints/Ruben_Blueprint/KillPlane.KillPlane_C:ExecuteUbergraph_KillPlane:0263
+[2019.05.02-19.01.19:027][695]LogScript: Warning: Script call stack:
+	Function /Game/_Blueprints/Ruben_Blueprint/KillPlane.KillPlane_C:ReceiveTick
+	Function /Game/_Blueprints/Ruben_Blueprint/KillPlane.KillPlane_C:ExecuteUbergraph_KillPlane
+
+[2019.05.02-19.01.19:043][696]LogScript: Warning: Attempted to access ThirdPersonCharacter_C_0 via property K2Node_DynamicCast_AsThird_Person_Character, but ThirdPersonCharacter_C_0 is pending kill
+	KillPlane_C /Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.KillPlane_2
+	Function /Game/_Blueprints/Ruben_Blueprint/KillPlane.KillPlane_C:ExecuteUbergraph_KillPlane:0263
+[2019.05.02-19.01.19:043][696]LogScript: Warning: Script call stack:
+	Function /Game/_Blueprints/Ruben_Blueprint/KillPlane.KillPlane_C:ReceiveTick
+	Function /Game/_Blueprints/Ruben_Blueprint/KillPlane.KillPlane_C:ExecuteUbergraph_KillPlane
+
+[2019.05.02-19.01.19:059][697]LogScript: Warning: Attempted to access ThirdPersonCharacter_C_0 via property K2Node_DynamicCast_AsThird_Person_Character, but ThirdPersonCharacter_C_0 is pending kill
+	KillPlane_C /Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.KillPlane_2
+	Function /Game/_Blueprints/Ruben_Blueprint/KillPlane.KillPlane_C:ExecuteUbergraph_KillPlane:0263
+[2019.05.02-19.01.19:059][697]LogScript: Warning: Script call stack:
+	Function /Game/_Blueprints/Ruben_Blueprint/KillPlane.KillPlane_C:ReceiveTick
+	Function /Game/_Blueprints/Ruben_Blueprint/KillPlane.KillPlane_C:ExecuteUbergraph_KillPlane
+
+[2019.05.02-19.01.19:075][698]LogScript: Warning: Attempted to access ThirdPersonCharacter_C_0 via property K2Node_DynamicCast_AsThird_Person_Character, but ThirdPersonCharacter_C_0 is pending kill
+	KillPlane_C /Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.KillPlane_2
+	Function /Game/_Blueprints/Ruben_Blueprint/KillPlane.KillPlane_C:ExecuteUbergraph_KillPlane:0263
+[2019.05.02-19.01.19:075][698]LogScript: Warning: Script call stack:
+	Function /Game/_Blueprints/Ruben_Blueprint/KillPlane.KillPlane_C:ReceiveTick
+	Function /Game/_Blueprints/Ruben_Blueprint/KillPlane.KillPlane_C:ExecuteUbergraph_KillPlane
+
+[2019.05.02-19.01.19:091][699]LogScript: Warning: Attempted to access ThirdPersonCharacter_C_0 via property K2Node_DynamicCast_AsThird_Person_Character, but ThirdPersonCharacter_C_0 is pending kill
+	KillPlane_C /Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.KillPlane_2
+	Function /Game/_Blueprints/Ruben_Blueprint/KillPlane.KillPlane_C:ExecuteUbergraph_KillPlane:0263
+[2019.05.02-19.01.19:091][699]LogScript: Warning: Script call stack:
+	Function /Game/_Blueprints/Ruben_Blueprint/KillPlane.KillPlane_C:ReceiveTick
+	Function /Game/_Blueprints/Ruben_Blueprint/KillPlane.KillPlane_C:ExecuteUbergraph_KillPlane
+
+[2019.05.02-19.01.19:107][700]LogScript: Warning: Attempted to access ThirdPersonCharacter_C_0 via property K2Node_DynamicCast_AsThird_Person_Character, but ThirdPersonCharacter_C_0 is pending kill
+	KillPlane_C /Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.KillPlane_2
+	Function /Game/_Blueprints/Ruben_Blueprint/KillPlane.KillPlane_C:ExecuteUbergraph_KillPlane:0263
+[2019.05.02-19.01.19:107][700]LogScript: Warning: Script call stack:
+	Function /Game/_Blueprints/Ruben_Blueprint/KillPlane.KillPlane_C:ReceiveTick
+	Function /Game/_Blueprints/Ruben_Blueprint/KillPlane.KillPlane_C:ExecuteUbergraph_KillPlane
+
+[2019.05.02-19.01.19:123][701]LogScript: Warning: Attempted to access ThirdPersonCharacter_C_0 via property K2Node_DynamicCast_AsThird_Person_Character, but ThirdPersonCharacter_C_0 is pending kill
+	KillPlane_C /Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.KillPlane_2
+	Function /Game/_Blueprints/Ruben_Blueprint/KillPlane.KillPlane_C:ExecuteUbergraph_KillPlane:0263
+[2019.05.02-19.01.19:123][701]LogScript: Warning: Script call stack:
+	Function /Game/_Blueprints/Ruben_Blueprint/KillPlane.KillPlane_C:ReceiveTick
+	Function /Game/_Blueprints/Ruben_Blueprint/KillPlane.KillPlane_C:ExecuteUbergraph_KillPlane
+
+[2019.05.02-19.01.19:140][702]LogScript: Warning: Attempted to access ThirdPersonCharacter_C_0 via property K2Node_DynamicCast_AsThird_Person_Character, but ThirdPersonCharacter_C_0 is pending kill
+	KillPlane_C /Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.KillPlane_2
+	Function /Game/_Blueprints/Ruben_Blueprint/KillPlane.KillPlane_C:ExecuteUbergraph_KillPlane:0263
+[2019.05.02-19.01.19:140][702]LogScript: Warning: Script call stack:
+	Function /Game/_Blueprints/Ruben_Blueprint/KillPlane.KillPlane_C:ReceiveTick
+	Function /Game/_Blueprints/Ruben_Blueprint/KillPlane.KillPlane_C:ExecuteUbergraph_KillPlane
+
+[2019.05.02-19.01.19:156][703]LogScript: Warning: Attempted to access ThirdPersonCharacter_C_0 via property K2Node_DynamicCast_AsThird_Person_Character, but ThirdPersonCharacter_C_0 is pending kill
+	KillPlane_C /Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.KillPlane_2
+	Function /Game/_Blueprints/Ruben_Blueprint/KillPlane.KillPlane_C:ExecuteUbergraph_KillPlane:0263
+[2019.05.02-19.01.19:156][703]LogScript: Warning: Script call stack:
+	Function /Game/_Blueprints/Ruben_Blueprint/KillPlane.KillPlane_C:ReceiveTick
+	Function /Game/_Blueprints/Ruben_Blueprint/KillPlane.KillPlane_C:ExecuteUbergraph_KillPlane
+
+[2019.05.02-19.01.19:172][704]LogScript: Warning: Attempted to access ThirdPersonCharacter_C_0 via property K2Node_DynamicCast_AsThird_Person_Character, but ThirdPersonCharacter_C_0 is pending kill
+	KillPlane_C /Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.KillPlane_2
+	Function /Game/_Blueprints/Ruben_Blueprint/KillPlane.KillPlane_C:ExecuteUbergraph_KillPlane:0263
+[2019.05.02-19.01.19:172][704]LogScript: Warning: Script call stack:
+	Function /Game/_Blueprints/Ruben_Blueprint/KillPlane.KillPlane_C:ReceiveTick
+	Function /Game/_Blueprints/Ruben_Blueprint/KillPlane.KillPlane_C:ExecuteUbergraph_KillPlane
+
+[2019.05.02-19.01.19:188][705]LogScript: Warning: Attempted to access ThirdPersonCharacter_C_0 via property K2Node_DynamicCast_AsThird_Person_Character, but ThirdPersonCharacter_C_0 is pending kill
+	KillPlane_C /Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.KillPlane_2
+	Function /Game/_Blueprints/Ruben_Blueprint/KillPlane.KillPlane_C:ExecuteUbergraph_KillPlane:0263
+[2019.05.02-19.01.19:188][705]LogScript: Warning: Script call stack:
+	Function /Game/_Blueprints/Ruben_Blueprint/KillPlane.KillPlane_C:ReceiveTick
+	Function /Game/_Blueprints/Ruben_Blueprint/KillPlane.KillPlane_C:ExecuteUbergraph_KillPlane
+
+[2019.05.02-19.01.19:204][706]LogScript: Warning: Attempted to access ThirdPersonCharacter_C_0 via property K2Node_DynamicCast_AsThird_Person_Character, but ThirdPersonCharacter_C_0 is pending kill
+	KillPlane_C /Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.KillPlane_2
+	Function /Game/_Blueprints/Ruben_Blueprint/KillPlane.KillPlane_C:ExecuteUbergraph_KillPlane:0263
+[2019.05.02-19.01.19:204][706]LogScript: Warning: Script call stack:
+	Function /Game/_Blueprints/Ruben_Blueprint/KillPlane.KillPlane_C:ReceiveTick
+	Function /Game/_Blueprints/Ruben_Blueprint/KillPlane.KillPlane_C:ExecuteUbergraph_KillPlane
+
+[2019.05.02-19.01.19:220][707]LogScript: Warning: Attempted to access ThirdPersonCharacter_C_0 via property K2Node_DynamicCast_AsThird_Person_Character, but ThirdPersonCharacter_C_0 is pending kill
+	KillPlane_C /Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.KillPlane_2
+	Function /Game/_Blueprints/Ruben_Blueprint/KillPlane.KillPlane_C:ExecuteUbergraph_KillPlane:0263
+[2019.05.02-19.01.19:220][707]LogScript: Warning: Script call stack:
+	Function /Game/_Blueprints/Ruben_Blueprint/KillPlane.KillPlane_C:ReceiveTick
+	Function /Game/_Blueprints/Ruben_Blueprint/KillPlane.KillPlane_C:ExecuteUbergraph_KillPlane
+
+[2019.05.02-19.01.20:897][811]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CurrentMenu' of length 0 in '/Game/_Blueprints/Ruben_Blueprint/menucontroller.MenuController_C'!
+[2019.05.02-19.01.24:046][  5]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CurrentMenu' of length 0 in '/Game/_Blueprints/Ruben_Blueprint/menucontroller.MenuController_C'!
+[2019.05.02-19.01.25:126][ 72]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.02-19.01.26:429][152]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.02-19.01.26:542][159]Closing by request
+[2019.05.02-19.01.26:542][159]LogWindows: FPlatformMisc::RequestExit(0)
+[2019.05.02-19.01.26:895][160]LogSlate: Window 'Dinochan_v001 (64-bit Development PCD3D_SM5) ' being destroyed
+[2019.05.02-19.01.26:897][160]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.05.02-19.01.26:904][160]LogExit: Preparing to exit.
+[2019.05.02-19.01.26:905][160]LogMoviePlayer: Shutting down movie player
+[2019.05.02-19.01.27:490][160]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.02-19.01.27:515][160]LogExit: Game engine shut down
+[2019.05.02-19.01.27:723][160]LogExit: Object subsystem successfully closed.
+[2019.05.02-19.01.27:751][160]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.05.02-19.01.27:757][160]LogD3D11RHI: Shutdown
+[2019.05.02-19.01.27:757][160]LogD3D11RHI: CleanupD3DDevice
+[2019.05.02-19.01.27:759][160]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.05.02-19.01.27:774][160]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (376)
+[2019.05.02-19.01.27:774][160]LogModuleManager: Shutting down and abandoning module SequenceRecorder (374)
+[2019.05.02-19.01.27:774][160]LogModuleManager: Shutting down and abandoning module AutomationController (372)
+[2019.05.02-19.01.27:774][160]LogModuleManager: Shutting down and abandoning module AutomationWorker (370)
+[2019.05.02-19.01.27:774][160]LogModuleManager: Shutting down and abandoning module Voice (368)
+[2019.05.02-19.01.27:774][160]LogModuleManager: Shutting down and abandoning module AIModule (366)
+[2019.05.02-19.01.27:774][160]LogModuleManager: Shutting down and abandoning module GameplayDebugger (365)
+[2019.05.02-19.01.27:774][160]LogModuleManager: Shutting down and abandoning module AITestSuite (363)
+[2019.05.02-19.01.27:774][160]LogModuleManager: Shutting down and abandoning module NavigationSystem (361)
+[2019.05.02-19.01.27:774][160]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (358)
+[2019.05.02-19.01.27:774][160]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (356)
+[2019.05.02-19.01.27:774][160]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (354)
+[2019.05.02-19.01.27:774][160]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (352)
+[2019.05.02-19.01.27:774][160]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (350)
+[2019.05.02-19.01.27:775][160]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (348)
+[2019.05.02-19.01.27:775][160]LogModuleManager: Shutting down and abandoning module CharacterAI (346)
+[2019.05.02-19.01.27:775][160]LogModuleManager: Shutting down and abandoning module SessionServices (344)
+[2019.05.02-19.01.27:775][160]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (342)
+[2019.05.02-19.01.27:775][160]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (340)
+[2019.05.02-19.01.27:775][160]LogModuleManager: Shutting down and abandoning module MovieScene (338)
+[2019.05.02-19.01.27:775][160]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (336)
+[2019.05.02-19.01.27:775][160]LogModuleManager: Shutting down and abandoning module PortalServices (334)
+[2019.05.02-19.01.27:775][160]LogModuleManager: Shutting down and abandoning module PortalRpc (332)
+[2019.05.02-19.01.27:775][160]LogModuleManager: Shutting down and abandoning module MessagingRpc (330)
+[2019.05.02-19.01.27:775][160]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2019.05.02-19.01.27:927][160]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2019.05.02-19.01.27:927][160]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2019.05.02-19.01.27:927][160]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (322)
+[2019.05.02-19.01.27:927][160]LogModuleManager: Shutting down and abandoning module OculusInput (320)
+[2019.05.02-19.01.27:927][160]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (318)
+[2019.05.02-19.01.27:927][160]LogModuleManager: Shutting down and abandoning module EditableMesh (316)
+[2019.05.02-19.01.27:927][160]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (314)
+[2019.05.02-19.01.27:927][160]LogModuleManager: Shutting down and abandoning module CableComponent (312)
+[2019.05.02-19.01.27:927][160]LogModuleManager: Shutting down and abandoning module AudioCapture (310)
+[2019.05.02-19.01.27:927][160]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (308)
+[2019.05.02-19.01.27:927][160]LogModuleManager: Shutting down and abandoning module AndroidPermission (306)
+[2019.05.02-19.01.27:928][160]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (304)
+[2019.05.02-19.01.27:928][160]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (302)
+[2019.05.02-19.01.27:928][160]LogModuleManager: Shutting down and abandoning module MediaCompositing (300)
+[2019.05.02-19.01.27:928][160]LogModuleManager: Shutting down and abandoning module LinearTimecode (298)
+[2019.05.02-19.01.27:928][160]LogModuleManager: Shutting down and abandoning module ImgMedia (296)
+[2019.05.02-19.01.27:931][160]LogModuleManager: Shutting down and abandoning module HTML5Networking (294)
+[2019.05.02-19.01.27:931][160]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (292)
+[2019.05.02-19.01.27:931][160]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (291)
+[2019.05.02-19.01.27:931][160]LogModuleManager: Shutting down and abandoning module GeometryCache (288)
+[2019.05.02-19.01.27:931][160]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (287)
+[2019.05.02-19.01.27:931][160]LogModuleManager: Shutting down and abandoning module BackChannel (284)
+[2019.05.02-19.01.27:931][160]LogModuleManager: Shutting down and abandoning module AppleVision (282)
+[2019.05.02-19.01.27:931][160]LogModuleManager: Shutting down and abandoning module AppleImageUtils (280)
+[2019.05.02-19.01.27:931][160]LogModuleManager: Shutting down and abandoning module DatasmithContent (278)
+[2019.05.02-19.01.27:932][160]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (276)
+[2019.05.02-19.01.27:932][160]LogModuleManager: Shutting down and abandoning module CryptoKeys (274)
+[2019.05.02-19.01.27:932][160]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (272)
+[2019.05.02-19.01.27:932][160]LogModuleManager: Shutting down and abandoning module HotReload (271)
+[2019.05.02-19.01.27:932][160]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (270)
+[2019.05.02-19.01.27:932][160]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (266)
+[2019.05.02-19.01.27:932][160]LogModuleManager: Shutting down and abandoning module UObjectPlugin (264)
+[2019.05.02-19.01.27:932][160]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (262)
+[2019.05.02-19.01.27:932][160]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (260)
+[2019.05.02-19.01.27:932][160]LogModuleManager: Shutting down and abandoning module SourceControl (259)
+[2019.05.02-19.01.27:932][160]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (256)
+[2019.05.02-19.01.27:932][160]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (254)
+[2019.05.02-19.01.27:932][160]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (252)
+[2019.05.02-19.01.27:932][160]LogModuleManager: Shutting down and abandoning module PhysXVehicles (250)
+[2019.05.02-19.01.27:932][160]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (248)
+[2019.05.02-19.01.27:932][160]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (246)
+[2019.05.02-19.01.27:932][160]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (244)
+[2019.05.02-19.01.27:932][160]LogModuleManager: Shutting down and abandoning module ActorSequence (242)
+[2019.05.02-19.01.27:932][160]LogModuleManager: Shutting down and abandoning module UdpMessaging (240)
+[2019.05.02-19.01.28:033][160]LogModuleManager: Shutting down and abandoning module TcpMessaging (238)
+[2019.05.02-19.01.28:468][160]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (236)
+[2019.05.02-19.01.28:468][160]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (234)
+[2019.05.02-19.01.28:468][160]LogModuleManager: Shutting down and abandoning module FacialAnimation (232)
+[2019.05.02-19.01.28:468][160]LogModuleManager: Shutting down and abandoning module DataValidation (230)
+[2019.05.02-19.01.28:468][160]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (228)
+[2019.05.02-19.01.28:468][160]LogModuleManager: Shutting down and abandoning module TreeMap (227)
+[2019.05.02-19.01.28:468][160]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (224)
+[2019.05.02-19.01.28:468][160]LogModuleManager: Shutting down and abandoning module AISupportModule (222)
+[2019.05.02-19.01.28:468][160]LogModuleManager: Shutting down and abandoning module Paper2D (220)
+[2019.05.02-19.01.28:468][160]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (218)
+[2019.05.02-19.01.28:468][160]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2019.05.02-19.01.28:468][160]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2019.05.02-19.01.28:469][160]LogModuleManager: Shutting down and abandoning module Media (213)
+[2019.05.02-19.01.28:475][160]LogModuleManager: Shutting down and abandoning module PacketHandler (210)
+[2019.05.02-19.01.28:475][160]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (208)
+[2019.05.02-19.01.28:475][160]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (206)
+[2019.05.02-19.01.28:475][160]LogModuleManager: Shutting down and abandoning module MediaAssets (204)
+[2019.05.02-19.01.28:475][160]LogModuleManager: Shutting down and abandoning module Overlay (202)
+[2019.05.02-19.01.28:475][160]LogModuleManager: Shutting down and abandoning module OverlayEditor (201)
+[2019.05.02-19.01.28:475][160]LogModuleManager: Shutting down and abandoning module VREditor (198)
+[2019.05.02-19.01.28:475][160]LogModuleManager: Shutting down and abandoning module StringTableEditor (196)
+[2019.05.02-19.01.28:475][160]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (194)
+[2019.05.02-19.01.28:475][160]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (192)
+[2019.05.02-19.01.28:475][160]LogModuleManager: Shutting down and abandoning module FunctionalTesting (190)
+[2019.05.02-19.01.28:475][160]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (188)
+[2019.05.02-19.01.28:475][160]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (187)
+[2019.05.02-19.01.28:475][160]LogModuleManager: Shutting down and abandoning module UMG (184)
+[2019.05.02-19.01.28:475][160]LogModuleManager: Shutting down and abandoning module UMGEditor (183)
+[2019.05.02-19.01.28:475][160]LogModuleManager: Shutting down and abandoning module Sequencer (182)
+[2019.05.02-19.01.28:475][160]LogModuleManager: Shutting down and abandoning module MessageLog (179)
+[2019.05.02-19.01.28:476][160]LogModuleManager: Shutting down and abandoning module SlateReflector (174)
+[2019.05.02-19.01.28:476][160]LogModuleManager: Shutting down and abandoning module Slate (172)
+[2019.05.02-19.01.28:476][160]LogModuleManager: Shutting down and abandoning module EditorStyle (170)
+[2019.05.02-19.01.28:477][160]LogModuleManager: Shutting down and abandoning module MRMesh (168)
+[2019.05.02-19.01.28:477][160]LogModuleManager: Shutting down and abandoning module Messaging (166)
+[2019.05.02-19.01.28:477][160]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2019.05.02-19.01.28:477][160]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2019.05.02-19.01.28:477][160]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2019.05.02-19.01.28:477][160]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2019.05.02-19.01.28:477][160]LogModuleManager: Shutting down and abandoning module Core (156)
+[2019.05.02-19.01.28:477][160]LogModuleManager: Shutting down and abandoning module LevelSequence (154)
+[2019.05.02-19.01.28:477][160]LogModuleManager: Shutting down and abandoning module KismetCompiler (152)
+[2019.05.02-19.01.28:477][160]LogModuleManager: Shutting down and abandoning module MeshUtilities (150)
+[2019.05.02-19.01.28:477][160]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (149)
+[2019.05.02-19.01.28:477][160]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (148)
+[2019.05.02-19.01.28:477][160]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (147)
+[2019.05.02-19.01.28:478][160]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (145)
+[2019.05.02-19.01.28:478][160]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (143)
+[2019.05.02-19.01.28:478][160]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (141)
+[2019.05.02-19.01.28:478][160]LogModuleManager: Shutting down and abandoning module MaterialBaking (137)
+[2019.05.02-19.01.28:478][160]LogModuleManager: Shutting down and abandoning module DerivedDataCache (132)
+[2019.05.02-19.01.28:525][160]LogDerivedDataCache: Shutdown
+[2019.05.02-19.01.28:525][160]LogModuleManager: Shutting down and abandoning module XGEController (130)
+[2019.05.02-19.01.28:525][160]LogModuleManager: Shutting down and abandoning module TargetPlatform (128)
+[2019.05.02-19.01.28:525][160]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (127)
+[2019.05.02-19.01.28:525][160]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (125)
+[2019.05.02-19.01.28:525][160]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (123)
+[2019.05.02-19.01.28:525][160]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (121)
+[2019.05.02-19.01.28:525][160]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (119)
+[2019.05.02-19.01.28:525][160]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (117)
+[2019.05.02-19.01.28:525][160]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (115)
+[2019.05.02-19.01.28:525][160]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (113)
+[2019.05.02-19.01.28:525][160]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (111)
+[2019.05.02-19.01.28:525][160]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (109)
+[2019.05.02-19.01.28:525][160]LogModuleManager: Shutting down and abandoning module ImageWrapper (108)
+[2019.05.02-19.01.28:525][160]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (105)
+[2019.05.02-19.01.28:525][160]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (103)
+[2019.05.02-19.01.28:525][160]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (101)
+[2019.05.02-19.01.28:525][160]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (99)
+[2019.05.02-19.01.28:525][160]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (97)
+[2019.05.02-19.01.28:525][160]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (95)
+[2019.05.02-19.01.28:525][160]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (93)
+[2019.05.02-19.01.28:525][160]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (91)
+[2019.05.02-19.01.28:525][160]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2019.05.02-19.01.28:525][160]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2019.05.02-19.01.28:525][160]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.05.02-19.01.28:525][160]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2019.05.02-19.01.28:525][160]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2019.05.02-19.01.28:525][160]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2019.05.02-19.01.28:525][160]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2019.05.02-19.01.28:525][160]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2019.05.02-19.01.28:525][160]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2019.05.02-19.01.28:526][160]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2019.05.02-19.01.28:526][160]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2019.05.02-19.01.28:558][160]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2019.05.02-19.01.28:581][160]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2019.05.02-19.01.28:583][160]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2019.05.02-19.01.28:583][160]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2019.05.02-19.01.28:583][160]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2019.05.02-19.01.28:583][160]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2019.05.02-19.01.28:583][160]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2019.05.02-19.01.28:583][160]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2019.05.02-19.01.28:583][160]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2019.05.02-19.01.28:583][160]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2019.05.02-19.01.28:583][160]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2019.05.02-19.01.28:583][160]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.05.02-19.01.28:583][160]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2019.05.02-19.01.28:583][160]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.05.02-19.01.28:583][160]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.05.02-19.01.28:583][160]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.05.02-19.01.28:583][160]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.05.02-19.01.28:584][160]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.05.02-19.01.28:584][160]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.05.02-19.01.28:584][160]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.05.02-19.01.28:584][160]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.05.02-19.01.28:584][160]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.05.02-19.01.28:584][160]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.05.02-19.01.28:584][160]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.05.02-19.01.28:584][160]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.05.02-19.01.28:584][160]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.05.02-19.01.28:584][160]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.05.02-19.01.28:584][160]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.05.02-19.01.28:584][160]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.05.02-19.01.28:584][160]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.05.02-19.01.28:584][160]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.05.02-19.01.28:593][160]LogExit: Exiting.
+[2019.05.02-19.01.28:604][160]Log file closed, 05/02/19 15:01:28
