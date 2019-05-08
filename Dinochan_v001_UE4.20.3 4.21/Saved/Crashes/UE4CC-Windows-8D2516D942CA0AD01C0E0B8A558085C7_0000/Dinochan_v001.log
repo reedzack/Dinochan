@@ -1,0 +1,1463 @@
+﻿Log file open, 04/30/19 14:02:54
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Dinochan_v001
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 59 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.710417
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.205s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4233996
+LogInit: Engine Version: 4.20.1-4233996+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz, GPU: NVIDIA Quadro P5000
+LogInit: Compiled (64-bit): Jul 26 2018 10:07:30
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.008s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.04.30-18.02.54:907][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.30-18.02.54:907][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.04.30-18.02.54:932][  0]LogHAL: Display: Platform has ~ 32 GB [34277933056 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.04.30-18.02.54:932][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.04.30-18.02.54:933][  0]LogInit: Going up to parent DeviceProfile []
+[2019.04.30-18.02.54:933][  0]LogInit: Computer: ATC-174-05
+[2019.04.30-18.02.54:933][  0]LogInit: User: brownr55
+[2019.04.30-18.02.54:933][  0]LogInit: CPU Page size=4096, Cores=10
+[2019.04.30-18.02.54:933][  0]LogInit: High frequency timer resolution =2.143477 MHz
+[2019.04.30-18.02.54:934][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2019.04.30-18.02.54:934][  0]LogMemory: Platform Memory Stats for Windows
+[2019.04.30-18.02.54:934][  0]LogMemory: Process Physical Memory: 104.77 MB used, 104.77 MB peak
+[2019.04.30-18.02.54:934][  0]LogMemory: Process Virtual Memory: 102.88 MB used, 102.88 MB peak
+[2019.04.30-18.02.54:934][  0]LogMemory: Physical Memory: 8353.67 MB used,  24336.31 MB free, 32689.98 MB total
+[2019.04.30-18.02.54:934][  0]LogMemory: Virtual Memory: 610.93 MB used,  24336.31 MB free, 134217728.00 MB total
+[2019.04.30-18.02.54:971][  0]LogInit: Using OS detected language (en-US).
+[2019.04.30-18.02.54:971][  0]LogInit: Using OS detected locale (en-US).
+[2019.04.30-18.02.54:972][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.04.30-18.02.55:463][  0]LogStreaming: Display: Took  0.492s to InitEngineTextLocalization.
+[2019.04.30-18.02.55:463][  0]LogInit: Setting process to per monitor DPI aware
+[2019.04.30-18.02.55:515][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.04.30-18.02.55:515][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.04.30-18.02.55:847][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.30-18.02.55:847][  0]LogD3D11RHI: D3D11 adapters:
+[2019.04.30-18.02.55:905][  0]LogD3D11RHI:    0. 'NVIDIA Quadro P5000' (Feature Level 11_0)
+[2019.04.30-18.02.55:905][  0]LogD3D11RHI:       16286/0/16344 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.04.30-18.02.55:908][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.04.30-18.02.55:908][  0]LogD3D11RHI:       0/0/16344 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.04.30-18.02.55:908][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.04.30-18.02.55:922][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.04.30-18.02.55:922][  0]LogD3D11RHI:     GPU DeviceId: 0x1bb0 (for the marketing name, search the web for "GPU Device Id")
+[2019.04.30-18.02.55:922][  0]LogWindows: EnumDisplayDevices:
+[2019.04.30-18.02.55:922][  0]LogWindows:    0. 'NVIDIA Quadro P5000' (P:0 D:1)
+[2019.04.30-18.02.55:923][  0]LogWindows:    1. 'NVIDIA Quadro P5000' (P:1 D:1)
+[2019.04.30-18.02.55:923][  0]LogWindows:    2. 'NVIDIA Quadro P5000' (P:0 D:0)
+[2019.04.30-18.02.55:924][  0]LogWindows:    3. 'NVIDIA Quadro P5000' (P:0 D:0)
+[2019.04.30-18.02.55:924][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.04.30-18.02.55:924][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro P5000
+[2019.04.30-18.02.55:924][  0]LogD3D11RHI:   Driver Version: 381.65 (internal:22.21.13.8165, unified:381.65)
+[2019.04.30-18.02.55:924][  0]LogD3D11RHI:      Driver Date: 3-31-2017
+[2019.04.30-18.02.55:924][  0]LogRHI: Texture pool is 11400 MB (70% of 16286 MB)
+[2019.04.30-18.02.55:954][  0]LogD3D11RHI: Async texture creation enabled
+[2019.04.30-18.02.55:968][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.04.30-18.02.56:066][  0]LogShaderCompilers: Guid format shader working directory is -32 characters bigger than the processId version (../../../../../../Users/brownr55/Desktop/dinochan/Dinochan/Dinochan_v001_UE4.20.3/Intermediate/Shaders/WorkingDirectory/7512/).
+[2019.04.30-18.02.56:066][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/brownr55/AppData/Local/Temp/UnrealShaderWorkingDir/B6217E6641F5CA399401BBA9656CA229/'.
+[2019.04.30-18.02.56:350][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.04.30-18.02.56:368][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.04.30-18.02.56:386][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.04.30-18.02.56:404][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.04.30-18.02.56:423][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.04.30-18.02.56:441][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.04.30-18.02.56:459][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.04.30-18.02.56:500][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.04.30-18.02.56:510][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.04.30-18.02.56:634][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.30-18.02.56:634][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.30-18.02.56:634][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.30-18.02.56:634][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.30-18.02.56:634][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.30-18.02.56:634][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.30-18.02.56:634][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.30-18.02.56:634][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.30-18.02.56:634][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.30-18.02.56:634][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.30-18.02.56:634][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.30-18.02.56:634][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.30-18.02.56:634][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.30-18.02.56:634][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.30-18.02.56:634][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.30-18.02.56:634][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.30-18.02.56:634][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.30-18.02.56:634][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.30-18.02.56:636][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.04.30-18.02.56:724][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.30-18.02.56:724][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.30-18.02.56:760][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.30-18.02.56:760][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.30-18.02.56:779][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.04.30-18.02.56:804][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.04.30-18.02.56:823][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.04.30-18.02.56:843][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.04.30-18.02.56:857][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.04.30-18.02.56:857][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.04.30-18.02.56:936][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.04.30-18.02.56:936][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.04.30-18.02.56:936][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.04.30-18.02.58:010][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.04.30-18.02.58:087][  0]LogDerivedDataCache: Loaded boot cache 0.08s 87MB C:/Users/brownr55/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.04.30-18.02.58:087][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/brownr55/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.04.30-18.02.58:087][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/brownr55/Desktop/dinochan/Dinochan/Dinochan_v001_UE4.20.3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.04.30-18.02.58:087][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.04.30-18.02.58:087][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/brownr55/Desktop/dinochan/Dinochan/Dinochan_v001_UE4.20.3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.30-18.02.58:087][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.04.30-18.02.58:109][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.04.30-18.02.58:121][  0]LogDerivedDataCache: Using Local data cache path C:/Users/brownr55/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.04.30-18.02.58:121][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.04.30-18.02.58:121][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.04.30-18.02.58:144][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.04.30-18.02.58:146][  0]LogSlate: Using FreeType 2.6.0
+[2019.04.30-18.02.58:147][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.30-18.02.58:244][  0]LogAssetRegistry: FAssetRegistry took 0.0276 seconds to start up
+[2019.04.30-18.02.58:697][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.30-18.02.58:885][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.04.30-18.02.58:890][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.04.30-18.02.58:890][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.04.30-18.02.58:890][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.04.30-18.02.58:890][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.04.30-18.02.58:912][  0]LogNetVersion: Dinochan_v001 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2574802920)
+[2019.04.30-18.02.59:716][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.264686 seconds
+[2019.04.30-18.02.59:722][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.04.30-18.02.59:722][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.04.30-18.02.59:722][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.04.30-18.03.00:894][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.04.30-18.03.00:907][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.04.30-18.03.01:085][  0]SourceControl: Source control is disabled
+[2019.04.30-18.03.01:085][  0]SourceControl: Source control is disabled
+[2019.04.30-18.03.01:087][  0]SourceControl: Source control is disabled
+[2019.04.30-18.03.01:089][  0]SourceControl: Source control is disabled
+[2019.04.30-18.03.01:272][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.04.30-18.03.01:318][  0]LogOcInput: OculusInput pre-init called
+[2019.04.30-18.03.01:389][  0]LogEngine: Initializing Engine...
+[2019.04.30-18.03.01:390][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.30-18.03.01:391][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.30-18.03.01:391][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.30-18.03.01:392][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.30-18.03.01:392][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.30-18.03.01:665][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.04.30-18.03.01:682][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.04.30-18.03.01:699][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.30-18.03.01:755][  0]LogInit: FAudioDevice initialized.
+[2019.04.30-18.03.01:756][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.04.30-18.03.01:852][  0]LogDerivedDataCache: Saved boot cache 0.10s 87MB C:/Users/brownr55/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.04.30-18.03.01:862][  0]LogInit: Texture streaming: Enabled
+[2019.04.30-18.03.01:887][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.04.30-18.03.01:913][  0]LogInit: Transaction tracking system initialized
+[2019.04.30-18.03.01:941][  0]BlueprintLog: New page: Editor Load
+[2019.04.30-18.03.02:032][  0]LocalizationService: Localization service is disabled
+[2019.04.30-18.03.02:346][  0]LogAutoReimportManager: Warning: Unable to watch directory ../../../../../../Users/brownr55/Desktop/dinochan/Dinochan/Dinochan_v001_UE4.20.3/Content/ as it will conflict with another watching ../../../../../../Users/brownr55/Desktop/dinochan/Dinochan/Dinochan_v001_UE4.20.3/Content/.
+[2019.04.30-18.03.02:358][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.04.30-18.03.02:358][  0]LogCook: Display: Mobile HDR setting 1
+[2019.04.30-18.03.02:358][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.04.30-18.03.02:358][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.30-18.03.02:358][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.30-18.03.02:358][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.30-18.03.02:358][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.30-18.03.02:508][  0]LogFileCache: Scanning file cache for directory 'C:/Users/brownr55/Desktop/dinochan/Dinochan/Dinochan_v001_UE4.20.3/Content/' took 0.04s
+[2019.04.30-18.03.02:508][  0]SourceControl: Source control is disabled
+[2019.04.30-18.03.02:508][  0]Cmd: MAP LOAD FILE="../../../../../../Users/brownr55/Desktop/dinochan/Dinochan/Dinochan_v001_UE4.20.3/Content/_Maps/SharedLevel/Persistant_Empty.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.30-18.03.02:508][  0]LightingResults: New page: Lighting Build
+[2019.04.30-18.03.02:512][  0]MapCheck: New page: Map Check
+[2019.04.30-18.03.02:512][  0]LightingResults: New page: Lighting Build
+[2019.04.30-18.03.03:383][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 1024X512)
+[2019.04.30-18.03.03:383][  0]LogTexture: Display: Building textures: Ropes_n_Rudders_Base_Color (AutoDXT, 2048X2048)
+[2019.04.30-18.03.03:383][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2019.04.30-18.03.03:383][  0]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2019.04.30-18.03.03:384][  0]LogTexture: Display: Building textures: Propeller_Base_Color (AutoDXT, 2048X2048)
+[2019.04.30-18.03.03:384][  0]LogTexture: Display: Building textures: Bags_Base_Color (AutoDXT, 2048X2048)
+[2019.04.30-18.03.03:384][  0]LogTexture: Display: Building textures: BasketRope_Base_Color (AutoDXT, 2048X2048)
+[2019.04.30-18.03.03:384][  0]LogTexture: Display: Building textures: Basket_Base_Color (AutoDXT, 2048X2048)
+[2019.04.30-18.03.03:384][  0]LogTexture: Display: Building textures: Balcony_Frame_Base_Color (AutoDXT, 2048X2048)
+[2019.04.30-18.03.03:384][  0]LogTexture: Display: Building textures: BasketRings_Base_Color (AutoDXT, 2048X2048)
+[2019.04.30-18.03.03:384][  0]LogTexture: Display: Building textures: Tower_Inside_Base_Color (AutoDXT, 2048X2048)
+[2019.04.30-18.03.03:384][  0]LogTexture: Display: Building textures: Handlebars_Base_Color (AutoDXT, 2048X2048)
+[2019.04.30-18.03.03:384][  0]LogTexture: Display: Building textures: WingBar1_Base_Color (AutoDXT, 2048X2048)
+[2019.04.30-18.03.03:384][  0]LogTexture: Display: Building textures: Strings_Base_Color (AutoDXT, 2048X2048)
+[2019.04.30-18.03.03:384][  0]LogTexture: Display: Building textures: Wings_Base_Color (AutoDXT, 2048X2048)
+[2019.04.30-18.03.03:384][  0]LogMaterial: Display: Missing cached shader map for material Ropes_n_Rudders, compiling. 
+[2019.04.30-18.03.03:841][  0]LogTexture: Display: Building textures: LP_Tower_Outside_Tower_Outside_color_BaseColor (AutoDXT, 2048X2048)
+[2019.04.30-18.03.03:841][  0]LogTexture: Display: Building textures: Balcony_Base_Color (AutoDXT, 2048X2048)
+[2019.04.30-18.03.03:841][  0]LogTexture: Display: Building textures: TheRopes_Base_Color (AutoDXT, 2048X2048)
+[2019.04.30-18.03.03:864][  0]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.04.30-18.03.03:864][  0]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.04.30-18.03.03:864][  0]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.04.30-18.03.03:864][  0]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.04.30-18.03.03:864][  0]LogStaticMesh: Building static mesh AirshipMinusWingsnEngine_Rudder...
+[2019.04.30-18.03.03:953][  0]LogTexture: Display: Building textures: Rock_Flat_001_Final_initialShadingGroup_color (AutoDXT, 2048X2048)
+[2019.04.30-18.03.03:953][  0]LogStaticMesh: Built static mesh [0.09s] /Game/1_Models/Airship/AirshipMinusWingsnEngine_Rudder.AirshipMinusWingsnEngine_Rudder
+[2019.04.30-18.03.04:001][  0]LogTexture: Display: Building textures: Door_Base_Color (AutoDXT, 2048X2048)
+[2019.04.30-18.03.04:001][  0]LogStaticMesh: Building static mesh AirshipMinusWingsnEngine_Long_Ropes...
+[2019.04.30-18.03.04:128][  0]LogStaticMesh: Built static mesh [0.13s] /Game/1_Models/Airship/AirshipMinusWingsnEngine_Long_Ropes.AirshipMinusWingsnEngine_Long_Ropes
+[2019.04.30-18.03.04:151][  0]LogStaticMesh: Building static mesh AirshipMinusWingsnEngine_Feet...
+[2019.04.30-18.03.04:184][  0]LogTexture: Display: Building textures: Rock_Big_001_Final_initialShadingGroup_color (AutoDXT, 2048X2048)
+[2019.04.30-18.03.04:184][  0]LogStaticMesh: Built static mesh [0.03s] /Game/1_Models/Airship/AirshipMinusWingsnEngine_Feet.AirshipMinusWingsnEngine_Feet
+[2019.04.30-18.03.04:191][  0]LogMaterial: Display: Missing cached shader map for material Propeller, compiling. 
+[2019.04.30-18.03.04:290][  0]LogTexture: Display: Building textures: RudderWings_Base_Color (AutoDXT, 2048X2048)
+[2019.04.30-18.03.04:290][  0]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.04.30-18.03.04:291][  0]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.04.30-18.03.04:291][  0]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.04.30-18.03.04:291][  0]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.04.30-18.03.04:291][  0]LogStaticMesh: Building static mesh AirshipMinusWingsnEngine_Airship_Propeller...
+[2019.04.30-18.03.04:313][  0]LogStaticMesh: Built static mesh [0.02s] /Game/1_Models/Airship/AirshipMinusWingsnEngine_Airship_Propeller.AirshipMinusWingsnEngine_Airship_Propeller
+[2019.04.30-18.03.04:319][  0]LogMaterial: Display: Missing cached shader map for material Handlebars, compiling. 
+[2019.04.30-18.03.04:770][  0]LogTexture: Display: Building textures: Blimp_Base_Color (AutoDXT, 2048X2048)
+[2019.04.30-18.03.04:770][  0]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.04.30-18.03.04:770][  0]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.04.30-18.03.04:770][  0]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.04.30-18.03.04:770][  0]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.04.30-18.03.04:770][  0]LogTexture: Display: Building textures: Rock_Huge_001_Final_initialShadingGroup_color (AutoDXT, 2048X2048)
+[2019.04.30-18.03.04:770][  0]LogTexture: Display: Building textures: Feet_Base_Color (AutoDXT, 2048X2048)
+[2019.04.30-18.03.04:770][  0]LogStaticMesh: Building static mesh AirshipMinusWingsnEngine_Airship_Handle...
+[2019.04.30-18.03.05:578][  0]LogTexture: Display: Building textures: FatUrn_Urn1_initialShadingGroup_color (AutoDXT, 2048X2048)
+[2019.04.30-18.03.05:578][  0]LogTexture: Display: Building textures: ControlBox_Base_Color (AutoDXT, 2048X2048)
+[2019.04.30-18.03.05:578][  0]LogTexture: Display: Building textures: Statue_Body_Base_Color (AutoDXT, 2048X2048)
+[2019.04.30-18.03.05:578][  0]LogTexture: Display: Building textures: Rock_Tall_001_Final_initialShadingGroup_color (AutoDXT, 2048X2048)
+[2019.04.30-18.03.05:578][  0]LogTexture: Display: Building textures: TallUrn_Urn1_initialShadingGroup_color (AutoDXT, 2048X2048)
+[2019.04.30-18.03.05:578][  0]LogStaticMesh: Built static mesh [0.81s] /Game/1_Models/Airship/AirshipMinusWingsnEngine_Airship_Handle.AirshipMinusWingsnEngine_Airship_Handle
+[2019.04.30-18.03.06:379][  0]LogTexture: Display: Building textures: Statue_Body_Normal_OpenGL (BC5, 2048X2048)
+[2019.04.30-18.03.06:379][  0]LogTexture: Display: Building textures: Rock_Small_001_Final_initialShadingGroup_color (AutoDXT, 2048X2048)
+[2019.04.30-18.03.06:379][  0]LogTexture: Display: Building textures: Urn_Urn1_initialShadingGroup_color (AutoDXT, 2048X2048)
+[2019.04.30-18.03.06:379][  0]LogTexture: Display: Building textures: Statue_Horns_Base_Color (AutoDXT, 2048X2048)
+[2019.04.30-18.03.06:379][  0]LogMaterial: Display: Missing cached shader map for material Bags, compiling. 
+[2019.04.30-18.03.06:433][  0]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.04.30-18.03.06:433][  0]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.04.30-18.03.06:433][  0]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.04.30-18.03.06:433][  0]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.04.30-18.03.06:433][  0]LogStaticMesh: Building static mesh AirshipMinusWingsnEngine_Airship_Bags...
+[2019.04.30-18.03.06:499][  0]LogStaticMesh: Built static mesh [0.07s] /Game/1_Models/Airship/AirshipMinusWingsnEngine_Airship_Bags.AirshipMinusWingsnEngine_Airship_Bags
+[2019.04.30-18.03.06:518][  0]LogStaticMesh: Building static mesh Airship_Wings_Object001...
+[2019.04.30-18.03.06:612][  0]LogStaticMesh: Built static mesh [0.09s] /Game/1_Models/Airship/Airship_Wings_Object001.Airship_Wings_Object001
+[2019.04.30-18.03.06:632][  0]LogStaticMesh: Building static mesh Airship_Wings_Airship_Wings_Bars_02...
+[2019.04.30-18.03.06:686][  0]LogStaticMesh: Built static mesh [0.05s] /Game/1_Models/Airship/Airship_Wings_Airship_Wings_Bars_02.Airship_Wings_Airship_Wings_Bars_02
+[2019.04.30-18.03.06:695][  0]LogMaterial: Display: Missing cached shader map for material Blimp, compiling. 
+[2019.04.30-18.03.06:747][  0]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.04.30-18.03.06:747][  0]LogStaticMesh: Building static mesh AirshipMinusWingsnEngine_Airship_Blimp...
+[2019.04.30-18.03.06:804][  0]LogStaticMesh: Built static mesh [0.06s] /Game/1_Models/Airship/AirshipMinusWingsnEngine_Airship_Blimp.AirshipMinusWingsnEngine_Airship_Blimp
+[2019.04.30-18.03.06:813][  0]LogMaterial: Display: Missing cached shader map for material BasketRope, compiling. 
+[2019.04.30-18.03.06:861][  0]LogStaticMesh: Building static mesh AirshipMinusWingsnEngine_Airship_BasketRing...
+[2019.04.30-18.03.06:874][  0]LogStaticMesh: Built static mesh [0.01s] /Game/1_Models/Airship/AirshipMinusWingsnEngine_Airship_BasketRing.AirshipMinusWingsnEngine_Airship_BasketRing
+[2019.04.30-18.03.06:879][  0]LogMaterial: Display: Missing cached shader map for material WingBar, compiling. 
+[2019.04.30-18.03.06:931][  0]LogStaticMesh: Building static mesh Airship_Wings_Airship_Wings_Bars_01...
+[2019.04.30-18.03.06:985][  0]LogStaticMesh: Built static mesh [0.05s] /Game/1_Models/Airship/Airship_Wings_Airship_Wings_Bars_01.Airship_Wings_Airship_Wings_Bars_01
+[2019.04.30-18.03.06:994][  0]LogMaterial: Display: Missing cached shader map for material Wings, compiling. 
+[2019.04.30-18.03.07:044][  0]LogMaterial: Display: Missing cached shader map for material Ropes, compiling. 
+[2019.04.30-18.03.07:153][  0]LogStaticMesh: Building static mesh AirshipMinusWingsnEngine_Airship_Basket_Ropes...
+[2019.04.30-18.03.07:324][  0]LogStaticMesh: Built static mesh [0.17s] /Game/1_Models/Airship/AirshipMinusWingsnEngine_Airship_Basket_Ropes.AirshipMinusWingsnEngine_Airship_Basket_Ropes
+[2019.04.30-18.03.07:348][  0]LogMaterial: Display: Missing cached shader map for material BasketRings, compiling. 
+[2019.04.30-18.03.07:397][  0]LogStaticMesh: Building static mesh AirshipMinusWingsnEngine_Airship_Basket_RingsFeetWheel...
+[2019.04.30-18.03.07:437][  0]LogStaticMesh: Built static mesh [0.04s] /Game/1_Models/Airship/AirshipMinusWingsnEngine_Airship_Basket_RingsFeetWheel.AirshipMinusWingsnEngine_Airship_Basket_RingsFeetWheel
+[2019.04.30-18.03.07:444][  0]LogMaterial: Display: Missing cached shader map for material Basket, compiling. 
+[2019.04.30-18.03.07:491][  0]LogStaticMesh: Building static mesh AirshipMinusWingsnEngine_Airship_Basket...
+[2019.04.30-18.03.07:520][  0]LogStaticMesh: Built static mesh [0.03s] /Game/1_Models/Airship/AirshipMinusWingsnEngine_Airship_Basket.AirshipMinusWingsnEngine_Airship_Basket
+[2019.04.30-18.03.07:526][  0]LogMaterial: Display: Missing cached shader map for material Strings, compiling. 
+[2019.04.30-18.03.07:574][  0]LogStaticMesh: Building static mesh AirshipMinusWingsnEngine_Airship_BagString...
+[2019.04.30-18.03.07:620][  0]LogStaticMesh: Built static mesh [0.05s] /Game/1_Models/Airship/AirshipMinusWingsnEngine_Airship_BagString.AirshipMinusWingsnEngine_Airship_BagString
+[2019.04.30-18.03.07:627][  0]LogMaterial: Display: Missing cached shader map for material Door_Base_Color_Mat, compiling. 
+[2019.04.30-18.03.07:669][  0]LogMaterial: Display: Missing cached shader map for material Balcony_Frame_Base_Color_Mat, compiling. 
+[2019.04.30-18.03.07:710][  0]LogMaterial: Display: Missing cached shader map for material Balcony_Base_Color_Mat, compiling. 
+[2019.04.30-18.03.07:801][  0]LogStaticMesh: Building static mesh Airship_Wings_Airship_Wings...
+[2019.04.30-18.03.07:811][  0]LogStaticMesh: Built static mesh [0.01s] /Game/1_Models/Airship/Airship_Wings_Airship_Wings.Airship_Wings_Airship_Wings
+[2019.04.30-18.03.07:816][  0]LogMaterial: Display: Missing cached shader map for material Tower_Inside_Base_Color_Mat, compiling. 
+[2019.04.30-18.03.07:855][  0]LogMaterial: Display: Missing cached shader map for material LP_Tower_Outside_Tower_Outside_color_BaseColor_Mat, compiling. 
+[2019.04.30-18.03.08:775][  0]LogMaterial: Display: Missing cached shader map for material SmallRock, compiling. 
+[2019.04.30-18.03.08:814][  0]LogStaticMesh: Building static mesh Rocks_Final_001_smallRock...
+[2019.04.30-18.03.08:831][  0]LogStaticMesh: Built static mesh [0.02s] /Game/1_Models/Rocks/Rocks_Final_001_smallRock.Rocks_Final_001_smallRock
+[2019.04.30-18.03.08:836][  0]LogMaterial: Display: Missing cached shader map for material Rock_Flat_001_Final_initialShadingGroup_color_Mat, compiling. 
+[2019.04.30-18.03.08:902][  0]LogShaderCompilers: Display: Shaders left to compile 467
+[2019.04.30-18.03.08:902][  0]LogStaticMesh: Building static mesh Rocks_Final_001_flatRock...
+[2019.04.30-18.03.08:913][  0]LogStaticMesh: Built static mesh [0.01s] /Game/1_Models/Rocks/Rocks_Final_001_flatRock.Rocks_Final_001_flatRock
+[2019.04.30-18.03.08:918][  0]LogShaderCompilers: Display: Shaders left to compile 488
+[2019.04.30-18.03.08:918][  0]LogMaterial: Display: Missing cached shader map for material Rock_Big_001_Final_initialShadingGroup_color_Mat, compiling. 
+[2019.04.30-18.03.08:962][  0]LogStaticMesh: Building static mesh Rocks_Final_001_bigRock...
+[2019.04.30-18.03.08:982][  0]LogShaderCompilers: Display: Shaders left to compile 509
+[2019.04.30-18.03.08:982][  0]LogStaticMesh: Built static mesh [0.02s] /Game/1_Models/Rocks/Rocks_Final_001_bigRock.Rocks_Final_001_bigRock
+[2019.04.30-18.03.08:988][  0]LogShaderCompilers: Display: Shaders left to compile 499
+[2019.04.30-18.03.08:988][  0]LogMaterial: Display: Missing cached shader map for material HugeRock, compiling. 
+[2019.04.30-18.03.09:040][  0]LogStaticMesh: Building static mesh Rock_Huge_001_Final...
+[2019.04.30-18.03.09:108][  0]LogStaticMesh: Built static mesh [0.07s] /Game/1_Models/Rocks/Rock_Huge_001_Final.Rock_Huge_001_Final
+[2019.04.30-18.03.09:134][  0]LogStaticMesh: Building static mesh Tower_Together+Door_fook__Tower_Outside001...
+[2019.04.30-18.03.09:209][  0]LogStaticMesh: Built static mesh [0.08s] /Game/1_Models/Hives/Tower_Together+Door_fook__Tower_Outside001.Tower_Together+Door_fook__Tower_Outside001
+[2019.04.30-18.03.09:237][  0]LogStaticMesh: Building static mesh Tower_Together+Door_fook__Tower_Inside...
+[2019.04.30-18.03.09:317][  0]LogStaticMesh: Built static mesh [0.08s] /Game/1_Models/Hives/Tower_Together+Door_fook__Tower_Inside.Tower_Together+Door_fook__Tower_Inside
+[2019.04.30-18.03.09:330][  0]LogStaticMesh: Building static mesh Tower_Together+Door_fook__Frame...
+[2019.04.30-18.03.09:349][  0]LogStaticMesh: Built static mesh [0.02s] /Game/1_Models/Hives/Tower_Together+Door_fook__Frame.Tower_Together+Door_fook__Frame
+[2019.04.30-18.03.09:354][  0]LogStaticMesh: Building static mesh Tower_Together+Door_fook__Flooring_backup...
+[2019.04.30-18.03.09:369][  0]LogStaticMesh: Built static mesh [0.02s] /Game/1_Models/Hives/Tower_Together+Door_fook__Flooring_backup.Tower_Together+Door_fook__Flooring_backup
+[2019.04.30-18.03.09:377][  0]LogStaticMesh: Building static mesh Tower_Together+Door_fook__Door_R...
+[2019.04.30-18.03.09:398][  0]LogStaticMesh: Built static mesh [0.02s] /Game/1_Models/Hives/Tower_Together+Door_fook__Door_R.Tower_Together+Door_fook__Door_R
+[2019.04.30-18.03.09:406][  0]LogStaticMesh: Building static mesh Tower_Together+Door_fook__Door_L...
+[2019.04.30-18.03.09:426][  0]LogStaticMesh: Built static mesh [0.02s] /Game/1_Models/Hives/Tower_Together+Door_fook__Door_L.Tower_Together+Door_fook__Door_L
+[2019.04.30-18.03.09:437][  0]LogStaticMesh: Building static mesh Tower_Together+Door_fook__Door_entry...
+[2019.04.30-18.03.09:473][  0]LogStaticMesh: Built static mesh [0.04s] /Game/1_Models/Hives/Tower_Together+Door_fook__Door_entry.Tower_Together+Door_fook__Door_entry
+[2019.04.30-18.03.09:484][  0]LogStaticMesh: Building static mesh Tower_Together+Door_fook__Balcony...
+[2019.04.30-18.03.09:517][  0]LogStaticMesh: Built static mesh [0.03s] /Game/1_Models/Hives/Tower_Together+Door_fook__Balcony.Tower_Together+Door_fook__Balcony
+[2019.04.30-18.03.09:523][  0]LogStaticMesh: Building static mesh AirshipMinusWingsnEngine_Wheel_Peg...
+[2019.04.30-18.03.09:532][  0]LogStaticMesh: Built static mesh [0.01s] /Game/1_Models/Airship/AirshipMinusWingsnEngine_Wheel_Peg.AirshipMinusWingsnEngine_Wheel_Peg
+[2019.04.30-18.03.09:537][  0]LogMaterial: Display: Missing cached shader map for material RudderWings, compiling. 
+[2019.04.30-18.03.09:581][  0]LogStaticMesh: Building static mesh AirshipMinusWingsnEngine_Rudderbits...
+[2019.04.30-18.03.09:589][  0]LogStaticMesh: Built static mesh [0.01s] /Game/1_Models/Airship/AirshipMinusWingsnEngine_Rudderbits.AirshipMinusWingsnEngine_Rudderbits
+[2019.04.30-18.03.09:594][  0]LogMaterial: Display: Missing cached shader map for material ControlBox, compiling. 
+[2019.04.30-18.03.09:633][  0]LogStaticMesh: Building static mesh AirshipMinusWingsnEngine_Airship_ControlBox...
+[2019.04.30-18.03.09:635][  0]LogStaticMesh: Built static mesh [0.00s] /Game/1_Models/Airship/AirshipMinusWingsnEngine_Airship_ControlBox.AirshipMinusWingsnEngine_Airship_ControlBox
+[2019.04.30-18.03.09:640][  0]LogMaterial: Display: Missing cached shader map for material Feet, compiling. 
+[2019.04.30-18.03.09:694][  0]LogStaticMesh: Building static mesh AirshipMinusWingsnEngine_Airship_CCRR...
+[2019.04.30-18.03.09:770][  0]LogStaticMesh: Built static mesh [0.08s] /Game/1_Models/Airship/AirshipMinusWingsnEngine_Airship_CCRR.AirshipMinusWingsnEngine_Airship_CCRR
+[2019.04.30-18.03.09:779][  0]LogMaterial: Display: Missing cached shader map for material Urn_mat, compiling. 
+[2019.04.30-18.03.09:831][  0]LogStaticMesh: Building static mesh Urn...
+[2019.04.30-18.03.09:929][  0]LogStaticMesh: Built static mesh [0.10s] /Game/1_Models/Urn/Urn.Urn
+[2019.04.30-18.03.09:937][  0]LogMaterial: Display: Missing cached shader map for material TallUrn_mat, compiling. 
+[2019.04.30-18.03.09:990][  0]LogStaticMesh: Building static mesh TallUrn...
+[2019.04.30-18.03.10:064][  0]LogStaticMesh: Built static mesh [0.07s] /Game/1_Models/Urn/TallUrn.TallUrn
+[2019.04.30-18.03.10:073][  0]LogMaterial: Display: Missing cached shader map for material FatUrn_mat, compiling. 
+[2019.04.30-18.03.10:127][  0]LogStaticMesh: Building static mesh FatUrn...
+[2019.04.30-18.03.10:213][  0]LogStaticMesh: Built static mesh [0.09s] /Game/1_Models/Urn/FatUrn.FatUrn
+[2019.04.30-18.03.10:221][  0]LogMaterial: Display: Missing cached shader map for material Statue_Horns_Base_Color_Mat, compiling. 
+[2019.04.30-18.03.10:261][  0]LogMaterial: Display: Missing cached shader map for material Statue_Body_Normal_OpenGL_Mat, compiling. 
+[2019.04.30-18.03.10:468][  0]LogStaticMesh: Building static mesh Statue_Assembled...
+[2019.04.30-18.03.11:159][  0]LogStaticMesh: Built static mesh [0.69s] /Game/1_Models/Statue/Statue_Assembled.Statue_Assembled
+[2019.04.30-18.03.11:231][  0]LogMaterial: Display: Missing cached shader map for material Rock_Tall_001_Final_initialShadingGroup_color_Mat, compiling. 
+[2019.04.30-18.03.11:271][  0]LogStaticMesh: Building static mesh Rocks_Final_001_tallRock...
+[2019.04.30-18.03.11:291][  0]LogStaticMesh: Built static mesh [0.02s] /Game/1_Models/Rocks/Rocks_Final_001_tallRock.Rocks_Final_001_tallRock
+[2019.04.30-18.03.11:313][  0]LogAIModule: Creating AISystem for world Persistant_Empty
+[2019.04.30-18.03.11:320][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/_Maps/SharedLevel/AssetLevel) is flushing async loading
+[2019.04.30-18.03.11:320][  0]LogStreaming: Display: Flushing async loaders.
+[2019.04.30-18.03.12:027][  0]LogShaderCompilers: Display: Shaders left to compile 804
+[2019.04.30-18.03.12:027][  0]LogShaderCompilers: Display: Shaders left to compile 794
+[2019.04.30-18.03.12:027][  0]LogShaderCompilers: Display: Shaders left to compile 784
+[2019.04.30-18.03.12:027][  0]LogTexture: Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 128X128)
+[2019.04.30-18.03.12:027][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (DXT1, 128X128)
+[2019.04.30-18.03.12:027][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 64X64)
+[2019.04.30-18.03.12:027][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 1024X512)
+[2019.04.30-18.03.12:027][  0]LogShaderCompilers: Display: Shaders left to compile 774
+[2019.04.30-18.03.12:027][  0]LogTexture: Display: Building textures: T_Grass_Bunch_Alpha (BGRA8, 1479X940)
+[2019.04.30-18.03.12:027][  0]LogShaderCompilers: Display: Shaders left to compile 764
+[2019.04.30-18.03.12:027][  0]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 1024X1024)
+[2019.04.30-18.03.12:027][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 1024X1024)
+[2019.04.30-18.03.12:028][  0]LogTexture: Display: Building textures: T_Grass_Bunch_01 (BGRA8, 1479X940)
+[2019.04.30-18.03.12:028][  0]LogTexture: Display: Building textures: TheGreatDoor_Door_Metallic (AutoDXT, 2048X2048)
+[2019.04.30-18.03.12:028][  0]LogTexture: Display: Building textures: Floor_Base_Color (AutoDXT, 2048X2048)
+[2019.04.30-18.03.12:028][  0]LogShaderCompilers: Display: Shaders left to compile 754
+[2019.04.30-18.03.12:028][  0]LogStaticMesh: Building static mesh Grass_Bunch_Thick_001...
+[2019.04.30-18.03.12:037][  0]LogStaticMesh: Built static mesh [0.01s] /Game/1_Models/Foliage/Grass_Bunch_Thick_001.Grass_Bunch_Thick_001
+[2019.04.30-18.03.12:039][  0]LogStaticMesh: Building static mesh Grass_Bunch_Thick_002...
+[2019.04.30-18.03.12:045][  0]LogStaticMesh: Built static mesh [0.01s] /Game/1_Models/Foliage/Grass_Bunch_Thick_002.Grass_Bunch_Thick_002
+[2019.04.30-18.03.12:048][  0]LogStaticMesh: Building static mesh Grass_Bunch_Thick_003...
+[2019.04.30-18.03.12:054][  0]LogStaticMesh: Built static mesh [0.01s] /Game/1_Models/Foliage/Grass_Bunch_Thick_003.Grass_Bunch_Thick_003
+[2019.04.30-18.03.12:056][  0]LogStaticMesh: Building static mesh Grass_Bunch_Thick_004...
+[2019.04.30-18.03.12:061][  0]LogStaticMesh: Built static mesh [0.01s] /Game/1_Models/Foliage/Grass_Bunch_Thick_004.Grass_Bunch_Thick_004
+[2019.04.30-18.03.14:753][  0]LogTexture: Display: Building textures: Broken_Island_Broken_001_Final_initialShadingGroup_color (AutoDXT, 2048X2048)
+[2019.04.30-18.03.14:754][  0]LogTexture: Display: Building textures: BrokenStair_Base_Color (AutoDXT, 2048X2048)
+[2019.04.30-18.03.14:754][  0]LogTexture: Display: Building textures: Meteor_Smol_Base_Color (AutoDXT, 2048X2048)
+[2019.04.30-18.03.14:754][  0]LogTexture: Display: Building textures: Stair_Worn_Base_Color (AutoDXT, 2048X2048)
+[2019.04.30-18.03.14:754][  0]LogTexture: Display: Building textures: 5band_Lut_soft (BGRA8, 1003X100)
+[2019.04.30-18.03.14:754][  0]LogTexture: Display: Building textures: 4band_Lut (BGRA8, 1003X100)
+[2019.04.30-18.03.14:754][  0]LogTexture: Display: Building textures: Stair_Worn_Normal_OpenGL (BC5, 2048X2048)
+[2019.04.30-18.03.14:754][  0]LogTexture: Display: Building textures: TheGreatDoor_Door_Base_Color (AutoDXT, 2048X2048)
+[2019.04.30-18.03.14:754][  0]LogTexture: Display: Building textures: small_Island_Small_001_Final_initialShadingGroup_color (AutoDXT, 2048X2048)
+[2019.04.30-18.03.14:754][  0]LogTexture: Display: Building textures: Island_Main_001_Final_Greybox1_baseIsland_54SG_color (AutoDXT, 2048X2048)
+[2019.04.30-18.03.14:754][  0]LogTexture: Display: Building textures: Bird_initialShadingGroup_color (AutoDXT, 2048X2048)
+[2019.04.30-18.03.14:754][  0]LogTexture: Display: Building textures: Stair_Broken_normals (BC5, 2048X2048)
+[2019.04.30-18.03.14:754][  0]LogTexture: Display: Building textures: Island_Big_001_Final_initialShadingGroup_color (AutoDXT, 2048X2048)
+[2019.04.30-18.03.14:754][  0]LogTexture: Display: Building textures: Skybox_Base_Color (AutoDXT, 4096X4096)
+[2019.04.30-18.03.14:754][  0]LogTexture: Display: Building textures: Skybox_Roughness (AutoDXT, 4096X4096)
+[2019.04.30-18.03.14:754][  0]LogTexture: Display: Building textures: Medium_Island_Medium_001_Final_initialShadingGroup_color (AutoDXT, 2048X2048)
+[2019.04.30-18.03.14:754][  0]LogTexture: Display: Building textures: Stair_Worn_Roughness (AutoDXT, 2048X2048)
+[2019.04.30-18.03.14:754][  0]LogTexture: Display: Building textures: T_Sparkle_001 (BGRA8, 1012X1409)
+[2019.04.30-18.03.14:849][  0]LogMaterial: Display: Missing cached shader map for material M_Sparkle_01, compiling. 
+[2019.04.30-18.03.14:931][  0]LogStaticMesh: Building static mesh FlippedSphear...
+[2019.04.30-18.03.14:946][  0]LogStaticMesh: Built static mesh [0.02s] /Game/1_Models/FlippedSphear.FlippedSphear
+[2019.04.30-18.03.15:028][  0]LogStaticMesh: Building static mesh MainIsland_BalconyIsland_Final_001...
+[2019.04.30-18.03.15:315][  0]LogStaticMesh: Built static mesh [0.29s] /Game/1_Models/Islands/MainIsland/MainIsland_BalconyIsland_Final_001.MainIsland_BalconyIsland_Final_001
+[2019.04.30-18.03.15:477][  0]LogTexture: Display: Building textures: Skybox_Base_Color_Faded (AutoDXT, 4096X4096)
+[2019.04.30-18.03.15:478][  0]LogStaticMesh: Building static mesh MainIsland_Final_001...
+[2019.04.30-18.03.15:856][  0]LogTexture: Display: Building textures: T_Crystal_Purple (AutoDXT, 2048X2048)
+[2019.04.30-18.03.15:856][  0]LogTexture: Display: Building textures: TheGreatDoor_Door_Roughness (AutoDXT, 2048X2048)
+[2019.04.30-18.03.15:856][  0]LogShaderCompilers: Display: Shaders left to compile 771
+[2019.04.30-18.03.15:856][  0]LogStaticMesh: Built static mesh [0.38s] /Game/1_Models/Islands/MainIsland/MainIsland_Final_001.MainIsland_Final_001
+[2019.04.30-18.03.15:971][  0]LogTexture: Display: Building textures: T_Meteor_Lorge_Colors (AutoDXT, 2048X2048)
+[2019.04.30-18.03.15:971][  0]LogStaticMesh: Building static mesh MainIsland_HiveIsland_Final_001...
+[2019.04.30-18.03.16:075][  0]LogStaticMesh: Built static mesh [0.10s] /Game/1_Models/Islands/MainIsland/MainIsland_HiveIsland_Final_001.MainIsland_HiveIsland_Final_001
+[2019.04.30-18.03.16:109][  0]LogTexture: Display: Building textures: Skybox_Roughness_Faded (AutoDXT, 4096X4096)
+[2019.04.30-18.03.16:109][  0]LogStaticMesh: Building static mesh MainIsland_Interior_Final_001...
+[2019.04.30-18.03.16:130][  0]LogStaticMesh: Built static mesh [0.02s] /Game/1_Models/Islands/MainIsland/MainIsland_Interior_Final_001.MainIsland_Interior_Final_001
+[2019.04.30-18.03.16:136][  0]LogStaticMesh: Building static mesh MainIsland_Step1_Final_001...
+[2019.04.30-18.03.16:175][  0]LogStaticMesh: Built static mesh [0.04s] /Game/1_Models/Islands/MainIsland/MainIsland_Step1_Final_001.MainIsland_Step1_Final_001
+[2019.04.30-18.03.16:178][  0]LogStaticMesh: Building static mesh MainIsland_Step2_Final_001...
+[2019.04.30-18.03.16:186][  0]LogStaticMesh: Built static mesh [0.01s] /Game/1_Models/Islands/MainIsland/MainIsland_Step2_Final_001.MainIsland_Step2_Final_001
+[2019.04.30-18.03.16:190][  0]LogStaticMesh: Building static mesh MainIsland_Step3_Final_001...
+[2019.04.30-18.03.16:220][  0]LogStaticMesh: Built static mesh [0.03s] /Game/1_Models/Islands/MainIsland/MainIsland_Step3_Final_001.MainIsland_Step3_Final_001
+[2019.04.30-18.03.16:257][  0]LogStaticMesh: Building static mesh MainIsland_TreeIsland_Final_001...
+[2019.04.30-18.03.16:419][  0]LogStaticMesh: Built static mesh [0.16s] /Game/1_Models/Islands/MainIsland/MainIsland_TreeIsland_Final_001.MainIsland_TreeIsland_Final_001
+[2019.04.30-18.03.18:484][  0]LogShaderCompilers: Display: Shaders left to compile 761
+[2019.04.30-18.03.18:485][  0]LogShaderCompilers: Display: Shaders left to compile 751
+[2019.04.30-18.03.18:485][  0]LogShaderCompilers: Display: Shaders left to compile 741
+[2019.04.30-18.03.18:485][  0]LogStaticMesh: Building static mesh Meteor_LorgewCrystals_Merged...
+[2019.04.30-18.03.18:944][  0]LogStaticMesh: Built static mesh [0.46s] /Game/1_Models/Rocks/Meteor_Lorge/Meteor_LorgewCrystals_Merged.Meteor_LorgewCrystals_Merged
+[2019.04.30-18.03.20:360][  0]LogShaderCompilers: Display: Shaders left to compile 731
+[2019.04.30-18.03.20:360][  0]LogShaderCompilers: Display: Shaders left to compile 721
+[2019.04.30-18.03.20:360][  0]LogStaticMesh: Building static mesh meteor_smol...
+[2019.04.30-18.03.20:838][  0]LogShaderCompilers: Display: Shaders left to compile 711
+[2019.04.30-18.03.20:838][  0]LogShaderCompilers: Display: Shaders left to compile 701
+[2019.04.30-18.03.20:838][  0]LogShaderCompilers: Display: Shaders left to compile 691
+[2019.04.30-18.03.20:838][  0]LogShaderCompilers: Display: Shaders left to compile 681
+[2019.04.30-18.03.20:838][  0]LogStaticMesh: Built static mesh [0.48s] /Game/1_Models/Rocks/Meteor_Smol/meteor_smol.meteor_smol
+[2019.04.30-18.03.20:922][  0]LogStaticMesh: Building static mesh Islands_Island_Broken...
+[2019.04.30-18.03.21:085][  0]LogStaticMesh: Built static mesh [0.16s] /Game/1_Models/Islands/Islands_Island_Broken.Islands_Island_Broken
+[2019.04.30-18.03.21:135][  0]LogStaticMesh: Building static mesh Islands_Island_Big...
+[2019.04.30-18.03.21:223][  0]LogStaticMesh: Built static mesh [0.09s] /Game/1_Models/Islands/Islands_Island_Big.Islands_Island_Big
+[2019.04.30-18.03.21:260][  0]LogStaticMesh: Building static mesh Islands_Island_Medium...
+[2019.04.30-18.03.21:348][  0]LogStaticMesh: Built static mesh [0.09s] /Game/1_Models/Islands/Islands_Island_Medium.Islands_Island_Medium
+[2019.04.30-18.03.21:385][  0]LogStaticMesh: Building static mesh Islands_Island_Small...
+[2019.04.30-18.03.21:463][  0]LogStaticMesh: Built static mesh [0.08s] /Game/1_Models/Islands/Islands_Island_Small.Islands_Island_Small
+[2019.04.30-18.03.21:475][  0]LogStaticMesh: Building static mesh Stair_Broken_UVW...
+[2019.04.30-18.03.21:479][  0]LogStaticMesh: Built static mesh [0.00s] /Game/1_Models/Stairs/Broken/Stair_Broken_UVW.Stair_Broken_UVW
+[2019.04.30-18.03.21:484][  0]LogStaticMesh: Building static mesh Stair_Worn_UVW...
+[2019.04.30-18.03.21:495][  0]LogStaticMesh: Built static mesh [0.01s] /Game/1_Models/Stairs/Worn/Stair_Worn_UVW.Stair_Worn_UVW
+[2019.04.30-18.03.21:529][  0]LogShaderCompilers: Display: Shaders left to compile 671
+[2019.04.30-18.03.21:530][  0]LogStaticMesh: Building static mesh Statue_Assembled_Substance_g_LP_Horn004_LP_Horn004...
+[2019.04.30-18.03.21:638][  0]LogStaticMesh: Built static mesh [0.11s] /Game/1_Models/Statue/Statue_Assembled_Substance_g_LP_Horn004_LP_Horn004.Statue_Assembled_Substance_g_LP_Horn004_LP_Horn004
+[2019.04.30-18.03.21:680][  0]LogStaticMesh: Building static mesh Statue_Assembled_Substance_g_LP_Horn005_LP_Horn005...
+[2019.04.30-18.03.21:789][  0]LogStaticMesh: Built static mesh [0.11s] /Game/1_Models/Statue/Statue_Assembled_Substance_g_LP_Horn005_LP_Horn005.Statue_Assembled_Substance_g_LP_Horn005_LP_Horn005
+[2019.04.30-18.03.21:831][  0]LogStaticMesh: Building static mesh Statue_Assembled_Substance_g_LP_Horn006_LP_Horn006...
+[2019.04.30-18.03.21:936][  0]LogShaderCompilers: Display: Shaders left to compile 661
+[2019.04.30-18.03.21:936][  0]LogStaticMesh: Built static mesh [0.11s] /Game/1_Models/Statue/Statue_Assembled_Substance_g_LP_Horn006_LP_Horn006.Statue_Assembled_Substance_g_LP_Horn006_LP_Horn006
+[2019.04.30-18.03.21:976][  0]LogStaticMesh: Building static mesh Statue_Assembled_Substance_g_LP_Horn_LP_Horn...
+[2019.04.30-18.03.22:086][  0]LogStaticMesh: Built static mesh [0.11s] /Game/1_Models/Statue/Statue_Assembled_Substance_g_LP_Horn_LP_Horn.Statue_Assembled_Substance_g_LP_Horn_LP_Horn
+[2019.04.30-18.03.22:122][  0]LogStaticMesh: Building static mesh Statue_Assembled_Substance_g_Statue_Statue...
+[2019.04.30-18.03.22:204][  0]LogStaticMesh: Built static mesh [0.08s] /Game/1_Models/Statue/Statue_Assembled_Substance_g_Statue_Statue.Statue_Assembled_Substance_g_Statue_Statue
+[2019.04.30-18.03.22:214][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/1_Models/Bird/Bird_animFull.Bird_animFull
+[2019.04.30-18.03.22:214][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/1_Models/Bird/Bird_animFull.Bird_animFull) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.30-18.03.22:223][  0]LogMaterial: Display: Missing cached shader map for material M_GrassThick, compiling. 
+[2019.04.30-18.03.22:373][  0]LogMaterial: Display: Missing cached shader map for material Doors, compiling. 
+[2019.04.30-18.03.22:414][  0]LogShaderCompilers: Display: Shaders left to compile 766
+[2019.04.30-18.03.22:415][  0]LogMaterial: Display: Missing cached shader map for material Floor_Base_Color_Mat, compiling. 
+[2019.04.30-18.03.22:455][  0]LogShaderCompilers: Display: Shaders left to compile 787
+[2019.04.30-18.03.22:455][  0]LogMaterial: Display: Missing cached shader map for material Island_Big, compiling. 
+[2019.04.30-18.03.22:497][  0]LogShaderCompilers: Display: Shaders left to compile 808
+[2019.04.30-18.03.22:497][  0]LogMaterial: Display: Missing cached shader map for material Island_Broken, compiling. 
+[2019.04.30-18.03.22:539][  0]LogMaterial: Display: Missing cached shader map for material Island_Small, compiling. 
+[2019.04.30-18.03.22:581][  0]LogMaterial: Display: Missing cached shader map for material Meteor_Smol_Base_Color_Mat, compiling. 
+[2019.04.30-18.03.22:623][  0]LogMaterial: Display: Missing cached shader map for material Stairs_Broken, compiling. 
+[2019.04.30-18.03.22:666][  0]LogMaterial: Display: Missing cached shader map for material Stair_Worn_Base_Color_Mat, compiling. 
+[2019.04.30-18.03.22:708][  0]LogMaterial: Display: Missing cached shader map for material Bird, compiling. 
+[2019.04.30-18.03.22:777][  0]LogShaderCompilers: Display: Shaders left to compile 984
+[2019.04.30-18.03.22:777][  0]LogMaterial: Display: Missing cached shader map for material MainIsland, compiling. 
+[2019.04.30-18.03.22:819][  0]LogShaderCompilers: Display: Shaders left to compile 1034
+[2019.04.30-18.03.22:819][  0]LogMaterial: Display: Missing cached shader map for material PP_CelShader, compiling. 
+[2019.04.30-18.03.22:838][  0]LogMaterial: Display: Missing cached shader map for material PP_CelShaderEnviroment, compiling. 
+[2019.04.30-18.03.22:851][  0]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2019.04.30-18.03.22:928][  0]LogSkeletalMesh: Building Skeletal Mesh Bird...
+[2019.04.30-18.03.22:929][  0]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/1_Models/Bird/Bird.Bird
+[2019.04.30-18.03.22:930][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Birdsong...
+[2019.04.30-18.03.22:959][  0]LogTemp: Couldn't find amount to resample to.
+[2019.04.30-18.03.25:889][  0]LogShaderCompilers: Display: Shaders left to compile 1140
+[2019.04.30-18.03.25:889][  0]LogShaderCompilers: Display: Shaders left to compile 1130
+[2019.04.30-18.03.25:889][  0]LogShaderCompilers: Display: Shaders left to compile 1120
+[2019.04.30-18.03.25:889][  0]LogShaderCompilers: Display: Shaders left to compile 1110
+[2019.04.30-18.03.25:889][  0]LogShaderCompilers: Display: Shaders left to compile 1100
+[2019.04.30-18.03.25:889][  0]LogShaderCompilers: Display: Shaders left to compile 1090
+[2019.04.30-18.03.25:889][  0]LogShaderCompilers: Display: Shaders left to compile 1080
+[2019.04.30-18.03.25:889][  0]LogShaderCompilers: Display: Shaders left to compile 1070
+[2019.04.30-18.03.25:889][  0]LogShaderCompilers: Display: Shaders left to compile 1060
+[2019.04.30-18.03.25:889][  0]LogShaderCompilers: Display: Shaders left to compile 1050
+[2019.04.30-18.03.25:889][  0]LogShaderCompilers: Display: Shaders left to compile 1040
+[2019.04.30-18.03.25:890][  0]LogShaderCompilers: Display: Shaders left to compile 1030
+[2019.04.30-18.03.25:894][  0]LogMaterial: Display: Missing cached shader map for material SkySphere, compiling. 
+[2019.04.30-18.03.25:936][  0]LogMaterial: Display: Missing cached shader map for material Islands_Medium, compiling. 
+[2019.04.30-18.03.25:979][  0]LogMaterial: Display: Missing cached shader map for material M_Crystal_Purple, compiling. 
+[2019.04.30-18.03.26:021][  0]LogMaterial: Display: Missing cached shader map for material M_Meteor_Lorge, compiling. 
+[2019.04.30-18.03.26:063][  0]LogMaterial: Display: Missing cached shader map for material default, compiling. 
+[2019.04.30-18.03.26:093][  0]LogMaterial: Display: Missing cached shader map for material Default, compiling. 
+[2019.04.30-18.03.26:135][  0]LogMaterial: Display: Missing cached shader map for material Statue_Horns, compiling. 
+[2019.04.30-18.03.26:164][  0]LogMaterial: Display: Missing cached shader map for material Statue_Body, compiling. 
+[2019.04.30-18.03.26:191][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Industrious_Ferret_TEMP...
+[2019.04.30-18.03.26:253][  0]LogTemp: Couldn't find amount to resample to.
+[2019.04.30-18.03.34:220][  0]LogShaderCompilers: Display: Shaders left to compile 1241
+[2019.04.30-18.03.34:220][  0]LogShaderCompilers: Display: Shaders left to compile 1231
+[2019.04.30-18.03.34:220][  0]LogShaderCompilers: Display: Shaders left to compile 1221
+[2019.04.30-18.03.34:220][  0]LogShaderCompilers: Display: Shaders left to compile 1211
+[2019.04.30-18.03.34:220][  0]LogShaderCompilers: Display: Shaders left to compile 1201
+[2019.04.30-18.03.34:220][  0]LogShaderCompilers: Display: Shaders left to compile 1191
+[2019.04.30-18.03.34:220][  0]LogShaderCompilers: Display: Shaders left to compile 1181
+[2019.04.30-18.03.34:220][  0]LogShaderCompilers: Display: Shaders left to compile 1171
+[2019.04.30-18.03.34:220][  0]LogShaderCompilers: Display: Shaders left to compile 1161
+[2019.04.30-18.03.34:220][  0]LogShaderCompilers: Display: Shaders left to compile 1151
+[2019.04.30-18.03.34:220][  0]LogShaderCompilers: Display: Shaders left to compile 1141
+[2019.04.30-18.03.34:220][  0]LogShaderCompilers: Display: Shaders left to compile 1131
+[2019.04.30-18.03.34:221][  0]LogShaderCompilers: Display: Shaders left to compile 1121
+[2019.04.30-18.03.34:221][  0]LogShaderCompilers: Display: Shaders left to compile 1111
+[2019.04.30-18.03.34:221][  0]LogShaderCompilers: Display: Shaders left to compile 1101
+[2019.04.30-18.03.34:221][  0]LogShaderCompilers: Display: Shaders left to compile 1091
+[2019.04.30-18.03.34:221][  0]LogShaderCompilers: Display: Shaders left to compile 1081
+[2019.04.30-18.03.34:221][  0]LogShaderCompilers: Display: Shaders left to compile 1071
+[2019.04.30-18.03.34:221][  0]LogShaderCompilers: Display: Shaders left to compile 1061
+[2019.04.30-18.03.34:221][  0]LogShaderCompilers: Display: Shaders left to compile 1051
+[2019.04.30-18.03.34:221][  0]LogShaderCompilers: Display: Shaders left to compile 1041
+[2019.04.30-18.03.34:221][  0]LogShaderCompilers: Display: Shaders left to compile 1031
+[2019.04.30-18.03.34:221][  0]LogShaderCompilers: Display: Shaders left to compile 1021
+[2019.04.30-18.03.34:221][  0]LogShaderCompilers: Display: Shaders left to compile 1011
+[2019.04.30-18.03.34:221][  0]LogShaderCompilers: Display: Shaders left to compile 1001
+[2019.04.30-18.03.34:221][  0]LogShaderCompilers: Display: Shaders left to compile 991
+[2019.04.30-18.03.34:221][  0]LogShaderCompilers: Display: Shaders left to compile 981
+[2019.04.30-18.03.34:221][  0]LogShaderCompilers: Display: Shaders left to compile 971
+[2019.04.30-18.03.34:221][  0]LogShaderCompilers: Display: Shaders left to compile 961
+[2019.04.30-18.03.34:221][  0]LogShaderCompilers: Display: Shaders left to compile 951
+[2019.04.30-18.03.34:221][  0]LogShaderCompilers: Display: Shaders left to compile 941
+[2019.04.30-18.03.34:257][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/_Maps/SharedLevel/Cine_Level) is flushing async loading
+[2019.04.30-18.03.35:436][  0]LogShaderCompilers: Display: Shaders left to compile 931
+[2019.04.30-18.03.35:436][  0]LogShaderCompilers: Display: Shaders left to compile 921
+[2019.04.30-18.03.35:436][  0]LogTexture: Display: Building textures: DoorFrame_Base_Color (AutoDXT, 2048X2048)
+[2019.04.30-18.03.35:436][  0]LogTexture: Display: Building textures: DoorFrame_Metallic (AutoDXT, 2048X2048)
+[2019.04.30-18.03.35:436][  0]LogTexture: Display: Building textures: FrameStone_Metallic (AutoDXT, 2048X2048)
+[2019.04.30-18.03.35:436][  0]LogTexture: Display: Building textures: Gems+Gem_Key_Metallic (AutoDXT, 2048X2048)
+[2019.04.30-18.03.35:436][  0]LogTexture: Display: Building textures: TheGreatDoor_Door_Metallic (AutoDXT, 2048X2048)
+[2019.04.30-18.03.35:436][  0]LogTexture: Display: Building textures: DoorFrame_Roughness (AutoDXT, 2048X2048)
+[2019.04.30-18.03.35:437][  0]LogTexture: Display: Building textures: Gems+Gem_Key_Base_Color (AutoDXT, 2048X2048)
+[2019.04.30-18.03.35:437][  0]LogTexture: Display: Building textures: TheGreatDoor_Door_Base_Color (AutoDXT, 2048X2048)
+[2019.04.30-18.03.35:437][  0]LogTexture: Display: Building textures: Gems+Gem_Key_Roughness (AutoDXT, 2048X2048)
+[2019.04.30-18.03.35:437][  0]LogTexture: Display: Building textures: TheGreatDoor_Door_Roughness (AutoDXT, 2048X2048)
+[2019.04.30-18.03.35:437][  0]LogTexture: Display: Building textures: Reflection (AutoDXT, 512X512)
+[2019.04.30-18.03.35:437][  0]LogTexture: Display: Building textures: Gems+Gem_Key_Height (AutoDXT, 2048X2048)
+[2019.04.30-18.03.35:535][  0]LogTexture: Display: Building textures: GemUnwrap_Solid (AutoDXT, 512X512)
+[2019.04.30-18.03.35:535][  0]LogTexture: Display: Building textures: SparkleGlow (BGRA8, 1106X1106)
+[2019.04.30-18.03.35:535][  0]LogTexture: Display: Building textures: FrameStone_Roughness (AutoDXT, 2048X2048)
+[2019.04.30-18.03.35:535][  0]LogTexture: Display: Building textures: Gems+Gem_Key_Metallic (AutoDXT, 2048X2048)
+[2019.04.30-18.03.35:535][  0]LogTexture: Display: Building textures: GemUnwrap_Subtle_Gradient (AutoDXT, 512X512)
+[2019.04.30-18.03.35:535][  0]LogTexture: Display: Building textures: SparkleLines (BGRA8, 2051X2055)
+[2019.04.30-18.03.35:535][  0]LogTexture: Display: Building textures: SparkleBody (BGRA8, 1104X1107)
+[2019.04.30-18.03.35:535][  0]LogMaterial: Display: Missing cached shader map for material JemSparkle_Glow, compiling. 
+[2019.04.30-18.03.35:686][  0]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2019.04.30-18.03.35:686][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2019.04.30-18.03.35:686][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X256)
+[2019.04.30-18.03.35:686][  0]LogMaterial: Display: Missing cached shader map for material JemSparkle_Long, compiling. 
+[2019.04.30-18.03.35:718][  0]LogMaterial: Display: Missing cached shader map for material JemSparkle_Body, compiling. 
+[2019.04.30-18.03.36:414][  0]LogTexture: Display: Building textures: Alpha_Branch_Smol_001 (BGRA8, 1469X2057)
+[2019.04.30-18.03.36:414][  0]LogTexture: Display: Building textures: Branch_Smol_001 (BGRA8, 1469X2057)
+[2019.04.30-18.03.36:414][  0]LogTexture: Display: Building textures: Ground_Dust1 (AutoDXT, 512X512)
+[2019.04.30-18.03.36:615][  0]LogTexture: Display: Building textures: Alpha_Leaf_Smol (BGRA8, 1746X1745)
+[2019.04.30-18.03.36:615][  0]LogTexture: Display: Building textures: Tree_Color_03 (AutoDXT, 2048X2048)
+[2019.04.30-18.03.36:619][  0]LogMaterial: Display: Missing cached shader map for material M_Ground_Dust1, compiling. 
+[2019.04.30-18.03.39:816][  0]LogShaderCompilers: Display: Shaders left to compile 1157
+[2019.04.30-18.03.39:816][  0]LogShaderCompilers: Display: Shaders left to compile 1147
+[2019.04.30-18.03.39:816][  0]LogShaderCompilers: Display: Shaders left to compile 1137
+[2019.04.30-18.03.39:816][  0]LogTexture: Display: Building textures: BranchesAndLeaves_smolfile (BGRA8, 1833X1946)
+[2019.04.30-18.03.39:816][  0]LogShaderCompilers: Display: Shaders left to compile 1127
+[2019.04.30-18.03.39:816][  0]LogShaderCompilers: Display: Shaders left to compile 1117
+[2019.04.30-18.03.39:816][  0]LogTexture: Display: Building textures: Leaf_Smol (BGRA8, 1746X1745)
+[2019.04.30-18.03.39:816][  0]LogTexture: Display: Building textures: Tree_UVW_default_nmap (BC5, 2048X2048)
+[2019.04.30-18.03.39:816][  0]LogTexture: Display: Building textures: Alpha_Branch_Smol_002 (BGRA8, 2933X2175)
+[2019.04.30-18.03.39:816][  0]LogShaderCompilers: Display: Shaders left to compile 1107
+[2019.04.30-18.03.39:816][  0]LogTexture: Display: Building textures: Alpha_BranchesAndLeaves_smolfile (BGRA8, 1833X1946)
+[2019.04.30-18.03.39:816][  0]LogShaderCompilers: Display: Shaders left to compile 1097
+[2019.04.30-18.03.39:816][  0]LogShaderCompilers: Display: Shaders left to compile 1087
+[2019.04.30-18.03.39:816][  0]LogTexture: Display: Building textures: Branch_Smol_002 (BGRA8, 2933X2175)
+[2019.04.30-18.03.39:816][  0]LogTexture: Display: Building textures: Backpack_Albedo_01_specular (AutoDXT, 2048X2048)
+[2019.04.30-18.03.39:816][  0]LogTexture: Display: Building textures: Plume_3 (AutoDXT, 512X512)
+[2019.04.30-18.03.39:816][  0]LogShaderCompilers: Display: Shaders left to compile 1077
+[2019.04.30-18.03.39:817][  0]LogTexture: Display: Building textures: Backpack_Bag (AutoDXT, 2048X2048)
+[2019.04.30-18.03.39:817][  0]LogTexture: Display: Building textures: Small_Partical (BGRA8, 339X339)
+[2019.04.30-18.03.39:817][  0]LogTexture: Display: Building textures: Alpha_Branch_Smol_003 (AutoDXT, 1860X3252)
+[2019.04.30-18.03.39:817][  0]LogTexture: Display: Building textures: Plume_1 (AutoDXT, 512X512)
+[2019.04.30-18.03.39:817][  0]LogTexture: Display: Building textures: Plume_2 (AutoDXT, 512X512)
+[2019.04.30-18.03.39:817][  0]LogTexture: Display: Building textures: Backpack_Albedo_01_nmap (BC5, 2048X2048)
+[2019.04.30-18.03.39:817][  0]LogTexture: Display: Building textures: Floaty_Partical (AutoDXT, 512X512)
+[2019.04.30-18.03.39:817][  0]LogTexture: Display: Building textures: Dinochan_BaseColor_Final (AutoDXT, 2048X2048)
+[2019.04.30-18.03.39:817][  0]LogMaterial: Display: Missing cached shader map for material FloatySparkle, compiling. 
+[2019.04.30-18.03.39:933][  0]LogMaterial: Display: Missing cached shader map for material SmallSparkle, compiling. 
+[2019.04.30-18.03.40:066][  0]LogShaderCompilers: Display: Shaders left to compile 1160
+[2019.04.30-18.03.40:066][  0]LogStaticMesh: Building static mesh Airship_Engine_F_Engine...
+[2019.04.30-18.03.40:075][  0]LogStaticMesh: Built static mesh [0.01s] /Game/1_Models/Airship/Airship_Engine_F_Engine.Airship_Engine_F_Engine
+[2019.04.30-18.03.40:081][  0]LogStaticMesh: Building static mesh Airship_Engine_F_Engine_Pipe00...
+[2019.04.30-18.03.40:102][  0]LogStaticMesh: Built static mesh [0.02s] /Game/1_Models/Airship/Airship_Engine_F_Engine_Pipe00.Airship_Engine_F_Engine_Pipe00
+[2019.04.30-18.03.40:114][  0]LogStaticMesh: Building static mesh Backpack_Worn_Together_Backpack...
+[2019.04.30-18.03.40:173][  0]LogStaticMesh: Built static mesh [0.06s] /Game/1_Models/BackPack/Backpack_Worn_Together_Backpack.Backpack_Worn_Together_Backpack
+[2019.04.30-18.03.40:323][  0]LogTexture: Display: Building textures: Branch_Smol_003 (RGBA16F, 1860X3252)
+[2019.04.30-18.03.40:323][  0]LogStaticMesh: Building static mesh Placeholder_Dinochan_backpack_02...
+[2019.04.30-18.03.40:794][  0]LogShaderCompilers: Display: Shaders left to compile 1243
+[2019.04.30-18.03.40:794][  0]LogStaticMesh: Built static mesh [0.47s] /Game/_Greybox/Greybox_Dinochan/Placeholder_Dinochan_backpack_02.Placeholder_Dinochan_backpack_02
+[2019.04.30-18.03.40:857][  0]LogShaderCompilers: Display: Shaders left to compile 1233
+[2019.04.30-18.03.40:857][  0]LogStaticMesh: Building static mesh G_Door__Door_Entry...
+[2019.04.30-18.03.40:872][  0]LogStaticMesh: Built static mesh [0.02s] /Game/1_Models/GreatDoor_v3/G_Door__Door_Entry.G_Door__Door_Entry
+[2019.04.30-18.03.40:877][  0]LogStaticMesh: Building static mesh G_Door__Door_Left...
+[2019.04.30-18.03.40:888][  0]LogStaticMesh: Built static mesh [0.01s] /Game/1_Models/GreatDoor_v3/G_Door__Door_Left.G_Door__Door_Left
+[2019.04.30-18.03.40:892][  0]LogStaticMesh: Building static mesh G_Door__Door_Right...
+[2019.04.30-18.03.40:903][  0]LogStaticMesh: Built static mesh [0.01s] /Game/1_Models/GreatDoor_v3/G_Door__Door_Right.G_Door__Door_Right
+[2019.04.30-18.03.40:911][  0]LogStaticMesh: Building static mesh G_Door__L_Gem_1...
+[2019.04.30-18.03.40:940][  0]LogShaderCompilers: Display: Shaders left to compile 1223
+[2019.04.30-18.03.40:940][  0]LogStaticMesh: Built static mesh [0.03s] /Game/1_Models/GreatDoor_v3/G_Door__L_Gem_1.G_Door__L_Gem_1
+[2019.04.30-18.03.40:949][  0]LogStaticMesh: Building static mesh G_Door__L_Gem_2...
+[2019.04.30-18.03.40:970][  0]LogStaticMesh: Built static mesh [0.02s] /Game/1_Models/GreatDoor_v3/G_Door__L_Gem_2.G_Door__L_Gem_2
+[2019.04.30-18.03.40:978][  0]LogStaticMesh: Building static mesh G_Door__L_Gem_3...
+[2019.04.30-18.03.40:999][  0]LogStaticMesh: Built static mesh [0.02s] /Game/1_Models/GreatDoor_v3/G_Door__L_Gem_3.G_Door__L_Gem_3
+[2019.04.30-18.03.41:008][  0]LogStaticMesh: Building static mesh G_Door__R_Gem_1...
+[2019.04.30-18.03.41:030][  0]LogStaticMesh: Built static mesh [0.02s] /Game/1_Models/GreatDoor_v3/G_Door__R_Gem_1.G_Door__R_Gem_1
+[2019.04.30-18.03.41:039][  0]LogStaticMesh: Building static mesh G_Door__R_Gem_2...
+[2019.04.30-18.03.41:060][  0]LogStaticMesh: Built static mesh [0.02s] /Game/1_Models/GreatDoor_v3/G_Door__R_Gem_2.G_Door__R_Gem_2
+[2019.04.30-18.03.41:070][  0]LogStaticMesh: Building static mesh G_Door__R_Gem_Key...
+[2019.04.30-18.03.41:091][  0]LogStaticMesh: Built static mesh [0.02s] /Game/1_Models/GreatDoor_v3/G_Door__R_Gem_Key.G_Door__R_Gem_Key
+[2019.04.30-18.03.41:098][  0]LogStaticMesh: Building static mesh G_Door__R_Gem_Socket...
+[2019.04.30-18.03.41:109][  0]LogStaticMesh: Built static mesh [0.01s] /Game/1_Models/GreatDoor_v3/G_Door__R_Gem_Socket.G_Door__R_Gem_Socket
+[2019.04.30-18.03.41:453][  0]LogShaderCompilers: Display: Shaders left to compile 1213
+[2019.04.30-18.03.41:453][  0]LogShaderCompilers: Display: Shaders left to compile 1203
+[2019.04.30-18.03.41:453][  0]LogShaderCompilers: Display: Shaders left to compile 1193
+[2019.04.30-18.03.41:453][  0]LogStaticMesh: Building static mesh testTree...
+[2019.04.30-18.03.44:742][  0]LogShaderCompilers: Display: Shaders left to compile 1183
+[2019.04.30-18.03.44:742][  0]LogShaderCompilers: Display: Shaders left to compile 1173
+[2019.04.30-18.03.44:742][  0]LogShaderCompilers: Display: Shaders left to compile 1163
+[2019.04.30-18.03.44:742][  0]LogShaderCompilers: Display: Shaders left to compile 1153
+[2019.04.30-18.03.44:742][  0]LogShaderCompilers: Display: Shaders left to compile 1143
+[2019.04.30-18.03.44:742][  0]LogShaderCompilers: Display: Shaders left to compile 1133
+[2019.04.30-18.03.44:742][  0]LogShaderCompilers: Display: Shaders left to compile 1123
+[2019.04.30-18.03.44:742][  0]LogShaderCompilers: Display: Shaders left to compile 1113
+[2019.04.30-18.03.44:742][  0]LogShaderCompilers: Display: Shaders left to compile 1103
+[2019.04.30-18.03.44:742][  0]LogShaderCompilers: Display: Shaders left to compile 1093
+[2019.04.30-18.03.44:742][  0]LogShaderCompilers: Display: Shaders left to compile 1083
+[2019.04.30-18.03.44:742][  0]LogShaderCompilers: Display: Shaders left to compile 1073
+[2019.04.30-18.03.44:742][  0]LogShaderCompilers: Display: Shaders left to compile 1063
+[2019.04.30-18.03.44:742][  0]LogStaticMesh: Built static mesh [3.29s] /Game/1_Models/TestTree/testTree.testTree
+[2019.04.30-18.03.45:000][  0]LogShaderCompilers: Display: Shaders left to compile 1053
+[2019.04.30-18.03.45:000][  0]LogStaticMesh: Building static mesh Tree_Fixed_UVW...
+[2019.04.30-18.03.45:376][  0]LogShaderCompilers: Display: Shaders left to compile 1043
+[2019.04.30-18.03.45:376][  0]LogShaderCompilers: Display: Shaders left to compile 1033
+[2019.04.30-18.03.45:376][  0]LogShaderCompilers: Display: Shaders left to compile 1023
+[2019.04.30-18.03.45:376][  0]LogStaticMesh: Built static mesh [0.38s] /Game/1_Models/TestTree/Tree_Fixed_UVW.Tree_Fixed_UVW
+[2019.04.30-18.03.45:431][  0]LogMaterial: Display: Missing cached shader map for material FrameMat, compiling. 
+[2019.04.30-18.03.45:460][  0]LogMaterial: Display: Missing cached shader map for material DoorMat, compiling. 
+[2019.04.30-18.03.45:491][  0]LogMaterial: Display: Missing cached shader map for material GemShine_L_1, compiling. 
+[2019.04.30-18.03.45:608][  0]LogMaterial: Display: Missing cached shader map for material branchSmol, compiling. 
+[2019.04.30-18.03.45:671][  0]LogMaterial: Display: Missing cached shader map for material Leaf, compiling. 
+[2019.04.30-18.03.45:745][  0]LogMaterial: Display: Missing cached shader map for material testTree_Mat, compiling. 
+[2019.04.30-18.03.45:804][  0]LogMaterial: Display: Missing cached shader map for material TreeBark, compiling. 
+[2019.04.30-18.03.45:847][  0]LogMaterial: Display: Missing cached shader map for material default, compiling. 
+[2019.04.30-18.03.45:931][  0]LogMaterial: Display: Missing cached shader map for material wire_225143087, compiling. 
+[2019.04.30-18.03.45:961][  0]LogMaterial: Display: Missing cached shader map for material wire_214228153, compiling. 
+[2019.04.30-18.03.45:991][  0]LogMaterial: Display: Missing cached shader map for material Backpack, compiling. 
+[2019.04.30-18.03.46:077][  0]LogShaderCompilers: Display: Shaders left to compile 1397
+[2019.04.30-18.03.46:078][  0]LogMaterial: Display: Missing cached shader map for material M_Dinochan, compiling. 
+[2019.04.30-18.03.46:145][  0]LogShaderCompilers: Display: Shaders left to compile 1456
+[2019.04.30-18.03.46:145][  0]LogSkeletalMesh: Building Skeletal Mesh Dino_Push_24FxS...
+[2019.04.30-18.03.47:609][  0]LogShaderCompilers: Display: Shaders left to compile 1506
+[2019.04.30-18.03.47:609][  0]LogShaderCompilers: Display: Shaders left to compile 1496
+[2019.04.30-18.03.47:609][  0]LogShaderCompilers: Display: Shaders left to compile 1486
+[2019.04.30-18.03.47:609][  0]LogShaderCompilers: Display: Shaders left to compile 1476
+[2019.04.30-18.03.47:609][  0]LogShaderCompilers: Display: Shaders left to compile 1466
+[2019.04.30-18.03.47:609][  0]LogSkeletalMesh: Built Skeletal Mesh [1.46s] /Game/1_Models/Dinochan/Dinochan_Anims/Dino_Push_24FxS.Dino_Push_24FxS
+[2019.04.30-18.03.47:613][  0]LogMaterial: Display: Missing cached shader map for material initialShadingGroup, compiling. 
+[2019.04.30-18.03.47:675][  0]LogShaderCompilers: Display: Shaders left to compile 1487
+[2019.04.30-18.03.47:675][  0]LogMaterial: Display: Missing cached shader map for material lambert5SG, compiling. 
+[2019.04.30-18.03.47:757][  0]LogMaterial: Display: Missing cached shader map for material lambert6SG, compiling. 
+[2019.04.30-18.03.47:822][  0]LogMaterial: Display: Missing cached shader map for material FlatPinkTest, compiling. 
+[2019.04.30-18.03.47:922][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/_Maps/SharedLevel/BP_Level) is flushing async loading
+[2019.04.30-18.03.48:742][  0]LogShaderCompilers: Display: Shaders left to compile 1662
+[2019.04.30-18.03.48:748][  0]LogStaticMesh: Building static mesh Lever_Base...
+[2019.04.30-18.03.48:771][  0]LogStaticMesh: Built static mesh [0.02s] /Game/1_Models/Lever/Lever_Base.Lever_Base
+[2019.04.30-18.03.48:780][  0]LogStaticMesh: Building static mesh Lever_Handle...
+[2019.04.30-18.03.48:813][  0]LogStaticMesh: Built static mesh [0.03s] /Game/1_Models/Lever/Lever_Handle.Lever_Handle
+[2019.04.30-18.03.48:817][  0]LogStaticMesh: Building static mesh Greybox1_doorR...
+[2019.04.30-18.03.48:824][  0]LogShaderCompilers: Display: Shaders left to compile 1652
+[2019.04.30-18.03.48:824][  0]LogStaticMesh: Built static mesh [0.01s] /Game/_Greybox/Greybox1_doorR.Greybox1_doorR
+[2019.04.30-18.03.48:825][  0]LogStaticMesh: Building static mesh PlaceHolder_Key...
+[2019.04.30-18.03.48:833][  0]LogStaticMesh: Built static mesh [0.01s] /Game/1_Models/PlaceholderModels/PlaceHolder_Key.PlaceHolder_Key
+[2019.04.30-18.03.48:901][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/1_Models/Dinochan/Dinochan_Anims/Dino_Jump_24FxS_Anim.Dino_Jump_24FxS_Anim
+[2019.04.30-18.03.48:901][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/1_Models/Dinochan/Dinochan_Anims/Dino_Jump_24FxS_Anim.Dino_Jump_24FxS_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.30-18.03.48:903][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/1_Models/Dinochan/Dinochan_Anims/Dino_Idle_1000FxS_Anim.Dino_Idle_1000FxS_Anim
+[2019.04.30-18.03.48:903][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/1_Models/Dinochan/Dinochan_Anims/Dino_Idle_1000FxS_Anim.Dino_Idle_1000FxS_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.30-18.03.48:917][  0]LogTexture: Display: Building textures: Menu_Arrows (BGRA8, 231X473)
+[2019.04.30-18.03.48:917][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/1_Models/Dinochan/Dinochan_Anims/Dino_Run_24FxS_Anim.Dino_Run_24FxS_Anim
+[2019.04.30-18.03.48:917][  0]LogTexture: Display: Building textures: CheckmarkBox (BGRA8, 132X138)
+[2019.04.30-18.03.48:917][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/1_Models/Dinochan/Dinochan_Anims/Dino_Run_24FxS_Anim.Dino_Run_24FxS_Anim) using current/default (AnimCompress_BitwiseCompressOnly_1) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.30-18.03.48:934][  0]LogTexture: Display: Building textures: Options_ResFull (BGRA8, 160X117)
+[2019.04.30-18.03.48:934][  0]LogTexture: Display: Building textures: Options_VolumeSlider (BGRA8, 1190X182)
+[2019.04.30-18.03.48:934][  0]LogTexture: Display: Building textures: SelectionMark (BGRA8, 499X414)
+[2019.04.30-18.03.48:934][  0]LogTexture: Display: Building textures: Checkmark (AutoDXT, 216X280)
+[2019.04.30-18.03.48:934][  0]LogTexture: Display: Building textures: Backpack (AutoDXT, 3840X2160)
+[2019.04.30-18.03.48:934][  0]LogTexture: Display: Building textures: BACK (BGRA8, 489X243)
+[2019.04.30-18.03.48:935][  0]LogTexture: Display: Building textures: Options_ResWindowed (BGRA8, 491X124)
+[2019.04.30-18.03.48:935][  0]LogSkeletalMesh: Building Skeletal Mesh Dino_Idle_1000FxS...
+[2019.04.30-18.03.50:393][  0]LogTexture: Display: Building textures: CheckmarkBoxMarked (BGRA8, 132X138)
+[2019.04.30-18.03.50:393][  0]LogTexture: Display: Building textures: QuitMenu (BGRA8, 1198X1500)
+[2019.04.30-18.03.50:393][  0]LogTexture: Display: Building textures: PauseMenu_V2 (BGRA8, 1712X2129)
+[2019.04.30-18.03.50:393][  0]LogShaderCompilers: Display: Shaders left to compile 1642
+[2019.04.30-18.03.50:393][  0]LogShaderCompilers: Display: Shaders left to compile 1632
+[2019.04.30-18.03.50:393][  0]LogTexture: Display: Building textures: OptionsMenu (AutoDXT, 1712X2112)
+[2019.04.30-18.03.50:394][  0]LogShaderCompilers: Display: Shaders left to compile 1622
+[2019.04.30-18.03.50:394][  0]LogShaderCompilers: Display: Shaders left to compile 1612
+[2019.04.30-18.03.50:394][  0]LogShaderCompilers: Display: Shaders left to compile 1602
+[2019.04.30-18.03.50:394][  0]LogShaderCompilers: Display: Shaders left to compile 1592
+[2019.04.30-18.03.50:394][  0]LogShaderCompilers: Display: Shaders left to compile 1582
+[2019.04.30-18.03.50:394][  0]LogShaderCompilers: Display: Shaders left to compile 1572
+[2019.04.30-18.03.50:394][  0]LogSkeletalMesh: Built Skeletal Mesh [1.46s] /Game/1_Models/Dinochan/Dinochan_Anims/Dino_Idle_1000FxS.Dino_Idle_1000FxS
+[2019.04.30-18.03.50:902][  0]LogShaderCompilers: Display: Shaders left to compile 1562
+[2019.04.30-18.03.50:909][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.30-18.03.51:094][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.30-18.03.51:381][  0]LogShaderCompilers: Display: Shaders left to compile 1552
+[2019.04.30-18.03.51:381][  0]LogShaderCompilers: Display: Shaders left to compile 1542
+[2019.04.30-18.03.51:381][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 286.954ms to complete.
+[2019.04.30-18.03.51:381][  0]LogFileHelpers: Loading map 'Persistant_Empty' took 48.874
+[2019.04.30-18.03.51:836][  0]LogShaderCompilers: Display: Shaders left to compile 1532
+[2019.04.30-18.03.51:948][  0]LogShaderCompilers: Display: Shaders left to compile 1522
+[2019.04.30-18.03.51:948][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.30-18.03.51:956][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.30-18.03.51:987][  0]LogCollectionManager: Loaded 0 collections in 0.003832 seconds
+[2019.04.30-18.03.52:041][  0]LogFileCache: Scanning file cache for directory 'C:/Users/brownr55/Desktop/dinochan/Dinochan/Dinochan_v001_UE4.20.3/Saved/Collections/' took 0.01s
+[2019.04.30-18.03.52:041][  0]LogFileCache: Scanning file cache for directory 'C:/Users/brownr55/Desktop/dinochan/Dinochan/Dinochan_v001_UE4.20.3/Content/Developers/brownr55/Collections/' took 0.01s
+[2019.04.30-18.03.52:041][  0]LogFileCache: Scanning file cache for directory 'C:/Users/brownr55/Desktop/dinochan/Dinochan/Dinochan_v001_UE4.20.3/Content/Collections/' took 0.01s
+[2019.04.30-18.03.52:041][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.04.30-18.03.52:063][  0]LogContentBrowser: Native class hierarchy populated in 0.0220 seconds. Added 2572 classes and 603 folders.
+[2019.04.30-18.03.52:078][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.04.30-18.03.52:702][  0]LogShaderCompilers: Display: Shaders left to compile 1512
+[2019.04.30-18.03.52:702][  0]LogShaderCompilers: Display: Shaders left to compile 1502
+[2019.04.30-18.03.52:702][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.04.30-18.03.52:771][  0]LogShaderCompilers: Display: Shaders left to compile 1492
+[2019.04.30-18.03.52:771][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2019.04.30-18.03.52:805][  0]LogSlate: Took 0.000331 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.04.30-18.03.52:809][  0]LogSlate: Took 0.000325 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.04.30-18.03.52:829][  0]LogSlate: Took 0.009337 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.04.30-18.03.53:080][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2019.04.30-18.03.53:438][  0]LogShaderCompilers: Display: Shaders left to compile 1482
+[2019.04.30-18.03.53:438][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.30-18.03.53:502][  0]LogSlate: Window 'Tutorials' being destroyed
+[2019.04.30-18.03.53:541][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.04.30-18.03.53:541][  0]LogLoad: (Engine Initialization) Total time: 61.61 seconds
+[2019.04.30-18.03.53:541][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.04.30-18.03.53:552][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.04.30-18.03.53:595][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2019.04.30-18.03.53:724][  0]LogSlate: Took 0.026463 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.30-18.03.53:804][  2]LogShaderCompilers: Display: Shaders left to compile 1472
+[2019.04.30-18.03.53:948][  4]LogShaderCompilers: Display: Shaders left to compile 1462
+[2019.04.30-18.03.53:974][  4]LogAssetRegistry: Asset discovery search completed in 55.7525 seconds
+[2019.04.30-18.03.53:979][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.04.30-18.03.53:979][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000111 seconds (updated 0 objects)
+[2019.04.30-18.03.54:756][ 56]LogShaderCompilers: Display: Shaders left to compile 1452
+[2019.04.30-18.03.54:832][ 57]LogShaderCompilers: Display: Shaders left to compile 1442
+[2019.04.30-18.03.55:104][ 76]LogShaderCompilers: Display: Shaders left to compile 1432
+[2019.04.30-18.03.55:427][105]LogShaderCompilers: Display: Shaders left to compile 1422
+[2019.04.30-18.03.55:621][120]LogShaderCompilers: Display: Shaders left to compile 1412
+[2019.04.30-18.03.55:644][121]LogShaderCompilers: Display: Shaders left to compile 1402
+[2019.04.30-18.03.55:677][123]LogShaderCompilers: Display: Shaders left to compile 1392
+[2019.04.30-18.03.55:855][136]LogShaderCompilers: Display: Shaders left to compile 1382
+[2019.04.30-18.03.56:195][165]LogShaderCompilers: Display: Shaders left to compile 1372
+[2019.04.30-18.03.56:241][169]LogShaderCompilers: Display: Shaders left to compile 1362
+[2019.04.30-18.03.56:811][201]LogShaderCompilers: Display: Shaders left to compile 1352
+[2019.04.30-18.03.57:236][223]LogShaderCompilers: Display: Shaders left to compile 1342
+[2019.04.30-18.03.57:464][236]LogShaderCompilers: Display: Shaders left to compile 1332
+[2019.04.30-18.03.57:702][249]LogShaderCompilers: Display: Shaders left to compile 1322
+[2019.04.30-18.03.58:086][263]LogShaderCompilers: Display: Shaders left to compile 1312
+[2019.04.30-18.03.58:086][263]LogShaderCompilers: Display: Shaders left to compile 1302
+[2019.04.30-18.03.58:677][292]LogShaderCompilers: Display: Shaders left to compile 1292
+[2019.04.30-18.03.58:760][296]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/brownr55/Desktop/dinochan/Dinochan/Dinochan_v001_UE4.20.3/Content/' took 5.19s
+[2019.04.30-18.03.59:088][310]LogShaderCompilers: Display: Shaders left to compile 1282
+[2019.04.30-18.03.59:373][323]LogShaderCompilers: Display: Shaders left to compile 1272
+[2019.04.30-18.03.59:494][329]LogShaderCompilers: Display: Shaders left to compile 1262
+[2019.04.30-18.03.59:512][330]LogShaderCompilers: Display: Shaders left to compile 1252
+[2019.04.30-18.04.00:095][358]LogShaderCompilers: Display: Shaders left to compile 1242
+[2019.04.30-18.04.00:357][371]LogShaderCompilers: Display: Shaders left to compile 1232
+[2019.04.30-18.04.00:492][378]LogShaderCompilers: Display: Shaders left to compile 1222
+[2019.04.30-18.04.00:622][385]LogShaderCompilers: Display: Shaders left to compile 1212
+[2019.04.30-18.04.00:859][397]LogShaderCompilers: Display: Shaders left to compile 1202
+[2019.04.30-18.04.01:492][427]LogShaderCompilers: Display: Shaders left to compile 1192
+[2019.04.30-18.04.01:780][441]LogShaderCompilers: Display: Shaders left to compile 1182
+[2019.04.30-18.04.01:859][445]LogShaderCompilers: Display: Shaders left to compile 1172
+[2019.04.30-18.04.02:463][475]LogShaderCompilers: Display: Shaders left to compile 1162
+[2019.04.30-18.04.02:721][488]LogShaderCompilers: Display: Shaders left to compile 1152
+[2019.04.30-18.04.02:796][492]LogShaderCompilers: Display: Shaders left to compile 1142
+[2019.04.30-18.04.02:928][499]LogShaderCompilers: Display: Shaders left to compile 1132
+[2019.04.30-18.04.03:323][518]LogShaderCompilers: Display: Shaders left to compile 1122
+[2019.04.30-18.04.03:811][544]LogShaderCompilers: Display: Shaders left to compile 1112
+[2019.04.30-18.04.03:885][548]LogShaderCompilers: Display: Shaders left to compile 1102
+[2019.04.30-18.04.04:002][554]LogShaderCompilers: Display: Shaders left to compile 1092
+[2019.04.30-18.04.04:214][564]LogShaderCompilers: Display: Shaders left to compile 1082
+[2019.04.30-18.04.04:421][575]LogShaderCompilers: Display: Shaders left to compile 1072
+[2019.04.30-18.04.04:602][585]LogShaderCompilers: Display: Shaders left to compile 1062
+[2019.04.30-18.04.04:962][600]LogShaderCompilers: Display: Shaders left to compile 1052
+[2019.04.30-18.04.05:245][614]LogShaderCompilers: Display: Shaders left to compile 1042
+[2019.04.30-18.04.05:353][619]LogShaderCompilers: Display: Shaders left to compile 1032
+[2019.04.30-18.04.05:843][644]LogShaderCompilers: Display: Shaders left to compile 1022
+[2019.04.30-18.04.06:151][660]LogShaderCompilers: Display: Shaders left to compile 1012
+[2019.04.30-18.04.06:603][682]LogShaderCompilers: Display: Shaders left to compile 1002
+[2019.04.30-18.04.06:687][686]LogShaderCompilers: Display: Shaders left to compile 992
+[2019.04.30-18.04.07:346][719]LogShaderCompilers: Display: Shaders left to compile 982
+[2019.04.30-18.04.07:364][720]LogShaderCompilers: Display: Shaders left to compile 972
+[2019.04.30-18.04.07:787][741]LogShaderCompilers: Display: Shaders left to compile 962
+[2019.04.30-18.04.08:402][771]LogShaderCompilers: Display: Shaders left to compile 952
+[2019.04.30-18.04.08:422][772]LogShaderCompilers: Display: Shaders left to compile 942
+[2019.04.30-18.04.09:080][807]LogShaderCompilers: Display: Shaders left to compile 932
+[2019.04.30-18.04.09:291][816]LogShaderCompilers: Display: Shaders left to compile 922
+[2019.04.30-18.04.10:287][865]LogShaderCompilers: Display: Shaders left to compile 912
+[2019.04.30-18.04.11:120][906]LogShaderCompilers: Display: Shaders left to compile 902
+[2019.04.30-18.04.11:849][944]LogShaderCompilers: Display: Shaders left to compile 892
+[2019.04.30-18.04.11:994][952]LogShaderCompilers: Display: Shaders left to compile 882
+[2019.04.30-18.04.12:074][956]LogShaderCompilers: Display: Shaders left to compile 872
+[2019.04.30-18.04.12:247][965]LogShaderCompilers: Display: Shaders left to compile 862
+[2019.04.30-18.04.12:304][968]LogShaderCompilers: Display: Shaders left to compile 852
+[2019.04.30-18.04.12:917][998]LogShaderCompilers: Display: Shaders left to compile 842
+[2019.04.30-18.04.12:980][  1]LogShaderCompilers: Display: Shaders left to compile 832
+[2019.04.30-18.04.13:600][ 26]LogShaderCompilers: Display: Shaders left to compile 822
+[2019.04.30-18.04.14:168][ 56]LogShaderCompilers: Display: Shaders left to compile 812
+[2019.04.30-18.04.14:525][ 73]LogShaderCompilers: Display: Shaders left to compile 802
+[2019.04.30-18.04.14:544][ 74]LogShaderCompilers: Display: Shaders left to compile 792
+[2019.04.30-18.04.14:630][ 76]LogShaderCompilers: Display: Shaders left to compile 782
+[2019.04.30-18.04.15:880][134]LogShaderCompilers: Display: Shaders left to compile 772
+[2019.04.30-18.04.16:015][141]LogShaderCompilers: Display: Shaders left to compile 762
+[2019.04.30-18.04.16:756][176]LogShaderCompilers: Display: Shaders left to compile 752
+[2019.04.30-18.04.16:774][177]LogShaderCompilers: Display: Shaders left to compile 742
+[2019.04.30-18.04.18:169][250]LogShaderCompilers: Display: Shaders left to compile 732
+[2019.04.30-18.04.18:294][257]LogShaderCompilers: Display: Shaders left to compile 722
+[2019.04.30-18.04.18:312][258]LogShaderCompilers: Display: Shaders left to compile 712
+[2019.04.30-18.04.18:411][263]LogShaderCompilers: Display: Shaders left to compile 702
+[2019.04.30-18.04.18:679][276]LogShaderCompilers: Display: Shaders left to compile 692
+[2019.04.30-18.04.19:011][294]LogShaderCompilers: Display: Shaders left to compile 682
+[2019.04.30-18.04.19:105][299]LogShaderCompilers: Display: Shaders left to compile 672
+[2019.04.30-18.04.19:342][312]LogShaderCompilers: Display: Shaders left to compile 662
+[2019.04.30-18.04.19:378][314]LogShaderCompilers: Display: Shaders left to compile 652
+[2019.04.30-18.04.19:952][344]LogShaderCompilers: Display: Shaders left to compile 642
+[2019.04.30-18.04.21:284][414]LogShaderCompilers: Display: Shaders left to compile 632
+[2019.04.30-18.04.21:616][432]LogShaderCompilers: Display: Shaders left to compile 622
+[2019.04.30-18.04.21:637][433]LogShaderCompilers: Display: Shaders left to compile 612
+[2019.04.30-18.04.21:856][444]LogShaderCompilers: Display: Shaders left to compile 602
+[2019.04.30-18.04.21:936][448]LogShaderCompilers: Display: Shaders left to compile 592
+[2019.04.30-18.04.22:058][454]LogShaderCompilers: Display: Shaders left to compile 582
+[2019.04.30-18.04.22:290][466]LogShaderCompilers: Display: Shaders left to compile 572
+[2019.04.30-18.04.22:308][467]LogShaderCompilers: Display: Shaders left to compile 562
+[2019.04.30-18.04.22:559][477]LogShaderCompilers: Display: Shaders left to compile 552
+[2019.04.30-18.04.22:725][483]LogShaderCompilers: Display: Shaders left to compile 542
+[2019.04.30-18.04.23:028][499]LogShaderCompilers: Display: Shaders left to compile 532
+[2019.04.30-18.04.23:092][501]LogShaderCompilers: Display: Shaders left to compile 522
+[2019.04.30-18.04.23:162][505]LogShaderCompilers: Display: Shaders left to compile 512
+[2019.04.30-18.04.23:261][510]LogShaderCompilers: Display: Shaders left to compile 502
+[2019.04.30-18.04.23:622][529]LogShaderCompilers: Display: Shaders left to compile 492
+[2019.04.30-18.04.23:828][539]LogShaderCompilers: Display: Shaders left to compile 482
+[2019.04.30-18.04.24:452][572]LogShaderCompilers: Display: Shaders left to compile 472
+[2019.04.30-18.04.24:559][578]LogShaderCompilers: Display: Shaders left to compile 462
+[2019.04.30-18.04.24:853][592]LogShaderCompilers: Display: Shaders left to compile 452
+[2019.04.30-18.04.25:228][613]LogShaderCompilers: Display: Shaders left to compile 442
+[2019.04.30-18.04.25:465][626]LogShaderCompilers: Display: Shaders left to compile 432
+[2019.04.30-18.04.25:856][645]LogShaderCompilers: Display: Shaders left to compile 422
+[2019.04.30-18.04.25:933][649]LogShaderCompilers: Display: Shaders left to compile 412
+[2019.04.30-18.04.25:933][649]LogShaderCompilers: Display: Shaders left to compile 402
+[2019.04.30-18.04.26:168][662]LogShaderCompilers: Display: Shaders left to compile 392
+[2019.04.30-18.04.26:564][683]LogShaderCompilers: Display: Shaders left to compile 382
+[2019.04.30-18.04.26:601][685]LogShaderCompilers: Display: Shaders left to compile 372
+[2019.04.30-18.04.27:420][725]LogShaderCompilers: Display: Shaders left to compile 362
+[2019.04.30-18.04.27:549][730]LogShaderCompilers: Display: Shaders left to compile 352
+[2019.04.30-18.04.27:796][742]LogShaderCompilers: Display: Shaders left to compile 342
+[2019.04.30-18.04.28:058][755]LogShaderCompilers: Display: Shaders left to compile 332
+[2019.04.30-18.04.28:247][766]LogShaderCompilers: Display: Shaders left to compile 322
+[2019.04.30-18.04.28:447][776]LogShaderCompilers: Display: Shaders left to compile 312
+[2019.04.30-18.04.28:948][802]LogShaderCompilers: Display: Shaders left to compile 302
+[2019.04.30-18.04.29:009][805]LogShaderCompilers: Display: Shaders left to compile 292
+[2019.04.30-18.04.29:099][810]LogShaderCompilers: Display: Shaders left to compile 282
+[2019.04.30-18.04.29:282][820]LogShaderCompilers: Display: Shaders left to compile 272
+[2019.04.30-18.04.29:312][821]LogShaderCompilers: Display: Shaders left to compile 262
+[2019.04.30-18.04.29:851][850]LogShaderCompilers: Display: Shaders left to compile 252
+[2019.04.30-18.04.30:137][864]LogShaderCompilers: Display: Shaders left to compile 242
+[2019.04.30-18.04.30:688][893]LogShaderCompilers: Display: Shaders left to compile 232
+[2019.04.30-18.04.30:874][902]LogShaderCompilers: Display: Shaders left to compile 222
+[2019.04.30-18.04.31:118][911]LogShaderCompilers: Display: Shaders left to compile 212
+[2019.04.30-18.04.31:119][911]LogShaderCompilers: Display: Shaders left to compile 202
+[2019.04.30-18.04.31:208][916]LogShaderCompilers: Display: Shaders left to compile 192
+[2019.04.30-18.04.31:570][933]LogShaderCompilers: Display: Shaders left to compile 182
+[2019.04.30-18.04.32:421][975]LogShaderCompilers: Display: Shaders left to compile 172
+[2019.04.30-18.04.32:570][983]LogShaderCompilers: Display: Shaders left to compile 162
+[2019.04.30-18.04.32:937][  3]LogShaderCompilers: Display: Shaders left to compile 152
+[2019.04.30-18.04.33:084][ 10]LogShaderCompilers: Display: Shaders left to compile 142
+[2019.04.30-18.04.33:102][ 11]LogShaderCompilers: Display: Shaders left to compile 132
+[2019.04.30-18.04.33:246][ 19]LogShaderCompilers: Display: Shaders left to compile 122
+[2019.04.30-18.04.33:383][ 26]LogShaderCompilers: Display: Shaders left to compile 112
+[2019.04.30-18.04.33:471][ 29]LogShaderCompilers: Display: Shaders left to compile 102
+[2019.04.30-18.04.34:022][ 59]LogShaderCompilers: Display: Shaders left to compile 92
+[2019.04.30-18.04.34:169][ 66]LogShaderCompilers: Display: Shaders left to compile 82
+[2019.04.30-18.04.34:322][ 74]LogShaderCompilers: Display: Shaders left to compile 72
+[2019.04.30-18.04.34:615][ 90]LogShaderCompilers: Display: Shaders left to compile 62
+[2019.04.30-18.04.34:888][105]LogShaderCompilers: Display: Shaders left to compile 52
+[2019.04.30-18.04.34:925][107]LogShaderCompilers: Display: Shaders left to compile 42
+[2019.04.30-18.04.34:982][110]LogShaderCompilers: Display: Shaders left to compile 32
+[2019.04.30-18.04.35:080][115]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.04.30-18.04.35:236][122]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.04.30-18.04.35:762][150]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.04.30-18.04.47:298][621]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.30-18.04.54:065][336]LogSlate: Took 0.000238 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.30-18.04.55:192][336]LogTexture: Display: Building textures: DoorFrame_Metallic (AutoDXT, 2048X2048)
+[2019.04.30-18.04.55:192][336]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
+[2019.04.30-18.04.55:192][336]LogTexture: Display: Building textures: DoorFrame_Base_Color (AutoDXT, 2048X2048)
+[2019.04.30-18.04.55:192][336]LogTexture: Display: Building textures: LP_Tower_Inside_Unwrapped_wire_135006006_color (AutoDXT, 1024X1024)
+[2019.04.30-18.04.55:192][336]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2019.04.30-18.04.55:192][336]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2019.04.30-18.04.55:192][336]LogTexture: Display: Building textures: LP_Tower_Inside_Unwrapped_wire_135006006_nmap (BC5, 1024X1024)
+[2019.04.30-18.04.55:192][336]LogTexture: Display: Building textures: Gate_initialShadingGroup_color (AutoDXT, 2048X2048)
+[2019.04.30-18.04.55:192][336]LogTexture: Display: Building textures: Bar_Base_Color (AutoDXT, 2048X2048)
+[2019.04.30-18.04.55:192][336]LogTexture: Display: Building textures: FrameStone_Metallic (AutoDXT, 2048X2048)
+[2019.04.30-18.04.55:192][336]LogTexture: Display: Building textures: Bar_Metallic (AutoDXT, 2048X2048)
+[2019.04.30-18.04.55:193][336]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
+[2019.04.30-18.04.55:193][336]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (BGRA8, 1024X1024)
+[2019.04.30-18.04.55:237][336]LogTexture: Display: Building textures: FrameStone_Normal (BC5, 2048X2048)
+[2019.04.30-18.04.55:372][336]LogTexture: Display: Building textures: LP_Tower_Inside_Unwrapped_wire_135006006_specular (AutoDXT, 1024X1024)
+[2019.04.30-18.04.55:372][336]LogTexture: Display: Building textures: FrameStone_Roughness (AutoDXT, 2048X2048)
+[2019.04.30-18.04.55:372][336]LogTexture: Display: Building textures: Banner (AutoDXT, 600X1500)
+[2019.04.30-18.04.56:677][336]LogTexture: Display: Building textures: elevator_ElevatorSG_color (AutoDXT, 2048X2048)
+[2019.04.30-18.04.56:677][336]LogTexture: Display: Building textures: DoorFrame_Normal (BC5, 2048X2048)
+[2019.04.30-18.04.56:677][336]LogTexture: Display: Building textures: FrameStone_Base_Color (AutoDXT, 2048X2048)
+[2019.04.30-18.04.56:694][336]LogStaticMesh: Building static mesh TGD_Doors_Door_L001...
+[2019.04.30-18.04.56:719][336]LogStaticMesh: Built static mesh [0.02s] /Game/1_Models/Doors/TGD_Doors_Door_L001.TGD_Doors_Door_L001
+[2019.04.30-18.04.56:724][336]LogMaterial: Display: Missing cached shader map for material Frame, compiling. 
+[2019.04.30-18.04.56:750][336]LogStaticMesh: Building static mesh Banner_Bar...
+[2019.04.30-18.04.56:755][336]LogStaticMesh: Built static mesh [0.00s] /Game/1_Models/Banners/Banner_Bar.Banner_Bar
+[2019.04.30-18.04.56:758][336]LogMaterial: Display: Missing cached shader map for material Bar, compiling. 
+[2019.04.30-18.04.56:790][336]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.04.30-18.04.56:790][336]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.04.30-18.04.56:790][336]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.04.30-18.04.56:790][336]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.04.30-18.04.56:790][336]LogMaterial: Display: Missing cached shader map for material wire_135006006_ncl1_1, compiling. 
+[2019.04.30-18.04.56:823][336]LogShaderCompilers: Display: Shaders left to compile 36
+[2019.04.30-18.04.56:823][336]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.04.30-18.04.56:823][336]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.04.30-18.04.56:823][336]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.04.30-18.04.56:823][336]LogStaticMesh: Building static mesh Tower_Inside_New...
+[2019.04.30-18.04.56:865][336]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.04.30-18.04.56:865][336]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.04.30-18.04.56:865][336]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.04.30-18.04.56:865][336]LogStaticMesh: Built static mesh [0.04s] /Game/1_Models/Hives/Tower_Inside_New.Tower_Inside_New
+[2019.04.30-18.04.56:878][336]LogStaticMesh: Building static mesh Meteor_LorgewCrystals_CrystalBunch_Big002...
+[2019.04.30-18.04.56:886][336]LogStaticMesh: Built static mesh [0.01s] /Game/1_Models/Rocks/Meteor_Lorge/Meteor_LorgewCrystals_CrystalBunch_Big002.Meteor_LorgewCrystals_CrystalBunch_Big002
+[2019.04.30-18.04.56:889][336]LogStaticMesh: Building static mesh Meteor_LorgewCrystals_CrystalBunch_Big004...
+[2019.04.30-18.04.56:897][336]LogStaticMesh: Built static mesh [0.01s] /Game/1_Models/Rocks/Meteor_Lorge/Meteor_LorgewCrystals_CrystalBunch_Big004.Meteor_LorgewCrystals_CrystalBunch_Big004
+[2019.04.30-18.04.56:899][336]LogStaticMesh: Building static mesh Meteor_LorgewCrystals_Crystal008...
+[2019.04.30-18.04.56:901][336]LogStaticMesh: Built static mesh [0.00s] /Game/1_Models/Rocks/Meteor_Lorge/Meteor_LorgewCrystals_Crystal008.Meteor_LorgewCrystals_Crystal008
+[2019.04.30-18.04.56:903][336]LogStaticMesh: Building static mesh Meteor_LorgewCrystals_CrystalBunch_Big003...
+[2019.04.30-18.04.56:912][336]LogStaticMesh: Built static mesh [0.01s] /Game/1_Models/Rocks/Meteor_Lorge/Meteor_LorgewCrystals_CrystalBunch_Big003.Meteor_LorgewCrystals_CrystalBunch_Big003
+[2019.04.30-18.04.56:926][336]LogStaticMesh: Building static mesh TGD_Doors_Door_R001...
+[2019.04.30-18.04.56:955][336]LogStaticMesh: Built static mesh [0.03s] /Game/1_Models/Doors/TGD_Doors_Door_R001.TGD_Doors_Door_R001
+[2019.04.30-18.04.56:981][336]LogStaticMesh: Building static mesh TGD_NoDoors_GreatDoor_Entry1...
+[2019.04.30-18.04.57:040][336]LogStaticMesh: Built static mesh [0.06s] /Game/1_Models/Doors/TGD_NoDoors_GreatDoor_Entry1.TGD_NoDoors_GreatDoor_Entry1
+[2019.04.30-18.04.57:051][336]LogMaterial: Display: Missing cached shader map for material ElevatorSG, compiling. 
+[2019.04.30-18.04.57:087][336]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.04.30-18.04.57:088][336]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.04.30-18.04.57:088][336]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.04.30-18.04.57:088][336]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.04.30-18.04.57:088][336]LogStaticMesh: Building static mesh elevator...
+[2019.04.30-18.04.57:102][336]LogStaticMesh: Built static mesh [0.02s] /Game/1_Models/elevator.elevator
+[2019.04.30-18.04.57:108][336]LogMaterial: Display: Missing cached shader map for material PP_CellShaderCave, compiling. 
+[2019.04.30-18.04.57:120][336]LogMaterial: Display: Missing cached shader map for material GlowCrystal, compiling. 
+[2019.04.30-18.04.57:153][336]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.04.30-18.04.57:153][336]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.04.30-18.04.57:153][336]LogMaterial: Display: Missing cached shader map for material FalseSky, compiling. 
+[2019.04.30-18.04.57:185][336]LogMaterial: Display: Missing cached shader map for material pCylinder1Mat, compiling. 
+[2019.04.30-18.04.57:231][336]LogStaticMesh: Building static mesh GateFull...
+[2019.04.30-18.04.57:368][336]LogStaticMesh: Built static mesh [0.14s] /Game/1_Models/GateFull.GateFull
+[2019.04.30-18.04.57:384][336]LogStaticMesh: Building static mesh Gate_Post_001_Final...
+[2019.04.30-18.04.57:400][336]LogStaticMesh: Built static mesh [0.02s] /Game/1_Models/Gate_Post_001_Final.Gate_Post_001_Final
+[2019.04.30-18.04.57:402][336]LogStaticMesh: Building static mesh Meteor_LorgewCrystals_CrystalBunchSmol_002...
+[2019.04.30-18.04.57:407][336]LogStaticMesh: Built static mesh [0.00s] /Game/1_Models/Rocks/Meteor_Lorge/Meteor_LorgewCrystals_CrystalBunchSmol_002.Meteor_LorgewCrystals_CrystalBunchSmol_002
+[2019.04.30-18.04.57:408][336]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave investigations-by-kevin-macleod...
+[2019.04.30-18.04.57:434][336]LogTemp: Couldn't find amount to resample to.
+[2019.04.30-18.05.00:517][336]LogShaderCompilers: Display: Shaders left to compile 74
+[2019.04.30-18.05.00:518][336]LogShaderCompilers: Display: Shaders left to compile 64
+[2019.04.30-18.05.00:518][336]LogShaderCompilers: Display: Shaders left to compile 54
+[2019.04.30-18.05.00:518][336]LogShaderCompilers: Display: Shaders left to compile 44
+[2019.04.30-18.05.00:518][336]LogShaderCompilers: Display: Shaders left to compile 34
+[2019.04.30-18.05.00:518][336]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.04.30-18.05.00:518][336]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.04.30-18.05.00:518][336]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.04.30-18.05.00:557][336]LogStaticMesh: Building static mesh FullBanner...
+[2019.04.30-18.05.00:576][336]LogStaticMesh: Built static mesh [0.02s] /Game/1_Models/Banners/FullBanner.FullBanner
+[2019.04.30-18.05.00:585][336]LogMaterial: Display: Missing cached shader map for material FrameHinge, compiling. 
+[2019.04.30-18.05.00:626][336]LogMaterial: Display: Missing cached shader map for material 02_-_Default, compiling. 
+[2019.04.30-18.05.00:682][336]LogMaterial: Display: Missing cached shader map for material Gate_initialShadingGroup_color_Mat, compiling. 
+[2019.04.30-18.05.00:731][336]LogShaderCompilers: Display: Shaders left to compile 98
+[2019.04.30-18.05.00:731][336]LogAIModule: Creating AISystem for world Inside_Hive
+[2019.04.30-18.05.00:746][336]LogAssetEditorManager: Opening Asset editor for World /Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive
+[2019.04.30-18.05.00:793][336]LogShaderCompilers: Display: Shaders left to compile 88
+[2019.04.30-18.05.00:804][336]Cmd: MAP LOAD FILE="../../../../../../Users/brownr55/Desktop/dinochan/Dinochan/Dinochan_v001_UE4.20.3/Content/_Maps/SharedLevel/Inside_Hive.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.30-18.05.00:804][336]LightingResults: New page: Lighting Build
+[2019.04.30-18.05.00:805][336]LoadErrors: New page: Loading map: Inside_Hive.umap
+[2019.04.30-18.05.00:809][336]MapCheck: New page: Map Check
+[2019.04.30-18.05.00:810][336]LightingResults: New page: Lighting Build
+[2019.04.30-18.05.00:880][336]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.30-18.05.01:063][336]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.30-18.05.01:372][336]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 308.529ms to complete.
+[2019.04.30-18.05.01:375][336]LogFileHelpers: Loading map 'Inside_Hive' took 0.572
+[2019.04.30-18.05.01:499][336]LogShaderCompilers: Display: Shaders left to compile 78
+[2019.04.30-18.05.01:566][337]LogShaderCompilers: Display: Shaders left to compile 68
+[2019.04.30-18.05.01:598][337]LogShaderCompilers: Display: Shaders left to compile 58
+[2019.04.30-18.05.01:643][337]LogShaderCompilers: Display: Shaders left to compile 48
+[2019.04.30-18.05.01:671][338]LogShaderCompilers: Display: Shaders left to compile 38
+[2019.04.30-18.05.02:059][369]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.04.30-18.05.02:119][371]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.04.30-18.05.02:186][376]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.04.30-18.05.08:471][985]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.30-18.05.14:428][632]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive
+[2019.04.30-18.05.15:229][632]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 116 classes and 0 folders.
+[2019.04.30-18.05.16:320][632]LogSlate: Took 0.005020 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.04.30-18.05.16:571][633]LogSlate: Took 0.008629 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.04.30-18.06.36:682][ 24]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.30-18.07.02:114][971]BlueprintLog: New page: Compile Inside_Hive
+[2019.04.30-18.07.02:153][971]LogBlueprint: Error: [Compiler PersistentLevel.Inside_Hive] In use pin  New Track 0  no longer exists on node  Timeline_0 . Please refresh node or break links to remove pin.
+[2019.04.30-18.07.02:424][971]LogBlueprint: Warning: [Compiler PersistentLevel.Inside_Hive] [0250.49] Compile of PersistentLevel.Inside_Hive failed. 1 Fatal Issue(s) 0 Warning(s) [in 310 ms] (/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive)
+[2019.04.30-18.07.39:303][799]BlueprintLog: New page: Compile Inside_Hive
+[2019.04.30-18.08.27:618][466]BlueprintLog: New page: Compile Inside_Hive
+[2019.04.30-18.08.27:663][466]LogBlueprint: Error: [Compiler PersistentLevel.Inside_Hive] Could not find a function named "CloseGate" in 'Inside_Hive_C'.
+Make sure 'Inside_Hive_C' has been compiled for  Close Gate
+[2019.04.30-18.08.27:943][466]LogBlueprint: Warning: [Compiler PersistentLevel.Inside_Hive] [0336.01] Compile of PersistentLevel.Inside_Hive failed. 1 Fatal Issue(s) 0 Warning(s) [in 324 ms] (/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive)
+[2019.04.30-18.08.37:749][251]BlueprintLog: New page: Compile Inside_Hive
+[2019.04.30-18.08.44:854][910]LogSlate: Window 'Inside_Hive* - Level Blueprint Editor' being destroyed
+[2019.04.30-18.08.48:049][283]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.30-18.09.23:897][202]BlueprintLog: New page: Compile Inside_Hive
+[2019.04.30-18.09.23:942][202]LogBlueprint: Error: [Compiler PersistentLevel.Inside_Hive] In use pin  New Track 0  no longer exists on node  Timeline_1 . Please refresh node or break links to remove pin.
+[2019.04.30-18.09.24:240][202]LogBlueprint: Warning: [Compiler PersistentLevel.Inside_Hive] [0392.30] Compile of PersistentLevel.Inside_Hive failed. 1 Fatal Issue(s) 0 Warning(s) [in 342 ms] (/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive)
+[2019.04.30-18.10.58:417][674]BlueprintLog: New page: Compile Inside_Hive
+[2019.04.30-18.12.10:068][456]BlueprintLog: New page: Compile Inside_Hive
+[2019.04.30-18.13.09:687][ 29]BlueprintLog: New page: Compile Inside_Hive
+[2019.04.30-18.13.42:514][726]BlueprintLog: New page: Compile Inside_Hive
+[2019.04.30-18.13.56:583][277]LogEditorTransaction: Undo Add new track
+[2019.04.30-18.14.12:734][622]LogEditorTransaction: Undo Add new track
+[2019.04.30-18.14.37:491][509]LogEditorTransaction: Undo Add new track
+[2019.04.30-18.14.43:306][179]BlueprintLog: New page: Compile Inside_Hive
+[2019.04.30-18.14.50:361][956]BlueprintLog: New page: Compile Inside_Hive
+[2019.04.30-18.15.43:540][920]BlueprintLog: New page: Compile Inside_Hive
+[2019.04.30-18.15.51:408][727]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Tower_Together+Door_fook__Flooring_backup)
+[2019.04.30-18.15.51:505][727]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.30-18.15.53:305][904]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive' with GeneratedClass '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive'
+[2019.04.30-18.15.53:305][904]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.30-18.15.53:322][904]PIE: New page: PIE session: Inside_Hive (Apr 30, 2019, 10:15:53 AM)
+[2019.04.30-18.15.53:322][904]LogPlayLevel: Creating play world package: /Game/_Maps/SharedLevel/UEDPIE_0_Inside_Hive
+[2019.04.30-18.15.53:331][904]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009214s)
+[2019.04.30-18.15.53:332][904]LogAIModule: Creating AISystem for world Inside_Hive
+[2019.04.30-18.15.53:332][904]LogPlayLevel: PIE: World Init took: (0.000827s)
+[2019.04.30-18.15.53:332][904]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive to /Game/_Maps/SharedLevel/UEDPIE_0_Inside_Hive.Inside_Hive (0.010356s)
+[2019.04.30-18.15.53:391][904]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.30-18.15.53:446][904]LogInit: FAudioDevice initialized.
+[2019.04.30-18.15.53:446][904]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.30-18.15.53:490][904]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.04.30-18.15.53:498][904]LogWorld: Bringing World /Game/_Maps/SharedLevel/UEDPIE_0_Inside_Hive.Inside_Hive up for play (max tick rate 0) at 2019.04.30-14.15.53
+[2019.04.30-18.15.53:499][904]LogWorld: Bringing up level for play took: 0.004434
+[2019.04.30-18.15.53:523][904]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 10 classes and 0 folders.
+[2019.04.30-18.15.53:527][904]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-426.162 Y=155.204 Z=557.683 Rotation: P=0.000000 Y=49.753799 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.15.53:528][904]PIE: Play in editor start time for /Game/_Maps/SharedLevel/UEDPIE_0_Inside_Hive -0.418
+[2019.04.30-18.15.53:528][904]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive' with GeneratedClass '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive'
+[2019.04.30-18.16.05:754][274]LogScript: Warning: Accessed None trying to read property CallFunc_Create_ReturnValue
+	Inside_Hive_C /Game/_Maps/SharedLevel/UEDPIE_0_Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive_C_11
+	Function /Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive_C:ExecuteUbergraph_Inside_Hive:0031
+[2019.04.30-18.16.05:754][274]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  Inside_Hive Function:  Execute Ubergraph Inside Hive Graph:  EventGraph Node:  Branch
+[2019.04.30-18.16.05:754][274]LogBlueprintUserMessages: [Inside_Hive_C_11] Gate Open
+[2019.04.30-18.16.06:855][394]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive' with GeneratedClass '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive'
+[2019.04.30-18.16.06:856][394]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.30-18.16.06:903][394]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.30-18.16.06:904][394]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive' with GeneratedClass '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive'
+[2019.04.30-18.16.06:956][394]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.30-18.16.06:989][395]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.04.30-18.16.41:063][174]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Tower_Together+Door_fook__Flooring_backup)
+[2019.04.30-18.16.41:124][174]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.30-18.16.42:320][261]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive' with GeneratedClass '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive'
+[2019.04.30-18.16.42:320][261]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.30-18.16.42:321][261]PIE: New page: PIE session: Inside_Hive (Apr 30, 2019, 10:16:42 AM)
+[2019.04.30-18.16.42:321][261]LogPlayLevel: Creating play world package: /Game/_Maps/SharedLevel/UEDPIE_0_Inside_Hive
+[2019.04.30-18.16.42:329][261]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008438s)
+[2019.04.30-18.16.42:330][261]LogAIModule: Creating AISystem for world Inside_Hive
+[2019.04.30-18.16.42:330][261]LogPlayLevel: PIE: World Init took: (0.000683s)
+[2019.04.30-18.16.42:330][261]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive to /Game/_Maps/SharedLevel/UEDPIE_0_Inside_Hive.Inside_Hive (0.009318s)
+[2019.04.30-18.16.42:378][261]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.30-18.16.42:434][261]LogInit: FAudioDevice initialized.
+[2019.04.30-18.16.42:434][261]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.30-18.16.42:468][261]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.04.30-18.16.42:475][261]LogWorld: Bringing World /Game/_Maps/SharedLevel/UEDPIE_0_Inside_Hive.Inside_Hive up for play (max tick rate 0) at 2019.04.30-14.16.42
+[2019.04.30-18.16.42:476][261]LogWorld: Bringing up level for play took: 0.006313
+[2019.04.30-18.16.42:490][261]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=19.515 Y=-228.767 Z=557.683 Rotation: P=0.000000 Y=58.387459 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.16.42:491][261]PIE: Play in editor start time for /Game/_Maps/SharedLevel/UEDPIE_0_Inside_Hive 0.545
+[2019.04.30-18.16.42:492][261]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive' with GeneratedClass '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive'
+[2019.04.30-18.16.48:717][938]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=344.355 Y=-427.156 Z=533.220 Rotation: P=0.000000 Y=55.635941 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.16.49:359][  5]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=410.020 Y=-293.974 Z=335.284 Rotation: P=0.000000 Y=158.678375 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.16.49:742][ 48]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=248.138 Y=-225.975 Z=259.511 Rotation: P=0.000000 Y=152.017868 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.16.50:351][115]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-9.184 Y=-90.534 Z=109.978 Rotation: P=0.000000 Y=134.826584 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.16.52:330][340]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=284.975 Y=-14.663 Z=103.150 Rotation: P=0.000000 Y=-41.207157 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.16.52:766][387]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=326.359 Y=-130.777 Z=230.343 Rotation: P=0.000000 Y=-84.552917 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.16.53:084][421]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=349.325 Y=-304.492 Z=335.673 Rotation: P=0.000000 Y=-85.191895 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.16.53:690][483]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=367.673 Y=-408.421 Z=459.798 Rotation: P=0.000000 Y=-101.309708 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.16.53:817][497]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=358.261 Y=-436.005 Z=460.735 Rotation: P=0.000000 Y=-137.024765 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.16.54:511][572]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=264.769 Y=-370.836 Z=553.924 Rotation: P=0.000000 Y=125.137421 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.17.00:728][251]LogBlueprintUserMessages: [Inside_Hive_C_11] Gate Open
+[2019.04.30-18.17.02:692][469]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=316.213 Y=-412.527 Z=529.275 Rotation: P=0.000000 Y=87.040794 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.17.03:336][539]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=368.675 Y=-276.453 Z=328.081 Rotation: P=0.000000 Y=91.476089 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.17.04:151][629]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=327.302 Y=-60.806 Z=170.608 Rotation: P=0.000000 Y=104.516983 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.17.04:527][668]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=270.493 Y=157.522 Z=103.150 Rotation: P=0.000000 Y=109.379120 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.17.09:807][242]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=340.673 Y=60.316 Z=103.150 Rotation: P=0.000000 Y=-87.207520 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.17.10:649][334]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=337.896 Y=-68.468 Z=177.220 Rotation: P=0.000000 Y=-168.136017 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.17.10:934][365]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=297.259 Y=-64.710 Z=171.508 Rotation: P=0.000000 Y=163.981705 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.17.11:315][405]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=137.577 Y=-21.401 Z=103.150 Rotation: P=0.000000 Y=160.009445 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.17.14:749][786]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=221.936 Y=-5.182 Z=103.150 Rotation: P=0.000000 Y=-57.632694 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.17.15:190][832]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=295.952 Y=-127.296 Z=228.725 Rotation: P=0.000000 Y=-71.514847 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.17.15:463][862]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=351.653 Y=-281.647 Z=331.231 Rotation: P=0.000000 Y=-75.869766 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.17.16:040][927]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=363.223 Y=-402.003 Z=458.212 Rotation: P=0.000000 Y=-116.282082 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.17.16:549][979]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=297.006 Y=-383.721 Z=463.132 Rotation: P=0.000000 Y=154.761810 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.17.17:319][ 62]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=198.525 Y=-187.682 Z=557.683 Rotation: P=0.000000 Y=132.722763 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.17.21:516][525]LogBlueprintUserMessages: [Inside_Hive_C_11] Gate Open
+[2019.04.30-18.17.21:654][541]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive' with GeneratedClass '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive'
+[2019.04.30-18.17.21:654][541]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.30-18.17.21:694][541]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.30-18.17.21:694][541]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive' with GeneratedClass '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive'
+[2019.04.30-18.17.21:748][541]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.30-18.17.21:776][542]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.04.30-18.17.22:649][639]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.30-18.18.27:438][806]BlueprintLog: New page: Compile Inside_Hive
+[2019.04.30-18.18.34:034][486]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube)
+[2019.04.30-18.18.34:095][486]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.30-18.18.35:013][554]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive' with GeneratedClass '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive'
+[2019.04.30-18.18.35:013][554]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.30-18.18.35:014][554]PIE: New page: PIE session: Inside_Hive (Apr 30, 2019, 10:18:35 AM)
+[2019.04.30-18.18.35:014][554]LogPlayLevel: Creating play world package: /Game/_Maps/SharedLevel/UEDPIE_0_Inside_Hive
+[2019.04.30-18.18.35:025][554]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011207s)
+[2019.04.30-18.18.35:026][554]LogAIModule: Creating AISystem for world Inside_Hive
+[2019.04.30-18.18.35:026][554]LogPlayLevel: PIE: World Init took: (0.001122s)
+[2019.04.30-18.18.35:026][554]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive to /Game/_Maps/SharedLevel/UEDPIE_0_Inside_Hive.Inside_Hive (0.012523s)
+[2019.04.30-18.18.35:074][554]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.30-18.18.35:128][554]LogInit: FAudioDevice initialized.
+[2019.04.30-18.18.35:128][554]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.30-18.18.35:159][554]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.04.30-18.18.35:166][554]LogWorld: Bringing World /Game/_Maps/SharedLevel/UEDPIE_0_Inside_Hive.Inside_Hive up for play (max tick rate 0) at 2019.04.30-14.18.35
+[2019.04.30-18.18.35:167][554]LogWorld: Bringing up level for play took: 0.006423
+[2019.04.30-18.18.35:181][554]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=199.105 Y=164.305 Z=103.275 Rotation: P=0.000000 Y=144.574554 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.18.35:182][554]PIE: Play in editor start time for /Game/_Maps/SharedLevel/UEDPIE_0_Inside_Hive -0.765
+[2019.04.30-18.18.35:182][554]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive' with GeneratedClass '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive'
+[2019.04.30-18.18.37:689][836]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=171.661 Y=-14.808 Z=103.275 Rotation: P=0.000000 Y=-46.819756 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.18.38:735][957]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=244.434 Y=-247.250 Z=103.150 Rotation: P=0.000000 Y=27.000614 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.18.39:337][ 23]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=245.456 Y=-234.527 Z=103.150 Rotation: P=0.000000 Y=75.853851 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.18.40:403][140]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=274.787 Y=-27.751 Z=103.150 Rotation: P=0.000000 Y=79.666389 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.18.41:226][232]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=340.687 Y=60.652 Z=103.150 Rotation: P=0.000000 Y=-98.417336 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.18.41:941][315]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=296.778 Y=-101.097 Z=210.803 Rotation: P=0.000000 Y=-70.034210 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.18.42:252][347]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=349.606 Y=-263.997 Z=319.162 Rotation: P=0.000000 Y=-67.669502 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.18.42:759][405]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=366.445 Y=-385.400 Z=448.479 Rotation: P=0.000000 Y=-100.876045 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.18.42:830][413]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=364.201 Y=-397.448 Z=456.277 Rotation: P=0.000000 Y=-108.641815 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.18.43:380][465]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=321.482 Y=-433.571 Z=548.271 Rotation: P=0.000000 Y=-149.341461 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.18.46:877][851]LogBlueprintUserMessages: [Inside_Hive_C_12] Gate Closed
+[2019.04.30-18.18.49:403][141]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=301.500 Y=-392.678 Z=527.426 Rotation: P=0.000000 Y=70.969490 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.18.49:779][181]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=415.208 Y=-392.041 Z=461.817 Rotation: P=0.000000 Y=64.329559 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.18.49:953][201]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=427.476 Y=-333.450 Z=421.571 Rotation: P=0.000000 Y=106.115616 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.18.50:378][249]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=318.404 Y=-289.557 Z=335.746 Rotation: P=0.000000 Y=121.891563 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.18.51:231][341]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=384.334 Y=-64.291 Z=169.782 Rotation: P=0.000000 Y=69.635284 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.18.51:618][381]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=391.314 Y=140.755 Z=103.150 Rotation: P=0.000000 Y=172.986450 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.18.53:400][574]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=258.688 Y=-3.654 Z=103.150 Rotation: P=0.000000 Y=-65.647270 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.18.54:064][646]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=333.568 Y=-117.776 Z=220.822 Rotation: P=0.000000 Y=-77.302284 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.18.54:361][680]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=360.026 Y=-261.548 Z=317.408 Rotation: P=0.000000 Y=-83.109070 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.18.54:873][733]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=367.014 Y=-382.341 Z=446.200 Rotation: P=0.000000 Y=-98.439407 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.18.55:093][757]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=357.893 Y=-435.867 Z=460.825 Rotation: P=0.000000 Y=-119.113068 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.18.55:689][822]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=297.584 Y=-420.143 Z=548.075 Rotation: P=0.000000 Y=-178.676331 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.19.00:683][375]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=293.001 Y=-339.318 Z=528.212 Rotation: P=0.000000 Y=-25.887705 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.19.01:318][444]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=407.309 Y=-291.971 Z=334.905 Rotation: P=0.000000 Y=110.101196 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.19.02:381][561]LogBlueprintUserMessages: [Inside_Hive_C_12] Gate Open
+[2019.04.30-18.19.02:963][623]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=291.890 Y=-68.239 Z=179.387 Rotation: P=0.000000 Y=73.599846 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.19.03:539][690]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=301.813 Y=43.643 Z=103.150 Rotation: P=0.000000 Y=111.543243 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.19.09:297][323]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive' with GeneratedClass '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive'
+[2019.04.30-18.19.09:298][323]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.30-18.19.09:346][323]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.30-18.19.09:347][323]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive' with GeneratedClass '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive'
+[2019.04.30-18.19.09:410][323]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.30-18.19.09:437][324]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.04.30-18.19.10:280][417]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.30-18.19.36:803][368]BlueprintLog: New page: Compile Inside_Hive
+[2019.04.30-18.20.04:433][353]BlueprintLog: New page: Compile Inside_Hive
+[2019.04.30-18.20.11:733][117]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube)
+[2019.04.30-18.20.11:791][117]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.30-18.20.13:019][211]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive' with GeneratedClass '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive'
+[2019.04.30-18.20.13:020][211]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.30-18.20.13:020][211]PIE: New page: PIE session: Inside_Hive (Apr 30, 2019, 10:20:13 AM)
+[2019.04.30-18.20.13:020][211]LogPlayLevel: Creating play world package: /Game/_Maps/SharedLevel/UEDPIE_0_Inside_Hive
+[2019.04.30-18.20.13:031][211]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010911s)
+[2019.04.30-18.20.13:031][211]LogAIModule: Creating AISystem for world Inside_Hive
+[2019.04.30-18.20.13:032][211]LogPlayLevel: PIE: World Init took: (0.000840s)
+[2019.04.30-18.20.13:032][211]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive to /Game/_Maps/SharedLevel/UEDPIE_0_Inside_Hive.Inside_Hive (0.011911s)
+[2019.04.30-18.20.13:079][211]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.30-18.20.13:133][211]LogInit: FAudioDevice initialized.
+[2019.04.30-18.20.13:133][211]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.30-18.20.13:163][211]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.04.30-18.20.13:167][211]LogWorld: Bringing World /Game/_Maps/SharedLevel/UEDPIE_0_Inside_Hive.Inside_Hive up for play (max tick rate 0) at 2019.04.30-14.20.13
+[2019.04.30-18.20.13:167][211]LogWorld: Bringing up level for play took: 0.003499
+[2019.04.30-18.20.13:179][211]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=-37.815 Y=-185.753 Z=103.275 Rotation: P=0.000000 Y=-17.357494 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.20.13:180][211]PIE: Play in editor start time for /Game/_Maps/SharedLevel/UEDPIE_0_Inside_Hive -0.768
+[2019.04.30-18.20.13:180][211]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive' with GeneratedClass '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive'
+[2019.04.30-18.20.17:397][688]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=260.325 Y=98.543 Z=103.150 Rotation: P=0.000000 Y=-61.868050 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.20.17:831][733]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=375.017 Y=-134.966 Z=229.829 Rotation: P=0.000000 Y=-88.805237 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.20.18:063][760]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=373.404 Y=-272.726 Z=325.412 Rotation: P=0.000000 Y=-102.564339 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.20.18:614][819]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=366.716 Y=-393.329 Z=453.795 Rotation: P=0.000000 Y=-109.760529 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.20.19:174][882]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=284.594 Y=-354.435 Z=454.571 Rotation: P=0.000000 Y=166.372177 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.20.19:915][963]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=233.604 Y=-242.111 Z=557.683 Rotation: P=0.000000 Y=120.155655 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.20.23:262][337]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=347.974 Y=-280.570 Z=526.413 Rotation: P=0.000000 Y=-35.822632 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.20.23:906][409]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=414.748 Y=-320.830 Z=330.463 Rotation: P=0.000000 Y=-12.415638 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.20.24:471][474]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=372.269 Y=-67.040 Z=177.596 Rotation: P=0.000000 Y=105.404816 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.20.24:505][478]LogBlueprintUserMessages: [Inside_Hive_C_14] Gate Open
+[2019.04.30-18.20.24:874][517]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=332.339 Y=85.038 Z=103.150 Rotation: P=0.000000 Y=110.415611 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.20.27:126][773]LogBlueprintUserMessages: [Inside_Hive_C_14] Dinochan got what she needs
+[2019.04.30-18.20.33:073][440]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive' with GeneratedClass '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive'
+[2019.04.30-18.20.33:073][440]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.30-18.20.33:118][440]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.30-18.20.33:118][440]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive' with GeneratedClass '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive'
+[2019.04.30-18.20.33:169][440]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.30-18.20.33:194][441]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.04.30-18.20.56:434][ 21]LogEditorViewport: Clicking on Actor (LMB): AmbientSound (investigations-by-kevin-macleod)
+[2019.04.30-18.21.09:229][344]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.30-18.23.03:153][835]LogSavePackage: Moving '../../../../../../Users/brownr55/Desktop/dinochan/Dinochan/Dinochan_v001_UE4.20.3/Saved/Inside_Hive_Auto1E29113DA497854823962EB9F69E8F4BE.tmp' to '../../../../../../Users/brownr55/Desktop/dinochan/Dinochan/Dinochan_v001_UE4.20.3/Saved/Autosaves/Game/_Maps/SharedLevel/Inside_Hive_Auto1.umap'
+[2019.04.30-18.23.03:171][835]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Maps/SharedLevel/Inside_Hive' took 0.598
+[2019.04.30-18.23.03:171][835]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.598
+[2019.04.30-18.23.23:115][986]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode
+[2019.04.30-18.23.38:093][537]BlueprintLog: New page: Compile ThirdPersonGameMode
+[2019.04.30-18.24.01:623][ 36]BlueprintLog: New page: Compile Inside_Hive
+[2019.04.30-18.27.59:041][529]BlueprintLog: New page: Compile Inside_Hive
+[2019.04.30-18.28.05:210][150]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Tower_Together+Door_fook__Flooring_backup)
+[2019.04.30-18.28.05:275][150]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.30-18.28.06:649][263]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive' with GeneratedClass '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive'
+[2019.04.30-18.28.06:649][263]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.30-18.28.06:649][263]PIE: New page: PIE session: Inside_Hive (Apr 30, 2019, 10:28:06 AM)
+[2019.04.30-18.28.06:650][263]LogPlayLevel: Creating play world package: /Game/_Maps/SharedLevel/UEDPIE_0_Inside_Hive
+[2019.04.30-18.28.06:659][263]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008944s)
+[2019.04.30-18.28.06:659][263]LogAIModule: Creating AISystem for world Inside_Hive
+[2019.04.30-18.28.06:660][263]LogPlayLevel: PIE: World Init took: (0.001061s)
+[2019.04.30-18.28.06:660][263]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive to /Game/_Maps/SharedLevel/UEDPIE_0_Inside_Hive.Inside_Hive (0.010149s)
+[2019.04.30-18.28.06:719][263]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.30-18.28.06:777][263]LogInit: FAudioDevice initialized.
+[2019.04.30-18.28.06:777][263]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.30-18.28.06:808][263]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.04.30-18.28.06:811][263]LogWorld: Bringing World /Game/_Maps/SharedLevel/UEDPIE_0_Inside_Hive.Inside_Hive up for play (max tick rate 0) at 2019.04.30-14.28.06
+[2019.04.30-18.28.06:812][263]LogWorld: Bringing up level for play took: 0.003565
+[2019.04.30-18.28.06:825][263]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=368.706 Y=-111.813 Z=557.683 Rotation: P=0.000000 Y=115.479530 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.28.06:826][263]PIE: Play in editor start time for /Game/_Maps/SharedLevel/UEDPIE_0_Inside_Hive 0.87
+[2019.04.30-18.28.06:826][263]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive' with GeneratedClass '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive'
+[2019.04.30-18.28.08:790][481]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive' with GeneratedClass '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive'
+[2019.04.30-18.28.08:790][481]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.30-18.28.08:843][481]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.30-18.28.08:843][481]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive' with GeneratedClass '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive'
+[2019.04.30-18.28.08:905][481]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.30-18.28.08:931][482]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.04.30-18.28.09:265][519]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.30-18.28.16:211][265]BlueprintLog: New page: Compile ThirdPersonGameMode
+[2019.04.30-18.28.17:998][421]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Tower_Together+Door_fook__Flooring_backup)
+[2019.04.30-18.28.18:052][421]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.30-18.28.18:894][496]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive' with GeneratedClass '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive'
+[2019.04.30-18.28.18:894][496]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.30-18.28.18:895][496]PIE: New page: PIE session: Inside_Hive (Apr 30, 2019, 10:28:18 AM)
+[2019.04.30-18.28.18:895][496]LogPlayLevel: Creating play world package: /Game/_Maps/SharedLevel/UEDPIE_0_Inside_Hive
+[2019.04.30-18.28.18:905][496]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010308s)
+[2019.04.30-18.28.18:906][496]LogAIModule: Creating AISystem for world Inside_Hive
+[2019.04.30-18.28.18:906][496]LogPlayLevel: PIE: World Init took: (0.000697s)
+[2019.04.30-18.28.18:906][496]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive to /Game/_Maps/SharedLevel/UEDPIE_0_Inside_Hive.Inside_Hive (0.011159s)
+[2019.04.30-18.28.18:958][496]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.30-18.28.19:011][496]LogInit: FAudioDevice initialized.
+[2019.04.30-18.28.19:011][496]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.30-18.28.19:042][496]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.04.30-18.28.19:046][496]LogWorld: Bringing World /Game/_Maps/SharedLevel/UEDPIE_0_Inside_Hive.Inside_Hive up for play (max tick rate 0) at 2019.04.30-14.28.19
+[2019.04.30-18.28.19:046][496]LogWorld: Bringing up level for play took: 0.003571
+[2019.04.30-18.28.19:059][496]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Translation: X=325.550 Y=-83.914 Z=557.678 Rotation: P=0.000000 Y=85.639214 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2019.04.30-18.28.19:060][496]PIE: Play in editor start time for /Game/_Maps/SharedLevel/UEDPIE_0_Inside_Hive 1.104
+[2019.04.30-18.28.19:060][496]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive' with GeneratedClass '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive'
+[2019.04.30-18.28.25:273][195]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive' with GeneratedClass '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive'
+[2019.04.30-18.28.25:273][195]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.30-18.28.25:313][195]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.30-18.28.25:314][195]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive' with GeneratedClass '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive'
+[2019.04.30-18.28.25:369][195]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.30-18.28.25:396][196]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.04.30-18.28.32:237][972]LogEditorViewport: Clicking on Actor (LMB): AmbientSound (investigations-by-kevin-macleod)
+[2019.04.30-18.28.37:641][551]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.30-18.31.53:214][200]LogEditorViewport: Clicking on Actor (LMB): AmbientSound (investigations-by-kevin-macleod)
+[2019.04.30-18.32.01:910][132]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.30-18.32.12:334][249]LogTemp: Repeating last play command: Standalone Game
+[2019.04.30-18.32.13:734][249]LogSlate: Window 'Save Content' being destroyed
+[2019.04.30-18.32.13:739][249]LogPlayLevel: Warning: PIE failed because map save was canceled
+[2019.04.30-18.32.13:739][249]PIE: Warning: PIE failed because map save was canceled
+[2019.04.30-18.32.14:909][373]LogSlate: Window 'Message Log' being destroyed
+[2019.04.30-18.32.14:914][373]LogSlate: Window 'Message Log' being destroyed
+[2019.04.30-18.32.17:016][594]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive' with GeneratedClass '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive'
+[2019.04.30-18.32.17:016][594]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.30-18.32.17:016][594]PIE: New page: SIE session: Inside_Hive (Apr 30, 2019, 10:32:17 AM)
+[2019.04.30-18.32.17:016][594]LogPlayLevel: Creating play world package: /Game/_Maps/SharedLevel/UEDPIE_0_Inside_Hive
+[2019.04.30-18.32.17:027][594]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010532s)
+[2019.04.30-18.32.17:028][594]LogAIModule: Creating AISystem for world Inside_Hive
+[2019.04.30-18.32.17:028][594]LogPlayLevel: PIE: World Init took: (0.000957s)
+[2019.04.30-18.32.17:028][594]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive to /Game/_Maps/SharedLevel/UEDPIE_0_Inside_Hive.Inside_Hive (0.011650s)
+[2019.04.30-18.32.17:088][594]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.30-18.32.17:149][594]LogInit: FAudioDevice initialized.
+[2019.04.30-18.32.17:184][594]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.04.30-18.32.17:188][594]LogWorld: Bringing World /Game/_Maps/SharedLevel/UEDPIE_0_Inside_Hive.Inside_Hive up for play (max tick rate 0) at 2019.04.30-14.32.17
+[2019.04.30-18.32.17:189][594]LogWorld: Bringing up level for play took: 0.003907
+[2019.04.30-18.32.17:203][594]PIE: Play in editor start time for /Game/_Maps/SharedLevel/UEDPIE_0_Inside_Hive -0.756
+[2019.04.30-18.32.17:217][594]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive' with GeneratedClass '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive'
+[2019.04.30-18.32.18:995][791]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive' with GeneratedClass '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive'
+[2019.04.30-18.32.18:996][791]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.30-18.32.19:035][791]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.30-18.32.19:035][791]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive' with GeneratedClass '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive'
+[2019.04.30-18.32.19:091][791]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.30-18.32.19:112][792]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2019.04.30-18.32.26:189][583]LogUObjectBase: Warning: Object is not registered
+[2019.04.30-18.32.27:244][583]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.054 s
+[2019.04.30-18.32.27:244][583]LogOutputDevice: Error: === Handled ensure: ===
+[2019.04.30-18.32.27:244][583]LogOutputDevice: Error: 
+[2019.04.30-18.32.27:244][583]LogOutputDevice: Error: Ensure condition failed: false [File:D:\Build\++UE4\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1142]
+[2019.04.30-18.32.27:244][583]LogOutputDevice: Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2019.04.30-18.32.27:244][583]LogOutputDevice: Error: Stack: 
+[2019.04.30-18.32.27:244][583]LogOutputDevice: Error: [Callstack] 0x00007ffb112b7136 UE4Editor-Core.dll!UnknownFunction []
+[2019.04.30-18.32.27:244][583]LogOutputDevice: Error: [Callstack] 0x00007ffb10ff0c82 UE4Editor-Core.dll!UnknownFunction []
+[2019.04.30-18.32.27:244][583]LogOutputDevice: Error: [Callstack] 0x00007ffb1100b346 UE4Editor-Core.dll!UnknownFunction []
+[2019.04.30-18.32.27:244][583]LogOutputDevice: Error: [Callstack] 0x00007ffb0fa30c6b UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.30-18.32.27:244][583]LogOutputDevice: Error: [Callstack] 0x00007ffb0fa4009e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.30-18.32.27:244][583]LogOutputDevice: Error: [Callstack] 0x00007ffb0b66da3a UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2019.04.30-18.32.27:244][583]LogOutputDevice: Error: [Callstack] 0x00007ffb0a6fec2a UE4Editor-GraphEditor.dll!UnknownFunction []
+[2019.04.30-18.32.27:244][583]LogOutputDevice: Error: [Callstack] 0x00007ffb0a6bf337 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2019.04.30-18.32.27:244][583]LogOutputDevice: Error: [Callstack] 0x00007ffb10918204 UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.30-18.32.27:244][583]LogOutputDevice: Error: [Callstack] 0x00007ffb10b5e933 UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.30-18.32.27:244][583]LogOutputDevice: Error: [Callstack] 0x00007ffb1097281a UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.30-18.32.27:244][583]LogOutputDevice: Error: [Callstack] 0x00007ffb10948190 UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.30-18.32.27:244][583]LogOutputDevice: Error: [Callstack] 0x00007ffb1093b073 UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.30-18.32.27:244][583]LogOutputDevice: Error: [Callstack] 0x00007ffb3f8ad007 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.30-18.32.27:244][583]LogOutputDevice: Error: [Callstack] 0x00007ffb3f8a0270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.30-18.32.27:244][583]LogOutputDevice: Error: [Callstack] 0x00007ffb3f8af4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.30-18.32.27:244][583]LogOutputDevice: Error: [Callstack] 0x00007ffb3f89c209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.30-18.32.27:244][583]LogOutputDevice: Error: [Callstack] 0x00007ffb6411b85d USER32.dll!UnknownFunction []
+[2019.04.30-18.32.27:244][583]LogOutputDevice: Error: [Callstack] 0x00007ffb6411b1ef USER32.dll!UnknownFunction []
+[2019.04.30-18.32.27:244][583]LogOutputDevice: Error: [Callstack] 0x00007ffb3f8b0646 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.30-18.32.27:244][583]LogOutputDevice: Error: [Callstack] 0x00007ff7da0854e5 UE4Editor.exe!UnknownFunction []
+[2019.04.30-18.32.27:244][583]LogOutputDevice: Error: [Callstack] 0x00007ff7da095b3c UE4Editor.exe!UnknownFunction []
+[2019.04.30-18.32.27:244][583]LogOutputDevice: Error: [Callstack] 0x00007ff7da095bba UE4Editor.exe!UnknownFunction []
+[2019.04.30-18.32.27:244][583]LogOutputDevice: Error: [Callstack] 0x00007ff7da0a3dac UE4Editor.exe!UnknownFunction []
+[2019.04.30-18.32.27:244][583]LogOutputDevice: Error: [Callstack] 0x00007ff7da0a5aaa UE4Editor.exe!UnknownFunction []
+[2019.04.30-18.32.27:244][583]LogOutputDevice: Error: [Callstack] 0x00007ffb643337e4 KERNEL32.DLL!UnknownFunction []
+[2019.04.30-18.32.27:244][583]LogOutputDevice: Error: [Callstack] 0x00007ffb6495cb81 ntdll.dll!UnknownFunction []
+[2019.04.30-18.32.27:244][583]LogOutputDevice: Error: 
+[2019.04.30-18.32.27:247][583]LogStats:                SubmitErrorReport -  0.000 s
