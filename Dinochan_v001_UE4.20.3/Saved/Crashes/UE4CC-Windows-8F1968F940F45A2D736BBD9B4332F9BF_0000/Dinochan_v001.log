@@ -1,0 +1,745 @@
+﻿Log file open, 05/08/19 11:23:14
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Dinochan_v001
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.427925
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.136s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: AMD Ryzen 5 1600 Six-Core Processor            , GPU: NVIDIA GeForce GTX 1070
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.006s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.05.08-15.23.14:637][  0]LogInit: Selected Device Profile: [Windows]
+[2019.05.08-15.23.14:637][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.05.08-15.23.14:649][  0]LogHAL: Display: Platform has ~ 16 GB [17130070016 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.05.08-15.23.14:649][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.05.08-15.23.14:649][  0]LogInit: Going up to parent DeviceProfile []
+[2019.05.08-15.23.14:650][  0]LogInit: Computer: DESKTOP-ORUU3QM
+[2019.05.08-15.23.14:650][  0]LogInit: User: Rueben
+[2019.05.08-15.23.14:650][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.05.08-15.23.14:650][  0]LogInit: High frequency timer resolution =3.125004 MHz
+[2019.05.08-15.23.14:650][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2019.05.08-15.23.14:650][  0]LogMemory: Platform Memory Stats for Windows
+[2019.05.08-15.23.14:650][  0]LogMemory: Process Physical Memory: 102.55 MB used, 102.55 MB peak
+[2019.05.08-15.23.14:650][  0]LogMemory: Process Virtual Memory: 88.52 MB used, 88.52 MB peak
+[2019.05.08-15.23.14:650][  0]LogMemory: Physical Memory: 9564.96 MB used,  6771.55 MB free, 16336.51 MB total
+[2019.05.08-15.23.14:650][  0]LogMemory: Virtual Memory: 4660.09 MB used,  6771.55 MB free, 134217728.00 MB total
+[2019.05.08-15.23.14:678][  0]LogInit: Using OS detected language (en-US).
+[2019.05.08-15.23.14:678][  0]LogInit: Using OS detected locale (en-US).
+[2019.05.08-15.23.14:679][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.05.08-15.23.15:152][  0]LogStreaming: Display: Took  0.474s to InitEngineTextLocalization.
+[2019.05.08-15.23.15:153][  0]LogInit: Setting process to per monitor DPI aware
+[2019.05.08-15.23.15:192][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.05.08-15.23.15:192][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.05.08-15.23.15:397][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.05.08-15.23.15:397][  0]LogD3D11RHI: D3D11 adapters:
+[2019.05.08-15.23.15:470][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2019.05.08-15.23.15:470][  0]LogD3D11RHI:       8096/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.05.08-15.23.15:472][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.05.08-15.23.15:472][  0]LogD3D11RHI:       0/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.05.08-15.23.15:472][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.05.08-15.23.15:492][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.05.08-15.23.15:492][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2019.05.08-15.23.15:492][  0]LogWindows: EnumDisplayDevices:
+[2019.05.08-15.23.15:492][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2019.05.08-15.23.15:492][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.05.08-15.23.15:492][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.05.08-15.23.15:492][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.05.08-15.23.15:493][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.05.08-15.23.15:493][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2019.05.08-15.23.15:493][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2019.05.08-15.23.15:493][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2019.05.08-15.23.15:493][  0]LogRHI: Texture pool is 5667 MB (70% of 8096 MB)
+[2019.05.08-15.23.15:535][  0]LogD3D11RHI: Async texture creation enabled
+[2019.05.08-15.23.15:546][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.05.08-15.23.15:594][  0]LogShaderCompilers: Guid format shader working directory is -51 characters bigger than the processId version (../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Intermediate/Shaders/WorkingDirectory/88744/).
+[2019.05.08-15.23.15:594][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Rueben/AppData/Local/Temp/UnrealShaderWorkingDir/CC2D3BF8482F3103422AF5860A4B9EE0/'.
+[2019.05.08-15.23.15:846][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.05.08-15.23.15:863][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.05.08-15.23.15:880][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.05.08-15.23.15:898][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.05.08-15.23.15:916][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.05.08-15.23.15:935][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.05.08-15.23.15:955][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.05.08-15.23.15:973][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.05.08-15.23.15:982][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.05.08-15.23.16:102][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.08-15.23.16:102][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.08-15.23.16:102][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.08-15.23.16:102][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.08-15.23.16:102][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.08-15.23.16:102][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.08-15.23.16:102][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.08-15.23.16:102][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.08-15.23.16:102][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.08-15.23.16:102][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.08-15.23.16:102][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.08-15.23.16:102][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.08-15.23.16:102][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.08-15.23.16:102][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.08-15.23.16:102][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.08-15.23.16:102][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.08-15.23.16:102][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.08-15.23.16:102][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.08-15.23.16:104][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.05.08-15.23.16:172][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.05.08-15.23.16:172][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.05.08-15.23.16:206][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.05.08-15.23.16:206][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.05.08-15.23.16:224][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.05.08-15.23.16:242][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.05.08-15.23.16:259][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.05.08-15.23.16:278][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.05.08-15.23.16:289][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.05.08-15.23.16:289][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.05.08-15.23.16:363][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.05.08-15.23.16:363][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.05.08-15.23.16:363][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.05.08-15.23.17:293][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.05.08-15.23.17:348][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/Rueben/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.05.08-15.23.17:358][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Rueben/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.05.08-15.23.17:358][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.05.08-15.23.17:358][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.05.08-15.23.17:358][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.05.08-15.23.17:358][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.05.08-15.23.17:377][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.05.08-15.23.17:389][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Rueben/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.05.08-15.23.17:389][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.05.08-15.23.17:389][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.05.08-15.23.17:414][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.05.08-15.23.17:415][  0]LogSlate: Using FreeType 2.6.0
+[2019.05.08-15.23.17:416][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.05.08-15.23.17:492][  0]LogAssetRegistry: FAssetRegistry took 0.0277 seconds to start up
+[2019.05.08-15.23.17:920][  0]LogInit: Selected Device Profile: [Windows]
+[2019.05.08-15.23.18:075][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.05.08-15.23.18:080][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.05.08-15.23.18:080][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.05.08-15.23.18:080][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.05.08-15.23.18:080][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.05.08-15.23.18:097][  0]LogNetVersion: Dinochan_v001 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2574802920)
+[2019.05.08-15.23.18:748][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.184177 seconds
+[2019.05.08-15.23.18:758][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.05.08-15.23.18:758][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.05.08-15.23.18:758][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.05.08-15.23.19:696][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.05.08-15.23.19:710][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.05.08-15.23.19:864][  0]SourceControl: Source control is disabled
+[2019.05.08-15.23.19:865][  0]SourceControl: Source control is disabled
+[2019.05.08-15.23.19:866][  0]SourceControl: Source control is disabled
+[2019.05.08-15.23.19:867][  0]SourceControl: Source control is disabled
+[2019.05.08-15.23.20:058][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.05.08-15.23.20:133][  0]LogOcInput: OculusInput pre-init called
+[2019.05.08-15.23.20:201][  0]LogEngine: Initializing Engine...
+[2019.05.08-15.23.20:201][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.05.08-15.23.20:203][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.05.08-15.23.20:203][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.05.08-15.23.20:203][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.05.08-15.23.20:203][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.05.08-15.23.20:425][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.05.08-15.23.20:440][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.05.08-15.23.20:450][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.08-15.23.20:468][  0]LogInit: FAudioDevice initialized.
+[2019.05.08-15.23.20:469][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.05.08-15.23.20:555][  0]LogDerivedDataCache: Saved boot cache 0.09s 71MB C:/Users/Rueben/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.05.08-15.23.20:567][  0]LogInit: Texture streaming: Enabled
+[2019.05.08-15.23.20:589][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.05.08-15.23.20:618][  0]LogInit: Transaction tracking system initialized
+[2019.05.08-15.23.20:648][  0]BlueprintLog: New page: Editor Load
+[2019.05.08-15.23.20:746][  0]LocalizationService: Localization service is disabled
+[2019.05.08-15.23.21:019][  0]LogAutoReimportManager: Warning: Unable to watch directory ../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Content/ as it will conflict with another watching ../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Content/.
+[2019.05.08-15.23.21:031][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.05.08-15.23.21:031][  0]LogCook: Display: Mobile HDR setting 1
+[2019.05.08-15.23.21:031][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.05.08-15.23.21:031][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.05.08-15.23.21:031][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.05.08-15.23.21:031][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.05.08-15.23.21:031][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.05.08-15.23.21:190][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Content/' took 0.03s
+[2019.05.08-15.23.21:191][  0]SourceControl: Source control is disabled
+[2019.05.08-15.23.21:191][  0]LightingResults: New page: Lighting Build
+[2019.05.08-15.23.21:195][  0]MapCheck: New page: Map Check
+[2019.05.08-15.23.21:195][  0]LightingResults: New page: Lighting Build
+[2019.05.08-15.23.21:957][  0]LogAIModule: Creating AISystem for world Persistant_Empty
+[2019.05.08-15.23.21:963][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/_Maps/SharedLevel/AssetLevel) is flushing async loading
+[2019.05.08-15.23.21:963][  0]LogStreaming: Display: Flushing async loaders.
+[2019.05.08-15.23.22:680][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/_Maps/SharedLevel/Cine_Level) is flushing async loading
+[2019.05.08-15.23.24:266][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/_Maps/SharedLevel/BP_Level) is flushing async loading
+[2019.05.08-15.23.24:589][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.05.08-15.23.24:629][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.05.08-15.23.24:786][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 157.039ms to complete.
+[2019.05.08-15.23.24:786][  0]LogFileHelpers: Loading map 'Persistant_Empty' took 3.596
+[2019.05.08-15.23.24:895][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.08-15.23.24:900][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.08-15.23.24:916][  0]LogCollectionManager: Loaded 0 collections in 0.002504 seconds
+[2019.05.08-15.23.24:960][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Saved/Collections/' took 0.01s
+[2019.05.08-15.23.24:960][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Content/Developers/Rueben/Collections/' took 0.01s
+[2019.05.08-15.23.24:960][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Content/Collections/' took 0.01s
+[2019.05.08-15.23.24:960][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.05.08-15.23.24:971][  0]LogContentBrowser: Native class hierarchy populated in 0.0110 seconds. Added 2572 classes and 603 folders.
+[2019.05.08-15.23.24:981][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.05.08-15.23.25:123][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.05.08-15.23.25:131][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.05.08-15.23.25:145][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0004 seconds. Added 2 classes and 3 folders.
+[2019.05.08-15.23.25:217][  0]LogSlate: Took 0.000609 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.05.08-15.23.25:221][  0]LogSlate: Took 0.000253 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.05.08-15.23.25:230][  0]LogSlate: Took 0.001464 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.05.08-15.23.25:304][  0]LogRenderer: Reallocating scene render targets to support 864x280 Format 10 NumSamples 1 (Frame:1).
+[2019.05.08-15.23.25:416][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.05.08-15.23.25:416][  0]LogLoad: (Engine Initialization) Total time: 13.03 seconds
+[2019.05.08-15.23.25:416][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.05.08-15.23.25:426][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.05.08-15.23.25:468][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.05.08-15.23.25:551][  0]LogSlate: Took 0.002212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.05.08-15.23.25:640][  2]LogAssetRegistry: Asset discovery search completed in 8.1707 seconds
+[2019.05.08-15.23.25:643][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.05.08-15.23.25:643][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000086 seconds (updated 0 objects)
+[2019.05.08-15.23.26:469][ 89]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.05.08-15.23.26:472][ 89]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.08-15.23.26:477][ 89]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/4_UI_Widgets/InventoryMenu.InventoryMenu
+[2019.05.08-15.23.27:038][ 89]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
+[2019.05.08-15.23.27:998][ 89]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode
+[2019.05.08-15.23.28:453][ 89]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Blueprints/Ruben_Blueprint/menucontroller.MenuController
+[2019.05.08-15.23.28:897][ 89]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/4_UI_Widgets/OptionsMenu.OptionsMenu
+[2019.05.08-15.23.29:344][ 89]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/_Blueprints/DinochanGameInstance.DinochanGameInstance
+[2019.05.08-15.23.29:764][ 89]LogAssetEditorManager: Opening Asset editor for SoundClass /Game/4_UI_Widgets/DinochanSoundClass.DinochanSoundClass
+[2019.05.08-15.23.29:902][ 89]LogSlate: Took 0.002168 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.05.08-15.23.29:952][ 89]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/4_UI_Widgets/OptionsMenu.OptionsMenu_C:ExecuteUbergraph_OptionsMenu'!
+[2019.05.08-15.23.29:975][ 90]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/4_UI_Widgets/OptionsMenu.OptionsMenu_C:ExecuteUbergraph_OptionsMenu'!
+[2019.05.08-15.23.30:584][156]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Content/' took 5.15s
+[2019.05.08-15.23.32:559][362]LogSlate: Window 'OptionsMenu' being destroyed
+[2019.05.08-15.23.33:958][514]LogTemp: Repeating last play command: Standalone Game
+[2019.05.08-15.25.27:938][442]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.05.08-15.25.28:008][443]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Dinochanv001
+[2019.05.08-15.25.28:009][443]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.05.08-15.25.28:009][443]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
+[2019.05.08-15.25.28:009][443]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.05.08-15.25.28:009][443]LogTemp: BranchPath = DESKTOP-ORUU3QM/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = DESKTOP-ORUU3QM/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
+[2019.05.08-15.25.28:074][445]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Rueben\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.05.08-15.25.41:613][915]LogSlate: Window 'Project Settings' being destroyed
+[2019.05.08-15.25.41:618][915]LogSlate: Window 'Project Settings' being destroyed
+[2019.05.08-15.26.15:290][581]LogSlate: Window 'Editor Preferences' being destroyed
+[2019.05.08-15.26.15:295][581]LogSlate: Window 'Editor Preferences' being destroyed
+[2019.05.08-15.26.16:958][754]LogTemp: Repeating last play command: Standalone Game
+[2019.05.08-15.27.02:718][ 89]LogSlate: Took 0.001375 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.05.08-15.27.19:267][965]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/4_UI_Widgets/OptionsMenu.OptionsMenu_C:ExecuteUbergraph_OptionsMenu'!
+[2019.05.08-15.28.06:084][331]BlueprintLog: New page: Compile OptionsMenu
+[2019.05.08-15.28.07:815][513]LogSavePackage: Moving '../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Saved/OptionsMenuA7CE8A61443FB7F759711BAC3EA11381.tmp' to '../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Content/4_UI_Widgets/OptionsMenu.uasset'
+[2019.05.08-15.28.11:015][870]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty' with GeneratedClass '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty'
+[2019.05.08-15.28.11:016][870]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel.AssetLevel' with GeneratedClass '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel.AssetLevel'
+[2019.05.08-15.28.11:016][870]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level' with GeneratedClass '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level'
+[2019.05.08-15.28.11:016][870]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level' with GeneratedClass '/Game/_Maps/SharedLevel/BP_Level.BP_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level'
+[2019.05.08-15.28.11:016][870]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.08-15.28.11:028][870]PIE: New page: PIE session: Persistant_Empty (May 8, 2019, 7:28:11 AM)
+[2019.05.08-15.28.11:029][870]LogPlayLevel: Creating play world package: /Game/_Maps/SharedLevel/UEDPIE_0_Persistant_Empty
+[2019.05.08-15.28.11:034][870]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004941s)
+[2019.05.08-15.28.11:034][870]LogAIModule: Creating AISystem for world Persistant_Empty
+[2019.05.08-15.28.11:035][870]LogPlayLevel: PIE: World Init took: (0.001022s)
+[2019.05.08-15.28.11:035][870]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty to /Game/_Maps/SharedLevel/UEDPIE_0_Persistant_Empty.Persistant_Empty (0.006171s)
+[2019.05.08-15.28.11:085][870]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.08-15.28.11:101][870]LogInit: FAudioDevice initialized.
+[2019.05.08-15.28.11:143][870]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.05.08-15.28.11:189][870]LogWorld: Bringing World /Game/_Maps/SharedLevel/UEDPIE_0_Persistant_Empty.Persistant_Empty up for play (max tick rate 0) at 2019.05.08-11.28.11
+[2019.05.08-15.28.11:295][870]LogWorld: Bringing up level for play took: 0.109016
+[2019.05.08-15.28.11:320][870]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 10 classes and 0 folders.
+[2019.05.08-15.28.11:323][870]PIE: Play in editor start time for /Game/_Maps/SharedLevel/UEDPIE_0_Persistant_Empty 0.063
+[2019.05.08-15.28.11:323][870]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty' with GeneratedClass '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty'
+[2019.05.08-15.28.11:323][870]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel.AssetLevel' with GeneratedClass '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel.AssetLevel'
+[2019.05.08-15.28.11:323][870]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level' with GeneratedClass '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level'
+[2019.05.08-15.28.11:323][870]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level' with GeneratedClass '/Game/_Maps/SharedLevel/BP_Level.BP_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level'
+[2019.05.08-15.28.13:191][ 69]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CurrentMenu' of length 0 in '/Game/_Blueprints/Ruben_Blueprint/menucontroller.MenuController_C'!
+[2019.05.08-15.28.13:952][160]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.08-15.28.14:596][237]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.08-15.28.17:081][535]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.08-15.28.22:671][198]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty' with GeneratedClass '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty'
+[2019.05.08-15.28.22:671][198]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel.AssetLevel' with GeneratedClass '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel.AssetLevel'
+[2019.05.08-15.28.22:671][198]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level' with GeneratedClass '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level'
+[2019.05.08-15.28.22:671][198]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level' with GeneratedClass '/Game/_Maps/SharedLevel/BP_Level.BP_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level'
+[2019.05.08-15.28.22:672][198]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.08-15.28.22:710][198]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.08-15.28.22:710][198]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty' with GeneratedClass '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty'
+[2019.05.08-15.28.22:710][198]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel.AssetLevel' with GeneratedClass '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel.AssetLevel'
+[2019.05.08-15.28.22:710][198]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level' with GeneratedClass '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level'
+[2019.05.08-15.28.22:710][198]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level' with GeneratedClass '/Game/_Maps/SharedLevel/BP_Level.BP_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level'
+[2019.05.08-15.28.22:753][198]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.08-15.28.22:786][199]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.05.08-15.28.23:555][281]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.08-15.28.41:865][450]BlueprintLog: New page: Compile OptionsMenu
+[2019.05.08-15.28.44:918][795]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.08-15.28.44:967][795]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty' with GeneratedClass '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty'
+[2019.05.08-15.28.44:967][795]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel.AssetLevel' with GeneratedClass '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel.AssetLevel'
+[2019.05.08-15.28.44:968][795]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level' with GeneratedClass '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level'
+[2019.05.08-15.28.44:968][795]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level' with GeneratedClass '/Game/_Maps/SharedLevel/BP_Level.BP_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level'
+[2019.05.08-15.28.44:968][795]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.08-15.28.44:968][795]PIE: New page: PIE session: Persistant_Empty (May 8, 2019, 7:28:44 AM)
+[2019.05.08-15.28.44:968][795]LogPlayLevel: Creating play world package: /Game/_Maps/SharedLevel/UEDPIE_0_Persistant_Empty
+[2019.05.08-15.28.44:973][795]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004388s)
+[2019.05.08-15.28.44:973][795]LogAIModule: Creating AISystem for world Persistant_Empty
+[2019.05.08-15.28.44:974][795]LogPlayLevel: PIE: World Init took: (0.000695s)
+[2019.05.08-15.28.44:974][795]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty to /Game/_Maps/SharedLevel/UEDPIE_0_Persistant_Empty.Persistant_Empty (0.005238s)
+[2019.05.08-15.28.45:025][795]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.08-15.28.45:039][795]LogInit: FAudioDevice initialized.
+[2019.05.08-15.28.45:072][795]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.05.08-15.28.45:122][795]LogWorld: Bringing World /Game/_Maps/SharedLevel/UEDPIE_0_Persistant_Empty.Persistant_Empty up for play (max tick rate 0) at 2019.05.08-11.28.45
+[2019.05.08-15.28.45:123][795]LogWorld: Bringing up level for play took: 0.004883
+[2019.05.08-15.28.45:139][795]PIE: Play in editor start time for /Game/_Maps/SharedLevel/UEDPIE_0_Persistant_Empty -0.121
+[2019.05.08-15.28.45:139][795]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty' with GeneratedClass '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty'
+[2019.05.08-15.28.45:139][795]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel.AssetLevel' with GeneratedClass '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel.AssetLevel'
+[2019.05.08-15.28.45:139][795]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level' with GeneratedClass '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level'
+[2019.05.08-15.28.45:139][795]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level' with GeneratedClass '/Game/_Maps/SharedLevel/BP_Level.BP_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level'
+[2019.05.08-15.28.47:329][ 50]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty' with GeneratedClass '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty'
+[2019.05.08-15.28.47:329][ 50]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel.AssetLevel' with GeneratedClass '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel.AssetLevel'
+[2019.05.08-15.28.47:329][ 50]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level' with GeneratedClass '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level'
+[2019.05.08-15.28.47:329][ 50]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level' with GeneratedClass '/Game/_Maps/SharedLevel/BP_Level.BP_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level'
+[2019.05.08-15.28.47:329][ 50]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.08-15.28.47:373][ 50]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.08-15.28.47:373][ 50]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty' with GeneratedClass '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty'
+[2019.05.08-15.28.47:373][ 50]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel.AssetLevel' with GeneratedClass '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel.AssetLevel'
+[2019.05.08-15.28.47:373][ 50]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level' with GeneratedClass '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level'
+[2019.05.08-15.28.47:373][ 50]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level' with GeneratedClass '/Game/_Maps/SharedLevel/BP_Level.BP_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level'
+[2019.05.08-15.28.47:418][ 50]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.08-15.28.47:444][ 51]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.05.08-15.28.48:952][224]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.08-15.28.49:053][236]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.08-15.28.49:105][236]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty' with GeneratedClass '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty'
+[2019.05.08-15.28.49:105][236]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel.AssetLevel' with GeneratedClass '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel.AssetLevel'
+[2019.05.08-15.28.49:106][236]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level' with GeneratedClass '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level'
+[2019.05.08-15.28.49:106][236]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level' with GeneratedClass '/Game/_Maps/SharedLevel/BP_Level.BP_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level'
+[2019.05.08-15.28.49:106][236]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.08-15.28.49:106][236]PIE: New page: PIE session: Persistant_Empty (May 8, 2019, 7:28:49 AM)
+[2019.05.08-15.28.49:106][236]LogPlayLevel: Creating play world package: /Game/_Maps/SharedLevel/UEDPIE_0_Persistant_Empty
+[2019.05.08-15.28.49:111][236]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004410s)
+[2019.05.08-15.28.49:111][236]LogAIModule: Creating AISystem for world Persistant_Empty
+[2019.05.08-15.28.49:112][236]LogPlayLevel: PIE: World Init took: (0.000694s)
+[2019.05.08-15.28.49:112][236]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty to /Game/_Maps/SharedLevel/UEDPIE_0_Persistant_Empty.Persistant_Empty (0.005241s)
+[2019.05.08-15.28.49:162][236]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.08-15.28.49:176][236]LogInit: FAudioDevice initialized.
+[2019.05.08-15.28.49:210][236]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.05.08-15.28.49:256][236]LogWorld: Bringing World /Game/_Maps/SharedLevel/UEDPIE_0_Persistant_Empty.Persistant_Empty up for play (max tick rate 0) at 2019.05.08-11.28.49
+[2019.05.08-15.28.49:257][236]LogWorld: Bringing up level for play took: 0.005042
+[2019.05.08-15.28.49:272][236]PIE: Play in editor start time for /Game/_Maps/SharedLevel/UEDPIE_0_Persistant_Empty 0.013
+[2019.05.08-15.28.49:273][236]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty' with GeneratedClass '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty'
+[2019.05.08-15.28.49:273][236]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel.AssetLevel' with GeneratedClass '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel.AssetLevel'
+[2019.05.08-15.28.49:273][236]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level' with GeneratedClass '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level'
+[2019.05.08-15.28.49:273][236]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level' with GeneratedClass '/Game/_Maps/SharedLevel/BP_Level.BP_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level'
+[2019.05.08-15.28.50:364][361]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CurrentMenu' of length 0 in '/Game/_Blueprints/Ruben_Blueprint/menucontroller.MenuController_C'!
+[2019.05.08-15.28.51:455][492]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.08-15.28.52:291][592]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.08-15.28.58:171][297]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.08-15.28.59:376][441]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.08-15.28.59:443][449]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.08-15.28.59:443][449]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty' with GeneratedClass '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty'
+[2019.05.08-15.28.59:443][449]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel.AssetLevel' with GeneratedClass '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel.AssetLevel'
+[2019.05.08-15.28.59:443][449]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level' with GeneratedClass '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level'
+[2019.05.08-15.28.59:443][449]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level' with GeneratedClass '/Game/_Maps/SharedLevel/BP_Level.BP_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level'
+[2019.05.08-15.28.59:485][449]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.08-15.28.59:485][449]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty' with GeneratedClass '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty'
+[2019.05.08-15.28.59:485][449]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel.AssetLevel' with GeneratedClass '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel.AssetLevel'
+[2019.05.08-15.28.59:485][449]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level' with GeneratedClass '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level'
+[2019.05.08-15.28.59:485][449]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level' with GeneratedClass '/Game/_Maps/SharedLevel/BP_Level.BP_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level'
+[2019.05.08-15.28.59:529][449]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.08-15.28.59:559][450]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.05.08-15.29.04:085][983]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.08-15.32.07:793][658]BlueprintLog: New page: Compile OptionsMenu
+[2019.05.08-15.32.51:886][858]BlueprintLog: New page: Compile OptionsMenu
+[2019.05.08-15.32.54:404][132]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.08-15.32.54:454][132]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty' with GeneratedClass '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty'
+[2019.05.08-15.32.54:454][132]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel.AssetLevel' with GeneratedClass '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel.AssetLevel'
+[2019.05.08-15.32.54:454][132]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level' with GeneratedClass '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level'
+[2019.05.08-15.32.54:454][132]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level' with GeneratedClass '/Game/_Maps/SharedLevel/BP_Level.BP_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level'
+[2019.05.08-15.32.54:454][132]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.08-15.32.54:454][132]PIE: New page: PIE session: Persistant_Empty (May 8, 2019, 7:32:54 AM)
+[2019.05.08-15.32.54:455][132]LogPlayLevel: Creating play world package: /Game/_Maps/SharedLevel/UEDPIE_0_Persistant_Empty
+[2019.05.08-15.32.54:459][132]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004638s)
+[2019.05.08-15.32.54:460][132]LogAIModule: Creating AISystem for world Persistant_Empty
+[2019.05.08-15.32.54:460][132]LogPlayLevel: PIE: World Init took: (0.000739s)
+[2019.05.08-15.32.54:460][132]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty to /Game/_Maps/SharedLevel/UEDPIE_0_Persistant_Empty.Persistant_Empty (0.005525s)
+[2019.05.08-15.32.54:505][132]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.08-15.32.54:521][132]LogInit: FAudioDevice initialized.
+[2019.05.08-15.32.54:556][132]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.05.08-15.32.54:603][132]LogWorld: Bringing World /Game/_Maps/SharedLevel/UEDPIE_0_Persistant_Empty.Persistant_Empty up for play (max tick rate 0) at 2019.05.08-11.32.54
+[2019.05.08-15.32.54:605][132]LogWorld: Bringing up level for play took: 0.004746
+[2019.05.08-15.32.54:619][132]PIE: Play in editor start time for /Game/_Maps/SharedLevel/UEDPIE_0_Persistant_Empty -0.64
+[2019.05.08-15.32.54:620][132]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty' with GeneratedClass '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty'
+[2019.05.08-15.32.54:620][132]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel.AssetLevel' with GeneratedClass '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel.AssetLevel'
+[2019.05.08-15.32.54:620][132]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level' with GeneratedClass '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level'
+[2019.05.08-15.32.54:620][132]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level' with GeneratedClass '/Game/_Maps/SharedLevel/BP_Level.BP_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level'
+[2019.05.08-15.32.57:468][463]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty' with GeneratedClass '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty'
+[2019.05.08-15.32.57:468][463]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel.AssetLevel' with GeneratedClass '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel.AssetLevel'
+[2019.05.08-15.32.57:468][463]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level' with GeneratedClass '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level'
+[2019.05.08-15.32.57:468][463]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level' with GeneratedClass '/Game/_Maps/SharedLevel/BP_Level.BP_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level'
+[2019.05.08-15.32.57:469][463]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.08-15.32.57:509][463]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.08-15.32.57:509][463]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty' with GeneratedClass '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty'
+[2019.05.08-15.32.57:509][463]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel.AssetLevel' with GeneratedClass '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel.AssetLevel'
+[2019.05.08-15.32.57:509][463]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level' with GeneratedClass '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level'
+[2019.05.08-15.32.57:509][463]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level' with GeneratedClass '/Game/_Maps/SharedLevel/BP_Level.BP_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level'
+[2019.05.08-15.32.57:556][463]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.08-15.32.57:584][464]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.05.08-15.32.59:408][678]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.08-15.32.59:503][689]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.08-15.32.59:560][689]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty' with GeneratedClass '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty'
+[2019.05.08-15.32.59:560][689]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel.AssetLevel' with GeneratedClass '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel.AssetLevel'
+[2019.05.08-15.32.59:560][689]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level' with GeneratedClass '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level'
+[2019.05.08-15.32.59:560][689]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level' with GeneratedClass '/Game/_Maps/SharedLevel/BP_Level.BP_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level'
+[2019.05.08-15.32.59:561][689]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.08-15.32.59:561][689]PIE: New page: PIE session: Persistant_Empty (May 8, 2019, 7:32:59 AM)
+[2019.05.08-15.32.59:561][689]LogPlayLevel: Creating play world package: /Game/_Maps/SharedLevel/UEDPIE_0_Persistant_Empty
+[2019.05.08-15.32.59:566][689]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004990s)
+[2019.05.08-15.32.59:567][689]LogAIModule: Creating AISystem for world Persistant_Empty
+[2019.05.08-15.32.59:567][689]LogPlayLevel: PIE: World Init took: (0.000699s)
+[2019.05.08-15.32.59:567][689]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty to /Game/_Maps/SharedLevel/UEDPIE_0_Persistant_Empty.Persistant_Empty (0.005841s)
+[2019.05.08-15.32.59:616][689]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.08-15.32.59:631][689]LogInit: FAudioDevice initialized.
+[2019.05.08-15.32.59:665][689]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.05.08-15.32.59:710][689]LogWorld: Bringing World /Game/_Maps/SharedLevel/UEDPIE_0_Persistant_Empty.Persistant_Empty up for play (max tick rate 0) at 2019.05.08-11.32.59
+[2019.05.08-15.32.59:712][689]LogWorld: Bringing up level for play took: 0.004775
+[2019.05.08-15.32.59:727][689]PIE: Play in editor start time for /Game/_Maps/SharedLevel/UEDPIE_0_Persistant_Empty 0.468
+[2019.05.08-15.32.59:728][689]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty' with GeneratedClass '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty'
+[2019.05.08-15.32.59:728][689]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel.AssetLevel' with GeneratedClass '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel.AssetLevel'
+[2019.05.08-15.32.59:728][689]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level' with GeneratedClass '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level'
+[2019.05.08-15.32.59:728][689]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level' with GeneratedClass '/Game/_Maps/SharedLevel/BP_Level.BP_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level'
+[2019.05.08-15.33.00:664][794]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CurrentMenu' of length 0 in '/Game/_Blueprints/Ruben_Blueprint/menucontroller.MenuController_C'!
+[2019.05.08-15.33.01:455][889]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.08-15.33.02:589][ 25]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.08-15.33.15:819][593]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty' with GeneratedClass '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty'
+[2019.05.08-15.33.15:819][593]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel.AssetLevel' with GeneratedClass '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel.AssetLevel'
+[2019.05.08-15.33.15:819][593]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level' with GeneratedClass '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level'
+[2019.05.08-15.33.15:819][593]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level' with GeneratedClass '/Game/_Maps/SharedLevel/BP_Level.BP_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level'
+[2019.05.08-15.33.15:820][593]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.08-15.33.15:863][593]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.08-15.33.15:863][593]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty' with GeneratedClass '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty'
+[2019.05.08-15.33.15:863][593]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel.AssetLevel' with GeneratedClass '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel.AssetLevel'
+[2019.05.08-15.33.15:863][593]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level' with GeneratedClass '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level'
+[2019.05.08-15.33.15:863][593]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level' with GeneratedClass '/Game/_Maps/SharedLevel/BP_Level.BP_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level'
+[2019.05.08-15.33.15:909][593]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.08-15.33.15:931][594]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.05.08-15.33.17:925][820]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.08-15.33.22:645][365]LogAssetEditorManager: Opening Asset editor for SoundClass /Game/4_UI_Widgets/DinochanSoundClass.DinochanSoundClass
+[2019.05.08-15.34.13:959][695]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Maps/SharedLevel/Persistant_Empty' took 0.041
+[2019.05.08-15.34.13:961][695]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/4_UI_Widgets/OptionsMenu] ([1] browsable assets)...
+[2019.05.08-15.34.13:961][695]OBJ SavePackage: Finished generating thumbnails for package [/Game/4_UI_Widgets/OptionsMenu]
+[2019.05.08-15.34.14:033][695]LogSavePackage: Moving '../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Saved/OptionsMenu_Auto1892CEBA545554205E46E0BBD181A1A7D.tmp' to '../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Saved/Autosaves/Game/4_UI_Widgets/OptionsMenu_Auto1.uasset'
+[2019.05.08-15.34.14:036][695]LogFileHelpers: Auto-saving content packages took 0.077
+[2019.05.08-15.38.51:401][675]LogRenderer: Reallocating scene render targets to support 1296x416 Format 10 NumSamples 1 (Frame:10331).
+[2019.05.08-15.38.58:914][565]LogAssetEditorManager: Opening Asset editor for SoundMix /Game/4_UI_Widgets/DinochanVolumeMix.DinochanVolumeMix
+[2019.05.08-15.39.14:073][361]LogSavePackage: Moving '../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Saved/DinochanVolumeMix1F5C1CD04A9123003ACF3C9849B4ED0D.tmp' to '../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Content/4_UI_Widgets/DinochanVolumeMix.uasset'
+[2019.05.08-15.39.16:070][592]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.08-15.39.16:122][592]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty' with GeneratedClass '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty'
+[2019.05.08-15.39.16:122][592]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel.AssetLevel' with GeneratedClass '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel.AssetLevel'
+[2019.05.08-15.39.16:123][592]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level' with GeneratedClass '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level'
+[2019.05.08-15.39.16:123][592]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level' with GeneratedClass '/Game/_Maps/SharedLevel/BP_Level.BP_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level'
+[2019.05.08-15.39.16:123][592]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.08-15.39.16:124][592]PIE: New page: PIE session: Persistant_Empty (May 8, 2019, 7:39:16 AM)
+[2019.05.08-15.39.16:124][592]LogPlayLevel: Creating play world package: /Game/_Maps/SharedLevel/UEDPIE_0_Persistant_Empty
+[2019.05.08-15.39.16:130][592]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005601s)
+[2019.05.08-15.39.16:131][592]LogAIModule: Creating AISystem for world Persistant_Empty
+[2019.05.08-15.39.16:131][592]LogPlayLevel: PIE: World Init took: (0.000956s)
+[2019.05.08-15.39.16:131][592]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty to /Game/_Maps/SharedLevel/UEDPIE_0_Persistant_Empty.Persistant_Empty (0.006748s)
+[2019.05.08-15.39.16:179][592]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.08-15.39.16:191][592]LogInit: FAudioDevice initialized.
+[2019.05.08-15.39.16:221][592]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.05.08-15.39.16:270][592]LogWorld: Bringing World /Game/_Maps/SharedLevel/UEDPIE_0_Persistant_Empty.Persistant_Empty up for play (max tick rate 0) at 2019.05.08-11.39.16
+[2019.05.08-15.39.16:272][592]LogWorld: Bringing up level for play took: 0.005561
+[2019.05.08-15.39.16:287][592]PIE: Play in editor start time for /Game/_Maps/SharedLevel/UEDPIE_0_Persistant_Empty 1.028
+[2019.05.08-15.39.16:287][592]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty' with GeneratedClass '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty'
+[2019.05.08-15.39.16:287][592]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel.AssetLevel' with GeneratedClass '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel.AssetLevel'
+[2019.05.08-15.39.16:287][592]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level' with GeneratedClass '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level'
+[2019.05.08-15.39.16:287][592]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level' with GeneratedClass '/Game/_Maps/SharedLevel/BP_Level.BP_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level'
+[2019.05.08-15.39.21:051][139]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CurrentMenu' of length 0 in '/Game/_Blueprints/Ruben_Blueprint/menucontroller.MenuController_C'!
+[2019.05.08-15.39.21:948][246]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.08-15.39.22:466][308]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.08-15.39.27:697][933]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.08-15.39.39:116][269]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty' with GeneratedClass '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty'
+[2019.05.08-15.39.39:116][269]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel.AssetLevel' with GeneratedClass '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel.AssetLevel'
+[2019.05.08-15.39.39:116][269]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level' with GeneratedClass '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level'
+[2019.05.08-15.39.39:116][269]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level' with GeneratedClass '/Game/_Maps/SharedLevel/BP_Level.BP_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level'
+[2019.05.08-15.39.39:116][269]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.08-15.39.39:159][269]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.08-15.39.39:159][269]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty' with GeneratedClass '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Persistant_Empty.Persistant_Empty:PersistentLevel.Persistant_Empty'
+[2019.05.08-15.39.39:159][269]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel.AssetLevel' with GeneratedClass '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/AssetLevel.AssetLevel:PersistentLevel.AssetLevel'
+[2019.05.08-15.39.39:159][269]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level' with GeneratedClass '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Cine_Level.Cine_Level:PersistentLevel.Cine_Level'
+[2019.05.08-15.39.39:159][269]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level' with GeneratedClass '/Game/_Maps/SharedLevel/BP_Level.BP_Level_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/BP_Level.BP_Level:PersistentLevel.BP_Level'
+[2019.05.08-15.39.39:206][269]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.08-15.39.39:234][270]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.05.08-15.39.39:894][337]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.08-15.41.58:395][ 80]BlueprintLog: New page: Compile OptionsMenu
+[2019.05.08-15.42.08:075][108]LogAIModule: Creating AISystem for world Inside_Hive
+[2019.05.08-15.42.08:092][108]LogAssetEditorManager: Opening Asset editor for World /Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive
+[2019.05.08-15.42.09:394][108]LogSlate: Window 'Save Content' being destroyed
+[2019.05.08-15.42.09:471][108]LogSavePackage: Moving '../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Saved/OptionsMenuF3F0740D4B03F2941C0E558D5DFCDEED.tmp' to '../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Content/4_UI_Widgets/OptionsMenu.uasset'
+[2019.05.08-15.42.09:477][108]Cmd: MAP LOAD FILE="../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Content/_Maps/SharedLevel/Inside_Hive.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.05.08-15.42.09:477][108]LightingResults: New page: Lighting Build
+[2019.05.08-15.42.09:478][108]LoadErrors: New page: Loading map: Inside_Hive.umap
+[2019.05.08-15.42.09:481][108]MapCheck: New page: Map Check
+[2019.05.08-15.42.09:481][108]LightingResults: New page: Lighting Build
+[2019.05.08-15.42.09:645][108]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.05.08-15.42.09:758][108]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.05.08-15.42.09:940][108]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 182.776ms to complete.
+[2019.05.08-15.42.09:944][108]LogFileHelpers: Loading map 'Inside_Hive' took 0.468
+[2019.05.08-15.42.19:093][159]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.08-15.42.20:157][252]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.08-15.42.20:160][252]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive
+[2019.05.08-15.43.04:321][885]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.08-15.43.15:225][188]LogSavePackage: Moving '../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Saved/DinochanVolumeMix2561BE0A48DB1607E4666083476AC5CA.tmp' to '../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Content/4_UI_Widgets/DinochanVolumeMix.uasset'
+[2019.05.08-15.43.23:690][192]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.08-15.43.23:741][192]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive' with GeneratedClass '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive'
+[2019.05.08-15.43.23:741][192]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.08-15.43.23:741][192]PIE: New page: PIE session: Inside_Hive (May 8, 2019, 7:43:23 AM)
+[2019.05.08-15.43.23:742][192]LogPlayLevel: Creating play world package: /Game/_Maps/SharedLevel/UEDPIE_0_Inside_Hive
+[2019.05.08-15.43.23:753][192]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011716s)
+[2019.05.08-15.43.23:754][192]LogAIModule: Creating AISystem for world Inside_Hive
+[2019.05.08-15.43.23:754][192]LogPlayLevel: PIE: World Init took: (0.000961s)
+[2019.05.08-15.43.23:755][192]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive to /Game/_Maps/SharedLevel/UEDPIE_0_Inside_Hive.Inside_Hive (0.012844s)
+[2019.05.08-15.43.23:805][192]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.08-15.43.23:822][192]LogInit: FAudioDevice initialized.
+[2019.05.08-15.43.23:853][192]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.05.08-15.43.23:857][192]LogWorld: Bringing World /Game/_Maps/SharedLevel/UEDPIE_0_Inside_Hive.Inside_Hive up for play (max tick rate 0) at 2019.05.08-11.43.23
+[2019.05.08-15.43.23:857][192]LogWorld: Bringing up level for play took: 0.003754
+[2019.05.08-15.43.23:872][192]PIE: Play in editor start time for /Game/_Maps/SharedLevel/UEDPIE_0_Inside_Hive 0.613
+[2019.05.08-15.43.23:872][192]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive' with GeneratedClass '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive'
+[2019.05.08-15.43.25:445][375]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CurrentMenu' of length 0 in '/Game/_Blueprints/Ruben_Blueprint/menucontroller.MenuController_C'!
+[2019.05.08-15.43.26:250][471]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.08-15.43.26:865][544]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.08-15.43.35:937][627]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive' with GeneratedClass '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive'
+[2019.05.08-15.43.35:937][627]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.08-15.43.35:986][627]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.08-15.43.35:986][627]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive' with GeneratedClass '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive'
+[2019.05.08-15.43.36:033][627]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.08-15.43.36:053][628]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2019.05.08-15.43.40:544][121]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/4_UI_Widgets/OptionsMenu.OptionsMenu_C:ExecuteUbergraph_OptionsMenu'!
+[2019.05.08-15.43.46:786][809]BlueprintLog: New page: Compile OptionsMenu
+[2019.05.08-15.43.46:999][809]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/4_UI_Widgets/OptionsMenu.OptionsMenu_C:ExecuteUbergraph_OptionsMenu'!
+[2019.05.08-15.43.48:605][981]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.08-15.43.48:664][981]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive' with GeneratedClass '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive'
+[2019.05.08-15.43.48:664][981]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.08-15.43.48:664][981]PIE: New page: PIE session: Inside_Hive (May 8, 2019, 7:43:48 AM)
+[2019.05.08-15.43.48:665][981]LogPlayLevel: Creating play world package: /Game/_Maps/SharedLevel/UEDPIE_0_Inside_Hive
+[2019.05.08-15.43.48:677][981]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011855s)
+[2019.05.08-15.43.48:677][981]LogAIModule: Creating AISystem for world Inside_Hive
+[2019.05.08-15.43.48:677][981]LogPlayLevel: PIE: World Init took: (0.000714s)
+[2019.05.08-15.43.48:677][981]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive to /Game/_Maps/SharedLevel/UEDPIE_0_Inside_Hive.Inside_Hive (0.012728s)
+[2019.05.08-15.43.48:730][981]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.08-15.43.48:744][981]LogInit: FAudioDevice initialized.
+[2019.05.08-15.43.48:779][981]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.05.08-15.43.48:782][981]LogWorld: Bringing World /Game/_Maps/SharedLevel/UEDPIE_0_Inside_Hive.Inside_Hive up for play (max tick rate 0) at 2019.05.08-11.43.48
+[2019.05.08-15.43.48:782][981]LogWorld: Bringing up level for play took: 0.003263
+[2019.05.08-15.43.48:797][981]PIE: Play in editor start time for /Game/_Maps/SharedLevel/UEDPIE_0_Inside_Hive -0.462
+[2019.05.08-15.43.48:797][981]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive' with GeneratedClass '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive'
+[2019.05.08-15.44.01:194][442]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CurrentMenu' of length 0 in '/Game/_Blueprints/Ruben_Blueprint/menucontroller.MenuController_C'!
+[2019.05.08-15.44.02:227][565]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.08-15.44.03:166][677]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.08-15.44.05:725][982]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive' with GeneratedClass '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive'
+[2019.05.08-15.44.05:725][982]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.08-15.44.05:765][982]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.08-15.44.05:765][982]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive' with GeneratedClass '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive'
+[2019.05.08-15.44.05:807][982]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.08-15.44.05:827][983]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2019.05.08-15.44.49:187][824]BlueprintLog: New page: Compile DinochanGameInstance
+[2019.05.08-15.44.50:057][907]LogSavePackage: Moving '../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Saved/DinochanGameInstance066DF09746EF02788E140EBB30B5D52B.tmp' to '../../../../../../Users/Rueben/Documents/Unreal Projects/DinoChan/Dinochan/Dinochan_v001_UE4.20.3/Content/_Blueprints/DinochanGameInstance.uasset'
+[2019.05.08-15.44.52:013][131]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.08-15.44.52:069][131]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive' with GeneratedClass '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive'
+[2019.05.08-15.44.52:069][131]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.08-15.44.52:069][131]PIE: New page: PIE session: Inside_Hive (May 8, 2019, 7:44:52 AM)
+[2019.05.08-15.44.52:071][131]LogPlayLevel: Creating play world package: /Game/_Maps/SharedLevel/UEDPIE_0_Inside_Hive
+[2019.05.08-15.44.52:082][131]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011445s)
+[2019.05.08-15.44.52:083][131]LogAIModule: Creating AISystem for world Inside_Hive
+[2019.05.08-15.44.52:083][131]LogPlayLevel: PIE: World Init took: (0.000732s)
+[2019.05.08-15.44.52:083][131]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive to /Game/_Maps/SharedLevel/UEDPIE_0_Inside_Hive.Inside_Hive (0.012355s)
+[2019.05.08-15.44.52:136][131]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.08-15.44.52:149][131]LogInit: FAudioDevice initialized.
+[2019.05.08-15.44.52:184][131]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.05.08-15.44.52:188][131]LogWorld: Bringing World /Game/_Maps/SharedLevel/UEDPIE_0_Inside_Hive.Inside_Hive up for play (max tick rate 0) at 2019.05.08-11.44.52
+[2019.05.08-15.44.52:188][131]LogWorld: Bringing up level for play took: 0.003298
+[2019.05.08-15.44.52:203][131]PIE: Play in editor start time for /Game/_Maps/SharedLevel/UEDPIE_0_Inside_Hive 0.943
+[2019.05.08-15.44.52:203][131]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive' with GeneratedClass '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive'
+[2019.05.08-15.44.57:470][754]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CurrentMenu' of length 0 in '/Game/_Blueprints/Ruben_Blueprint/menucontroller.MenuController_C'!
+[2019.05.08-15.44.58:494][876]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.08-15.44.59:450][990]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.08-15.45.02:008][295]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.08-15.45.03:916][523]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CurrentMenu' of length 0 in '/Game/_Blueprints/Ruben_Blueprint/menucontroller.MenuController_C'!
+[2019.05.08-15.45.04:443][586]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.08-15.45.05:188][675]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.08-15.45.10:158][265]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.08-15.45.11:724][452]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive' with GeneratedClass '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive'
+[2019.05.08-15.45.11:724][452]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.08-15.45.11:767][452]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.08-15.45.11:767][452]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive' with GeneratedClass '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive_C' with ClassGeneratedBy '/Game/_Maps/SharedLevel/Inside_Hive.Inside_Hive:PersistentLevel.Inside_Hive'
+[2019.05.08-15.45.11:817][452]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.08-15.45.11:837][453]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2019.05.08-15.45.34:127][ 28]LogUObjectArray: Warning: Other object in slot
+[2019.05.08-15.45.34:474][ 28]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.347 s
+[2019.05.08-15.45.34:474][ 28]LogOutputDevice: Error: === Handled ensure: ===
+[2019.05.08-15.45.34:474][ 28]LogOutputDevice: Error: 
+[2019.05.08-15.45.34:474][ 28]LogOutputDevice: Error: Ensure condition failed: false [File:D:\Build\++UE4\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1142]
+[2019.05.08-15.45.34:474][ 28]LogOutputDevice: Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2019.05.08-15.45.34:474][ 28]LogOutputDevice: Error: Stack: 
+[2019.05.08-15.45.34:474][ 28]LogOutputDevice: Error: [Callstack] 0x00007ffa0a4471f6 UE4Editor-Core.dll!UnknownFunction []
+[2019.05.08-15.45.34:474][ 28]LogOutputDevice: Error: [Callstack] 0x00007ffa0a180c92 UE4Editor-Core.dll!UnknownFunction []
+[2019.05.08-15.45.34:474][ 28]LogOutputDevice: Error: [Callstack] 0x00007ffa0a19b356 UE4Editor-Core.dll!UnknownFunction []
+[2019.05.08-15.45.34:474][ 28]LogOutputDevice: Error: [Callstack] 0x00007ff9e4f111db UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.05.08-15.45.34:474][ 28]LogOutputDevice: Error: [Callstack] 0x00007ff9e4f2060e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.05.08-15.45.34:474][ 28]LogOutputDevice: Error: [Callstack] 0x00007ffa06ebda7a UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2019.05.08-15.45.34:474][ 28]LogOutputDevice: Error: [Callstack] 0x00007ff9f9ccec2a UE4Editor-GraphEditor.dll!UnknownFunction []
+[2019.05.08-15.45.34:474][ 28]LogOutputDevice: Error: [Callstack] 0x00007ff9f9c8f337 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2019.05.08-15.45.34:474][ 28]LogOutputDevice: Error: [Callstack] 0x00007ffa0ae48204 UE4Editor-Slate.dll!UnknownFunction []
+[2019.05.08-15.45.34:474][ 28]LogOutputDevice: Error: [Callstack] 0x00007ffa0b08e933 UE4Editor-Slate.dll!UnknownFunction []
+[2019.05.08-15.45.34:474][ 28]LogOutputDevice: Error: [Callstack] 0x00007ffa0aea281a UE4Editor-Slate.dll!UnknownFunction []
+[2019.05.08-15.45.34:474][ 28]LogOutputDevice: Error: [Callstack] 0x00007ffa0ae78190 UE4Editor-Slate.dll!UnknownFunction []
+[2019.05.08-15.45.34:474][ 28]LogOutputDevice: Error: [Callstack] 0x00007ffa0ae6b073 UE4Editor-Slate.dll!UnknownFunction []
+[2019.05.08-15.45.34:474][ 28]LogOutputDevice: Error: [Callstack] 0x00007ffa1712d007 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.05.08-15.45.34:474][ 28]LogOutputDevice: Error: [Callstack] 0x00007ffa17120270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.05.08-15.45.34:474][ 28]LogOutputDevice: Error: [Callstack] 0x00007ffa1712f4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.05.08-15.45.34:474][ 28]LogOutputDevice: Error: [Callstack] 0x00007ffa1711c209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.05.08-15.45.34:474][ 28]LogOutputDevice: Error: [Callstack] 0x00007ffa3fcc6d41 USER32.dll!UnknownFunction []
+[2019.05.08-15.45.34:474][ 28]LogOutputDevice: Error: [Callstack] 0x00007ffa3fcc6713 USER32.dll!UnknownFunction []
+[2019.05.08-15.45.34:474][ 28]LogOutputDevice: Error: [Callstack] 0x00007ffa17130646 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.05.08-15.45.34:474][ 28]LogOutputDevice: Error: [Callstack] 0x00007ff6385f54e5 UE4Editor.exe!UnknownFunction []
+[2019.05.08-15.45.34:474][ 28]LogOutputDevice: Error: [Callstack] 0x00007ff638605b3c UE4Editor.exe!UnknownFunction []
+[2019.05.08-15.45.34:474][ 28]LogOutputDevice: Error: [Callstack] 0x00007ff638605bba UE4Editor.exe!UnknownFunction []
+[2019.05.08-15.45.34:474][ 28]LogOutputDevice: Error: [Callstack] 0x00007ff638613dac UE4Editor.exe!UnknownFunction []
+[2019.05.08-15.45.34:474][ 28]LogOutputDevice: Error: [Callstack] 0x00007ff638615aaa UE4Editor.exe!UnknownFunction []
+[2019.05.08-15.45.34:475][ 28]LogOutputDevice: Error: [Callstack] 0x00007ffa3ff74034 KERNEL32.DLL!UnknownFunction []
+[2019.05.08-15.45.34:475][ 28]LogOutputDevice: Error: [Callstack] 0x00007ffa41113691 ntdll.dll!UnknownFunction []
+[2019.05.08-15.45.34:475][ 28]LogOutputDevice: Error: 
+[2019.05.08-15.45.34:478][ 28]LogStats:                SubmitErrorReport -  0.000 s
